@@ -36,17 +36,20 @@
       {% endif %}
       <div class="content">
         <h2>{{ page.title }}</h2>
-        <ul class="metata">
-          >{{ page.date | date: "%Y. %B %-d." }}</li>
-          {% if page.location n %}
-          >
-            {% if page.location.city %}{{ page.location.city }}, {% endif %}
+        <ul class="meta">
+          <li>{{ page.date | date: "%Y. %B %-d." }}</li>
+
+          {% if page.location %}
+          <li>
+            {% if page.location.city %}{{ page.location.city }}{% endif %}
+            {% if page.location.city and page.location.country %}, {% endif %}
             {% if page.location.country %}{{ page.location.country }}{% endif %}
           </li>
           {% endif %}
-          {% if page.exif f %}
-          >
-            {{ page.exif.camera }}
+
+          {% if page.exif %}
+          <li>
+            {% if page.exif.camera %}{{ page.exif.camera }}{% endif %}
             {% if page.exif.focal_length %} · {{ page.exif.focal_length }}{% endif %}
             {% if page.exif.aperture %} · {{ page.exif.aperture }}{% endif %}
             {% if page.exif.shutter %} · {{ page.exif.shutter }}{% endif %}

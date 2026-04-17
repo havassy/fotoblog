@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fotóblog minta</title>
+  <style>
+    :root {
+      --bg: #f6f3ee;
+      --card: #fffdf9;
+      --text: #2a2621;
+      --muted: #746f68;
+      --line: #ddd6cd;
+      --accent: #0d6b6f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      padding: 24px 0 12px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+    .lead {
+      margin: 0;
+      color: var(--muted);
+    }
+    article {
+      margin-top: 24px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #e8e2d9;
+    }
+    .content {
+      padding: 20px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 1.6rem;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 14px;
+      padding: 0;
+      list-style: none;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .tag {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #e7f1f1;
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+    .note {
+      margin-top: 28px;
+      padding: 16px;
+      border-left: 4px solid var(--accent);
+      background: #f0f6f6;
+      color: var(--muted);
+    }
+    code {
+      background: #f1ece5;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Fotóblog minta</h1>
+      <p class="lead">Ez egy nagyon egyszerű, egyfájlos minta, amit GitHub Pages-re is fel tudsz tenni.</p>
+    </header>
+
+    <article>
+      <img src="assets/neretva-mostar.jpg" alt="A Neretva Mostarban">
+      <div class="content">
+        <h2>A Neretva Mostarban</h2>
+        <ul class="meta">
+          <li>2026. április 17.</li>
+          <li>Mostar, Bosznia-Hercegovina</li>
+          <li>Sony A7 III · 35 mm · f/2 · 1/250 · ISO 400</li>
+        </ul>
+
+        <p>A smaragdzöld Neretva a mostari Öreg híd környékén kanyarog. A folyó színe élőben is olyan hihetetlen, mint a képeken.</p>
+
+        <div class="tags">
+          <span class="tag">#bosznia</span>
+          <span class="tag">#mostar</span>
+          <span class="tag">#neretva</span>
+          <span class="tag">#táj</span>
+          <span class="tag">#város</span>
+        </div>
+      </div>
+    </article>
+
+    <div class="note">
+      <p><strong>Használat:</strong> ezt a fájlt nevezd át például <code>index.html</code>-re, mellé készíts egy <code>assets</code> mappát, és tegyél bele egy <code>neretva-mostar.jpg</code> nevű képet. Ha ezt feltöltöd egy GitHub Pages repóba, már működni fog az oldal.</p>
+      <p>Később ebből lehet automatizált verzió is: a cím, leírás, hely, EXIF és tagek jöhetnek metadata-ból.</p>
+    </div>
+  </div>
+</body>
+</html>

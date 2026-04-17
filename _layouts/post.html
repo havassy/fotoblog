@@ -32,7 +32,7 @@
 
     <article>
       {% if page.image %}
-      <img src="{{ page.image }}" alt="{{ page.title }}">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
       {% endif %}
       <div class="content">
         <h2>{{ page.title }}</h2>

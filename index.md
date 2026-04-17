@@ -5,4 +5,8 @@ title: Fotóblog
 
 # Fotóblog
 
-- [A Neretva Mostarban](/2026/04/17/a-neretva-mostarban.html)
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

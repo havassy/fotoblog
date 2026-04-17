@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – {{ site.title }}</title>
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+         background:#f6f3ee;color:#2a2621;line-height:1.6;}
+    .wrap{max-width:900px;margin:0 auto;padding:24px;}
+    header{padding:24px 0 12px;}
+    h1{margin:0 0 8px;font-size:2rem;}
+    .lead{margin:0;color:#746f68;}
+    article{margin-top:24px;background:#fffdf9;border:1px solid #ddd6cd;
+            border-radius:16px;overflow:hidden;}
+    img{display:block;width:100%;height:auto;background:#e8e2d9;}
+    .content{padding:20px;}
+    h2{margin:0 0 8px;font-size:1.6rem;}
+    .meta{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px;padding:0;
+          list-style:none;color:#746f68;font-size:0.95rem;}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+    .tag{padding:6px 10px;border-radius:999px;background:#e7f1f1;
+         color:#0d6b6f;font-size:0.9rem;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p class="lead">{{ site.description }}</p>
+    </header>
+
+    <article>
+      {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+      {% endif %}
+      <div class="content">
+        <h2>{{ page.title }}</h2>
+        <ul class="metata">
+          >{{ page.date | date: "%Y. %B %-d." }}</li>
+          {% if page.location n %}
+          >
+            {% if page.location.city %}{{ page.location.city }}, {% endif %}
+            {% if page.location.country %}{{ page.location.country }}{% endif %}
+          </li>
+          {% endif %}
+          {% if page.exif f %}
+          >
+            {{ page.exif.camera }}
+            {% if page.exif.focal_length %} · {{ page.exif.focal_length }}{% endif %}
+            {% if page.exif.aperture %} · {{ page.exif.aperture }}{% endif %}
+            {% if page.exif.shutter %} · {{ page.exif.shutter }}{% endif %}
+            {% if page.exif.iso %} · ISO {{ page.exif.iso }}{% endif %}
+          </li>
+          {% endif %}
+        </ul>
+
+        {{ content }}
+
+        {% if page.tags %}
+        <div class="tags">
+          {% for tag in page.tags %}
+          <span class="tag">#{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+  </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 title: "Fotóblog"
 description: "Egyszerű Jekyll-alapú fotóblog"
-baseurl: ""       # ha user.github.io/fotoblog a címed, ide: /fotoblog
-url: "https://felhasznalo.github.io"   # ezt majd írd át a sajátodra
+baseurl: "/fotoblog"
+url: "https://havassy.github.io"
 
 markdown: kramdown
-theme: null       # saját layoutot használunk
+theme: null

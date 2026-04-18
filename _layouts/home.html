@@ -111,14 +111,14 @@
     }
 
     .gallery{
-      column-count:3;
-      column-gap:18px;
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0, 1fr));
+      gap:18px;
       margin-top:28px;
     }
 
     .tile{
-      break-inside:avoid;
-      margin:0 0 18px;
+      margin:0;
       display:block;
       position:relative;
       border-radius:var(--radius);
@@ -194,7 +194,9 @@
     }
 
     @media (max-width: 1000px){
-      .gallery{column-count:2;}
+      .gallery{
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+      }
     }
 
 @media (max-width: 640px){
@@ -211,8 +213,8 @@
   .wrap{padding:18px;}
 
   .gallery{
-    column-count:1;
-    column-gap:0;
+    grid-template-columns:1fr;
+    gap:18px;
   }
 
   .overlay{

@@ -20,25 +20,18 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Detect changed images
-        id: changed-files
-        uses: tj-actions/changed-files@24d32ffd492484c1d75e0c0b894501ddb9d30d62
-        with:
-          safe_output: false
-          files: |
-            assets/images/**/*.jpg
-            assets/images/**/*.jpeg
-            assets/images/**/*.png
-            assets/images/**/*.webp
-
       - name: Generate post files
-        if: steps.changed-files.outputs.any_added == 'true'
-        env:
-          ADDED_FILES: ${{ steps.changed-files.outputs.added_files }}
         run: |
           mkdir -p _posts
 
-          for file in $ADDED_FILES; do
+          changed_files=$(git diff --name-only HEAD^ HEAD | grep '^assets/images/.*\.\(jpg\|jpeg\|png\|webp\)$' || true)
+
+          if [ -z "$changed_files" ]; then
+            echo "No new image files found."
+            exit 0
+          fi
+
+          for file in $changed_files; do
             filename=$(basename "$file")
             slug="${filename%.*}"
 
@@ -67,7 +60,6 @@ EOF
           done
 
       - name: Commit generated posts
-        if: steps.changed-files.outputs.any_added == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

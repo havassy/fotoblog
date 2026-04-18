@@ -109,6 +109,11 @@ layout: default
 
 <div class="tag-wrap">
   <header class="tag-header">
+
+    <p style="margin:0 0 8px;">
+      <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
+    </p>
+    
     <h1 class="tag-title">Címke: {{ page.tag }}</h1>
 
     {% assign posts = site.tags[page.tag] %}

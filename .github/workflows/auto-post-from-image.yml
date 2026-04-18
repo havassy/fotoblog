@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Generate post files from JPG + XMP
+      - name: Generate or update post files from JPG + XMP
         shell: bash
         run: |
           mkdir -p _posts
@@ -93,10 +93,21 @@ jobs:
                           out.append(txt)
               return out
 
+          def split_front_matter(content):
+              if not content.startswith("---\n"):
+                  return None, content
+              parts = content.split("---\n", 2)
+              if len(parts) < 3:
+                  return None, content
+              return parts[1], parts[2]
+
+          def find_existing_post(slug):
+              matches = sorted(Path("_posts").glob(f"*-{slug}.md"))
+              return matches[0] if matches else None
+
           for file in changed_files:
               image_path = Path(file)
               slug = image_path.stem
-              ext = image_path.suffix.lower()
               xmp_path = image_path.with_suffix(".xmp")
 
               title = fallback_title(slug)
@@ -116,7 +127,6 @@ jobs:
                       date_value = find_attr(root, NS["exif"], "DateTimeOriginal")
                       if not date_value:
                           date_value = find_text(root, ".//exif:DateTimeOriginal")
-
                       if not date_value:
                           date_value = find_attr(root, "http://ns.adobe.com/photoshop/1.0/", "DateCreated")
 
@@ -127,11 +137,19 @@ jobs:
                   date_value = "2026-01-01T12:00:00+00:00"
 
               date_prefix = date_value[:10]
-              post_path = POSTS_DIR / f"{date_prefix}-{slug}.md"
+              desired_post_path = POSTS_DIR / f"{date_prefix}-{slug}.md"
+              existing_post_path = find_existing_post(slug)
 
-              if post_path.exists():
-                  print(f"Post already exists: {post_path}")
-                  continue
+              body = ""
+              if existing_post_path and existing_post_path.exists():
+                  old_content = existing_post_path.read_text(encoding="utf-8")
+                  _, body = split_front_matter(old_content)
+                  body = body.lstrip("\n")
+              else:
+                  if description:
+                      body = description + "\n"
+                  else:
+                      body = "Ide jön a leírás.\n"
 
               lines = [
                   "---",
@@ -152,17 +170,25 @@ jobs:
               lines.extend([
                   "---",
                   "",
+                  body.rstrip(),
+                  ""
               ])
 
-              if description:
-                  lines.append(description)
-              else:
-                  lines.append("Ide jön a leírás.")
+              final_content = "\n".join(lines)
 
-              lines.append("")
+              target_path = existing_post_path if existing_post_path else desired_post_path
 
-              post_path.write_text("\n".join(lines), encoding="utf-8")
-              print(f"Created {post_path}")
+              if existing_post_path and existing_post_path != desired_post_path:
+                  if desired_post_path.exists():
+                      print(f"Target already exists, keeping existing file: {existing_post_path}")
+                      target_path = existing_post_path
+                  else:
+                      existing_post_path.rename(desired_post_path)
+                      target_path = desired_post_path
+                      print(f"Renamed post to match new date: {target_path}")
+
+              target_path.write_text(final_content, encoding="utf-8")
+              print(f"Created/updated {target_path}")
           PY
 
       - name: Commit generated posts

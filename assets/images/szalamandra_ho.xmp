@@ -15,7 +15,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    xmp:ModifyDate="2026-04-07T14:50:22.86+01:00"
    xmp:CreateDate="2026-04-07T14:50:22.86+01:00"
-   xmp:MetadataDate="2026-04-18T22:39:30+02:00"
+   xmp:MetadataDate="2026-04-18T22:42:34+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -60,7 +60,7 @@
    xmpMM:DocumentID="A9192E0461C4D5EAAEA4403308D6405C"
    xmpMM:PreservedFileName="b78a0472.cr3"
    xmpMM:OriginalDocumentID="A9192E0461C4D5EAAEA4403308D6405C"
-   xmpMM:InstanceID="xmp.iid:88cae527-1bd5-7444-8dbe-aac11336cf6b"
+   xmpMM:InstanceID="xmp.iid:6fd6a4c6-27f0-7a44-89c7-58fda32a4dac"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpDM:pick="0"
@@ -209,6 +209,11 @@
      <rdf:li>Havassy Andras</rdf:li>
     </rdf:Seq>
    </dc:creator>
+   <dc:title>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Szalamandra</rdf:li>
+    </rdf:Alt>
+   </dc:title>
    <dc:rights>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
@@ -218,8 +223,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:88cae527-1bd5-7444-8dbe-aac11336cf6b"
-      stEvt:when="2026-04-18T22:39:30+02:00"
+      stEvt:instanceID="xmp.iid:6fd6a4c6-27f0-7a44-89c7-58fda32a4dac"
+      stEvt:when="2026-04-18T22:42:34+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

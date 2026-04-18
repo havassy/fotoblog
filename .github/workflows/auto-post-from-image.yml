@@ -57,6 +57,7 @@ jobs:
               "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
               "dc": "http://purl.org/dc/elements/1.1/",
               "exif": "http://ns.adobe.com/exif/1.0/",
+              "lr": "http://ns.adobe.com/lightroom/1.0/",
           }
 
           IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
@@ -95,6 +96,36 @@ jobs:
                       if txt:
                           out.append(txt)
               return out
+
+          def unique_keep_order(items):
+              seen = set()
+              out = []
+              for item in items:
+                  if item not in seen:
+                      seen.add(item)
+                      out.append(item)
+              return out
+
+          def extract_leaf_tags(root):
+              hierarchical = find_list(root, ".//lr:hierarchicalSubject/rdf:Bag/rdf:li")
+              if hierarchical:
+                  leaves = []
+                  for item in hierarchical:
+                      parts = [clean_text(p) for p in item.split("|") if clean_text(p)]
+                      if parts:
+                          leaves.append(parts[-1])
+                  leaves = unique_keep_order(leaves)
+                  if leaves:
+                      return leaves
+
+              weighted = find_list(root, ".//lr:weightedFlatSubject/rdf:Bag/rdf:li")
+              weighted = unique_keep_order(weighted)
+              if weighted:
+                  return weighted
+
+              flat = find_list(root, ".//dc:subject/rdf:Bag/rdf:li")
+              flat = unique_keep_order(flat)
+              return flat
 
           def split_front_matter(content):
               if not content.startswith("---\n"):
@@ -166,7 +197,7 @@ jobs:
 
                       title = find_text(root, ".//dc:title/rdf:Alt/rdf:li") or title
                       description = find_text(root, ".//dc:description/rdf:Alt/rdf:li")
-                      tags = find_list(root, ".//dc:subject/rdf:Bag/rdf:li")
+                      tags = extract_leaf_tags(root)
 
                       date_value = find_attr(root, NS["exif"], "DateTimeOriginal")
                       if not date_value:

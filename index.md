@@ -3,10 +3,4 @@ layout: home
 title: Fotóblog
 ---
 
-# Fotóblog
-
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+Balkáni utazások, tájak és városok képei. A bejegyzések a képek készítési dátuma szerint, az újabbaktól a régebbiek felé jelennek meg.

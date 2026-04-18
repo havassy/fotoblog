@@ -225,7 +225,7 @@ jobs:
                   if description:
                       body = description + "\n"
                   else:
-                      body = "Ide jön a leírás.\n"
+                      body = ""
 
               lines = [
                   "---",

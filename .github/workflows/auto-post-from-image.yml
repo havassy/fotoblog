@@ -217,9 +217,9 @@ jobs:
               existing_post_path = find_existing_post(slug)
 
               if description:
-                      body = description + "\n"
-                  else:
-                      body = ""
+                  body = description + "\n"
+              else:
+                   body = ""
 
               lines = [
                   "---",

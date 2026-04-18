@@ -24,6 +24,7 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@24d32ffd492484c1d75e0c0b894501ddb9d30d62
         with:
+          safe_output: false
           files: |
             assets/images/**/*.jpg
             assets/images/**/*.jpeg

@@ -2,4 +2,6 @@
 layout: home
 ---
 
-Balkáni utazások, tájak és városok képei. A bejegyzések a képek készítési dátuma szerint, az újabbaktól a régebbiek felé jelennek meg.
+A blog létrejötte kettős kihívás eredménye.
+Egyrészt minden egyes napról 1 db képet kell kiválasztanom, így a képek száma a Balkánon töltött napok számát is jelzi. Ez akkor lesz reális, ha három számjegyű kép lesz a blogon.
+Másrészt egy olyan blogot akartam létrehozni, hogy a megfelelően el(ő)készített fájlok feltöltése után ne kelljen szerkesztenem, tehát a bejegyzések automatikusan jöjjenek létre.

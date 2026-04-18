@@ -5,35 +5,201 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} – {{ site.title }}</title>
   <style>
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-         background:#f6f3ee;color:#2a2621;line-height:1.6;}
-    .wrap{max-width:900px;margin:0 auto;padding:24px;}
-    header{padding:24px 0 12px;}
-    h1{margin:0 0 8px;font-size:2rem;}
-    .lead{margin:0;color:#746f68;}
-    article{margin-top:24px;background:#fffdf9;border:1px solid #ddd6cd;
-            border-radius:16px;overflow:hidden;}
-    img{display:block;width:100%;height:auto;background:#e8e2d9;}
-    .content{padding:20px;}
-    h2{margin:0 0 8px;font-size:1.6rem;}
-    .meta{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px;padding:0;
-          list-style:none;color:#746f68;font-size:0.95rem;}
-    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+    :root{
+      --bg:#f6f3ee;
+      --surface:#fffdf9;
+      --border:#ddd6cd;
+      --text:#2a2621;
+      --muted:#746f68;
+      --accent:#0d6b6f;
+      --radius:16px;
+      --shadow:0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    *{box-sizing:border-box;}
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    .site-header{
+      background:#f0ebe3;
+      border-bottom:1px solid var(--border);
+    }
+
+    .site-header-inner{
+      max-width:1200px;
+      margin:0 auto;
+      padding:10px 24px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    .site-title{
+      font-weight:700;
+      text-decoration:none;
+      color:var(--text);
+    }
+
+    .site-title:hover{
+      color:var(--accent);
+    }
+
+    .site-nav a{
+      margin-left:16px;
+      text-decoration:none;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    .site-nav a:hover{
+      color:var(--accent);
+    }
+
+    .wrap{
+      max-width:900px;
+      margin:0 auto;
+      padding:24px;
+    }
+
+    .page-header{
+      padding:24px 0 12px;
+    }
+
+    h1{
+      margin:0 0 8px;
+      font-size:2rem;
+      line-height:1.15;
+    }
+
+    .lead{
+      margin:0;
+      color:var(--muted);
+    }
+
+    article{
+      margin-top:24px;
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+
+    img{
+      display:block;
+      width:100%;
+      height:auto;
+      background:#e8e2d9;
+    }
+
+    .content{
+      padding:20px;
+    }
+
+    h2{
+      margin:0 0 8px;
+      font-size:1.6rem;
+      line-height:1.2;
+    }
+
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin:0 0 14px;
+      padding:0;
+      list-style:none;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    .content p{
+      max-width:70ch;
+    }
+
+    .tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:16px;
+    }
+
     .tag{
       display:inline-block;
       padding:6px 10px;
       border-radius:999px;
       background:#e7f1f1;
-      color:#0d6b6f;
+      color:var(--accent);
       font-size:0.9rem;
       text-decoration:none;
     }
-    .tag:hover{background:#d9ebeb;}
+
+    .tag:hover{
+      background:#d9ebeb;
+    }
+
+    .back-link{
+      margin-top:18px;
+    }
+
+    .back-link a{
+      text-decoration:none;
+      color:var(--accent);
+      font-weight:600;
+    }
+
+    .back-link a:hover{
+      text-decoration:underline;
+    }
+
+    @media (max-width: 640px){
+      .site-header-inner{
+        padding:10px 18px;
+        flex-wrap:wrap;
+        gap:10px;
+      }
+
+      .site-nav a{
+        margin-left:12px;
+      }
+
+      .wrap{
+        padding:18px;
+      }
+
+      .content{
+        padding:16px;
+      }
+
+      h1{
+        font-size:1.75rem;
+      }
+
+      h2{
+        font-size:1.35rem;
+      }
+    }
   </style>
 </head>
 <body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">Fotóblog</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Kezdőlap</a>
+        <a href="{{ '/tags/' | relative_url }}">Címkék</a>
+      </nav>
+    </div>
+  </header>
+
   <div class="wrap">
-    <header>
+    <header class="page-header">
       <h1>{{ site.title }}</h1>
       <p class="lead">{{ site.description }}</p>
     </header>
@@ -42,8 +208,10 @@
       {% if page.image %}
       <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
       {% endif %}
+
       <div class="content">
         <h2>{{ page.title }}</h2>
+
         <ul class="meta">
           <li>{{ page.date | date: "%Y. %B %-d." }}</li>
 
@@ -77,13 +245,12 @@
           {% endfor %}
         </div>
         {% endif %}
+
+        <p class="back-link">
+          <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
+        </p>
       </div>
     </article>
-
-    <p style="margin-top:16px;">
-      <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
-    </p>
-    
   </div>
 </body>
 </html>

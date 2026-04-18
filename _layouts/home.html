@@ -11,7 +11,8 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
-  {% assign latest_post = site.posts | where_exp: "p", "p.image" | first %}
+  {% assign latest_posts_with_images = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
+  {% assign latest_post = latest_posts_with_images | first %}
   {% if latest_post %}
   <meta property="og:image" content="{{ latest_post.image | absolute_url }}">
   <meta property="og:image:alt" content="{{ latest_post.title }}">

@@ -1,22 +1,214 @@
 ---
-layout: page
+layout: none
 title: Címkék
 permalink: /tags/
 ---
 
-<h1>{{ page.title }}</h1>
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Címkék – {{ site.title }}</title>
+  <style>
+    :root{
+      --bg:#f6f3ee;
+      --surface:#fffdf9;
+      --border:#ddd6cd;
+      --text:#2a2621;
+      --muted:#746f68;
+      --accent:#0d6b6f;
+      --radius:16px;
+      --shadow:0 8px 24px rgba(0,0,0,0.08);
+    }
 
-{% assign sorted_tags = site.tags | sort %}
+    *{box-sizing:border-box;}
 
-<ul class="tag-index">
-  {% for tag in sorted_tags %}
-    {% assign tag_name = tag | first %}
-    {% assign tag_posts = tag | last %}
-    <li>
-      <a href="{{ site.baseurl }}/tags/{{ tag_name | slugify: 'pretty' }}/">
-        {{ tag_name }}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    .site-header{
+      background:#f0ebe3;
+      border-bottom:1px solid var(--border);
+    }
+
+    .site-header-inner{
+      max-width:1200px;
+      margin:0 auto;
+      padding:10px 24px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    .site-title{
+      font-weight:700;
+      text-decoration:none;
+      color:var(--text);
+    }
+
+    .site-title:hover{
+      color:var(--accent);
+    }
+
+    .site-nav a{
+      margin-left:16px;
+      text-decoration:none;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+
+    .site-nav a:hover{
+      color:var(--accent);
+    }
+
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      padding:24px;
+    }
+
+    .page-header{
+      padding:24px 0 20px;
+    }
+
+    h1{
+      margin:0 0 10px;
+      font-size:clamp(2rem, 3vw, 3rem);
+      line-height:1.1;
+    }
+
+    .intro{
+      max-width:760px;
+      color:var(--muted);
+      font-size:1.05rem;
+    }
+
+    .intro p{
+      margin:0 0 10px;
+    }
+
+    .intro p:last-child{
+      margin-bottom:0;
+    }
+
+    .tags-grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0, 1fr));
+      gap:18px;
+      margin-top:20px;
+    }
+
+    .tag-card{
+      display:block;
+      padding:14px 16px 16px;
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      text-decoration:none;
+      color:inherit;
+      box-shadow:var(--shadow);
+    }
+
+    .tag-name{
+      font-weight:600;
+      margin:0 0 4px;
+      color:var(--accent);
+    }
+
+    .tag-count{
+      margin:0;
+      font-size:0.92rem;
+      color:var(--muted);
+    }
+
+    .tag-card:hover .tag-name{
+      text-decoration:underline;
+    }
+
+    .back-link{
+      margin-top:24px;
+    }
+
+    .back-link a{
+      text-decoration:none;
+      color:var(--accent);
+      font-weight:600;
+    }
+
+    .back-link a:hover{
+      text-decoration:underline;
+    }
+
+    @media (max-width: 1000px){
+      .tags-grid{
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px){
+      .site-header-inner{
+        padding:10px 18px;
+        flex-wrap:wrap;
+        gap:10px;
+      }
+
+      .site-nav a{
+        margin-left:12px;
+      }
+
+      .wrap{
+        padding:18px;
+      }
+
+      .tags-grid{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">Fotóblog</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Kezdőlap</a>
+        <a href="{{ '/tags/' | relative_url }}">Címkék</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <header class="page-header">
+      <h1>Címkék</h1>
+      <div class="intro">
+        <p>Itt találod az összes címkét, és hogy hány fotóbejegyzés tartozik hozzájuk.</p>
+      </div>
+    </header>
+
+    {% assign sorted_tags = site.tags | sort_natural: "first" %}
+
+    <section class="tags-grid" aria-label="Címkék listája">
+      {% for tag_tuple in sorted_tags %}
+      {% assign tag_name = tag_tuple[0] %}
+      {% assign posts = tag_tuple[1] %}
+      <a class="tag-card" href="{{ site.baseurl }}/tags/{{ tag_name | slugify: 'pretty' }}/">
+        <p class="tag-name">#{{ tag_name }}</p>
+        <p class="tag-count">
+          {{ posts | size }} bejegyzés
+        </p>
       </a>
-      ({{ tag_posts | size }})
-    </li>
-  {% endfor %}
-</ul>
+      {% endfor %}
+    </section>
+
+    <p class="back-link">
+      <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
+    </p>
+  </div>
+</body>
+</html>

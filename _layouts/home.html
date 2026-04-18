@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} – {{ site.title }}</title>
+    {% assign latest_post = site.posts | where_exp: "p", "p.image" | first %}
+  {% if latest_post %}
+  <meta property="og:image" content="{{ latest_post.image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ latest_post.title }}">
+  {% endif %}
   <style>
     :root{
       --bg:#f6f3ee;

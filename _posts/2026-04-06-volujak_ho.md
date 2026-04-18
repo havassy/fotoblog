@@ -9,4 +9,3 @@ tags:
   - "hegység"
 ---
 
-Ide jön a leírás.

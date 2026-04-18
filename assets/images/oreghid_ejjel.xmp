@@ -14,9 +14,10 @@
     xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-09T19:15:33.74+01:00"
    xmp:CreateDate="2026-04-09T19:15:33.74+01:00"
-   xmp:MetadataDate="2026-04-18T23:00:51+02:00"
+   xmp:MetadataDate="2026-04-18T23:02:59+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -61,7 +62,7 @@
    xmpMM:DocumentID="8D509E77475B5C026FDD9446ABF0704F"
    xmpMM:PreservedFileName="b78a0635.cr3"
    xmpMM:OriginalDocumentID="8D509E77475B5C026FDD9446ABF0704F"
-   xmpMM:InstanceID="xmp.iid:82010429-d8a5-144b-8497-0d0405829fba"
+   xmpMM:InstanceID="xmp.iid:3bfdd11f-6ecf-5147-a3b1-f1d9ef3bd97a"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -227,12 +228,24 @@
      <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
     </rdf:Alt>
    </dc:rights>
+   <dc:subject>
+    <rdf:Bag>
+     <rdf:li>Bosznia-Hercegovina</rdf:li>
+     <rdf:li>Mostar</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>híd</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>település</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>épített</rdf:li>
+    </rdf:Bag>
+   </dc:subject>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:82010429-d8a5-144b-8497-0d0405829fba"
-      stEvt:when="2026-04-18T23:00:51+02:00"
+      stEvt:instanceID="xmp.iid:3bfdd11f-6ecf-5147-a3b1-f1d9ef3bd97a"
+      stEvt:when="2026-04-18T23:02:59+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -303,6 +316,25 @@
     </crs:Parameters>
     </rdf:Description>
    </crs:Look>
+   <lr:weightedFlatSubject>
+    <rdf:Bag>
+     <rdf:li>Bosznia-Hercegovina</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>Mostar</rdf:li>
+     <rdf:li>település</rdf:li>
+     <rdf:li>híd</rdf:li>
+     <rdf:li>épített</rdf:li>
+     <rdf:li>téma</rdf:li>
+    </rdf:Bag>
+   </lr:weightedFlatSubject>
+   <lr:hierarchicalSubject>
+    <rdf:Bag>
+     <rdf:li>hely|ország|Bosznia-Hercegovina</rdf:li>
+     <rdf:li>hely|település|Mostar</rdf:li>
+     <rdf:li>téma|épített|híd</rdf:li>
+    </rdf:Bag>
+   </lr:hierarchicalSubject>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

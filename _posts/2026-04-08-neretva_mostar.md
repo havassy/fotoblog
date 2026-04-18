@@ -1,0 +1,13 @@
+---
+layout: post
+title: "A Neretva partján"
+date: 2026-04-08T15:25:03.83+01:00
+image: "/assets/images/neretva_mostar.jpg"
+tags:
+  - "Bosznia-Hercegovina"
+  - "Mostar"
+  - "ember"
+description: "A szűk utcákon sétálva egész a vízpartig el lehet jutni."
+---
+
+A szűk utcákon sétálva egész a vízpartig el lehet jutni.

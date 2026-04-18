@@ -236,7 +236,7 @@
   </header>
   
   <div class="wrap">
-    {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
+    {% assign posts_with_images = site.posts | where_exp: "post", "post.image" | sort: "date" | reverse %}
 
     <header class="page-header">
       <h1>{{ page.title | default: site.title }}</h1>

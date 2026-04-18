@@ -1,4 +1,4 @@
-name: Auto create post from image
+name: Auto create or update post from image
 
 on:
   push:
@@ -31,13 +31,13 @@ jobs:
           echo "Before: $BEFORE_SHA"
           echo "After: $AFTER_SHA"
 
-          changed_files=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" | grep -E '^assets/images/.*\.(jpg|jpeg|png|webp)$' || true)
+          changed_files=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" || true)
 
-          echo "Changed image files:"
+          echo "Changed files:"
           echo "$changed_files"
 
           if [ -z "$changed_files" ]; then
-            echo "No image files found."
+            echo "No changed files found."
             exit 0
           fi
 
@@ -50,6 +50,7 @@ jobs:
           from pathlib import Path
 
           POSTS_DIR = Path("_posts")
+          IMAGES_DIR = Path("assets/images")
           POSTS_DIR.mkdir(exist_ok=True)
 
           NS = {
@@ -57,6 +58,8 @@ jobs:
               "dc": "http://purl.org/dc/elements/1.1/",
               "exif": "http://ns.adobe.com/exif/1.0/",
           }
+
+          IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
           changed_files = [line.strip() for line in os.environ.get("CHANGED_FILES", "").splitlines() if line.strip()]
 
@@ -102,10 +105,51 @@ jobs:
               return parts[1], parts[2]
 
           def find_existing_post(slug):
-              matches = sorted(Path("_posts").glob(f"*-{slug}.md"))
+              matches = sorted(POSTS_DIR.glob(f"*-{slug}.md"))
               return matches[0] if matches else None
 
-          for file in changed_files:
+          def find_image_for_slug(slug):
+              for ext in [".jpg", ".jpeg", ".png", ".webp"]:
+                  candidate = IMAGES_DIR / f"{slug}{ext}"
+                  if candidate.exists():
+                      return candidate
+              return None
+
+          def collect_targets(changed_files):
+              targets = set()
+
+              for file in changed_files:
+                  path = Path(file)
+
+                  if not str(path).startswith("assets/images/"):
+                      continue
+
+                  ext = path.suffix.lower()
+
+                  if ext in IMAGE_EXTS:
+                      targets.add(str(path))
+
+                  elif ext == ".xmp":
+                      slug = path.stem
+                      image_path = find_image_for_slug(slug)
+                      if image_path:
+                          targets.add(str(image_path))
+                      else:
+                          print(f"No matching image found for XMP: {path}")
+
+              return sorted(targets)
+
+          target_images = collect_targets(changed_files)
+
+          print("Target image files to process:")
+          for t in target_images:
+              print(f" - {t}")
+
+          if not target_images:
+              print("No target image files to process.")
+              raise SystemExit(0)
+
+          for file in target_images:
               image_path = Path(file)
               slug = image_path.stem
               xmp_path = image_path.with_suffix(".xmp")
@@ -187,8 +231,15 @@ jobs:
                       target_path = desired_post_path
                       print(f"Renamed post to match new date: {target_path}")
 
-              target_path.write_text(final_content, encoding="utf-8")
-              print(f"Created/updated {target_path}")
+              old_final = ""
+              if target_path.exists():
+                  old_final = target_path.read_text(encoding="utf-8")
+
+              if old_final != final_content:
+                  target_path.write_text(final_content, encoding="utf-8")
+                  print(f"Created/updated {target_path}")
+              else:
+                  print(f"No changes needed for {target_path}")
           PY
 
       - name: Commit generated posts
@@ -198,5 +249,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add _posts
-          git diff --cached --quiet || git commit -m "Auto-create posts from images"
+          git diff --cached --quiet || git commit -m "Auto-create/update posts from images"
           git push

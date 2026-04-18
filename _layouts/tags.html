@@ -191,10 +191,14 @@
       {% for tag_tuple in sorted_tags %}
       {% assign tag_name = tag_tuple[0] %}
       {% assign tag_posts = tag_tuple[1] %}
+
+      {% unless tag_name == "hely" or tag_name == "ország" or tag_name == "település" or tag_name == "tájnév" %}
       <a class="tag-card" href="{{ site.baseurl }}/tags/{{ tag_name | slugify: 'pretty' }}/">
         <p class="tag-name">#{{ tag_name }}</p>
         <p class="tag-count">{{ tag_posts | size }} bejegyzés</p>
       </a>
+      {% endunless %}
+
       {% endfor %}
     </section>
 

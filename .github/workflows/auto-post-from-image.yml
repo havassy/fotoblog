@@ -21,6 +21,7 @@ jobs:
           fetch-depth: 2
 
       - name: Generate post files
+        shell: bash
         run: |
           mkdir -p _posts
 
@@ -28,7 +29,7 @@ jobs:
           AFTER_SHA="${{ github.sha }}"
 
           echo "Before: $BEFORE_SHA"
-          echo "After:  $AFTER_SHA"
+          echo "After: $AFTER_SHA"
 
           changed_files=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" | grep -E '^assets/images/.*\.(jpg|jpeg|png|webp)$' || true)
 
@@ -54,21 +55,20 @@ jobs:
 
             title=$(echo "$slug" | sed 's/[-_]/ /g')
 
-            cat > "$post_path" <<EOF
----
-layout: post
-title: "$title"
-date: $date_prefix
-image: /$file
----
-
-Ide jön a leírás.
-EOF
+            echo "---" > "$post_path"
+            echo "layout: post" >> "$post_path"
+            echo "title: \"$title\"" >> "$post_path"
+            echo "date: $date_prefix" >> "$post_path"
+            echo "image: /$file" >> "$post_path"
+            echo "---" >> "$post_path"
+            echo "" >> "$post_path"
+            echo "Ide jön a leírás." >> "$post_path"
 
             echo "Created $post_path"
           done
 
       - name: Commit generated posts
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

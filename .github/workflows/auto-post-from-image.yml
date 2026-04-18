@@ -24,10 +24,19 @@ jobs:
         run: |
           mkdir -p _posts
 
-          changed_files=$(git diff --name-only HEAD^ HEAD | grep '^assets/images/.*\.\(jpg\|jpeg\|png\|webp\)$' || true)
+          BEFORE_SHA="${{ github.event.before }}"
+          AFTER_SHA="${{ github.sha }}"
+
+          echo "Before: $BEFORE_SHA"
+          echo "After:  $AFTER_SHA"
+
+          changed_files=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" | grep -E '^assets/images/.*\.(jpg|jpeg|png|webp)$' || true)
+
+          echo "Changed image files:"
+          echo "$changed_files"
 
           if [ -z "$changed_files" ]; then
-            echo "No new image files found."
+            echo "No image files found."
             exit 0
           fi
 

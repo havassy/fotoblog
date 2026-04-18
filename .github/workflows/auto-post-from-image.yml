@@ -49,7 +49,7 @@ jobs:
               continue
             fi
 
-            title=$(echo "$slug" | sed 's/[-_]/ /g' | sed 's/\b\(.\)/\u\1/g')
+            title=$(echo "$slug" | sed 's/[-_]/ /g')
 
             cat > "$post_path" <<EOF
 ---

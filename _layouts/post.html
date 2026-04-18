@@ -19,8 +19,16 @@
     .meta{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px;padding:0;
           list-style:none;color:#746f68;font-size:0.95rem;}
     .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
-    .tag{padding:6px 10px;border-radius:999px;background:#e7f1f1;
-         color:#0d6b6f;font-size:0.9rem;}
+    .tag{
+      display:inline-block;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#e7f1f1;
+      color:#0d6b6f;
+      font-size:0.9rem;
+      text-decoration:none;
+    }
+    .tag:hover{background:#d9ebeb;}
   </style>
 </head>
 <body>
@@ -60,10 +68,12 @@
 
         {{ content }}
 
-        {% if page.tags %}
+        {% if page.tags and page.tags.size > 0 %}
         <div class="tags">
           {% for tag in page.tags %}
-          <span class="tag">#{{ tag }}</span>
+          <a class="tag" href="{{ site.baseurl }}/tags/{{ tag | slugify: 'pretty' }}/">
+            #{{ tag }}
+          </a>
           {% endfor %}
         </div>
         {% endif %}

@@ -216,13 +216,7 @@ jobs:
               desired_post_path = POSTS_DIR / f"{date_prefix}-{slug}.md"
               existing_post_path = find_existing_post(slug)
 
-              body = ""
-              if existing_post_path and existing_post_path.exists():
-                  old_content = existing_post_path.read_text(encoding="utf-8")
-                  _, body = split_front_matter(old_content)
-                  body = body.lstrip("\n")
-              else:
-                  if description:
+              if description:
                       body = description + "\n"
                   else:
                       body = ""

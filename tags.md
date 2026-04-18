@@ -191,7 +191,7 @@ permalink: /tags/
       </div>
     </header>
 
-    {% assign sorted_tags = site.tags | sort_natural: "first" %}
+    {% assign sorted_tags = site.tags | sort %}
 
     <section class="tags-grid" aria-label="Címkék listája">
       {% for tag_tuple in sorted_tags %}

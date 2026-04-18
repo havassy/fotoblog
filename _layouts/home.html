@@ -52,6 +52,17 @@
     .intro > :first-child{margin-top:0;}
     .intro > :last-child{margin-bottom:0;}
 
+    .intro-count{
+      margin-top:12px;
+      color:var(--text);
+      font-size:0.98rem;
+    }
+
+    .intro-count strong{
+      color:var(--accent);
+      font-weight:700;
+    }
+
     .gallery{
       column-count:3;
       column-gap:18px;
@@ -155,20 +166,27 @@
 </head>
 <body>
   <div class="wrap">
+    {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
+
     <header>
       <h1>{{ page.title | default: site.title }}</h1>
+
       {% if content and content != "" %}
       <div class="intro">
         {{ content }}
+        <p class="intro-count">
+          Posztok / napok száma: <strong>{{ posts_with_images.size }}</strong>
+        </p>
       </div>
       {% elsif site.description %}
       <div class="intro">
         <p>{{ site.description }}</p>
+        <p class="intro-count">
+          Posztok / napok száma: <strong>{{ posts_with_images.size }}</strong>
+        </p>
       </div>
       {% endif %}
     </header>
-
-    {% assign posts_with_images = site.posts | where_exp: "post", "post.image" %}
 
     {% if posts_with_images.size > 0 %}
     <section class="gallery" aria-label="Fotóbejegyzések">

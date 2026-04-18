@@ -1,0 +1,75 @@
+name: Auto create post from uploaded image
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'assets/uploads/**'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-posts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect changed uploaded images
+        id: changed-files
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            assets/uploads/**.jpg
+            assets/uploads/**.jpeg
+            assets/uploads/**.png
+            assets/uploads/**.webp
+
+      - name: Generate post files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          mkdir -p _posts
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            filename=$(basename "$file")
+            extension="${filename##*.}"
+            slug="${filename%.*}"
+
+            date_prefix=$(date +%Y-%m-%d)
+            post_path="_posts/${date_prefix}-${slug}.md"
+
+            if [ -f "$post_path" ]; then
+              echo "Post already exists: $post_path"
+              continue
+            fi
+
+            title=$(echo "$slug" | sed 's/[-_]/ /g' | sed 's/\b\(.\)/\u\1/g')
+
+            cat > "$post_path" <<EOF
+---
+layout: post
+title: "$title"
+date: $date_prefix
+image: /$file
+---
+
+Ide jön a leírás.
+EOF
+
+            echo "Created $post_path"
+          done
+
+      - name: Commit generated posts
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add _posts
+          git diff --cached --quiet || git commit -m "Auto-create posts from uploaded images"
+          git push

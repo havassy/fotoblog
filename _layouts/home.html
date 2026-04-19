@@ -11,12 +11,21 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
-  {% assign latest_posts_with_images = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
-  {% assign latest_post = latest_posts_with_images | first %}
-  {% if latest_post %}
-  <meta property="og:image" content="{{ latest_post.image | absolute_url }}">
-  <meta property="og:image:alt" content="{{ latest_post.title }}">
+  {% assign featured_posts = site.posts | where_exp: "post", "post.featured_for_og == true" %}
+  {% assign featured = featured_posts | first %}
+
+  {% if featured and featured.image %}
+    <meta property="og:image" content="{{ featured.image | absolute_url }}">
+    <meta property="og:image:alt" content="{{ featured.title }}">
+  {% else %}
+    {% assign latest_posts_with_images = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
+    {% assign latest_post = latest_posts_with_images | first %}
+    {% if latest_post %}
+      <meta property="og:image" content="{{ latest_post.image | absolute_url }}">
+      <meta property="og:image:alt" content="{{ latest_post.title }}">
+    {% endif %}
   {% endif %}
+  
   <style>
     :root{
       --bg:#f6f3ee;

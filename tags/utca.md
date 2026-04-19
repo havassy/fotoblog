@@ -1,4 +1,3 @@
-text
 ---
 layout: tag
 title: utca

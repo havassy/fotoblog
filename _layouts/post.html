@@ -254,9 +254,14 @@
         </a>
         {% endif %}
 
-        {% if page.image %}
-        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
-        {% endif %}
+  {% if page.image %}
+  <img
+    src="{{ page.image | relative_url }}"
+    alt="{{ page.title }}"
+    loading="lazy"
+    decoding="async"
+  />
+  {% endif %}
 
         {% if page.next %}
         <a class="post-arrow next" href="{{ page.next.url | relative_url }}" aria-label="Következő bejegyzés">

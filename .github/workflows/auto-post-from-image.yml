@@ -203,6 +203,8 @@ jobs:
                           date_value = find_text(root, ".//exif:DateTimeOriginal")
                       if not date_value:
                           date_value = find_attr(root, "http://ns.adobe.com/photoshop/1.0/", "DateCreated")
+                      if not date_value:
+                          date_value = find_text(root, ".//photoshop:DateCreated")
 
                       print("DEBUG final tags:", tags)
 

@@ -3,6 +3,7 @@ layout: post
 title: "A Neretva partján"
 date: 2026-04-08T15:25:03.83+01:00
 image: "/assets/images/neretva_mostar.jpg"
+featured_for_og: true
 tags:
   - "Bosznia-Hercegovina"
   - "Mostar"

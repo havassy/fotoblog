@@ -58,6 +58,7 @@ jobs:
               "dc": "http://purl.org/dc/elements/1.1/",
               "exif": "http://ns.adobe.com/exif/1.0/",
               "lr": "http://ns.adobe.com/lightroom/1.0/",
+              "photoshop": "http://ns.adobe.com/photoshop/1.0/",
           }
 
           IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
@@ -200,7 +201,7 @@ jobs:
 
                       date_value = find_attr(root, NS["exif"], "DateTimeOriginal")
                       if not date_value:
-                          date_value = find_text(root, ".//exif:DateTimeOriginal")
+                          ddate_value = find_text(root, ".//exif:DateTimeOriginal")
                       if not date_value:
                           date_value = find_attr(root, "http://ns.adobe.com/photoshop/1.0/", "DateCreated")
                       if not date_value:

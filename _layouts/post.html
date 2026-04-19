@@ -158,6 +158,48 @@
       text-decoration:underline;
     }
 
+    .post-article{
+      position:relative;
+    }
+
+    .image-with-nav{
+      position:relative;
+    }
+
+    .image-with-nav img{
+      display:block;
+      width:100%;
+      height:auto;
+    }
+
+    .post-arrow{
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+      padding:8px 10px;
+      border-radius:999px;
+      background:rgba(0,0,0,0.45);
+      color:#fff;
+      text-decoration:none;
+      font-size:1.2rem;
+      line-height:1;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .post-arrow.prev{
+      left:10px;
+    }
+
+    .post-arrow.next{
+      right:10px;
+    }
+
+    .post-arrow:hover{
+      background:rgba(0,0,0,0.7);
+    }
+
     @media (max-width: 640px){
       .site-header-inner{
         padding:10px 18px;
@@ -184,6 +226,11 @@
       h2{
         font-size:1.35rem;
       }
+
+      .post-arrow{
+        padding:6px 8px;
+        font-size:1rem;
+      }
     }
   </style>
 </head>
@@ -199,34 +246,30 @@
   </header>
 
   <div class="wrap">
-    <article>
-      {% if page.image %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
-      {% endif %}
+    <article class="post-article">
+      <div class="image-with-nav">
+        {% if page.previous %}
+        <a class="post-arrow prev" href="{{ page.previous.url | relative_url }}" aria-label="Előző bejegyzés">
+          &larr;
+        </a>
+        {% endif %}
+
+        {% if page.image %}
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+        {% endif %}
+
+        {% if page.next %}
+        <a class="post-arrow next" href="{{ page.next.url | relative_url }}" aria-label="Következő bejegyzés">
+          &rarr;
+        </a>
+        {% endif %}
+      </div>
 
       <div class="content">
         <h2>{{ page.title }}</h2>
 
         <ul class="meta">
           <li>{{ page.date | date: "%Y. %m. %d." }}</li>
-
-          {% if page.location %}
-          <li>
-            {% if page.location.city %}{{ page.location.city }}{% endif %}
-            {% if page.location.city and page.location.country %}, {% endif %}
-            {% if page.location.country %}{{ page.location.country }}{% endif %}
-          </li>
-          {% endif %}
-
-          {% if page.exif %}
-          <li>
-            {% if page.exif.camera %}{{ page.exif.camera }}{% endif %}
-            {% if page.exif.focal_length %} · {{ page.exif.focal_length }}{% endif %}
-            {% if page.exif.aperture %} · {{ page.exif.aperture }}{% endif %}
-            {% if page.exif.shutter %} · {{ page.exif.shutter }}{% endif %}
-            {% if page.exif.iso %} · ISO {{ page.exif.iso }}{% endif %}
-          </li>
-          {% endif %}
         </ul>
 
         {{ content }}

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Sáfrány"
+title: "Sáfrány, Crocus sp."
 date: 2026-04-05T14:57:24.54+01:00
 image: "/assets/images/safrany_ho.jpg"
 tags:
   - "Bosznia-Hercegovina"
   - "virág"
-description: "Crocus sp. (talán vernus)"
+description: "Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését."
 ---
 
-Crocus sp. (talán vernus)
+Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését.

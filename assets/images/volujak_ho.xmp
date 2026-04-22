@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-06T06:25:06.41+01:00"
    xmp:CreateDate="2026-04-06T06:25:06.41+01:00"
-   xmp:MetadataDate="2026-04-18T21:34:21+02:00"
+   xmp:MetadataDate="2026-04-22T22:01:19+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -62,11 +62,12 @@
    xmpMM:DocumentID="63120FC4E0620391C8D2B3FEFAC9F330"
    xmpMM:PreservedFileName="b78a0239.cr3"
    xmpMM:OriginalDocumentID="63120FC4E0620391C8D2B3FEFAC9F330"
-   xmpMM:InstanceID="xmp.iid:7d9c276a-4a3a-514e-896c-f7a2303b45a5"
+   xmpMM:InstanceID="xmp.iid:1bfe1f51-a1ef-0648-bade-6d1df699000a"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Daylight"
@@ -240,12 +241,17 @@
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
    </dc:subject>
+   <dc:description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">A Volujak-hegység neve talán nem cseng ismerősen, pedig legalább olyan látványos, mint a kis házunk falán lévő képen a Banff Nemzeti Park híres látképe.</rdf:li>
+    </rdf:Alt>
+   </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:7d9c276a-4a3a-514e-896c-f7a2303b45a5"
-      stEvt:when="2026-04-18T21:34:21+02:00"
+      stEvt:instanceID="xmp.iid:1bfe1f51-a1ef-0648-bade-6d1df699000a"
+      stEvt:when="2026-04-22T22:01:19+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

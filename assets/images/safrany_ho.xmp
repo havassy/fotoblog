@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-05T14:57:24.54+01:00"
    xmp:CreateDate="2026-04-05T14:57:24.54+01:00"
-   xmp:MetadataDate="2026-04-18T21:12:04+02:00"
+   xmp:MetadataDate="2026-04-22T22:07:44+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -62,11 +62,12 @@
    xmpMM:DocumentID="997342B8350494F2B6124D847E3B9B33"
    xmpMM:PreservedFileName="b78a0192.cr3"
    xmpMM:OriginalDocumentID="997342B8350494F2B6124D847E3B9B33"
-   xmpMM:InstanceID="xmp.iid:e5dd71e1-1ad0-e647-b0ec-d152c835a8ca"
+   xmpMM:InstanceID="xmp.iid:0f0ecc98-c59b-8144-b1c0-bce9d10b7d2e"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Auto"
@@ -221,7 +222,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Sáfrány</rdf:li>
+     <rdf:li xml:lang="x-default">Sáfrány, Crocus sp.</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -241,15 +242,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Crocus sp. (talán vernus)</rdf:li>
+     <rdf:li xml:lang="x-default">Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:e5dd71e1-1ad0-e647-b0ec-d152c835a8ca"
-      stEvt:when="2026-04-18T21:12:04+02:00"
+      stEvt:instanceID="xmp.iid:0f0ecc98-c59b-8144-b1c0-bce9d10b7d2e"
+      stEvt:when="2026-04-22T22:07:44+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

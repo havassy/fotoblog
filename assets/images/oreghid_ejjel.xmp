@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-09T19:15:33.74+01:00"
    xmp:CreateDate="2026-04-09T19:15:33.74+01:00"
-   xmp:MetadataDate="2026-04-18T23:02:59+02:00"
+   xmp:MetadataDate="2026-04-22T21:48:14+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    xmpMM:DocumentID="8D509E77475B5C026FDD9446ABF0704F"
    xmpMM:PreservedFileName="b78a0635.cr3"
    xmpMM:OriginalDocumentID="8D509E77475B5C026FDD9446ABF0704F"
-   xmpMM:InstanceID="xmp.iid:3bfdd11f-6ecf-5147-a3b1-f1d9ef3bd97a"
+   xmpMM:InstanceID="xmp.iid:2e176687-1678-4d47-89b2-34427df053de"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -220,7 +220,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Az Öreg híd éjjel</rdf:li>
+     <rdf:li xml:lang="x-default">A mostari Öreg híd éjjel</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -240,12 +240,17 @@
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
    </dc:subject>
+   <dc:description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">A legjobb helyen lévő vendéglátóipari egységek asztalaitól pont rálátni a Neretvára és a hídra.</rdf:li>
+    </rdf:Alt>
+   </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:3bfdd11f-6ecf-5147-a3b1-f1d9ef3bd97a"
-      stEvt:when="2026-04-18T23:02:59+02:00"
+      stEvt:instanceID="xmp.iid:2e176687-1678-4d47-89b2-34427df053de"
+      stEvt:when="2026-04-22T21:48:14+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

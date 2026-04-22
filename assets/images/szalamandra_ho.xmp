@@ -12,11 +12,12 @@
     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
     xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-07T14:50:22.86+01:00"
    xmp:CreateDate="2026-04-07T14:50:22.86+01:00"
-   xmp:MetadataDate="2026-04-18T22:46:28+02:00"
+   xmp:MetadataDate="2026-04-22T21:56:53+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -61,10 +62,12 @@
    xmpMM:DocumentID="A9192E0461C4D5EAAEA4403308D6405C"
    xmpMM:PreservedFileName="b78a0472.cr3"
    xmpMM:OriginalDocumentID="A9192E0461C4D5EAAEA4403308D6405C"
-   xmpMM:InstanceID="xmp.iid:2373473c-2e03-f44a-8f80-dc60c7054d90"
+   xmpMM:InstanceID="xmp.iid:07e46e2b-d154-2c48-b887-58f5b1fc1430"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
+   xmpRights:Marked="True"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Auto"
@@ -212,7 +215,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Szalamandra</rdf:li>
+     <rdf:li xml:lang="x-default">Szalamandra sétál a havon</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -229,12 +232,17 @@
      <rdf:li>állat</rdf:li>
     </rdf:Bag>
    </dc:subject>
+   <dc:description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett a mély lábnyomba, majd kimászott belőle.</rdf:li>
+    </rdf:Alt>
+   </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:2373473c-2e03-f44a-8f80-dc60c7054d90"
-      stEvt:when="2026-04-18T22:46:28+02:00"
+      stEvt:instanceID="xmp.iid:07e46e2b-d154-2c48-b887-58f5b1fc1430"
+      stEvt:when="2026-04-22T21:56:53+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

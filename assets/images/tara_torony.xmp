@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-03T12:55:18.33+01:00"
    xmp:CreateDate="2026-04-03T12:55:18.33+01:00"
-   xmp:MetadataDate="2026-04-18T20:30:26+02:00"
+   xmp:MetadataDate="2026-04-22T22:16:08+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -62,140 +62,18 @@
    xmpMM:DocumentID="C8CA1267BC923B58701439C15C9F5FDA"
    xmpMM:PreservedFileName="b78a0014.cr3"
    xmpMM:OriginalDocumentID="C8CA1267BC923B58701439C15C9F5FDA"
-   xmpMM:InstanceID="xmp.iid:4b06139e-c9ee-c94e-82d3-378edd08fbd2"
+   xmpMM:InstanceID="xmp.iid:4c2e11ee-b5db-8548-ac9b-54403ede1760"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
-   crs:Version="17.2"
-   crs:ProcessVersion="15.4"
-   crs:WhiteBalance="Auto"
-   crs:AutoWhiteVersion="134348800"
-   crs:Temperature="6350"
-   crs:Tint="+5"
-   crs:Exposure2012="+0.56"
-   crs:Contrast2012="+14"
-   crs:Highlights2012="-100"
-   crs:Shadows2012="+48"
-   crs:Whites2012="+26"
-   crs:Blacks2012="-19"
-   crs:Texture="0"
-   crs:Clarity2012="0"
-   crs:Dehaze="0"
-   crs:Vibrance="+15"
-   crs:Saturation="+1"
-   crs:ParametricShadows="0"
-   crs:ParametricDarks="0"
-   crs:ParametricLights="0"
-   crs:ParametricHighlights="0"
-   crs:ParametricShadowSplit="25"
-   crs:ParametricMidtoneSplit="50"
-   crs:ParametricHighlightSplit="75"
-   crs:Sharpness="40"
-   crs:SharpenRadius="+1.0"
-   crs:SharpenDetail="25"
-   crs:SharpenEdgeMasking="0"
-   crs:LuminanceSmoothing="0"
-   crs:ColorNoiseReduction="25"
-   crs:ColorNoiseReductionDetail="50"
-   crs:ColorNoiseReductionSmoothness="50"
-   crs:HueAdjustmentRed="0"
-   crs:HueAdjustmentOrange="0"
-   crs:HueAdjustmentYellow="0"
-   crs:HueAdjustmentGreen="0"
-   crs:HueAdjustmentAqua="0"
-   crs:HueAdjustmentBlue="0"
-   crs:HueAdjustmentPurple="0"
-   crs:HueAdjustmentMagenta="0"
-   crs:SaturationAdjustmentRed="0"
-   crs:SaturationAdjustmentOrange="0"
-   crs:SaturationAdjustmentYellow="0"
-   crs:SaturationAdjustmentGreen="0"
-   crs:SaturationAdjustmentAqua="0"
-   crs:SaturationAdjustmentBlue="0"
-   crs:SaturationAdjustmentPurple="0"
-   crs:SaturationAdjustmentMagenta="0"
-   crs:LuminanceAdjustmentRed="0"
-   crs:LuminanceAdjustmentOrange="0"
-   crs:LuminanceAdjustmentYellow="0"
-   crs:LuminanceAdjustmentGreen="0"
-   crs:LuminanceAdjustmentAqua="0"
-   crs:LuminanceAdjustmentBlue="0"
-   crs:LuminanceAdjustmentPurple="0"
-   crs:LuminanceAdjustmentMagenta="0"
-   crs:SplitToningShadowHue="0"
-   crs:SplitToningShadowSaturation="0"
-   crs:SplitToningHighlightHue="0"
-   crs:SplitToningHighlightSaturation="0"
-   crs:SplitToningBalance="0"
-   crs:ColorGradeMidtoneHue="0"
-   crs:ColorGradeMidtoneSat="0"
-   crs:ColorGradeShadowLum="0"
-   crs:ColorGradeMidtoneLum="0"
-   crs:ColorGradeHighlightLum="0"
-   crs:ColorGradeBlending="50"
-   crs:ColorGradeGlobalHue="0"
-   crs:ColorGradeGlobalSat="0"
-   crs:ColorGradeGlobalLum="0"
-   crs:AutoLateralCA="1"
-   crs:LensProfileEnable="1"
-   crs:LensManualDistortionAmount="0"
-   crs:VignetteAmount="0"
-   crs:DefringePurpleAmount="0"
-   crs:DefringePurpleHueLo="30"
-   crs:DefringePurpleHueHi="70"
-   crs:DefringeGreenAmount="0"
-   crs:DefringeGreenHueLo="40"
-   crs:DefringeGreenHueHi="60"
-   crs:PerspectiveUpright="4"
-   crs:PerspectiveVertical="0"
-   crs:PerspectiveHorizontal="0"
-   crs:PerspectiveRotate="0.0"
-   crs:PerspectiveAspect="0"
-   crs:PerspectiveScale="100"
-   crs:PerspectiveX="0.00"
-   crs:PerspectiveY="0.00"
-   crs:GrainAmount="0"
-   crs:PostCropVignetteAmount="0"
-   crs:ShadowTint="0"
-   crs:RedHue="0"
-   crs:RedSaturation="0"
-   crs:GreenHue="0"
-   crs:GreenSaturation="0"
-   crs:BlueHue="0"
-   crs:BlueSaturation="0"
-   crs:HDREditMode="0"
-   crs:OverrideLookVignette="False"
-   crs:ToneCurveName2012="Linear"
-   crs:CameraProfile="Adobe Standard"
-   crs:CameraProfileDigest="0C2FA6EA1F25BFF1C21E2C32CB3CF945"
-   crs:LensProfileSetup="LensDefaults"
-   crs:LensProfileName="Adobe (Canon RF 35mm F1.8 MACRO IS STM)"
-   crs:LensProfileFilename="Canon (Canon RF 35mm F1.8 MACRO IS STM) - RAW.lcp"
-   crs:LensProfileDigest="1F6DF0A4EFD7F7E5D05ED957CD55AD4B"
-   crs:LensProfileIsEmbedded="False"
-   crs:LensProfileDistortionScale="100"
-   crs:LensProfileVignettingScale="100"
-   crs:UprightVersion="151388160"
-   crs:UprightCenterMode="0"
-   crs:UprightCenterNormX="0.5"
-   crs:UprightCenterNormY="0.5"
-   crs:UprightFocalMode="0"
-   crs:UprightFocalLength35mm="56.5468"
-   crs:UprightPreview="False"
-   crs:UprightDependentDigest="A18F6E004842ACC74B8F957556401992"
-   crs:UprightTransformCount="6"
-   crs:UprightTransform_0="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_1="1.015344363,0.008996083,-0.008951600,-0.002753842,1.024410979,-0.003153927,-0.000709816,0.015935107,1.000000000"
-   crs:UprightTransform_2="0.698660681,0.015880686,-0.017660746,-0.235682793,0.729399308,0.161113286,-0.340818487,0.037699108,1.000000000"
-   crs:UprightTransform_3="1.002305953,0.001023430,-0.001664692,-0.002302717,1.002305954,-0.000001619,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_4="1.045321587,0.023892898,-0.023532211,-0.002214847,1.074580075,-0.012960223,-0.000000410,0.045840895,1.000000000"
-   crs:UprightTransform_5="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:AutoToneDigest="A1F74E512B10A431FAC6BD0DDDDEBA26"
-   crs:AutoToneDigestNoSat="F546FCF568817F1225FB797D0087EF87"
-   crs:HasSettings="True"
-   crs:AlreadyApplied="False"
+   crs:CropTop="0"
+   crs:CropLeft="0"
+   crs:CropBottom="1"
+   crs:CropRight="1"
+   crs:CropAngle="0"
+   crs:CropConstrainToWarp="0"
    crs:RawFileName="b78a0014.cr3">
    <exif:ISOSpeedRatings>
     <rdf:Seq>
@@ -215,7 +93,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Kilátás az Öreg hídról</rdf:li>
+     <rdf:li xml:lang="x-default">Kilátás a mostari Öreg-hídról</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -237,85 +115,19 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Tara torony részlete a híd nyugati oldalán.</rdf:li>
+     <rdf:li xml:lang="x-default">A Tara torony részlete a híd nyugati oldalán.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4b06139e-c9ee-c94e-82d3-378edd08fbd2"
-      stEvt:when="2026-04-18T20:30:26+02:00"
+      stEvt:instanceID="xmp.iid:4c2e11ee-b5db-8548-ac9b-54403ede1760"
+      stEvt:when="2026-04-22T22:16:08+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
    </xmpMM:History>
-   <crs:ToneCurvePV2012>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012>
-   <crs:ToneCurvePV2012Red>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Red>
-   <crs:ToneCurvePV2012Green>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Green>
-   <crs:ToneCurvePV2012Blue>
-    <rdf:Seq>
-     <rdf:li>0, 0</rdf:li>
-     <rdf:li>255, 255</rdf:li>
-    </rdf:Seq>
-   </crs:ToneCurvePV2012Blue>
-   <crs:PointColors>
-    <rdf:Seq>
-     <rdf:li>-1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000</rdf:li>
-    </rdf:Seq>
-   </crs:PointColors>
-   <crs:Look>
-    <rdf:Description
-     crs:Name="Adobe Landscape"
-     crs:Amount="1"
-     crs:UUID="6F9C877E84273F4E8271E6B91BEB36A1"
-     crs:SupportsAmount="false"
-     crs:SupportsMonochrome="false"
-     crs:SupportsOutputReferred="false"
-     crs:Copyright="© 2018 Adobe Systems, Inc.">
-    <crs:Group>
-     <rdf:Alt>
-      <rdf:li xml:lang="x-default">Profiles</rdf:li>
-     </rdf:Alt>
-    </crs:Group>
-    <crs:Parameters>
-     <rdf:Description
-      crs:Version="17.2"
-      crs:ProcessVersion="15.4"
-      crs:Highlights2012="-12"
-      crs:Shadows2012="+12"
-      crs:Clarity2012="+10"
-      crs:ConvertToGrayscale="False"
-      crs:CameraProfile="Adobe Standard"
-      crs:LookTable="0B3BFB5CFB7DBF7FF175E98F24D316B0">
-     <crs:ToneCurvePV2012>
-      <rdf:Seq>
-       <rdf:li>0, 0</rdf:li>
-       <rdf:li>64, 60</rdf:li>
-       <rdf:li>128, 128</rdf:li>
-       <rdf:li>192, 196</rdf:li>
-       <rdf:li>255, 255</rdf:li>
-      </rdf:Seq>
-     </crs:ToneCurvePV2012>
-     </rdf:Description>
-    </crs:Parameters>
-    </rdf:Description>
-   </crs:Look>
    <lr:weightedFlatSubject>
     <rdf:Bag>
      <rdf:li>Bosznia-Hercegovina</rdf:li>

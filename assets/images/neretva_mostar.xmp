@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-08T15:25:03.83+01:00"
    xmp:CreateDate="2026-04-08T15:25:03.83+01:00"
-   xmp:MetadataDate="2026-04-18T22:52:42+02:00"
+   xmp:MetadataDate="2026-04-22T21:52:56+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -62,11 +62,12 @@
    xmpMM:DocumentID="DBFC8016AB840DACFF940AFB4BF07E9F"
    xmpMM:PreservedFileName="b78a0549.cr3"
    xmpMM:OriginalDocumentID="DBFC8016AB840DACFF940AFB4BF07E9F"
-   xmpMM:InstanceID="xmp.iid:6c8f1caa-b719-b74f-890b-726699d69656"
+   xmpMM:InstanceID="xmp.iid:79564643-a141-904b-9cff-be3b3852d564"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Daylight"
@@ -220,7 +221,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Neretva partján</rdf:li>
+     <rdf:li xml:lang="x-default">Lányok a Neretva partján</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -248,8 +249,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:6c8f1caa-b719-b74f-890b-726699d69656"
-      stEvt:when="2026-04-18T22:52:42+02:00"
+      stEvt:instanceID="xmp.iid:79564643-a141-904b-9cff-be3b3852d564"
+      stEvt:when="2026-04-22T21:52:56+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

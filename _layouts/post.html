@@ -283,7 +283,7 @@
         {% assign sorted_tags = page.tags | sort %}
         <div class="tags">
           {% for tag in sorted_tags %}
-          <a class="tag" href="{{ '/tags/' | append: tag | slugify: 'pretty' | append: '/' | relative_url }}">
+          <a class="tag" href="{{ '/tags/' | append: (tag | slugify: 'pretty') | append: '/' | relative_url }}">
             #{{ tag }}
           </a>
           {% endfor %}

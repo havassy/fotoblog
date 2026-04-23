@@ -248,8 +248,8 @@
   <div class="wrap">
     <article class="post-article">
       <div class="image-with-nav">
-        {% if page.previous %}
-        <a class="post-arrow prev" href="{{ page.previous.url | relative_url }}" aria-label="Előző bejegyzés">
+        {% if page.next %}
+        <a class="post-arrow prev" href="{{ page.next.url | relative_url }}" aria-label="Előző bejegyzés">
           &larr;
         </a>
         {% endif %}
@@ -263,8 +263,8 @@
   />
   {% endif %}
 
-        {% if page.next %}
-        <a class="post-arrow next" href="{{ page.next.url | relative_url }}" aria-label="Következő bejegyzés">
+        {% if page.previous %}
+        <a class="post-arrow next" href="{{ page.previous.url | relative_url }}" aria-label="Következő bejegyzés">
           &rarr;
         </a>
         {% endif %}

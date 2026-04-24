@@ -89,6 +89,26 @@ jobs:
                   return clean_text(el.text)
               return ""
 
+          def parse_gps_coord(value):
+              value = clean_text(value)
+              if not value:
+                  return None
+
+              m = re.match(r'^([0-9]+),([0-9.]+)([NSEW])$', value)
+              if not m:
+                  return None
+
+              degrees = float(m.group(1))
+              minutes = float(m.group(2))
+              direction = m.group(3)
+
+              decimal = degrees + (minutes / 60.0)
+
+              if direction in ("S", "W"):
+                  decimal = -decimal
+
+              return round(decimal, 6)
+          
           def find_list(root, xpath):
               out = []
               for el in root.findall(xpath, NS):
@@ -189,6 +209,8 @@ jobs:
               date_value = ""
               tags = []
               description = ""
+              lat = None
+              lon = None
 
               if xmp_path.exists():
                   try:
@@ -198,10 +220,15 @@ jobs:
                       title = find_text(root, ".//dc:title/rdf:Alt/rdf:li") or title
                       description = find_text(root, ".//dc:description/rdf:Alt/rdf:li")
                       tags = extract_leaf_tags(root)
+                      gps_lat_raw = find_attr(root, NS["exif"], "GPSLatitude")
+                      gps_lon_raw = find_attr(root, NS["exif"], "GPSLongitude")
+
+                      lat = parse_gps_coord(gps_lat_raw)
+                      lon = parse_gps_coord(gps_lon_raw)
 
                       date_value = find_attr(root, NS["exif"], "DateTimeOriginal")
                       if not date_value:
-                          ddate_value = find_text(root, ".//exif:DateTimeOriginal")
+                          date_value = find_text(root, ".//exif:DateTimeOriginal")
                       if not date_value:
                           date_value = find_attr(root, "http://ns.adobe.com/photoshop/1.0/", "DateCreated")
                       if not date_value:
@@ -222,7 +249,7 @@ jobs:
               if description:
                   body = description + "\n"
               else:
-                   body = ""
+                  body = ""
 
               lines = [
                   "---",
@@ -231,7 +258,11 @@ jobs:
                   f"date: {date_value}",
                   f'image: "/{file}"',
               ]
-
+                  
+              if lat is not None and lon is not None:
+                  lines.append(f"lat: {lat}")
+                  lines.append(f"lon: {lon}")
+              
               if tags:
                   lines.append("tags:")
                   for tag in tags:

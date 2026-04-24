@@ -216,8 +216,12 @@ jobs:
                       gps_lat_raw = find_attr(root, NS["exif"], "GPSLatitude")
                       gps_lon_raw = find_attr(root, NS["exif"], "GPSLongitude")
 
+                      print("DEBUG GPS RAW:", gps_lat_raw, gps_lon_raw)
+
                       lat = parse_gps_coord(gps_lat_raw)
                       lon = parse_gps_coord(gps_lon_raw)
+
+                      print("DEBUG GPS:", lat, lon)
 
                       date_value = find_attr(root, NS["exif"], "DateTimeOriginal")
                       if not date_value:

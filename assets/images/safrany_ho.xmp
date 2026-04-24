@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-05T14:57:24.54+01:00"
    xmp:CreateDate="2026-04-05T14:57:24.54+01:00"
-   xmp:MetadataDate="2026-04-22T22:07:44+02:00"
+   xmp:MetadataDate="2026-04-24T23:10:08+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -45,6 +45,9 @@
    exif:DateTimeOriginal="2026-04-05T14:57:24.54+01:00"
    exif:PixelXDimension="6960"
    exif:PixelYDimension="4640"
+   exif:GPSLatitude="43,14.5158N"
+   exif:GPSLongitude="18,35.6841666667E"
+   exif:GPSVersionID="2.2.0.0"
    dc:format="image/x-canon-cr3"
    aux:SerialNumber="453037004038"
    aux:LensInfo="35/1 35/1 0/0 0/0"
@@ -62,7 +65,7 @@
    xmpMM:DocumentID="997342B8350494F2B6124D847E3B9B33"
    xmpMM:PreservedFileName="b78a0192.cr3"
    xmpMM:OriginalDocumentID="997342B8350494F2B6124D847E3B9B33"
-   xmpMM:InstanceID="xmp.iid:0f0ecc98-c59b-8144-b1c0-bce9d10b7d2e"
+   xmpMM:InstanceID="xmp.iid:2440b18f-0ed6-df45-b1e0-ab3750975508"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -249,8 +252,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:0f0ecc98-c59b-8144-b1c0-bce9d10b7d2e"
-      stEvt:when="2026-04-22T22:07:44+02:00"
+      stEvt:instanceID="xmp.iid:2440b18f-0ed6-df45-b1e0-ab3750975508"
+      stEvt:when="2026-04-24T23:10:08+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

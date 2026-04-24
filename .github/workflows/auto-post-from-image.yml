@@ -1,6 +1,7 @@
 name: Auto create or update post from image
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main

@@ -19,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Generate or update post files from JPG + XMP
         shell: bash
@@ -35,7 +35,7 @@ jobs:
           echo "After: $AFTER_SHA"
 
           changed_files=""
-          if [ "$EVENT_NAME" = "push" ]; then
+          if [ "$EVENT_NAME" = "push" ] && [ -n "$BEFORE_SHA" ]; then
             changed_files=$(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" || true)
           fi
 
@@ -132,19 +132,15 @@ jobs:
 
           def extract_leaf_tags(root):
               hierarchical = find_list(root, ".//lr:hierarchicalSubject/rdf:Bag/rdf:li")
-              print("DEBUG hierarchical:", hierarchical)
               if hierarchical:
                   leaves = []
                   for item in hierarchical:
                       parts = [clean_text(p) for p in item.split("|") if clean_text(p)]
                       if parts:
                           leaves.append(parts[-1])
-                  leaves = unique_keep_order(leaves)
-                  print("DEBUG leaf tags:", leaves)
-                  return leaves
+                  return unique_keep_order(leaves)
 
               weighted = find_list(root, ".//lr:weightedFlatSubject/rdf:Bag/rdf:li")
-              print("DEBUG weightedFlat:", weighted)
               if weighted:
                   return unique_keep_order(weighted)
 
@@ -228,12 +224,8 @@ jobs:
                       gps_lat_raw = find_attr(root, NS["exif"], "GPSLatitude")
                       gps_lon_raw = find_attr(root, NS["exif"], "GPSLongitude")
 
-                      print("DEBUG GPS RAW:", gps_lat_raw, gps_lon_raw)
-
                       lat = parse_gps_coord(gps_lat_raw)
                       lon = parse_gps_coord(gps_lon_raw)
-
-                      print("DEBUG GPS:", lat, lon)
 
                       date_value = find_attr(root, NS["exif"], "DateTimeOriginal")
                       if not date_value:
@@ -242,8 +234,6 @@ jobs:
                           date_value = find_attr(root, "http://ns.adobe.com/photoshop/1.0/", "DateCreated")
                       if not date_value:
                           date_value = find_text(root, ".//photoshop:DateCreated")
-
-                      print("DEBUG final tags:", tags)
 
                   except Exception as e:
                       print(f"XMP parse error for {xmp_path}: {e}")
@@ -255,10 +245,7 @@ jobs:
               desired_post_path = POSTS_DIR / f"{date_prefix}-{slug}.md"
               existing_post_path = find_existing_post(slug)
 
-              if description:
-                  body = description + "\n"
-              else:
-                  body = ""
+              body = description + "\n" if description else ""
 
               lines = [
                   "---",
@@ -318,5 +305,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add _posts
-          git diff --cached --quiet || git commit -m "Auto-create/update posts from images"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-create/update posts from images"
+          git pull --rebase origin main
+          git push origin HEAD:main

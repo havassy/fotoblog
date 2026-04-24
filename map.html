@@ -1,0 +1,177 @@
+---
+layout: default
+title: Térképes nézet
+permalink: /map/
+---
+
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – {{ site.title }}</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    :root{
+      --bg:#f6f3ee;
+      --surface:#fffdf9;
+      --border:#ddd6cd;
+      --text:#2a2621;
+      --muted:#746f68;
+      --accent:#0d6b6f;
+    }
+
+    *{box-sizing:border-box;}
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    .wrap{
+      max-width:1000px;
+      margin:0 auto;
+      padding:24px 24px 32px;
+    }
+
+    h1{
+      margin:0 0 8px;
+      font-size:2rem;
+      line-height:1.15;
+    }
+
+    p.lead{
+      margin:0 0 16px;
+      color:var(--muted);
+    }
+
+    #map{
+      width:100%;
+      height:600px;
+      border-radius:16px;
+      border:1px solid var(--border);
+      box-shadow:0 8px 24px rgba(0,0,0,0.08);
+      overflow:hidden;
+    }
+
+    .map-legend{
+      margin-top:16px;
+      font-size:0.95rem;
+      color:var(--muted);
+    }
+
+    .map-legend a{
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    .map-legend a:hover{
+      text-decoration:underline;
+    }
+
+    @media (max-width: 640px){
+      .wrap{
+        padding:18px;
+      }
+
+      #map{
+        height:420px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
+    <p class="lead">
+      Itt látod térképen azokat a helyeket, ahonnan fotók kerültek fel a blogra.
+      A jelölőkre kattintva a megfelelő bejegyzés nyílik meg.
+    </p>
+
+    <div id="map"></div>
+
+    <p class="map-legend">
+      <a href="{{ '/tags/' | relative_url }}">Vissza a címkékhez</a> ·
+      <a href="{{ '/' | relative_url }}">Vissza a főoldalra</a>
+    </p>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <!-- Posztok koordinátái Liquidből -->
+  <script>
+    const photoMarkers = [
+      {% assign posts_with_coords = site.posts | where_exp: "post", "post.lat and post.lon" %}
+      {% for post in posts_with_coords %}
+        {
+          title: {{ post.title | jsonify }},
+          url: {{ post.url | relative_url | jsonify }},
+          lat: {{ post.lat }},
+          lon: {{ post.lon }}
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+  </script>
+
+  <!-- Térkép inicializálása -->
+  <script>
+    // Ha nincs még egyetlen koordináta sem, ne dobjon hibát
+    if (photoMarkers.length === 0) {
+      console.warn('Nincs még GPS adat a posztokhoz, a térkép üres lesz.');
+      const map = L.map('map').setView([47.4979, 19.0402], 5); // Budapest környéke
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+    } else {
+      const map = L.map('map');
+
+      // OSM csempe
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      const markers = [];
+
+      photoMarkers.forEach(p => {
+        const marker = L.marker([p.lat, p.lon]).addTo(map);
+
+        // popupban link a posztra
+        marker.bindPopup(`<a href="${p.url}">${p.title}</a>`);
+
+        // vagy ha közvetlen navigációt szeretnél popup nélkül:
+        // marker.on('click', () => { window.location.href = p.url; });
+
+        markers.push(marker);
+      });
+
+      // Nézet beállítása az összes markerre egy kis ráhagyással
+      const group = L.featureGroup(markers);
+      map.fitBounds(group.getBounds(), { padding: [40, 40] });
+
+      // Ha csak egy marker van, adjunk fix zoomot, hogy ne legyen túl közel
+      if (photoMarkers.length === 1) {
+        map.setZoom(10);
+      }
+    }
+  </script>
+</body>
+</html>

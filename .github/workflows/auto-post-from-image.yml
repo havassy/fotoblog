@@ -226,8 +226,8 @@ jobs:
                       description = find_text(root, ".//dc:description/rdf:Alt/rdf:li")
                       tags = extract_leaf_tags(root)
 
-                      gps_lat_raw = find_attr(root, NS["exif"], "GPSLatitude")
-                      gps_lon_raw = find_attr(root, NS["exif"], "GPSLongitude")
+                      gps_lat_raw = find_text(root, ".//exif:GPSLatitude") or find_attr(root, NS["exif"], "GPSLatitude")
+                      gps_lon_raw = find_text(root, ".//exif:GPSLongitude") or find_attr(root, NS["exif"], "GPSLongitude")
 
                       lat = parse_gps_coord(gps_lat_raw)
                       lon = parse_gps_coord(gps_lon_raw)

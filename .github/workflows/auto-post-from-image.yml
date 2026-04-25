@@ -11,8 +11,13 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generate-posts:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
@@ -311,6 +316,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-create/update posts from images"
-          git pull --rebase origin main
+          git commit -m "Auto-create/update posts from images [skip ci]"
           git push origin HEAD:main

@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   generate-posts:
@@ -306,6 +306,8 @@ jobs:
       - name: Commit generated posts
         shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -317,4 +319,6 @@ jobs:
           fi
 
           git commit -m "Auto-create/update posts from images [skip ci]"
+
+          git pull --rebase origin main
           git push origin HEAD:main

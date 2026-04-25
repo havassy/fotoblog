@@ -3,8 +3,8 @@ layout: post
 title: "Trnovačko-tó"
 date: 2025-08-06T12:50:33.08
 image: "/assets/images/trnovacko_to.jpg"
-lat: 45.1879
-lon: 18.861112
+lat: 43.250972
+lon: 18.724222
 tags:
   - "Montenegró"
   - "tó"

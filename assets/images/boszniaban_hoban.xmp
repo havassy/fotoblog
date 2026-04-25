@@ -136,7 +136,7 @@
   <crs:Version>17.2</crs:Version>
   <crs:Vibrance>0</crs:Vibrance>
   <crs:VignetteAmount>0</crs:VignetteAmount>
-  <crs:WhiteBalance>As Shot</crs:WhiteBalance>
+  <crs:WhiteBalance>Auto</crs:WhiteBalance>
   <crs:Whites2012>0</crs:Whites2012>
  </rdf:Description>
 
@@ -171,7 +171,50 @@
  </rdf:Description>
 
  <rdf:Description rdf:about=''
+  xmlns:exif='http://ns.adobe.com/exif/1.0/'>
+  <exif:ApertureValue>13166/7763</exif:ApertureValue>
+  <exif:BrightnessValue>107/25</exif:BrightnessValue>
+  <exif:ColorSpace>1</exif:ColorSpace>
+  <exif:DateTimeOriginal>2026-04-02T18:02:59</exif:DateTimeOriginal>
+  <exif:DigitalZoomRatio>1/1</exif:DigitalZoomRatio>
+  <exif:ExifVersion>0220</exif:ExifVersion>
+  <exif:ExposureBiasValue>0/1</exif:ExposureBiasValue>
+  <exif:ExposureMode>0</exif:ExposureMode>
+  <exif:ExposureProgram>2</exif:ExposureProgram>
+  <exif:ExposureTime>1/100</exif:ExposureTime>
+  <exif:FNumber>9/5</exif:FNumber>
+  <exif:Flash rdf:parseType='Resource'>
+   <exif:Fired>False</exif:Fired>
+   <exif:Function>False</exif:Function>
+   <exif:Mode>0</exif:Mode>
+   <exif:RedEyeMode>False</exif:RedEyeMode>
+   <exif:Return>0</exif:Return>
+  </exif:Flash>
+  <exif:FocalLength>27/5</exif:FocalLength>
+  <exif:FocalLengthIn35mmFilm>26</exif:FocalLengthIn35mmFilm>
+  <exif:GPSAltitude>1293/1</exif:GPSAltitude>
+  <exif:GPSAltitudeRef>0</exif:GPSAltitudeRef>
+  <exif:GPSLatitude>43,42.88059N</exif:GPSLatitude>
+  <exif:GPSLongitude>18,52.45152E</exif:GPSLongitude>
+  <exif:ISOSpeedRatings>
+   <rdf:Seq>
+    <rdf:li>50</rdf:li>
+   </rdf:Seq>
+  </exif:ISOSpeedRatings>
+  <exif:MaxApertureValue>13166/7763</exif:MaxApertureValue>
+  <exif:MeteringMode>2</exif:MeteringMode>
+  <exif:PixelXDimension>4032</exif:PixelXDimension>
+  <exif:PixelYDimension>1816</exif:PixelYDimension>
+  <exif:Saturation>0</exif:Saturation>
+  <exif:SceneCaptureType>0</exif:SceneCaptureType>
+  <exif:Sharpness>0</exif:Sharpness>
+  <exif:ShutterSpeedValue>0/1</exif:ShutterSpeedValue>
+  <exif:WhiteBalance>0</exif:WhiteBalance>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
   xmlns:exifEX='http://cipa.jp/exif/1.0/'>
+  <exifEX:ImageUniqueID>R12LLMF05VM</exifEX:ImageUniqueID>
   <exifEX:LensModel>Samsung Galaxy S20 Rear Main Camera</exifEX:LensModel>
   <exifEX:PhotographicSensitivity>50</exifEX:PhotographicSensitivity>
  </rdf:Description>
@@ -204,16 +247,52 @@
  </rdf:Description>
 
  <rdf:Description rdf:about=''
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+  <pdf:Keywords>Bosznia-Hercegovina, hangulat, hely, hó, időjárás, ország, tél, téma, utca, épített, évszak</pdf:Keywords>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
   xmlns:photoshop='http://ns.adobe.com/photoshop/1.0/'>
-  <photoshop:DateCreated>2026-04-02T18:02:59.534+02:00</photoshop:DateCreated>
+  <photoshop:DateCreated>2026-04-02</photoshop:DateCreated>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:tiff='http://ns.adobe.com/tiff/1.0/'>
+  <tiff:BitsPerSample>
+   <rdf:Seq>
+    <rdf:li>8</rdf:li>
+   </rdf:Seq>
+  </tiff:BitsPerSample>
+  <tiff:Compression>6</tiff:Compression>
+  <tiff:ImageDescription>
+   <rdf:Alt>
+    <rdf:li xml:lang='x-default'>Egy lezárt útszakasz miatt kellett kerülnünk. Volt egy hely, ahol azt hittem, hogy vége, itt éjszakázunk. Bejelzett az olajnyomás, hóvihar volt, jött az este és eszembe jutott, hogy mivel van szállás, nem hoztunk hálózsákot.</rdf:li>
+   </rdf:Alt>
+  </tiff:ImageDescription>
+  <tiff:ImageLength>1816</tiff:ImageLength>
+  <tiff:ImageWidth>4032</tiff:ImageWidth>
+  <tiff:Make>samsung</tiff:Make>
+  <tiff:Model>SM-G980F</tiff:Model>
+  <tiff:Orientation>1</tiff:Orientation>
+  <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+  <tiff:Software>G980FXXSNHYB1</tiff:Software>
+  <tiff:XResolution>72/1</tiff:XResolution>
+  <tiff:YCbCrPositioning>1</tiff:YCbCrPositioning>
+  <tiff:YCbCrSubSampling>
+   <rdf:Seq>
+    <rdf:li>2</rdf:li>
+    <rdf:li>2</rdf:li>
+   </rdf:Seq>
+  </tiff:YCbCrSubSampling>
+  <tiff:YResolution>72/1</tiff:YResolution>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
   xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
-  <xmp:CreateDate>2026-04-02T18:02:59.534</xmp:CreateDate>
+  <xmp:CreateDate>2026-04-02T18:02:59</xmp:CreateDate>
   <xmp:CreatorTool>G980FXXSNHYB1</xmp:CreatorTool>
   <xmp:MetadataDate>2026-04-19T21:36:10+02:00</xmp:MetadataDate>
-  <xmp:ModifyDate>2026-04-02T18:02:59.534+02:00</xmp:ModifyDate>
+  <xmp:ModifyDate>2026-04-02T18:02:59</xmp:ModifyDate>
  </rdf:Description>
 
  <rdf:Description rdf:about=''

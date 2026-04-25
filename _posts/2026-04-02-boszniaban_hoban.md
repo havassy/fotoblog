@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Út közben Boszniában elkapott a tél"
-date: 2026-04-02T18:02:59.534+02:00
+date: 2026-04-02T18:02:59
 image: "/assets/images/boszniaban_hoban.jpg"
 tags:
   - "hó"

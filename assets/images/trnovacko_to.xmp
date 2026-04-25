@@ -16,7 +16,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-06T12:50:33.08"
    xmp:CreateDate="2025-08-06T12:50:33.08"
-   xmp:MetadataDate="2026-04-25T21:54:36+02:00"
+   xmp:MetadataDate="2026-04-25T22:00:08+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -47,8 +47,8 @@
    exif:DateTimeOriginal="2025-08-06T12:50:33.08"
    exif:PixelXDimension="5472"
    exif:PixelYDimension="3648"
-   exif:GPSLatitude="45,11.2740236869N"
-   exif:GPSLongitude="18,51.6667311924E"
+   exif:GPSLatitude="43,15.0583333333N"
+   exif:GPSLongitude="18,43.4533333333E"
    exif:GPSVersionID="2.2.0.0"
    dc:format="image/x-canon-cr2"
    aux:SerialNumber="873056001511"
@@ -64,7 +64,7 @@
    xmpMM:DocumentID="ED695F5C5455E200A288863297F34A02"
    xmpMM:PreservedFileName="img_0053.cr2"
    xmpMM:OriginalDocumentID="ED695F5C5455E200A288863297F34A02"
-   xmpMM:InstanceID="xmp.iid:fcec3c9b-14d1-2347-91dc-f69934f41ff7"
+   xmpMM:InstanceID="xmp.iid:4e45de80-fc7a-5943-b43e-1c0574f2a51d"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -219,6 +219,11 @@
      <rdf:li xml:lang="x-default">Trnovačko-tó</rdf:li>
     </rdf:Alt>
    </dc:title>
+   <dc:rights>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
+    </rdf:Alt>
+   </dc:rights>
    <dc:subject>
     <rdf:Bag>
      <rdf:li>Montenegró</rdf:li>
@@ -238,8 +243,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:fcec3c9b-14d1-2347-91dc-f69934f41ff7"
-      stEvt:when="2026-04-25T21:54:36+02:00"
+      stEvt:instanceID="xmp.iid:4e45de80-fc7a-5943-b43e-1c0574f2a51d"
+      stEvt:when="2026-04-25T22:00:08+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

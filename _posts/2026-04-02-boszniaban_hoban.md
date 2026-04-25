@@ -3,6 +3,8 @@ layout: post
 title: "Út közben Boszniában elkapott a tél"
 date: 2026-04-02T18:02:59
 image: "/assets/images/boszniaban_hoban.jpg"
+lat: 43.714677
+lon: 18.874192
 tags:
   - "hó"
   - "tél"

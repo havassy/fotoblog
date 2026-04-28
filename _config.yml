@@ -5,3 +5,5 @@ url: "https://havassy.github.io"
 
 markdown: kramdown
 theme: null
+plugins:
+  - jekyll-sitemap

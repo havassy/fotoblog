@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feketefenyő a Perućica őserdőben."
+title: "Feketefenyő a Perućica őserdőben"
 date: 2025-08-08T10:19:41.92
 image: "/assets/images/feketefenyo_perucica.jpg"
 lat: 43.354277

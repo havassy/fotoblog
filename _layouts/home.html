@@ -280,20 +280,21 @@
           loading="lazy"
           decoding="async"
         >
-        <div class="overlay">
-          <div class="overlay-inner">
-            <h2 class="overlay-title">{{ post.title }}</h2>
-            <p class="overlay-meta">{{ post.date | date: "%Y. %m. %d." }}</p>
+  <div class="overlay">
+    <div class="overlay-inner">
+      <h2 class="overlay-title">{{ post.title }}</h2>
+      <p class="overlay-meta">{{ post.date | date: "%Y. %m. %d." }}</p>
 
-            {% if post.tags and post.tags.size > 0 %}
-            <div class="overlay-tags">
-              {% for tag in post.tags limit:3 %}
-                {% if forloop.first == false %} · {% endif %}{{ tag }}
-              {% endfor %}
-            </div>
-            {% endif %}
-          </div>
-        </div>
+      {% assign post_tags = post.tags | default: empty %}
+      {% if post_tags != empty %}
+      <div class="overlay-tags">
+        {% for tag in post_tags limit:3 %}
+          {% if forloop.first == false %} · {% endif %}#{{ tag }}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
       </a>
       {% endfor %}
     </section>

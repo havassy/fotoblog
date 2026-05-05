@@ -1,6 +1,6 @@
 ---
 layout: tag
 title: erdő
-tag: erdo
+tag: erdő
 permalink: /tags/erdo/
 ---

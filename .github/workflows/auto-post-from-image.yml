@@ -145,10 +145,6 @@ jobs:
                           leaves.append(parts[-1])
                   return unique_keep_order(leaves)
 
-              weighted = find_list(root, ".//lr:weightedFlatSubject/rdf:Bag/rdf:li")
-              if weighted:
-                  return unique_keep_order(weighted)
-
               return []
 
           def find_existing_post(slug):

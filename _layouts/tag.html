@@ -218,8 +218,12 @@
     <header class="page-header">
       <h1>Címkeoldal</h1>
       <div class="intro">
-        <p><span class="tag-chip">#{{ page.tag }}</span></p>
-        <p>Ehhez a címkéhez {{ tagged_posts.size }} fotóbejegyzés tartozik.</p>
+        <p><span class="tag-chip">#{{ page.title }}</span></p>
+        {% if tagged_posts and tagged_posts.size > 0 %}
+          <p>Ehhez a címkéhez {{ tagged_posts.size }} fotóbejegyzés tartozik.</p>
+        {% else %}
+          <p>Ehhez a címkéhez még nincs megjeleníthető fotóbejegyzés.</p>
+        {% endif %}
       </div>
     </header>
 

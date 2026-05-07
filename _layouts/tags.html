@@ -1,9 +1,34 @@
 <!doctype html>
 <html lang="hu">
 <head>
+  {% assign sorted_tags = site.tags | sort %}
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} – {{ site.title }}</title>
+
+  <title>{{ page.title | default: "Címkék" | escape }} – {{ site.title }}</title>
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+    <meta property="og:description" content="{{ page.description | escape }}">
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+  {% else %}
+    <meta name="description" content="A fotóblog összes címkéje egy helyen – témák, tájak, városok és bejegyzésszámok.">
+    <meta property="og:description" content="A fotóblog összes címkéje egy helyen – témák, tájak, városok és bejegyzésszámok.">
+    <meta name="twitter:description" content="A fotóblog összes címkéje egy helyen – témák, tájak, városok és bejegyzésszámok.">
+  {% endif %}
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:title" content="{{ page.title | default: 'Címkék' | escape }} – {{ site.title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:locale" content="hu_HU">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: 'Címkék' | escape }} – {{ site.title | escape }}">
+
   <style>
     :root{
       --bg:#f6f3ee;
@@ -179,27 +204,27 @@
 
   <div class="wrap">
     <header class="page-header">
-      <h1>{{ page.title }}</h1>
+      <h1>{{ page.title | default: "Címkék" }}</h1>
       <div class="intro">
-        <p>Itt találod az összes címkét, és hogy hány bejegyzés tartozik hozzájuk.  
-          A link akkor működik, ha egynél több poszban megjelenik az adott címke (és ha megcsináltam a tag oldalt :) )</p>
+        {% if page.description %}
+          <p>{{ page.description }}</p>
+        {% else %}
+          <p>Itt találod az összes címkét és azt, hogy hány bejegyzés tartozik hozzájuk. A link akkor működik, ha az adott címkéhez elkészült a külön címkeoldal.</p>
+        {% endif %}
       </div>
     </header>
 
-    {% assign sorted_tags = site.tags | sort %}
-
     <section class="tags-grid" aria-label="Címkék listája">
       {% for tag_tuple in sorted_tags %}
-      {% assign tag_name = tag_tuple[0] %}
-      {% assign tag_posts = tag_tuple[1] %}
+        {% assign tag_name = tag_tuple[0] %}
+        {% assign tag_posts = tag_tuple[1] %}
 
-      {% unless tag_name == "hely" or tag_name == "ország" or tag_name == "település" or tag_name == "tájnév" %}
-      <a class="tag-card" href="{{ site.baseurl }}/tags/{{ tag_name | slugify: 'latin' }}/">
-        <p class="tag-name">#{{ tag_name }}</p>
-        <p class="tag-count">{{ tag_posts | size }} bejegyzés</p>
-      </a>
-      {% endunless %}
-
+        {% unless tag_name == "hely" or tag_name == "ország" or tag_name == "település" or tag_name == "tájnév" %}
+        <a class="tag-card" href="{{ '/tags/' | append: tag_name | slugify: 'latin' | append: '/' | relative_url }}">
+          <p class="tag-name">#{{ tag_name }}</p>
+          <p class="tag-count">{{ tag_posts | size }} bejegyzés</p>
+        </a>
+        {% endunless %}
       {% endfor %}
     </section>
 

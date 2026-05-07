@@ -1,9 +1,45 @@
 <!doctype html>
 <html lang="hu">
 <head>
+  {% assign tagged_posts = site.tags[page.tag] | where_exp: "post", "post.image" %}
+  {% assign first_tagged_post = tagged_posts | first %}
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Címke: {{ page.tag }} – {{ site.title }}</title>
+
+  <title>{{ page.title | default: page.tag | escape }} – {{ site.title }}</title>
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+    <meta property="og:description" content="{{ page.description | escape }}">
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+  {% else %}
+    <meta name="description" content="Fotóbejegyzések a(z) {{ page.title | default: page.tag | escape }} címkéhez – {{ site.description | escape }}">
+    <meta property="og:description" content="Fotóbejegyzések a(z) {{ page.title | default: page.tag | escape }} címkéhez – {{ site.description | escape }}">
+    <meta name="twitter:description" content="Fotóbejegyzések a(z) {{ page.title | default: page.tag | escape }} címkéhez – {{ site.description | escape }}">
+  {% endif %}
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:title" content="{{ page.title | default: page.tag | escape }} – {{ site.title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:locale" content="hu_HU">
+
+  {% if first_tagged_post and first_tagged_post.image %}
+    <meta property="og:image" content="{{ first_tagged_post.image | absolute_url }}">
+    <meta property="og:image:alt" content="{{ first_tagged_post.title | escape }}">
+  {% endif %}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: page.tag | escape }} – {{ site.title | escape }}">
+
+  {% if first_tagged_post and first_tagged_post.image %}
+    <meta name="twitter:image" content="{{ first_tagged_post.image | absolute_url }}">
+    <meta name="twitter:image:alt" content="{{ first_tagged_post.title | escape }}">
+  {% endif %}
+
   <style>
     :root{
       --bg:#f6f3ee;
@@ -213,12 +249,13 @@
   </header>
 
   <div class="wrap">
-    {% assign tagged_posts = site.tags[page.tag] | where_exp: "post", "post.image" %}
-
     <header class="page-header">
-      <h1>Címkeoldal</h1>
+      <h1>{{ page.title | default: page.tag }}</h1>
       <div class="intro">
-        <p><span class="tag-chip">#{{ page.title }}</span></p>
+        <p><span class="tag-chip">#{{ page.title | default: page.tag }}</span></p>
+        {% if page.description %}
+          <p>{{ page.description }}</p>
+        {% endif %}
         {% if tagged_posts and tagged_posts.size > 0 %}
           <p>Ehhez a címkéhez {{ tagged_posts.size }} fotóbejegyzés tartozik.</p>
         {% else %}

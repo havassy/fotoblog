@@ -3,7 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{{ page.title }} – {{ site.title }}</title>
+
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  {% else %}
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  {% endif %}
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:title" content="{{ page.title | escape }} – {{ site.title | escape }}">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ page.title | escape }}">
+  {% endif %}
+  
   <style>
     :root{
       --bg:#f6f3ee;
@@ -272,7 +295,7 @@
       </div>
 
       <div class="content">
-        <h2>{{ page.title }}</h2>
+        <h1>{{ page.title }}</h1>
 
         <ul class="meta">
           <li>{{ page.date | date: "%Y. %m. %d." }}</li>

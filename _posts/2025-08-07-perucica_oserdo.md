@@ -9,7 +9,6 @@ tags:
   - "Bosznia-Hercegovina"
   - "Perućica"
   - "fa"
-  - "erdő"
 description: "Kedvenc kiskertünk a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek."
 ---
 

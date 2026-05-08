@@ -279,8 +279,8 @@
     <rdf:li xml:lang='x-default'>Nem is tudom &quot;leg&quot;milyenebb folyó a Drina. Legmindenesebb. Mindig élmény bármit csinálni a Drina mentén.</rdf:li>
    </rdf:Alt>
   </tiff:ImageDescription>
-  <tiff:ImageLength>450</tiff:ImageLength>
-  <tiff:ImageWidth>800</tiff:ImageWidth>
+  <tiff:ImageLength>1080</tiff:ImageLength>
+  <tiff:ImageWidth>1920</tiff:ImageWidth>
   <tiff:Make>samsung</tiff:Make>
   <tiff:Model>SM-G980F</tiff:Model>
   <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
@@ -299,8 +299,8 @@
   xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
   <xmp:CreateDate>2025-08-10T08:32:33</xmp:CreateDate>
   <xmp:CreatorTool>Adobe Photoshop Lightroom Classic 14.2 (Windows)</xmp:CreatorTool>
-  <xmp:MetadataDate>2026-05-07T22:23:57+02:00</xmp:MetadataDate>
-  <xmp:ModifyDate>2026-05-07T22:23:57</xmp:ModifyDate>
+  <xmp:MetadataDate>2026-05-08T08:19:22+02:00</xmp:MetadataDate>
+  <xmp:ModifyDate>2026-05-08T08:19:22</xmp:ModifyDate>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
@@ -316,7 +316,7 @@
    <stRef:documentID>BA49F16474ECDBBAFFD66C44B05B2621</stRef:documentID>
    <stRef:originalDocumentID>BA49F16474ECDBBAFFD66C44B05B2621</stRef:originalDocumentID>
   </xmpMM:DerivedFrom>
-  <xmpMM:DocumentID>xmp.did:be71ce10-c802-9744-8d5d-448f5cabb8ca</xmpMM:DocumentID>
+  <xmpMM:DocumentID>xmp.did:5def657f-58e1-6844-a89a-3537c3d5348b</xmpMM:DocumentID>
   <xmpMM:History>
    <rdf:Seq>
     <rdf:li rdf:parseType='Resource'>
@@ -326,13 +326,13 @@
     <rdf:li rdf:parseType='Resource'>
      <stEvt:action>saved</stEvt:action>
      <stEvt:changed>/</stEvt:changed>
-     <stEvt:instanceID>xmp.iid:be71ce10-c802-9744-8d5d-448f5cabb8ca</stEvt:instanceID>
+     <stEvt:instanceID>xmp.iid:5def657f-58e1-6844-a89a-3537c3d5348b</stEvt:instanceID>
      <stEvt:softwareAgent>Adobe Photoshop Lightroom Classic 14.2 (Windows)</stEvt:softwareAgent>
-     <stEvt:when>2026-05-07T22:23:57+02:00</stEvt:when>
+     <stEvt:when>2026-05-08T08:19:22+02:00</stEvt:when>
     </rdf:li>
    </rdf:Seq>
   </xmpMM:History>
-  <xmpMM:InstanceID>xmp.iid:be71ce10-c802-9744-8d5d-448f5cabb8ca</xmpMM:InstanceID>
+  <xmpMM:InstanceID>xmp.iid:5def657f-58e1-6844-a89a-3537c3d5348b</xmpMM:InstanceID>
   <xmpMM:OriginalDocumentID>BA49F16474ECDBBAFFD66C44B05B2621</xmpMM:OriginalDocumentID>
   <xmpMM:PreservedFileName>20250810_083233.jpg</xmpMM:PreservedFileName>
  </rdf:Description>

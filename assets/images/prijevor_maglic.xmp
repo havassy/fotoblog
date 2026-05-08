@@ -16,7 +16,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-09T13:47:18.16"
    xmp:CreateDate="2025-08-09T13:47:18.16"
-   xmp:MetadataDate="2026-05-05T22:18:54+02:00"
+   xmp:MetadataDate="2026-05-08T08:52:49+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -47,8 +47,8 @@
    exif:DateTimeOriginal="2025-08-09T13:47:18.16"
    exif:PixelXDimension="5472"
    exif:PixelYDimension="3648"
-   exif:GPSLatitude="43,16.9966666667N"
-   exif:GPSLongitude="18,43.7283333333E"
+   exif:GPSLatitude="43,17.02524N"
+   exif:GPSLongitude="18,43.31022E"
    exif:GPSVersionID="2.2.0.0"
    dc:format="image/x-canon-cr2"
    aux:SerialNumber="873056001511"
@@ -64,7 +64,7 @@
    xmpMM:DocumentID="B889A48F2133AED1415EF016F8E92808"
    xmpMM:PreservedFileName="img_0151.cr2"
    xmpMM:OriginalDocumentID="B889A48F2133AED1415EF016F8E92808"
-   xmpMM:InstanceID="xmp.iid:3066fde7-429b-dd40-934f-b5a024df27c7"
+   xmpMM:InstanceID="xmp.iid:9c9cdc28-abad-9341-a028-8bc03b06c266"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -226,8 +226,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:3066fde7-429b-dd40-934f-b5a024df27c7"
-      stEvt:when="2026-05-05T22:18:54+02:00"
+      stEvt:instanceID="xmp.iid:9c9cdc28-abad-9341-a028-8bc03b06c266"
+      stEvt:when="2026-05-08T08:52:49+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

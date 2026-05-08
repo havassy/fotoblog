@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Teki a csalitosban"
+date: 2025-10-24T14:20:31.03
+image: "/assets/images/gorog_teknos.jpg"
+lat: 43.262117
+lon: 17.899762
+tags:
+  - "Bosznia-Hercegovina"
+  - "állat"
+description: "Testudo hermanni. A Blagaji vár felé vezető út melleti árokban akadtunk rá. Kis segítséggel kikecmergett szorult helyzetéből és elspurizott a domboldalon."
+---
+
+Testudo hermanni. A Blagaji vár felé vezető út melleti árokban akadtunk rá. Kis segítséggel kikecmergett szorult helyzetéből és elspurizott a domboldalon.

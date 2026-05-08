@@ -85,7 +85,8 @@ permalink: /tags/
       margin-left:16px;
       text-decoration:none;
       color:var(--muted);
-      font-size:0.95rem;
+      font-size:1rem;
+      font-weight:600;
     }
 
     .site-nav a:hover{
@@ -198,15 +199,7 @@ permalink: /tags/
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Kezdőlap</a>
-        <a href="{{ '/tags/' | relative_url }}">Címkék</a>
-      </nav>
-    </div>
-  </header>
+  {% include header.html %}
 
   <div class="wrap">
     <header class="page-header">

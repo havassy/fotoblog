@@ -158,6 +158,20 @@
       font-size:0.95rem;
     }
 
+    .map-link{
+      margin:0 0 16px;
+    }
+
+    .map-link a{
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    .map-link a:hover{
+      text-decoration:underline;
+    }
+
     .content p{
       max-width:70ch;
     }
@@ -402,6 +416,14 @@
         <ul class="meta">
           <li>{{ page.date | date: "%Y. %m. %d." }}</li>
         </ul>
+
+        {% if page.lat and page.lon %}
+          <p class="map-link">
+            <a href="{{ '/map/' | relative_url }}?focus={{ page.url | relative_url | url_encode }}">
+              Megnézem térképen
+            </a>
+          </p>
+        {% endif %}
 
         {{ content }}
 

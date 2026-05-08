@@ -271,7 +271,93 @@
         font-size:1rem;
       }
     }
+
+    /* Kapcsolódó képek – ÁLTALÁNOS STÍLUSOK (minden nézetre) */
+    .related-section {
+      margin-top: 28px;
+    }
+
+    .related-title {
+      margin: 0 0 14px;
+      font-size: 1.2rem;
+      line-height: 1.25;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .related-card {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow);
+    }
+
+    .related-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #e8e2d9;
+    }
+
+    .related-card-body {
+      padding: 12px 14px 14px;
+    }
+
+    .related-card-title {
+      margin: 0 0 6px;
+      font-size: 0.98rem;
+      line-height: 1.3;
+      font-weight: 700;
+    }
+
+    .related-card-meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .related-card-tags {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.35;
+    }
+
+    .related-card:hover .related-card-title {
+      color: var(--accent);
+    }
+
+    /* Kisebb nézetek finomhangolása */
+    @media (max-width: 900px) {
+      .related-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .related-section {
+        margin-top: 24px;
+      }
+
+      .related-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .related-card-body {
+        padding: 12px;
+      }
+    }
   </style>
+  
 </head>
 <body>
   <header class="site-header">
@@ -331,6 +417,68 @@
       </div>
     {% endif %}
 
+    {% assign related_posts = "" | split: "" %}
+
+    {% if page.tags and page.tags.size > 0 %}
+      {% for site_post in site.posts %}
+        {% if site_post.url != page.url and site_post.image and site_post.tags %}
+          {% assign has_common_tag = false %}
+
+          {% for page_tag in page.tags %}
+            {% if site_post.tags contains page_tag %}
+              {% assign has_common_tag = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if has_common_tag %}
+            {% assign related_posts = related_posts | push: site_post %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if related_posts.size > 0 %}
+      <section class="related-section" aria-labelledby="related-title">
+        <h2 id="related-title" class="related-title">Kapcsolódó képek</h2>
+
+        <div class="related-grid">
+          {% for related in related_posts limit: 3 %}
+            {% assign common_tags = "" | split: "" %}
+
+            {% for page_tag in page.tags %}
+              {% if related.tags contains page_tag %}
+                {% assign common_tags = common_tags | push: page_tag %}
+              {% endif %}
+            {% endfor %}
+
+            <a class="related-card" href="{{ related.url | relative_url }}">
+              {% if related.image %}
+                <img
+                  src="{{ related.image | relative_url }}"
+                  alt="{{ related.title | escape }}"
+                  loading="lazy"
+                  decoding="async"
+                >
+              {% endif %}
+
+              <div class="related-card-body">
+                <h3 class="related-card-title">{{ related.title }}</h3>
+                <p class="related-card-meta">{{ related.date | date: "%Y. %m. %d." }}</p>
+
+                {% if common_tags.size > 0 %}
+                  <p class="related-card-tags">
+                    Közös címke:
+                    {{ common_tags | slice: 0, 2 | join: ", " }}
+                  </p>
+                {% endif %}
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+        
         <p class="back-link">
           <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
         </p>

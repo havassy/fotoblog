@@ -117,29 +117,50 @@ permalink: /map/
 
   <!-- Posztok koordinátái Liquidből -->
   <script>
-  const photoMarkers = [
-    {% assign first_marker = true %}
-    {% for post in site.posts %}
-      {% if post.lat and post.lon %}
-        {% unless first_marker %},{% endunless %}
-        {
-          title: {{ post.title | jsonify }},
-          url: {{ post.url | relative_url | jsonify }},
-          lat: {{ post.lat }},
-          lon: {{ post.lon }}
-        }
-        {% assign first_marker = false %}
-      {% endif %}
-    {% endfor %}
-   ];
+    const photoMarkers = [
+      {% assign first_marker = true %}
+      {% for post in site.posts %}
+        {% if post.lat and post.lon %}
+          {% unless first_marker %},{% endunless %}
+          {
+            title: {{ post.title | jsonify }},
+            url: {{ post.url | relative_url | jsonify }},
+            lat: {{ post.lat }},
+            lon: {{ post.lon }}
+          }
+          {% assign first_marker = false %}
+        {% endif %}
+      {% endfor %}
+    ];
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const focusedPostUrl = urlParams.get('focus');
   </script>
 
   <!-- Térkép inicializálása -->
   <script>
-    // Ha nincs még egyetlen koordináta sem, ne dobjon hibát
+    const defaultIcon = new L.Icon({
+      iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+      shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
+    const focusedIcon = new L.Icon({
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+      shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
     if (photoMarkers.length === 0) {
       console.warn('Nincs még GPS adat a posztokhoz, a térkép üres lesz.');
-      const map = L.map('map').setView([47.4979, 19.0402], 5); // Budapest környéke
+      const map = L.map('map').setView([47.4979, 19.0402], 5);
+
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; OpenStreetMap contributors'
@@ -147,33 +168,42 @@ permalink: /map/
     } else {
       const map = L.map('map');
 
-      // OSM csempe
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; OpenStreetMap contributors'
       }).addTo(map);
 
       const markers = [];
+      let focusedMarker = null;
+      let focusedData = null;
 
       photoMarkers.forEach(p => {
-        const marker = L.marker([p.lat, p.lon]).addTo(map);
+        const isFocused = focusedPostUrl && p.url === focusedPostUrl;
 
-        // popupban link a posztra
+        const marker = L.marker([p.lat, p.lon], {
+          icon: isFocused ? focusedIcon : defaultIcon
+        }).addTo(map);
+
         marker.bindPopup(`<a href="${p.url}">${p.title}</a>`);
 
-        // vagy ha közvetlen navigációt szeretnél popup nélkül:
-        // marker.on('click', () => { window.location.href = p.url; });
-
         markers.push(marker);
+
+        if (isFocused) {
+          focusedMarker = marker;
+          focusedData = p;
+        }
       });
 
-      // Nézet beállítása az összes markerre egy kis ráhagyással
       const group = L.featureGroup(markers);
       map.fitBounds(group.getBounds(), { padding: [40, 40] });
 
-      // Ha csak egy marker van, adjunk fix zoomot, hogy ne legyen túl közel
       if (photoMarkers.length === 1) {
         map.setZoom(10);
+      }
+
+      if (focusedMarker && focusedData) {
+        map.setView([focusedData.lat, focusedData.lon], 12);
+        focusedMarker.openPopup();
       }
     }
   </script>

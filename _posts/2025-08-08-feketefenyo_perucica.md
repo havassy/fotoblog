@@ -3,8 +3,8 @@ layout: post
 title: "Feketefenyő a Perućica őserdőben."
 date: 2025-08-08T10:19:41.92
 image: "/assets/images/feketefenyo_perucica.jpg"
-lat: 43.354277
-lon: 18.695168
+lat: 43.324087
+lon: 18.701621
 tags:
   - "Bosznia-Hercegovina"
   - "Perućica"

@@ -9,11 +9,6 @@ tags:
   - "Bosznia-Hercegovina"
   - "Foča"
   - "folyó"
-  - "hely"
-  - "ország"
-  - "település"
-  - "táj"
-  - "téma"
 description: "Nem is tudom 'leg'milyenebb folyó a Drina. Legmindenesebb. Mindig élmény bármit csinálni a Drina mentén."
 ---
 

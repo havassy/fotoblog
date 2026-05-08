@@ -237,16 +237,7 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Kezdőlap</a>
-        <a href="{{ '/map/' | relative_url }}">Térkép</a>
-        <a href="{{ '/tags/' | relative_url }}">Címkék</a>        
-      </nav>
-    </div>
-  </header>
+{% include header.html %}
   
   <div class="wrap">
     {% assign posts_with_images = site.posts | where_exp: "post", "post.image" | sort: "date" | reverse %}

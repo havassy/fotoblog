@@ -136,6 +136,21 @@ jobs:
               return out
 
           def extract_leaf_tags(root):
+              GENERIC_TAGS = {
+                  "ország",
+                  "hely",
+                  "település",
+                  "téma",
+                  "hangulat",
+                  "évszak",
+                  "időjárás",
+                  "épített",
+                  "táj",
+              }
+
+              def filter_generic(items):
+                  return [item for item in items if item not in GENERIC_TAGS]
+
               hierarchical = find_list(root, ".//lr:hierarchicalSubject/rdf:Bag/rdf:li")
               if hierarchical:
                   leaves = []
@@ -143,15 +158,15 @@ jobs:
                       parts = [clean_text(p) for p in item.split("|") if clean_text(p)]
                       if parts:
                           leaves.append(parts[-1])
-                  return unique_keep_order(leaves)
+                  return unique_keep_order(filter_generic(leaves))
 
               dc_subject = find_list(root, ".//dc:subject/rdf:Bag/rdf:li")
               if dc_subject:
-                  return unique_keep_order(dc_subject)
+                  return unique_keep_order(filter_generic(dc_subject))
 
               flat = find_list(root, ".//lr:weightedFlatSubject/rdf:Bag/rdf:li")
               if flat:
-                  return unique_keep_order(flat)
+                  return unique_keep_order(filter_generic(flat))
 
               return []
 

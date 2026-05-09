@@ -1,511 +1,185 @@
-<!doctype html>
-<html lang="hu">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+---
 
-  <title>{{ page.title }} – {{ site.title }}</title>
+<style>
+  .post-wrap{
+    max-width: 900px;
+    margin: 0 auto;
+  }
 
-  {% if page.description %}
-    <meta name="description" content="{{ page.description | escape }}">
-    <meta property="og:description" content="{{ page.description | escape }}">
-  {% else %}
-    <meta name="description" content="{{ site.description | escape }}">
-    <meta property="og:description" content="{{ site.description | escape }}">
-  {% endif %}
+  .post-header{
+    margin-bottom: 24px;
+  }
 
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  .post-title{
+    margin: 0 0 10px;
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.1;
+  }
 
-  <meta property="og:title" content="{{ page.title | escape }} – {{ site.title | escape }}">
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:site_name" content="{{ site.title | escape }}">
-  <meta property="og:locale" content="hu_HU">
+  .post-meta{
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
 
-  {% if page.image %}
-    <meta property="og:image" content="{{ page.image | absolute_url }}">
-    <meta property="og:image:alt" content="{{ page.title | escape }}">
-  {% endif %}
+  .post-description{
+    margin: 14px 0 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title | escape }} – {{ site.title | escape }}">
+  .post-hero{
+    margin: 0 0 28px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #e8e2d9;
+    box-shadow: var(--shadow);
+  }
 
-  {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description | escape }}">
-  {% else %}
-    <meta name="twitter:description" content="{{ site.description | escape }}">
-  {% endif %}
+  .post-hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
-  {% if page.image %}
-    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
-    <meta name="twitter:image:alt" content="{{ page.title | escape }}">
-  {% endif %}
-  
-  <style>
-    :root{
-      --bg:#f6f3ee;
-      --surface:#fffdf9;
-      --border:#ddd6cd;
-      --text:#2a2621;
-      --muted:#746f68;
-      --accent:#0d6b6f;
-      --radius:16px;
-      --shadow:0 8px 24px rgba(0,0,0,0.08);
+  .post-content{
+    font-size: 1.05rem;
+  }
+
+  .post-content > :first-child{
+    margin-top: 0;
+  }
+
+  .post-content p,
+  .post-content ul,
+  .post-content ol,
+  .post-content blockquote{
+    margin: 0 0 1.1em;
+  }
+
+  .post-content h2,
+  .post-content h3,
+  .post-content h4{
+    margin: 1.6em 0 0.6em;
+    line-height: 1.2;
+  }
+
+  .post-content a{
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .post-content a:hover{
+    text-decoration: underline;
+  }
+
+  .post-tags{
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
+
+  .post-tags a{
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .post-tags a:hover{
+    text-decoration: underline;
+  }
+
+  .post-nav{
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .post-nav a{
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .post-nav a:hover{
+    text-decoration: underline;
+  }
+
+  .post-nav-prev,
+  .post-nav-next{
+    flex: 1 1 0;
+  }
+
+  .post-nav-next{
+    text-align: right;
+  }
+
+  @media (max-width: 640px){
+    .post-nav{
+      flex-direction: column;
     }
 
-    *{box-sizing:border-box;}
-
-    body{
-      margin:0;
-      font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.6;
+    .post-nav-next{
+      text-align: left;
     }
+  }
+</style>
 
-    .site-header{
-      background:#f0ebe3;
-      border-bottom:1px solid var(--border);
-    }
+<article class="post-wrap">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%Y. %m. %d." }}</p>
 
-    .site-header-inner{
-      max-width:1200px;
-      margin:0 auto;
-      padding:10px 24px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-    }
-
-    .site-title{
-      font-weight:700;
-      text-decoration:none;
-      color:var(--text);
-    }
-
-    .site-title:hover{
-      color:var(--accent);
-    }
-
-    .site-nav a{
-      margin-left:16px;
-      text-decoration:none;
-      color:var(--muted);
-      font-size:0.95rem;
-    }
-
-    .site-nav a:hover{
-      color:var(--accent);
-    }
-
-    .wrap{
-      max-width:900px;
-      margin:0 auto;
-      padding:24px;
-    }
-
-    .page-header{
-      padding:24px 0 12px;
-    }
-
-    h1{
-      margin:0 0 8px;
-      font-size:2rem;
-      line-height:1.15;
-    }
-
-    .lead{
-      margin:0;
-      color:var(--muted);
-    }
-
-    article{
-      margin-top:24px;
-      background:var(--surface);
-      border:1px solid var(--border);
-      border-radius:16px;
-      overflow:hidden;
-      box-shadow:var(--shadow);
-    }
-
-    img{
-      display:block;
-      width:100%;
-      height:auto;
-      background:#e8e2d9;
-    }
-
-    .content{
-      padding:20px;
-    }
-
-    h2{
-      margin:0 0 8px;
-      font-size:1.6rem;
-      line-height:1.2;
-    }
-
-    .meta{
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-      margin:0 0 14px;
-      padding:0;
-      list-style:none;
-      color:var(--muted);
-      font-size:0.95rem;
-    }
-
-    .map-link{
-      margin:0 0 16px;
-    }
-
-    .map-link a{
-      color:var(--accent);
-      text-decoration:none;
-      font-weight:600;
-    }
-
-    .map-link a:hover{
-      text-decoration:underline;
-    }
-
-    .content p{
-      max-width:70ch;
-    }
-
-    .tags{
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-      margin-top:16px;
-    }
-
-    .tag{
-      display:inline-block;
-      padding:6px 10px;
-      border-radius:999px;
-      background:#e7f1f1;
-      color:var(--accent);
-      font-size:0.9rem;
-      text-decoration:none;
-    }
-
-    .tag:hover{
-      background:#d9ebeb;
-    }
-
-    .back-link{
-      margin-top:18px;
-    }
-
-    .back-link a{
-      text-decoration:none;
-      color:var(--accent);
-      font-weight:600;
-    }
-
-    .back-link a:hover{
-      text-decoration:underline;
-    }
-
-    .post-article{
-      position:relative;
-    }
-
-    .image-with-nav{
-      position:relative;
-    }
-
-    .image-with-nav img{
-      display:block;
-      width:100%;
-      height:auto;
-    }
-
-    .post-arrow{
-      position:absolute;
-      top:50%;
-      transform:translateY(-50%);
-      padding:8px 10px;
-      border-radius:999px;
-      background:rgba(0,0,0,0.45);
-      color:#fff;
-      text-decoration:none;
-      font-size:1.2rem;
-      line-height:1;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
-
-    .post-arrow.prev{
-      left:10px;
-    }
-
-    .post-arrow.next{
-      right:10px;
-    }
-
-    .post-arrow:hover{
-      background:rgba(0,0,0,0.7);
-    }
-
-    @media (max-width: 640px){
-      .site-header-inner{
-        padding:10px 18px;
-        flex-wrap:wrap;
-        gap:10px;
-      }
-
-      .site-nav a{
-        margin-left:12px;
-      }
-
-      .wrap{
-        padding:18px;
-      }
-
-      .content{
-        padding:16px;
-      }
-
-      h1{
-        font-size:1.75rem;
-      }
-
-      h2{
-        font-size:1.35rem;
-      }
-
-      .post-arrow{
-        padding:6px 8px;
-        font-size:1rem;
-      }
-    }
-
-    /* Kapcsolódó képek – ÁLTALÁNOS STÍLUSOK (minden nézetre) */
-    .related-section {
-      margin-top: 28px;
-    }
-
-    .related-title {
-      margin: 0 0 14px;
-      font-size: 1.2rem;
-      line-height: 1.25;
-    }
-
-    .related-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-    }
-
-    .related-card {
-      display: block;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      text-decoration: none;
-      color: inherit;
-      box-shadow: var(--shadow);
-    }
-
-    .related-card img {
-      display: block;
-      width: 100%;
-      height: auto;
-      background: #e8e2d9;
-    }
-
-    .related-card-body {
-      padding: 12px 14px 14px;
-    }
-
-    .related-card-title {
-      margin: 0 0 6px;
-      font-size: 0.98rem;
-      line-height: 1.3;
-      font-weight: 700;
-    }
-
-    .related-card-meta {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    .related-card-tags {
-      margin-top: 6px;
-      color: var(--muted);
-      font-size: 0.85rem;
-      line-height: 1.35;
-    }
-
-    .related-card:hover .related-card-title {
-      color: var(--accent);
-    }
-
-    /* Kisebb nézetek finomhangolása */
-    @media (max-width: 900px) {
-      .related-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 640px) {
-      .related-section {
-        margin-top: 24px;
-      }
-
-      .related-grid {
-        grid-template-columns: 1fr;
-        gap: 14px;
-      }
-
-      .related-card-body {
-        padding: 12px;
-      }
-    }
-  </style>
-  
-</head>
-<body>
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Kezdőlap</a>
-        <a href="{{ '/map/' | relative_url }}">Térkép</a>
-        <a href="{{ '/tags/' | relative_url }}">Címkék</a>
-      </nav>
-    </div>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
-  <div class="wrap">
-    <article class="post-article">
-      <div class="image-with-nav">
-        {% if page.next %}
-        <a class="post-arrow prev" href="{{ page.next.url | relative_url }}" aria-label="Előző bejegyzés">
-          &larr;
-        </a>
-        {% endif %}
-
   {% if page.image %}
-  <img
-    src="{{ page.image | relative_url }}"
-    alt="{{ page.title }}"
-    loading="lazy"
-    decoding="async"
-  />
+    <figure class="post-hero">
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.title }}"
+        loading="eager"
+        decoding="async"
+      >
+    </figure>
   {% endif %}
 
-        {% if page.previous %}
-        <a class="post-arrow next" href="{{ page.previous.url | relative_url }}" aria-label="Következő bejegyzés">
-          &rarr;
-        </a>
-        {% endif %}
-      </div>
-
-      <div class="content">
-        <h1>{{ page.title }}</h1>
-
-        <ul class="meta">
-          <li>{{ page.date | date: "%Y. %m. %d." }}</li>
-        </ul>
-
-        {% if page.lat and page.lon %}
-          <p class="map-link">
-            <a href="{{ '/map/' | relative_url }}?focus={{ page.url | relative_url | url_encode }}">
-              Megnézem térképen
-            </a>
-          </p>
-        {% endif %}
-
-        {{ content }}
-
-    {% if page.tags and page.tags.size > 0 %}
-      {% assign sorted_tags = page.tags | sort %}
-      <div class="tags">
-        {% for tag in sorted_tags %}
-          {% assign tag_slug = tag | slugify: 'latin' %}
-          <a class="tag" href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">
-            #{{ tag }}
-          </a>
-        {% endfor %}
-      </div>
-    {% endif %}
-
-    {% assign related_posts = "" | split: "" %}
-
-    {% if page.tags and page.tags.size > 0 %}
-      {% for site_post in site.posts %}
-        {% if site_post.url != page.url and site_post.image and site_post.tags %}
-          {% assign has_common_tag = false %}
-
-          {% for page_tag in page.tags %}
-            {% if site_post.tags contains page_tag %}
-              {% assign has_common_tag = true %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-
-          {% if has_common_tag %}
-            {% assign related_posts = related_posts | push: site_post %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    {% if related_posts.size > 0 %}
-      <section class="related-section" aria-labelledby="related-title">
-        <h2 id="related-title" class="related-title">Kapcsolódó képek</h2>
-
-        <div class="related-grid">
-          {% for related in related_posts limit: 3 %}
-            {% assign common_tags = "" | split: "" %}
-
-            {% for page_tag in page.tags %}
-              {% if related.tags contains page_tag %}
-                {% assign common_tags = common_tags | push: page_tag %}
-              {% endif %}
-            {% endfor %}
-
-            <a class="related-card" href="{{ related.url | relative_url }}">
-              {% if related.image %}
-                <img
-                  src="{{ related.image | relative_url }}"
-                  alt="{{ related.title | escape }}"
-                  loading="lazy"
-                  decoding="async"
-                >
-              {% endif %}
-
-              <div class="related-card-body">
-                <h3 class="related-card-title">{{ related.title }}</h3>
-                <p class="related-card-meta">{{ related.date | date: "%Y. %m. %d." }}</p>
-
-                {% if common_tags.size > 0 %}
-                  <p class="related-card-tags">
-                    Közös címke:
-                    {{ common_tags | slice: 0, 2 | join: ", " }}
-                  </p>
-                {% endif %}
-              </div>
-            </a>
-          {% endfor %}
-        </div>
-      </section>
-    {% endif %}
-        
-        <p class="back-link">
-          <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
-        </p>
-      </div>
-    </article>
+  <div class="post-content">
+    {{ content }}
   </div>
-</body>
-</html>
+
+  {% assign post_tags = page.tags | default: empty %}
+  {% if post_tags != empty %}
+    <div class="post-tags">
+      Címkék:
+      {% for tag in post_tags %}
+        {% if forloop.first == false %} · {% endif %}
+        <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if page.previous or page.next %}
+    <nav class="post-nav" aria-label="Bejegyzések közti navigáció">
+      <div class="post-nav-prev">
+        {% if page.next %}
+          <a href="{{ page.next.url | relative_url }}">&larr; {{ page.next.title }}</a>
+        {% endif %}
+      </div>
+
+      <div class="post-nav-next">
+        {% if page.previous %}
+          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &rarr;</a>
+        {% endif %}
+      </div>
+    </nav>
+  {% endif %}
+</article>

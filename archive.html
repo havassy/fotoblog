@@ -39,7 +39,22 @@ permalink: /archive/
   }
 
   .intro p{
-    margin:0;
+    margin:0 0 10px;
+  }
+
+  .intro p:last-child{
+    margin-bottom:0;
+  }
+
+  .intro-count{
+    margin-top:12px;
+    color:var(--text);
+    font-size:0.98rem;
+  }
+
+  .intro-count strong{
+    color:var(--accent);
+    font-weight:700;
   }
 
   .archive{
@@ -56,10 +71,21 @@ permalink: /archive/
   }
 
   .archive-year h2{
-    margin:0 0 12px;
+    margin:0 0 8px;
     font-size:1.35rem;
     line-height:1.2;
     color:var(--text);
+  }
+
+  .archive-year-meta{
+    margin:0 0 14px;
+    color:var(--text);
+    font-size:0.98rem;
+  }
+
+  .archive-year-meta strong{
+    color:var(--accent);
+    font-weight:700;
   }
 
   .archive-list{
@@ -114,15 +140,18 @@ permalink: /archive/
   }
 </style>
 
+{% assign posts = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
+
 <div class="wrap">
   <header class="page-header">
     <h1>{{ page.title }}</h1>
     <div class="intro">
       <p>Év szerinti archívum, időrendben rendezett fotóbejegyzésekkel.</p>
+      <p class="intro-count">
+        Posztok / napok száma: <strong>{{ posts.size }}</strong>
+      </p>
     </div>
   </header>
-
-  {% assign posts = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
 
   {% if posts.size > 0 %}
     <section class="archive" aria-label="Év szerinti archívum">
@@ -137,8 +166,13 @@ permalink: /archive/
             </section>
           {% endunless %}
 
+          {% assign posts_in_year = posts | where_exp: "p", "p.date | date: '%Y' == year" %}
+
           <section class="archive-year">
             <h2>{{ year }}</h2>
+            <p class="archive-year-meta">
+              Posztok / napok száma: <strong>{{ posts_in_year.size }}</strong>
+            </p>
             <ul class="archive-list">
             {% assign current_year = year %}
         {% endif %}

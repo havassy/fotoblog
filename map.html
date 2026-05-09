@@ -4,172 +4,22 @@ title: Térképes nézet
 permalink: /map/
 ---
 
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-  crossorigin=""
->
-
-<style>
-  .map-wrap{
-    max-width:1200px;
-    margin:0 auto;
-  }
-
-  .page-header{
-    padding:24px 0 20px;
-  }
-
-  .page-header h1{
-    margin:0 0 10px;
-    font-size:clamp(2rem, 3vw, 3rem);
-    line-height:1.1;
-  }
-
-  .intro{
-    max-width:760px;
-    color:var(--muted);
-    font-size:1.05rem;
-  }
-
-  .intro p{
-    margin:0 0 10px;
-  }
-
-  .intro p:last-child{
-    margin-bottom:0;
-  }
-
-  .map-card{
-    margin-top:24px;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:var(--radius);
-    overflow:hidden;
-    box-shadow:var(--shadow);
-  }
-
-  #map{
-    width:100%;
-    height:560px;
-    background:#e8e2d9;
-  }
-
-  .map-links{
-    display:flex;
-    flex-wrap:wrap;
-    gap:14px;
-    margin-top:24px;
-  }
-
-  .map-links a{
-    text-decoration:none;
-    color:var(--accent);
-    font-weight:600;
-  }
-
-  .map-links a:hover{
-    text-decoration:underline;
-  }
-
-  @media (max-width: 640px){
-    #map{
-      height:420px;
-    }
-  }
-</style>
-
-<div class="map-wrap">
-  <header class="page-header">
-    <h1>{{ page.title }}</h1>
-
-    <div class="intro">
-      <p>
-        Itt látod térképen azokat a helyeket, ahonnan fotók kerültek fel a blogra.
-        A jelölőkre kattintva a megfelelő bejegyzés nyílik meg.
-      </p>
-    </div>
+<div class="map-wrap" style="max-width:1200px;margin:0 auto;">
+  <header class="page-header" style="padding:24px 0 20px;">
+    <h1 style="margin:0 0 10px;font-size:clamp(2rem,3vw,3rem);line-height:1.1;">
+      {{ page.title }}
+    </h1>
+    <p style="max-width:760px;color:var(--muted);font-size:1.05rem;margin:0;">
+      Itt látod térképen azokat a helyeket, ahonnan fotók kerültek fel a blogra.
+      A jelölőkre kattintva a megfelelő bejegyzés nyílik meg.
+    </p>
   </header>
 
-  <section class="map-card" aria-label="Fotóhelyszínek térképe">
-    <div id="map"></div>
-  </section>
+  <p>Ideiglenes egyszerű térképoldal a build teszteléséhez.</p>
 
-  <div class="map-links">
-    <a href="{{ '/tags/' | relative_url }}">Vissza a címkékhez</a>
-    <a href="{{ '/' | relative_url }}">Vissza a főoldalra</a>
-  </div>
+  <p style="margin-top:24px;">
+    <a href="{{ '/' | relative_url }}" style="color:var(--accent);font-weight:600;text-decoration:none;">
+      &larr; Vissza a főoldalra
+    </a>
+  </p>
 </div>
-
-<script
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-  crossorigin=""
-></script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const posts = [
-      {% assign map_posts = site.posts | where_exp: "post", "post.image and post.lat and post.lon" %}
-      {% for post in map_posts %}
-        {
-          title: {{ post.title | jsonify }},
-          url: {{ post.url | relative_url | jsonify }},
-          image: {{ post.image | relative_url | jsonify }},
-          lat: {{ post.lat | jsonify }},
-          lon: {{ post.lon | jsonify }},
-          date: {{ post.date | date: "%Y. %m. %d." | jsonify }}
-        }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ];
-
-    const map = L.map('map');
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap közreműködők'
-    }).addTo(map);
-
-    if (posts.length > 0) {
-      const bounds = [];
-
-      posts.forEach(function (post) {
-        const popupHtml = `
-          <div style="max-width:220px;">
-            ${post.image ? `<img src="${post.image}" alt="${post.title}" style="width:100%;height:auto;border-radius:10px;margin-bottom:10px;">` : ''}
-            <strong style="display:block;margin-bottom:6px;">${post.title}</strong>
-            <div style="color:#746f68;font-size:0.92rem;margin-bottom:8px;">${post.date}</div>
-            <a href="${post.url}" style="color:#0d6b6f;text-decoration:none;font-weight:600;">Megnyitom a bejegyzést</a>
-          </div>
-        `;
-
-        L.marker([post.lat, post.lon])
-          .addTo(map)
-          .bindPopup(popupHtml);
-
-        bounds.push([post.lat, post.lon]);
-      });
-
-      map.fitBounds(bounds, { padding: [30, 30] });
-
-      if (bounds.length === 1) {
-        map.setZoom(9);
-      }
-
-      const urlParams = new URLSearchParams(window.location.search);
-      const focus = urlParams.get('focus');
-
-      if (focus) {
-        const matched = posts.find(function (post) {
-          return post.url === focus;
-        });
-
-        if (matched) {
-          map.setView([matched.lat, matched.lon], 11);
-        }
-      }
-    } else {
-      map.setView([44.5, 17.8], 6);
-    }
-  });
-</script>

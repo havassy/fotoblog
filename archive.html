@@ -4,38 +4,162 @@ title: Archívum
 permalink: /archive/
 ---
 
+<style>
+  :root{
+    --bg:#f6f3ee;
+    --surface:#fffdf9;
+    --border:#ddd6cd;
+    --text:#2a2621;
+    --muted:#746f68;
+    --accent:#0d6b6f;
+    --radius:16px;
+    --shadow:0 8px 24px rgba(0,0,0,0.08);
+  }
+
+  .wrap{
+    max-width:1200px;
+    margin:0 auto;
+    padding:24px;
+  }
+
+  .page-header{
+    padding:24px 0 20px;
+  }
+
+  .page-header h1{
+    margin:0 0 10px;
+    font-size:clamp(2rem, 3vw, 3rem);
+    line-height:1.1;
+  }
+
+  .intro{
+    max-width:760px;
+    color:var(--muted);
+    font-size:1.05rem;
+  }
+
+  .intro p{
+    margin:0;
+  }
+
+  .archive{
+    margin-top:28px;
+  }
+
+  .archive-year{
+    margin-bottom:24px;
+    padding:16px 18px 18px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+  }
+
+  .archive-year h2{
+    margin:0 0 12px;
+    font-size:1.35rem;
+    line-height:1.2;
+    color:var(--text);
+  }
+
+  .archive-list{
+    margin:0;
+    padding-left:20px;
+  }
+
+  .archive-list li{
+    margin:0 0 8px;
+    color:var(--text);
+  }
+
+  .archive-list li:last-child{
+    margin-bottom:0;
+  }
+
+  .archive-list a{
+    color:var(--accent);
+    text-decoration:none;
+  }
+
+  .archive-list a:hover{
+    text-decoration:underline;
+  }
+
+  .archive-date{
+    color:var(--muted);
+  }
+
+  .back-link{
+    margin-top:24px;
+  }
+
+  .back-link a{
+    text-decoration:none;
+    color:var(--accent);
+    font-weight:600;
+  }
+
+  .back-link a:hover{
+    text-decoration:underline;
+  }
+
+  @media (max-width: 640px){
+    .wrap{
+      padding:18px;
+    }
+
+    .archive-year{
+      padding:14px 14px 16px;
+    }
+  }
+</style>
+
 <div class="wrap">
-  <h1>{{ page.title }}</h1>
-  <p>Év szerinti archívum.</p>
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    <div class="intro">
+      <p>Év szerinti archívum, időrendben rendezett fotóbejegyzésekkel.</p>
+    </div>
+  </header>
 
   {% assign posts = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
 
   {% if posts.size > 0 %}
-    {% assign current_year = "" %}
+    <section class="archive" aria-label="Év szerinti archívum">
+      {% assign current_year = "" %}
 
-    {% for post in posts %}
-      {% assign year = post.date | date: "%Y" %}
+      {% for post in posts %}
+        {% assign year = post.date | date: "%Y" %}
 
-      {% if year != current_year %}
-        {% unless forloop.first %}
-          </ul>
-        {% endunless %}
+        {% if year != current_year %}
+          {% unless forloop.first %}
+              </ul>
+            </section>
+          {% endunless %}
 
-        <h2>{{ year }}</h2>
-        <ul>
-        {% assign current_year = year %}
-      {% endif %}
+          <section class="archive-year">
+            <h2>{{ year }}</h2>
+            <ul class="archive-list">
+            {% assign current_year = year %}
+        {% endif %}
 
-      <li>
-        {{ post.date | date: "%Y. %m. %d." }} –
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </li>
+        <li>
+          <span class="archive-date">{{ post.date | date: "%Y. %m. %d." }}</span>
+          –
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
 
-      {% if forloop.last %}
-        </ul>
-      {% endif %}
-    {% endfor %}
+        {% if forloop.last %}
+            </ul>
+          </section>
+        {% endif %}
+      {% endfor %}
+    </section>
   {% else %}
     <p>Még nincs megjeleníthető bejegyzés az archívumban.</p>
   {% endif %}
+
+  <p class="back-link">
+    <a href="{{ '/' | relative_url }}">&larr; Vissza a főoldalra</a>
+  </p>
 </div>

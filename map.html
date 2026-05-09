@@ -4,8 +4,6 @@ title: Térképes nézet
 permalink: /map/
 ---
 
-{% assign map_posts = site.posts | where_exp: "post", "post.image and post.lat and post.lon" %}
-
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -17,65 +15,54 @@ permalink: /map/
   .map-wrap{
     max-width:1200px;
     margin:0 auto;
+    padding:24px 24px 32px;
   }
 
   .page-header{
     padding:24px 0 20px;
   }
 
-  .page-header h1{
+  .map-wrap h1{
     margin:0 0 10px;
     font-size:clamp(2rem, 3vw, 3rem);
     line-height:1.1;
   }
 
-  .intro{
-    max-width:760px;
+  p.lead{
+    margin:0 0 16px;
     color:var(--muted);
-    font-size:1.05rem;
-  }
-
-  .intro p{
-    margin:0 0 10px;
-  }
-
-  .intro p:last-child{
-    margin-bottom:0;
-  }
-
-  .map-card{
-    margin-top:24px;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:var(--radius);
-    overflow:hidden;
-    box-shadow:var(--shadow);
   }
 
   #map{
     width:100%;
-    height:560px;
-    background:#e8e2d9;
+    height:600px;
+    border-radius:16px;
+    border:1px solid var(--border);
+    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+    overflow:hidden;
   }
 
-  .map-links{
-    display:flex;
-    flex-wrap:wrap;
-    gap:14px;
-    margin-top:24px;
+  .map-legend{
+    margin-top:16px;
+    font-size:0.95rem;
+    color:var(--muted);
   }
 
-  .map-links a{
-    text-decoration:none;
+  .map-legend a{
     color:var(--accent);
+    text-decoration:none;
     font-weight:600;
   }
 
-  .map-links a:hover{
+  .map-legend a:hover{
     text-decoration:underline;
   }
 
   @media (max-width: 640px){
+    .map-wrap{
+      padding:18px;
+    }
+
     #map{
       height:420px;
     }
@@ -85,29 +72,18 @@ permalink: /map/
 <div class="map-wrap">
   <header class="page-header">
     <h1>{{ page.title }}</h1>
-
-    <div class="intro">
-      <p>
-        Itt látod térképen azokat a helyeket, ahonnan fotók kerültek fel a blogra.
-        A jelölőkre kattintva a megfelelő bejegyzés nyílik meg.
-      </p>
-
-      {% if map_posts and map_posts.size > 0 %}
-        <p>Jelenleg {{ map_posts.size }} bejegyzés rendelkezik térképes helyszínnel.</p>
-      {% else %}
-        <p>Jelenleg még nincs olyan bejegyzés, amelyhez térképes helyszín tartozna.</p>
-      {% endif %}
-    </div>
+    <p class="lead">
+      Itt látod térképen azokat a helyeket, ahonnan fotók kerültek fel a blogra.
+      A jelölőkre kattintva a megfelelő bejegyzés nyílik meg.
+    </p>
   </header>
 
-  <section class="map-card" aria-label="Fotóhelyszínek térképe">
-    <div id="map"></div>
-  </section>
+  <div id="map"></div>
 
-  <div class="map-links">
-    <a href="{{ '/tags/' | relative_url }}">Vissza a címkékhez</a>
+  <p class="map-legend">
+    <a href="{{ '/tags/' | relative_url }}">Vissza a címkékhez</a> ·
     <a href="{{ '/' | relative_url }}">Vissza a főoldalra</a>
-  </div>
+  </p>
 </div>
 
 <script
@@ -117,66 +93,92 @@ permalink: /map/
 ></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Az adatokat teljesen JSON-ként adjuk át Liquidből, hogy ne keveredjen a szintaxis.
-    const posts = {{ map_posts | jsonify }};
+  const photoMarkers = [
+    {% assign first_marker = true %}
+    {% for post in site.posts %}
+      {% if post.lat and post.lon %}
+        {% unless first_marker %},{% endunless %}
+        {
+          title: {{ post.title | jsonify }},
+          url: {{ post.url | relative_url | jsonify }},
+          lat: {{ post.lat }},
+          lon: {{ post.lon }}
+        }
+        {% assign first_marker = false %}
+      {% endif %}
+    {% endfor %}
+  ];
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const focusedPostUrl = urlParams.get('focus');
+</script>
+
+<script>
+  const defaultIcon = new L.Icon({
+    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+
+  const focusedIcon = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+
+  if (photoMarkers.length === 0) {
+    console.warn('Nincs még GPS adat a posztokhoz, a térkép üres lesz.');
+    const map = L.map('map').setView([47.4979, 19.0402], 5);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+  } else {
     const map = L.map('map');
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap közreműködők'
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    if (posts.length > 0) {
-      const bounds = [];
+    const markers = [];
+    let focusedMarker = null;
+    let focusedData = null;
 
-      posts.forEach(function (post) {
-        // Biztonság kedvéért ellenőrizzük a koordinátákat
-        if (!post.lat || !post.lon) return;
+    photoMarkers.forEach(function (p) {
+      const isFocused = focusedPostUrl && p.url === focusedPostUrl;
 
-        const imageHtml = post.image
-          ? '<img src="' + post.image + '" alt="' + post.title + '" style="width:100%;height:auto;border-radius:10px;margin-bottom:10px;">'
-          : '';
+      const marker = L.marker([p.lat, p.lon], {
+        icon: isFocused ? focusedIcon : defaultIcon
+      }).addTo(map);
 
-        const popupHtml =
-          '<div style="max-width:220px;">' +
-            imageHtml +
-            '<strong style="display:block;margin-bottom:6px;">' + post.title + '</strong>' +
-            '<div style="color:#746f68;font-size:0.92rem;margin-bottom:8px;">' + post.date + '</div>' +
-            '<a href="' + post.url + '" style="color:#0d6b6f;text-decoration:none;font-weight:600;">Megnyitom a bejegyzést</a>' +
-          '</div>';
+      marker.bindPopup('<a href="' + p.url + '">' + p.title + '</a>');
 
-        L.marker([post.lat, post.lon])
-          .addTo(map)
-          .bindPopup(popupHtml);
+      markers.push(marker);
 
-        bounds.push([post.lat, post.lon]);
-      });
-
-      if (bounds.length > 0) {
-        map.fitBounds(bounds, { padding: [30, 30] });
-
-        if (bounds.length === 1) {
-          map.setZoom(9);
-        }
+      if (isFocused) {
+        focusedMarker = marker;
+        focusedData = p;
       }
+    });
 
-      // Posztból érkező fókusz ( ?focus=/valami/ )
-      const urlParams = new URLSearchParams(window.location.search);
-      const focus = urlParams.get('focus');
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds(), { padding: [40, 40] });
 
-      if (focus) {
-        const matched = posts.find(function (post) {
-          return post.url === focus;
-        });
-
-        if (matched && matched.lat && matched.lon) {
-          map.setView([matched.lat, matched.lon], 11);
-        }
-      }
-    } else {
-      // Ha nincsenek pontok, egy alapértelmezett nézet
-      map.setView([44.5, 17.8], 6);
+    if (photoMarkers.length === 1) {
+      map.setZoom(10);
     }
-  });
+
+    if (focusedMarker && focusedData) {
+      map.setView([focusedData.lat, focusedData.lon], 12);
+      focusedMarker.openPopup();
+    }
+  }
 </script>

@@ -16,7 +16,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2024-07-23T18:33:45.08"
    xmp:CreateDate="2024-07-23T18:33:45.08"
-   xmp:MetadataDate="2026-05-09T21:25:02+02:00"
+   xmp:MetadataDate="2026-05-09T21:30:07+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,11 +64,12 @@
    xmpMM:DocumentID="044BFCE8C2806461DB559BCAFB13EF11"
    xmpMM:PreservedFileName="img_0051.cr2"
    xmpMM:OriginalDocumentID="044BFCE8C2806461DB559BCAFB13EF11"
-   xmpMM:InstanceID="xmp.iid:b36c6995-a925-fd47-8ca1-3c3d0b40af6c"
+   xmpMM:InstanceID="xmp.iid:81c35d57-24aa-c845-a71d-eebe6ac5756c"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Cloudy"
@@ -193,7 +194,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Napleme készülődik a Durmitor felett</rdf:li>
+     <rdf:li xml:lang="x-default">Naplemente készülődik a Durmitor felett</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:subject>
@@ -221,8 +222,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:b36c6995-a925-fd47-8ca1-3c3d0b40af6c"
-      stEvt:when="2026-05-09T21:25:02+02:00"
+      stEvt:instanceID="xmp.iid:81c35d57-24aa-c845-a71d-eebe6ac5756c"
+      stEvt:when="2026-05-09T21:30:07+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

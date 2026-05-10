@@ -281,17 +281,38 @@ layout: default
 
       {{ content }}
 
-      {% if page.tags and page.tags.size > 0 %}
-        {% assign sorted_tags = page.tags | sort %}
-        <div class="tags">
-          {% for tag in sorted_tags %}
-            {% assign tag_slug = tag | slugify: 'latin' %}
-            <a class="tag" href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">
-              #{{ tag }}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
+{% if page.tags and page.tags.size > 0 %}
+  {%- assign country_tags = "Albánia|Bosznia-Hercegovina|Horvátország|Montenegró|Szerbia|Szlovénia|Koszovó|Észak-Macedónia|Macedónia|Magyarország|Románia|Bulgária|Görögország" | split: "|" -%}
+
+  {%- assign country_group = "" | split: "" -%}
+  {%- assign uppercase_group = "" | split: "" -%}
+  {%- assign lowercase_group = "" | split: "" -%}
+
+  {%- for tag in page.tags -%}
+    {%- assign first_char = tag | slice: 0, 1 -%}
+    {%- assign upper = first_char | upcase -%}
+    {%- assign is_upper = first_char == upper -%}
+
+    {%- if country_tags contains tag -%}
+      {%- assign country_group = country_group | push: tag -%}
+    {%- elsif is_upper -%}
+      {%- assign uppercase_group = uppercase_group | push: tag -%}
+    {%- else -%}
+      {%- assign lowercase_group = lowercase_group | push: tag -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign uppercase_group = uppercase_group | sort -%}
+  {%- assign lowercase_group = lowercase_group | sort -%}
+  {%- assign ordered_tags = country_group | concat: uppercase_group | concat: lowercase_group -%}
+
+  <div class="tags">
+    {% for tag in ordered_tags %}
+      {% assign tag_slug = tag | slugify: "latin" %}
+      <a class="tag" href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">#{{ tag }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
 
       {% assign related_posts = "" | split: "" %}
 

@@ -7,7 +7,7 @@ lat: 45.169328
 lon: 17.913706
 tags:
   - "Horvátország"
-  - "napnyugta/kelte"
+  - "napnyugta-kelte"
   - "napszak"
   - "utca"
 description: "Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével."

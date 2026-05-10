@@ -39,14 +39,38 @@ layout: default
         <h2 class="overlay-title">{{ post.title }}</h2>
         <p class="overlay-meta">{{ post.date | date: "%Y. %m. %d." }}</p>
 
-        {% assign post_tags = post.tags | default: empty %}
-        {% if post_tags != empty %}
-        <div class="overlay-tags">
-          {% for tag in post_tags limit:3 %}
-            {% if forloop.first == false %} · {% endif %}#{{ tag }}
-          {% endfor %}
-        </div>
-        {% endif %}
+{% assign post_tags = post.tags | default: empty %}
+
+{% if post_tags != empty %}
+  {%- comment -%}
+    Kiemelt (országjellegű) címkék: nagy kezdőbetűvel kezdődnek.
+    Ezeket szeretnénk elöl látni az overlayben.
+  {%- endcomment -%}
+
+  {%- assign primary_tags = "" | split: "" -%}
+  {%- assign other_tags = "" | split: "" -%}
+
+  {%- for tag in post_tags -%}
+    {%- assign first_char = tag | slice: 0, 1 -%}
+    {%- assign upper = first_char | upcase -%}
+    {%- assign is_upper = first_char == upper -%}
+
+    {%- if is_upper -%}
+      {%- assign primary_tags = primary_tags | push: tag -%}
+    {%- else -%}
+      {%- assign other_tags = other_tags | push: tag -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign ordered_tags = primary_tags | concat: other_tags -%}
+
+  <div class="overlay-tags">
+    {%- for tag in ordered_tags limit: 3 -%}
+      {%- if forloop.first == false %} · {% endif -%}
+      #{{ tag }}
+    {%- endfor -%}
+  </div>
+{% endif %}
       </div>
     </div>
   </a>

@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: hid
-tag: hid
-permalink: /tags/híd/
+title: híd
+tag: híd
+permalink: /tags/hid/
 ---

@@ -42,20 +42,12 @@ layout: default
 {% assign post_tags = post.tags | default: empty %}
 
 {% if post_tags != empty %}
-  {%- comment -%}
-    Kiemelt (országjellegű) címkék: nagy kezdőbetűvel kezdődnek.
-    Ezeket szeretnénk elöl látni az overlayben.
-  {%- endcomment -%}
-
+  {%- assign country_tags = "Albánia|Bosznia-Hercegovina|Horvátország|Montenegró|Szerbia|Szlovénia|Koszovó|Észak-Macedónia|Macedónia|Magyarország|Románia|Bulgária|Görögország" | split: "|" -%}
   {%- assign primary_tags = "" | split: "" -%}
   {%- assign other_tags = "" | split: "" -%}
 
   {%- for tag in post_tags -%}
-    {%- assign first_char = tag | slice: 0, 1 -%}
-    {%- assign upper = first_char | upcase -%}
-    {%- assign is_upper = first_char == upper -%}
-
-    {%- if is_upper -%}
+    {%- if country_tags contains tag -%}
       {%- assign primary_tags = primary_tags | push: tag -%}
     {%- else -%}
       {%- assign other_tags = other_tags | push: tag -%}

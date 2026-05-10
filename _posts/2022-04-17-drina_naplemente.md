@@ -6,7 +6,7 @@ image: "/assets/images/drina_naplemente.jpg"
 lat: 43.956099
 lon: 19.47791
 tags:
-  - "napnyugta/kelte"
+  - "napnyugta-kelte"
   - "Szerbia"
   - "Drina"
   - "folyó"

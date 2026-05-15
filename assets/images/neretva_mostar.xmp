@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-08T15:25:03.83+01:00"
    xmp:CreateDate="2026-04-08T15:25:03.83+01:00"
-   xmp:MetadataDate="2026-04-25T19:32:41+02:00"
+   xmp:MetadataDate="2026-05-15T19:38:26+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="DBFC8016AB840DACFF940AFB4BF07E9F"
    xmpMM:PreservedFileName="b78a0549.cr3"
    xmpMM:OriginalDocumentID="DBFC8016AB840DACFF940AFB4BF07E9F"
-   xmpMM:InstanceID="xmp.iid:f8a8f20d-7e58-0b43-96d5-ac964e36f06a"
+   xmpMM:InstanceID="xmp.iid:0ab3f8b5-cf77-ad45-85eb-5112ccc33df0"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -236,10 +236,14 @@
     <rdf:Bag>
      <rdf:li>Bosznia-Hercegovina</rdf:li>
      <rdf:li>Mostar</rdf:li>
+     <rdf:li>Neretva</rdf:li>
      <rdf:li>ember</rdf:li>
+     <rdf:li>folyó</rdf:li>
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
+     <rdf:li>táj</rdf:li>
+     <rdf:li>tájnév</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
    </dc:subject>
@@ -252,8 +256,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:f8a8f20d-7e58-0b43-96d5-ac964e36f06a"
-      stEvt:when="2026-04-25T19:32:41+02:00"
+      stEvt:instanceID="xmp.iid:0ab3f8b5-cf77-ad45-85eb-5112ccc33df0"
+      stEvt:when="2026-05-15T19:38:26+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -333,13 +337,19 @@
      <rdf:li>település</rdf:li>
      <rdf:li>ember</rdf:li>
      <rdf:li>téma</rdf:li>
+     <rdf:li>folyó</rdf:li>
+     <rdf:li>táj</rdf:li>
+     <rdf:li>Neretva</rdf:li>
+     <rdf:li>tájnév</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Bosznia-Hercegovina</rdf:li>
      <rdf:li>hely|település|Mostar</rdf:li>
+     <rdf:li>hely|tájnév|Neretva</rdf:li>
      <rdf:li>téma|ember</rdf:li>
+     <rdf:li>téma|táj|folyó</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

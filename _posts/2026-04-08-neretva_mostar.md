@@ -8,7 +8,9 @@ lon: 17.812167
 tags:
   - "Bosznia-Hercegovina"
   - "Mostar"
+  - "Neretva"
   - "ember"
+  - "folyó"
 description: "A szűk utcákon sétálva egész a vízpartig el lehet jutni."
 ---
 

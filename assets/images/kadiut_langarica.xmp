@@ -18,7 +18,7 @@
    xmp:ModifyDate="2021-08-04T18:06:33.00"
    xmp:CreateDate="2021-08-04T18:06:33.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-16T21:35:02+02:00"
+   xmp:MetadataDate="2026-05-16T22:08:04+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="AAD4CF3960F3423DE24B215E21B63F90"
    xmpMM:PreservedFileName="img_0898.cr2"
    xmpMM:OriginalDocumentID="AAD4CF3960F3423DE24B215E21B63F90"
-   xmpMM:InstanceID="xmp.iid:457495f1-1365-d543-b638-5db249709b73"
+   xmpMM:InstanceID="xmp.iid:72398176-4b34-4148-8bd1-e2aed8093305"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -223,15 +223,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">18. század elején épült híd a Langarica-szurdok bejáratánál.</rdf:li>
+     <rdf:li xml:lang="x-default">A 18. század elején épült híd a Langarica-szurdok bejáratánál található.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:457495f1-1365-d543-b638-5db249709b73"
-      stEvt:when="2026-05-16T21:35:02+02:00"
+      stEvt:instanceID="xmp.iid:72398176-4b34-4148-8bd1-e2aed8093305"
+      stEvt:when="2026-05-16T22:08:04+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

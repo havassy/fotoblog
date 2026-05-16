@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Albania
-tag: Albania
+title: Albánia
+tag: Albánia
 permalink: /tags/albania/
 ---

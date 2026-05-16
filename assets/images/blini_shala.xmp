@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2021-07-29T18:37:31.32"
    xmp:CreateDate="2021-07-29T18:37:31.32"
-   xmp:MetadataDate="2026-05-16T19:53:40+02:00"
+   xmp:MetadataDate="2026-05-16T22:03:37+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -64,7 +64,7 @@
    xmpMM:DocumentID="F8B08BB5B1C7A971D2AAC7C201A8E24C"
    xmpMM:PreservedFileName="img_0558.cr2"
    xmpMM:OriginalDocumentID="F8B08BB5B1C7A971D2AAC7C201A8E24C"
-   xmpMM:InstanceID="xmp.iid:db1b074b-1183-4b49-80a3-209f26a03854"
+   xmpMM:InstanceID="xmp.iid:67f34b7a-61a3-7d4d-8a8f-7a9ac983dc3d"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -235,24 +235,26 @@
    <dc:subject>
     <rdf:Bag>
      <rdf:li>Albánia</rdf:li>
+     <rdf:li>Shala</rdf:li>
      <rdf:li>folyó</rdf:li>
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>táj</rdf:li>
+     <rdf:li>tájnév</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Pár napja még a Shala-folyó forrásánál, a Kék Szemnél jártunk, most viszont a Shala és a Drin összefolyásától hajóztunk fel a parkig. Földi paradicsomként harangozták be a helyet, ehhez képest több mint egy órát utaztunk egy zajos és büdös hajóval, helyben pedig még a műanyagtól is égetéssel szabadultak meg a helyiek - csalódás volt.</rdf:li>
+     <rdf:li xml:lang="x-default">Pár napja még a Shala-folyó forrásánál, a Kék Szemnél jártunk, most viszont a Shala és a Drin összefolyásától hajóztunk fel a parkig. Földi paradicsomként harangozták be a helyet, ehhez képest több mint egy órát utaztunk egy zajos és büdös hajóval, a parkban pedig még a műanyagtól is égetéssel szabadultak meg a helyiek - csalódás volt.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:db1b074b-1183-4b49-80a3-209f26a03854"
-      stEvt:when="2026-05-16T19:53:40+02:00"
+      stEvt:instanceID="xmp.iid:67f34b7a-61a3-7d4d-8a8f-7a9ac983dc3d"
+      stEvt:when="2026-05-16T22:03:37+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -394,11 +396,14 @@
      <rdf:li>folyó</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>téma</rdf:li>
+     <rdf:li>Shala</rdf:li>
+     <rdf:li>tájnév</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Albánia</rdf:li>
+     <rdf:li>hely|tájnév|Shala</rdf:li>
      <rdf:li>téma|táj|folyó</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>

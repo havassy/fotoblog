@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Kadiut-híd"
+date: 2021-08-04T18:06:33.00
+image: "/assets/images/kadiut_langarica.jpg"
+lat: 40.244309
+lon: 20.432548
+tags:
+  - "Albánia"
+  - "híd"
+description: "18. század elején épült híd a Langarica-szurdok bejáratánál."
+---
+
+18. század elején épült híd a Langarica-szurdok bejáratánál.

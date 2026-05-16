@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Este Beratban"
+date: 2021-08-03T19:57:12.00
+image: "/assets/images/berat_este.jpg"
+lat: 40.708729
+lon: 19.9457
+tags:
+  - "este"
+  - "Albánia"
+  - "Berat"
+  - "utca"
+description: "Mivel az Osumtól délre, Piskovë felé vezető utat már korábban bejártuk (személykocsival), ezért most visszamentünk Beratba, hogy a kerülőutat is megnézzük. Egy esti séta után egy kellemes vendéglőben vacsoráztunk."
+---
+
+Mivel az Osumtól délre, Piskovë felé vezető utat már korábban bejártuk (személykocsival), ezért most visszamentünk Beratba, hogy a kerülőutat is megnézzük. Egy esti séta után egy kellemes vendéglőben vacsoráztunk.

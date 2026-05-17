@@ -1,0 +1,294 @@
+<dialog class="subscribe-modal" data-subscribe-modal aria-labelledby="subscribe-modal-title">
+  <div class="subscribe-modal-card">
+    <button
+      class="subscribe-modal-close"
+      type="button"
+      aria-label="Feliratkozási ablak bezárása"
+      data-subscribe-close
+    >
+      ×
+    </button>
+
+    <div class="subscribe-modal-intro">
+      <h2 id="subscribe-modal-title">Feliratkozás</h2>
+      <p>
+        Kérj e-mail értesítést, ha új bejegyzés kerül fel a blogra.
+      </p>
+    </div>
+
+    <div class="subscribe-embed">
+      <style>
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
+          display: flex !important;
+          flex-direction: column !important;
+          justify-content: center !important;
+          margin-top: 0 !important;
+          padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+          max-width: none !important;
+          border-radius: 6px !important;
+          box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview * {
+          box-sizing: border-box !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
+          width: 100% !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5 {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
+          margin-top: 20px !important;
+          width: 100% !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+          width: 100% !important;
+          height: 40px !important;
+          border-radius: 6px !important;
+          border: 2px solid #e9e8e8 !important;
+          background-color: #fff;
+          outline: none !important;
+          color: #000000 !important;
+          font-family: Arial !important;
+          font-size: 14px !important;
+          font-weight: 400 !important;
+          line-height: 20px !important;
+          text-align: center !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
+          color: #000000 !important;
+          opacity: 1 !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
+          margin-top: 10px !important;
+          width: 100% !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
+          width: 100% !important;
+          height: 40px !important;
+          border: 0 !important;
+          border-radius: 6px !important;
+          line-height: 0 !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
+          cursor: pointer !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
+          color: #231f20 !important;
+          font-family: Arial !important;
+          font-size: 13px !important;
+          font-weight: 400 !important;
+          line-height: 25px !important;
+          text-align: center !important;
+          text-decoration: none !important;
+          display: flex !important;
+          width: 100% !important;
+          justify-content: center !important;
+          align-items: center !important;
+          margin-top: 10px !important;
+        }
+
+        .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line img {
+          margin-left: 10px !important;
+          height: 1.13em !important;
+          max-height: 1.13em !important;
+        }
+      </style>
+
+      <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
+        <form action="https://api.follow.it/subscription-form/S0pYdnVkNnJNaDZKaDZVODdRaHJHL2xrMlM0T1Vnbno0MHZLSzYzdnhDUWhXV1AwTlJKWW0xVkNjQXlDUFJ3YUYwQ3ZzbjFpa0xCUFkzcmFxcmlWd1VjTDU4WmhHRUxia1ZuQkh2ZEpCcVI2V21GcXRTNm9mSVBjTHVxV2IrL0Z8c1hPeDRqUG8zV2FONDkvWDh3RC9ETGUyMDdrRjNCV2wvcXBxeHhnQ09Vcz0=/21" method="post">
+          <div class="form-preview" style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204); position: relative;">
+            <div class="preview-heading">
+              <h5 style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">
+                Get new posts by email:
+              </h5>
+            </div>
+
+            <div class="preview-input-field">
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="Enter your email"
+                spellcheck="false"
+                style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;"
+              >
+            </div>
+
+            <div class="preview-submit-button">
+              <button
+                type="submit"
+                style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <a href="https://follow.it" class="powered-by-line" target="_blank" rel="noopener noreferrer">
+          Powered by
+          <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17">
+        </a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<style>
+  .subscribe-modal {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    max-width: min(92vw, 560px);
+    width: 100%;
+  }
+
+  .subscribe-modal::backdrop {
+    background: rgba(25, 22, 18, 0.58);
+    backdrop-filter: blur(2px);
+  }
+
+  .subscribe-modal-card {
+    position: relative;
+    background: var(--surface, #fffdf9);
+    color: var(--text, #2a2621);
+    border: 1px solid var(--border, #ddd6cd);
+    border-radius: 16px;
+    box-shadow: 0 16px 50px rgba(0, 0, 0, 0.18);
+    padding: 22px 22px 20px;
+  }
+
+  .subscribe-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 38px;
+    height: 38px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted, #746f68);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .subscribe-modal-close:hover {
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--text, #2a2621);
+  }
+
+  .subscribe-modal-intro {
+    margin-bottom: 14px;
+    padding-right: 36px;
+  }
+
+  .subscribe-modal-intro h2 {
+    margin: 0 0 8px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .subscribe-modal-intro p {
+    margin: 0;
+    color: var(--muted, #746f68);
+  }
+
+  .subscribe-embed {
+    margin-top: 8px;
+  }
+
+  @media (max-width: 640px) {
+    .subscribe-modal-card {
+      padding: 18px 18px 16px;
+      border-radius: 14px;
+    }
+
+    .subscribe-modal-intro h2 {
+      font-size: 1.25rem;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    if (window.__subscribeModalInitialized) return;
+    window.__subscribeModalInitialized = true;
+
+    const modal = document.querySelector('[data-subscribe-modal]');
+    const openButtons = document.querySelectorAll('[data-subscribe-open]');
+    const closeButtons = document.querySelectorAll('[data-subscribe-close]');
+    let lastTrigger = null;
+
+    if (!modal) return;
+
+    function openModal(event) {
+      if (event) {
+        event.preventDefault();
+        lastTrigger = event.currentTarget;
+      }
+      if (typeof modal.showModal === 'function') {
+        modal.showModal();
+      } else {
+        modal.setAttribute('open', 'open');
+      }
+    }
+
+    function closeModal() {
+      if (typeof modal.close === 'function') {
+        modal.close();
+      } else {
+        modal.removeAttribute('open');
+      }
+
+      if (lastTrigger) {
+        lastTrigger.focus();
+      }
+    }
+
+    openButtons.forEach(function (button) {
+      button.addEventListener('click', openModal);
+    });
+
+    closeButtons.forEach(function (button) {
+      button.addEventListener('click', closeModal);
+    });
+
+    modal.addEventListener('click', function (event) {
+      const rect = modal.getBoundingClientRect();
+      const clickedInDialog =
+        rect.top <= event.clientY &&
+        event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX &&
+        event.clientX <= rect.left + rect.width;
+
+      if (!clickedInDialog) {
+        closeModal();
+      }
+    });
+
+    modal.addEventListener('cancel', function (event) {
+      event.preventDefault();
+      closeModal();
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && modal.hasAttribute('open')) {
+        closeModal();
+      }
+    });
+  })();
+</script>

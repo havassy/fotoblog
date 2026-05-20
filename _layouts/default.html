@@ -6,37 +6,70 @@
 
   {% assign meta_title = page.title | default: site.title %}
   {% assign meta_description = page.description | default: site.description %}
+  {% assign full_title = meta_title %}
+  {% if page.title %}
+    {% assign full_title = page.title | append: " – " | append: site.title %}
+  {% endif %}
 
-  <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
-  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:site_name" content="{{ site.title }}">
+  {% assign social_image = nil %}
+  {% assign social_image_alt = nil %}
+  {% assign social_image_width = nil %}
+  {% assign social_image_height = nil %}
 
   {% if page.image %}
-    <meta property="og:image" content="{{ page.image | absolute_url }}">
-    <meta property="og:image:alt" content="{{ meta_title | escape }}">
+    {% assign social_image = page.image | absolute_url %}
+    {% assign social_image_alt = meta_title | escape %}
+    {% assign social_image_width = page.image_width %}
+    {% assign social_image_height = page.image_height %}
   {% else %}
     {% assign featured_posts = site.posts | where_exp: "post", "post.featured_for_og == true" %}
     {% assign featured = featured_posts | first %}
 
     {% if featured and featured.image %}
-      <meta property="og:image" content="{{ featured.image | absolute_url }}">
-      <meta property="og:image:alt" content="{{ featured.title | escape }}">
+      {% assign social_image = featured.image | absolute_url %}
+      {% assign social_image_alt = featured.title | escape %}
+      {% assign social_image_width = featured.image_width %}
+      {% assign social_image_height = featured.image_height %}
     {% else %}
       {% assign latest_posts_with_images = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
       {% assign latest_post = latest_posts_with_images | first %}
-      {% if latest_post %}
-        <meta property="og:image" content="{{ latest_post.image | absolute_url }}">
-        <meta property="og:image:alt" content="{{ latest_post.title | escape }}">
+      {% if latest_post and latest_post.image %}
+        {% assign social_image = latest_post.image | absolute_url %}
+        {% assign social_image_alt = latest_post.title | escape %}
+        {% assign social_image_width = latest_post.image_width %}
+        {% assign social_image_height = latest_post.image_height %}
       {% endif %}
     {% endif %}
   {% endif %}
-  
+
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+
+  {% if social_image %}
+    <meta property="og:image" content="{{ social_image }}">
+    <meta property="og:image:alt" content="{{ social_image_alt }}">
+    {% if social_image_width %}
+      <meta property="og:image:width" content="{{ social_image_width }}">
+    {% endif %}
+    {% if social_image_height %}
+      <meta property="og:image:height" content="{{ social_image_height }}">
+    {% endif %}
+  {% endif %}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ full_title }}">
+  <meta name="twitter:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+  {% if social_image %}
+    <meta name="twitter:image" content="{{ social_image }}">
+  {% endif %}
+
   <style>
     :root{
       --bg:#f6f3ee;
@@ -249,6 +282,7 @@
   <div class="wrap">
     {{ content }}
   </div>
+
   {% include subscribe-modal.html %}
 </body>
 </html>

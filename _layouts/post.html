@@ -251,8 +251,9 @@ layout: default
       {% if page.image %}
         <img
           src="{{ page.image | relative_url }}"
-          alt="{{ page.title }}"
-          loading="lazy"
+          alt="{{ page.title | escape }}"
+          {% if page.image_width %}width="{{ page.image_width }}"{% endif %}
+          {% if page.image_height %}height="{{ page.image_height }}"{% endif %}
           decoding="async"
         />
       {% endif %}

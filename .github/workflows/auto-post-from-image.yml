@@ -26,6 +26,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install Python dependencies
+        run: pip3 install Pillow
+
       - name: Generate or update post files from JPG + XMP
         shell: bash
         run: |
@@ -55,6 +58,7 @@ jobs:
           import re
           import xml.etree.ElementTree as ET
           from pathlib import Path
+          from PIL import Image
 
           POSTS_DIR = Path("_posts")
           IMAGES_DIR = Path("assets/images")
@@ -235,6 +239,14 @@ jobs:
               description = ""
               lat = None
               lon = None
+              image_width = None
+              image_height = None
+
+              try:
+                  with Image.open(image_path) as img:
+                      image_width, image_height = img.size
+              except Exception as e:
+                  print(f"Image size read error for {image_path}: {e}")
 
               if xmp_path.exists():
                   try:
@@ -278,6 +290,10 @@ jobs:
                   f"date: {date_value}",
                   f'image: "/{file}"',
               ]
+
+              if image_width is not None and image_height is not None:
+                  lines.append(f"image_width: {image_width}")
+                  lines.append(f"image_height: {image_height}")
 
               if lat is not None and lon is not None:
                   lines.append(f"lat: {lat}")

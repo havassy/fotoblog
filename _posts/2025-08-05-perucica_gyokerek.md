@@ -3,6 +3,8 @@ layout: post
 title: "Gyökerek a Perućica őserdőben"
 date: 2025-08-05T16:25:28.71
 image: "/assets/images/perucica_gyokerek.jpg"
+image_width: 800
+image_height: 533
 lat: 43.321449
 lon: 18.705922
 tags:

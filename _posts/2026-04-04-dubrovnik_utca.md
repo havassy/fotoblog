@@ -3,6 +3,8 @@ layout: post
 title: "Dubrovniki utca és háztetők"
 date: 2026-04-04T11:23:04.73+01:00
 image: "/assets/images/dubrovnik_utca.jpg"
+image_width: 800
+image_height: 533
 lat: 42.641705
 lon: 18.107168
 tags:

@@ -3,6 +3,8 @@ layout: post
 title: "Naplemente Zlatiborban"
 date: 2021-07-23T19:41:03.64
 image: "/assets/images/zlatibor_naplemente.jpg"
+image_width: 800
+image_height: 533
 lat: 43.702656
 lon: 19.692749
 tags:

@@ -3,6 +3,8 @@ layout: post
 title: "Útközben Montenegróban, a Lim mentén"
 date: 2021-07-24T12:46:20.92
 image: "/assets/images/lim_prokletije.jpg"
+image_width: 800
+image_height: 450
 lat: 42.764758
 lon: 19.811539
 tags:

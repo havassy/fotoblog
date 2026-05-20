@@ -3,6 +3,8 @@ layout: post
 title: "Studenica kolostor"
 date: 2022-04-16T11:16:55.81
 image: "/assets/images/studenica_kolostor.jpg"
+image_width: 800
+image_height: 533
 lat: 43.486361
 lon: 20.531694
 tags:

@@ -3,6 +3,8 @@ layout: post
 title: "Boračka crkva"
 date: 2022-04-14T16:40:13.00
 image: "/assets/images/boracka_crkva.jpg"
+image_width: 800
+image_height: 533
 lat: 43.961778
 lon: 20.604833
 tags:

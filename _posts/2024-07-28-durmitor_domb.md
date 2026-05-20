@@ -3,6 +3,8 @@ layout: post
 title: "Dombok a Durmitor előterében"
 date: 2024-07-28T11:08:08.17
 image: "/assets/images/durmitor_domb.jpg"
+image_width: 800
+image_height: 450
 lat: 43.06825
 lon: 19.133972
 tags:

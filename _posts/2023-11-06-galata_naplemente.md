@@ -3,6 +3,8 @@ layout: post
 title: "Kilátás a Galata-hídról naplementekor"
 date: 2023-11-06T15:24:53.59
 image: "/assets/images/galata_naplemente.jpg"
+image_width: 800
+image_height: 450
 lat: 41.020072
 lon: 28.972947
 tags:

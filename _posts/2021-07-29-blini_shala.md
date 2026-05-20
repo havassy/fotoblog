@@ -3,6 +3,8 @@ layout: post
 title: "Érkezés a Blini parkba"
 date: 2021-07-29T18:37:31.32
 image: "/assets/images/blini_shala.jpg"
+image_width: 800
+image_height: 533
 lat: 42.19804
 lon: 19.809128
 tags:

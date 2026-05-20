@@ -3,6 +3,8 @@ layout: post
 title: "Kilátás útközben"
 date: 2022-04-18T10:13:59.00
 image: "/assets/images/kilatas_utkozben.jpg"
+image_width: 800
+image_height: 533
 lat: 44.076645
 lon: 19.663857
 tags:

@@ -3,6 +3,8 @@ layout: post
 title: "Az Osum-szurdok"
 date: 2021-08-02T18:25:11.00
 image: "/assets/images/osum_szurdok.jpg"
+image_width: 800
+image_height: 533
 lat: 40.485865
 lon: 20.236044
 tags:

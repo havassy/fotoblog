@@ -3,6 +3,8 @@ layout: post
 title: "Áhitat a Kék mecsetben"
 date: 2023-11-07T08:02:40.07
 image: "/assets/images/kek_mecset.jpg"
+image_width: 800
+image_height: 449
 lat: 41.005221
 lon: 28.976839
 tags:

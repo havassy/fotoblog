@@ -3,6 +3,8 @@ layout: post
 title: "A Drina Fočaban"
 date: 2025-08-10T08:32:33
 image: "/assets/images/drina_foca.jpg"
+image_width: 1920
+image_height: 1080
 lat: 43.507226
 lon: 18.770697
 tags:

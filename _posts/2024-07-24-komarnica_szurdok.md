@@ -3,6 +3,8 @@ layout: post
 title: "A Komarnica folyó szurdoka"
 date: 2024-07-24T17:00:56.02
 image: "/assets/images/komarnica_szurdok.jpg"
+image_width: 800
+image_height: 533
 lat: 43.040778
 lon: 18.919833
 tags:

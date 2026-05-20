@@ -3,6 +3,8 @@ layout: post
 title: "Parti színlők a Ramsko-tónál"
 date: 2025-10-23T14:26:38.86
 image: "/assets/images/ramsko_szinlok.jpg"
+image_width: 800
+image_height: 449
 lat: 43.8094
 lon: 17.519596
 tags:

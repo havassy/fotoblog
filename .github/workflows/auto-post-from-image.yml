@@ -82,6 +82,20 @@ jobs:
                   return ""
               return re.sub(r"\s+", " ", s).strip()
 
+          def shorten_meta(text, limit=160):
+              text = clean_text(text)
+              if not text:
+                  return ""
+
+              if len(text) <= limit:
+                  return text
+
+              shortened = text[:limit].rsplit(" ", 1)[0].strip()
+              if not shortened:
+                  shortened = text[:limit].strip()
+
+              return shortened + "…"
+
           def fallback_title(slug):
               s = slug.replace("-", " ").replace("_", " ").strip()
               return s[:1].upper() + s[1:] if s else slug
@@ -236,7 +250,9 @@ jobs:
               title = fallback_title(slug)
               date_value = ""
               tags = []
+              full_caption = ""
               description = ""
+              body = ""
               lat = None
               lon = None
               image_width = None
@@ -254,7 +270,7 @@ jobs:
                       root = tree.getroot()
 
                       title = find_text(root, ".//dc:title/rdf:Alt/rdf:li") or title
-                      description = find_text(root, ".//dc:description/rdf:Alt/rdf:li")
+                      full_caption = find_text(root, ".//dc:description/rdf:Alt/rdf:li")
                       tags = extract_leaf_tags(root)
 
                       gps_lat_raw = find_text(root, ".//exif:GPSLatitude") or find_attr(root, NS["exif"], "GPSLatitude")
@@ -277,11 +293,17 @@ jobs:
               if not date_value:
                   date_value = "2026-01-01T12:00:00+00:00"
 
+              if full_caption:
+                  body = full_caption + "\n"
+                  first_sentence = re.split(r'(?<=[.!?])\s+', full_caption, maxsplit=1)[0]
+                  description = shorten_meta(first_sentence, 160)
+              else:
+                  body = ""
+                  description = ""
+
               date_prefix = date_value[:10]
               desired_post_path = POSTS_DIR / f"{date_prefix}-{slug}.md"
               existing_post_path = find_existing_post(slug)
-
-              body = description + "\n" if description else ""
 
               lines = [
                   "---",

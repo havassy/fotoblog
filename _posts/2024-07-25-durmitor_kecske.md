@@ -11,7 +11,7 @@ tags:
   - "Montenegró"
   - "Durmitor"
   - "állat"
-description: "Rupicapra rupicapra balcanica. A Bobotov Kukról lefelé jövet hosszasan kísértek minket és egész közel engedtek magukhoz. (Valójában mi kísértük őket...)"
+description: "Rupicapra rupicapra balcanica."
 ---
 
 Rupicapra rupicapra balcanica. A Bobotov Kukról lefelé jövet hosszasan kísértek minket és egész közel engedtek magukhoz. (Valójában mi kísértük őket...)

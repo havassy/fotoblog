@@ -11,7 +11,7 @@ tags:
   - "felhő"
   - "Szerbia"
   - "hegység"
-description: "Az a jó, ha van idő menet közben megállni, nézelődni. Ha nem kell sietni és autópályázni. Olvasd el a Zen meg a motorkerékpár-ápolás művészete könyvet."
+description: "Az a jó, ha van idő menet közben megállni, nézelődni."
 ---
 
 Az a jó, ha van idő menet közben megállni, nézelődni. Ha nem kell sietni és autópályázni. Olvasd el a Zen meg a motorkerékpár-ápolás művészete könyvet.

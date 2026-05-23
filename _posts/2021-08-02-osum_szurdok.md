@@ -11,7 +11,7 @@ tags:
   - "Albánia"
   - "Osum"
   - "folyó"
-description: "Izgalmas visszatérni a korábban már felkeresett helyekre. Az Osum a sok bejárt szurok közül a kevés melegvízű egyike. Már érkezésünkkor is olyan meleg volt a kempingben, hogy árnyékban és sörrel is csak nehezen lehetett elviselni. Másnap a szurdokban csak a vízben volt jó, mert forró szél fújt. De végigjártuk!"
+description: "Izgalmas visszatérni a korábban már felkeresett helyekre."
 ---
 
 Izgalmas visszatérni a korábban már felkeresett helyekre. Az Osum a sok bejárt szurok közül a kevés melegvízű egyike. Már érkezésünkkor is olyan meleg volt a kempingben, hogy árnyékban és sörrel is csak nehezen lehetett elviselni. Másnap a szurdokban csak a vízben volt jó, mert forró szél fújt. De végigjártuk!

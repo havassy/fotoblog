@@ -12,7 +12,7 @@ tags:
   - "tél"
   - "Bosznia-Hercegovina"
   - "utca"
-description: "Egy lezárt útszakasz miatt kellett kerülnünk. Volt egy hely, ahol azt hittem, hogy vége, itt éjszakázunk. Bejelzett az olajnyomás, hóvihar volt, jött az este és eszembe jutott, hogy mivel van szállás, nem hoztunk hálózsákot."
+description: "Egy lezárt útszakasz miatt kellett kerülnünk."
 ---
 
 Egy lezárt útszakasz miatt kellett kerülnünk. Volt egy hely, ahol azt hittem, hogy vége, itt éjszakázunk. Bejelzett az olajnyomás, hóvihar volt, jött az este és eszembe jutott, hogy mivel van szállás, nem hoztunk hálózsákot.

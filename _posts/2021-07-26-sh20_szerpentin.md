@@ -10,7 +10,7 @@ lon: 19.503389
 tags:
   - "Albánia"
   - "utca"
-description: "Úton Theth-be. Albán kiejtésünket minősíti, hogy egy benzinkútnál, az utolsó nagy elágazásnál megkérdeztük, hogy milyen állapotú a Theth-be vezető út és azt a választ kaptuk, hogy ilyen nevű település nincs. Aztán később egy alkalmi túratársat megkértünk, hogy mondja ki Theth nevét és máris minden világossá vált."
+description: "Úton Theth-be."
 ---
 
 Úton Theth-be. Albán kiejtésünket minősíti, hogy egy benzinkútnál, az utolsó nagy elágazásnál megkérdeztük, hogy milyen állapotú a Theth-be vezető út és azt a választ kaptuk, hogy ilyen nevű település nincs. Aztán később egy alkalmi túratársat megkértünk, hogy mondja ki Theth nevét és máris minden világossá vált.

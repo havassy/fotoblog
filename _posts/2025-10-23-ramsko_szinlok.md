@@ -10,7 +10,7 @@ lon: 17.519596
 tags:
   - "Bosznia-Hercegovina"
   - "tó"
-description: "A tavat 1968-ban hozták létre vízenergia termelés céljából. Alacsony vízszintnél látványosak a tó hullámzása által kialakított, természetes szintvonalként megjelenő sávok, a színlők."
+description: "A tavat 1968-ban hozták létre vízenergia termelés céljából."
 ---
 
 A tavat 1968-ban hozták létre vízenergia termelés céljából. Alacsony vízszintnél látványosak a tó hullámzása által kialakított, természetes szintvonalként megjelenő sávok, a színlők.

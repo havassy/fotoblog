@@ -11,7 +11,7 @@ tags:
   - "Albánia"
   - "Prokletije"
   - "völgy"
-description: "A Prokletije két turisztikai központja, Theth és Valbona közötti átjáró. A képen Valbona település látható a Valbona-völgyben. Akik átmennek egyik településről a másikra és nem akarnak cipekedni, teherhordókat bérelnek."
+description: "A Prokletije két turisztikai központja, Theth és Valbona közötti átjáró."
 ---
 
 A Prokletije két turisztikai központja, Theth és Valbona közötti átjáró. A képen Valbona település látható a Valbona-völgyben. Akik átmennek egyik településről a másikra és nem akarnak cipekedni, teherhordókat bérelnek.

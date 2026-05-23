@@ -12,7 +12,7 @@ tags:
   - "Szerbia"
   - "Drina"
   - "folyó"
-description: "Igazán tehetségesek vagyunk a jó szállások kiválasztásában. Mondjuk ez nem volt legolcsóbb, de a Drina mellett volt!"
+description: "Igazán tehetségesek vagyunk a jó szállások kiválasztásában."
 ---
 
 Igazán tehetségesek vagyunk a jó szállások kiválasztásában. Mondjuk ez nem volt legolcsóbb, de a Drina mellett volt!

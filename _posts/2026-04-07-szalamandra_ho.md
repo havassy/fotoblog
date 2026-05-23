@@ -10,7 +10,7 @@ lon: 18.642528
 tags:
   - "Bosznia-Hercegovina"
   - "állat"
-description: "Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett a mély lábnyomba, majd kimászott belőle."
+description: "Végig figyelemmel kísértük, amíg kb."
 ---
 
 Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett a mély lábnyomba, majd kimászott belőle.

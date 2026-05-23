@@ -10,7 +10,7 @@ lon: 17.819496
 tags:
   - "Bosznia-Hercegovina"
   - "állat"
-description: "Az utazós napokról alig vagy egyáltalán nincs képem. Ezt is Gabi készítette. Macskák őrizték a parkoló autónkat."
+description: "Az utazós napokról alig vagy egyáltalán nincs képem."
 ---
 
 Az utazós napokról alig vagy egyáltalán nincs képem. Ezt is Gabi készítette. Macskák őrizték a parkoló autónkat.

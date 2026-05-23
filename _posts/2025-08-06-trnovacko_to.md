@@ -10,7 +10,7 @@ lon: 18.724222
 tags:
   - "Montenegró"
   - "tó"
-description: "Évekkel korábban esőben sátraztunk és túráztunk a környéken. Most sem volt sokkal jobb idő."
+description: "Évekkel korábban esőben sátraztunk és túráztunk a környéken."
 ---
 
 Évekkel korábban esőben sátraztunk és túráztunk a környéken. Most sem volt sokkal jobb idő.

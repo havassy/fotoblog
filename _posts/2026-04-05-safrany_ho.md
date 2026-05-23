@@ -10,7 +10,7 @@ lon: 18.594736
 tags:
   - "Bosznia-Hercegovina"
   - "virág"
-description: "Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését."
+description: "Talán Crocus vernus."
 ---
 
 Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését.

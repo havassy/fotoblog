@@ -10,7 +10,7 @@ lon: 19.133972
 tags:
   - "Montenegró"
   - "dombság"
-description: "Utolsó nap a környékkel ismerkedtünk. Felmásztunk egy magaslatra és körbenéztük a tájat. Bár teljes rálátásunk volt a Durmitorra, inkább ezt a kellemes dombsági látképet választottam mára. A fák között lévő házikók egyikében laktunk: a sok legjobb szállásunk közül az egyik legjobb volt."
+description: "Utolsó nap a környékkel ismerkedtünk."
 ---
 
 Utolsó nap a környékkel ismerkedtünk. Felmásztunk egy magaslatra és körbenéztük a tájat. Bár teljes rálátásunk volt a Durmitorra, inkább ezt a kellemes dombsági látképet választottam mára. A fák között lévő házikók egyikében laktunk: a sok legjobb szállásunk közül az egyik legjobb volt.

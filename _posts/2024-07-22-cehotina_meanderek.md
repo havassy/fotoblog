@@ -10,7 +10,7 @@ lon: 19.425316
 tags:
   - "Montenegró"
   - "folyó"
-description: "Nem, ez nem Szerbia és nem az Uvac folyó! :)"
+description: "Nem, ez nem Szerbia és nem az Uvac folyó!"
 ---
 
 Nem, ez nem Szerbia és nem az Uvac folyó! :)

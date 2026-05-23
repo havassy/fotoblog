@@ -11,7 +11,7 @@ tags:
   - "Albánia"
   - "Shala"
   - "folyó"
-description: "Pár napja még a Shala-folyó forrásánál, a Kék Szemnél jártunk, most viszont a Shala és a Drin összefolyásától hajóztunk fel a parkig. Földi paradicsomként harangozták be a helyet, ehhez képest több mint egy órát utaztunk egy zajos és büdös hajóval, a parkban pedig még a műanyagtól is égetéssel szabadultak meg a helyiek - csalódás volt."
+description: "Pár napja még a Shala-folyó forrásánál, a Kék Szemnél jártunk, most viszont a Shala és a Drin összefolyásától hajóztunk fel a parkig."
 ---
 
 Pár napja még a Shala-folyó forrásánál, a Kék Szemnél jártunk, most viszont a Shala és a Drin összefolyásától hajóztunk fel a parkig. Földi paradicsomként harangozták be a helyet, ehhez képest több mint egy órát utaztunk egy zajos és büdös hajóval, a parkban pedig még a műanyagtól is égetéssel szabadultak meg a helyiek - csalódás volt.

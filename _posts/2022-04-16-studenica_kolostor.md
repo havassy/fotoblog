@@ -10,7 +10,7 @@ lon: 20.531694
 tags:
   - "Szerbia"
   - "templom"
-description: "Ez a kedvenc kolostorom Szerbiában. Valószínűleg azért is, mert először úgy jártunk itt, hogy csak ráböktem a tréképre, hogy ezt még nem láttuk, úgy jöttünk ide. Tavasz volt és alig voltak turisztok."
+description: "Ez a kedvenc kolostorom Szerbiában."
 ---
 
 Ez a kedvenc kolostorom Szerbiában. Valószínűleg azért is, mert először úgy jártunk itt, hogy csak ráböktem a tréképre, hogy ezt még nem láttuk, úgy jöttünk ide. Tavasz volt és alig voltak turisztok.

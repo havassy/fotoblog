@@ -11,7 +11,7 @@ tags:
   - "Szerbia"
   - "dombság"
   - "folyó"
-description: "Srpska Sveta Gora az Ovčar–Kablar‑szorosban. Ezek a balkáni meanderek csuda hangulatosak!"
+description: "Srpska Sveta Gora az Ovčar–Kablar‑szorosban."
 ---
 
 Srpska Sveta Gora az Ovčar–Kablar‑szorosban. Ezek a balkáni meanderek csuda hangulatosak!

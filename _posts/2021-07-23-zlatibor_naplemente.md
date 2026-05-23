@@ -12,7 +12,7 @@ tags:
   - "Szerbia"
   - "Zlatibor"
   - "dombság"
-description: "Erről a napról nem volt nehéz képet választanom, mert - legalább is a fényképezőgéppel - csak ez az egy készült. Egész napos vezetés után érkeztünk meg Zlatiborba, ahol az út egyik oldalán volt a táborhelyünk, másik oldalán pedig a szuper vendéglő."
+description: "Erről a napról nem volt nehéz képet választanom, mert - legalább is a fényképezőgéppel - csak ez az egy készült."
 ---
 
 Erről a napról nem volt nehéz képet választanom, mert - legalább is a fényképezőgéppel - csak ez az egy készült. Egész napos vezetés után érkeztünk meg Zlatiborba, ahol az út egyik oldalán volt a táborhelyünk, másik oldalán pedig a szuper vendéglő.

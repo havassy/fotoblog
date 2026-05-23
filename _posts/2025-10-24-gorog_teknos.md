@@ -10,7 +10,7 @@ lon: 17.899762
 tags:
   - "Bosznia-Hercegovina"
   - "állat"
-description: "Testudo hermanni. A Blagaji vár felé vezető út melleti árokban akadtunk rá. Kis segítséggel kikecmergett szorult helyzetéből és elspurizott a domboldalon."
+description: "Testudo hermanni."
 ---
 
 Testudo hermanni. A Blagaji vár felé vezető út melleti árokban akadtunk rá. Kis segítséggel kikecmergett szorult helyzetéből és elspurizott a domboldalon.

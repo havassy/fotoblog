@@ -12,7 +12,7 @@ tags:
   - "Perućica"
   - "fa"
   - "erdő"
-description: "Talán szokásos, de megunhatatlan balkáni látkép. Háttérben a 75 méteres Skakavac-vízesés."
+description: "Talán szokásos, de megunhatatlan balkáni látkép."
 ---
 
 Talán szokásos, de megunhatatlan balkáni látkép. Háttérben a 75 méteres Skakavac-vízesés.

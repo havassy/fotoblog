@@ -11,7 +11,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Maglić"
   - "hegység"
-description: "Prijevor a környékbeli túrák kiinduló helye. Innét lehet menni a Maglićra vagy a Trnovačko-tóhoz is. Háttérben a Sutjeska folyó völgye."
+description: "Prijevor a környékbeli túrák kiinduló helye."
 ---
 
 Prijevor a környékbeli túrák kiinduló helye. Innét lehet menni a Maglićra vagy a Trnovačko-tóhoz is. Háttérben a Sutjeska folyó völgye.

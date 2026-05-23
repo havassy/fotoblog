@@ -10,7 +10,7 @@ lon: 19.093278
 tags:
   - "Montenegró"
   - "tó"
-description: "Kinéztünk két szomszédos kis tavat. A Barno jezero volt a kevésbé turisztos. Már inkább mocsár, kevés benne a nyíl víz. És itt nem volt tehén támadás, mint a másiknál."
+description: "Kinéztünk két szomszédos kis tavat."
 ---
 
 Kinéztünk két szomszédos kis tavat. A Barno jezero volt a kevésbé turisztos. Már inkább mocsár, kevés benne a nyíl víz. És itt nem volt tehén támadás, mint a másiknál.

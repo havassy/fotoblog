@@ -10,7 +10,7 @@ lon: 18.709566
 tags:
   - "Bosznia-Hercegovina"
   - "buli"
-description: "Mindez Boszniában. A sörözés elhozza a népek barátságát. Szerbiában egyszer, amikor egy jó helyi sört kértem, azt modnta a pincér, hogy olyan nincs, igyak inkább Laškot."
+description: "Mindez Boszniában."
 ---
 
 Mindez Boszniában. A sörözés elhozza a népek barátságát. Szerbiában egyszer, amikor egy jó helyi sört kértem, azt modnta a pincér, hogy olyan nincs, igyak inkább Laškot.

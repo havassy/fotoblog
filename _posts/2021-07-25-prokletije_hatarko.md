@@ -13,7 +13,7 @@ tags:
   - "Prokletije"
   - "hegység"
   - "határ"
-description: "Montenegró és Albánia határán az RPSH felirat az Albán Népköztársaság (1946-1976) rövidítése. Háttérben a Karanfili-vonulat, a Balkán Dolomitjai."
+description: "Montenegró és Albánia határán az RPSH felirat az Albán Népköztársaság (1946-1976) rövidítése."
 ---
 
 Montenegró és Albánia határán az RPSH felirat az Albán Népköztársaság (1946-1976) rövidítése. Háttérben a Karanfili-vonulat, a Balkán Dolomitjai.

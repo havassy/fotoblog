@@ -11,7 +11,7 @@ tags:
   - "Szerbia"
   - "Fruska gora"
   - "torony"
-description: "A Tarcal-hegység jellegzetes látképi eleme. 1999-ben a NATO Jugoszlávia elleni légicsapásai során találat érte."
+description: "A Tarcal-hegység jellegzetes látképi eleme."
 ---
 
 A Tarcal-hegység jellegzetes látképi eleme. 1999-ben a NATO Jugoszlávia elleni légicsapásai során találat érte.

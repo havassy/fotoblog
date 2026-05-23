@@ -10,7 +10,7 @@ lon: 20.604833
 tags:
   - "Szerbia"
   - "templom"
-description: "Avagy egyházi nevén Crkva Svetog Arhanđela Gavrila. Gabi mindig nagyon ügyel a megfelelő öltözködésre, ha szent helyen járunk."
+description: "Avagy egyházi nevén Crkva Svetog Arhanđela Gavrila."
 ---
 
 Avagy egyházi nevén Crkva Svetog Arhanđela Gavrila. Gabi mindig nagyon ügyel a megfelelő öltözködésre, ha szent helyen járunk.

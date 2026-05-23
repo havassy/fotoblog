@@ -10,7 +10,7 @@ lon: 20.432548
 tags:
   - "Albánia"
   - "híd"
-description: "A 18. század elején épült híd a Langarica-szurdok bejáratánál található."
+description: "A 18."
 ---
 
 A 18. század elején épült híd a Langarica-szurdok bejáratánál található.

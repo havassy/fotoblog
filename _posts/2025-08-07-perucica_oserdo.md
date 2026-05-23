@@ -11,7 +11,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Perućica"
   - "fa"
-description: "Kedvenc kiskertünk a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek."
+description: "Kedvenc kiskertünk a sok közül."
 ---
 
 Kedvenc kiskertünk a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek.

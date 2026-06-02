@@ -10,11 +10,13 @@
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2018-10-30T14:55:50.00"
    xmp:CreateDate="2018-10-30T14:55:50.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-02T20:30:57+02:00"
+   xmp:MetadataDate="2026-06-02T20:48:36+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -59,9 +61,10 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="478A04FEE3C8739C17EE8942D1C9FD2D"
    xmpMM:OriginalDocumentID="478A04FEE3C8739C17EE8942D1C9FD2D"
-   xmpMM:InstanceID="xmp.iid:e31e2795-a3d8-2b43-a879-6632005b93b4"
+   xmpMM:InstanceID="xmp.iid:b78d4ef6-6d3c-2d4a-b855-ab4ed519a7e9"
    xmpDM:good="true"
    xmpDM:pick="1"
+   xmpRights:Marked="True"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Daylight"
@@ -216,6 +219,19 @@
      <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
     </rdf:Alt>
    </dc:rights>
+   <dc:subject>
+    <rdf:Bag>
+     <rdf:li>Bosznia-Hercegovina</rdf:li>
+     <rdf:li>Dugo polje</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>stecak</rdf:li>
+     <rdf:li>település</rdf:li>
+     <rdf:li>temető</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>épített</rdf:li>
+    </rdf:Bag>
+   </dc:subject>
    <dc:description>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">A Dugo polje-i nekropolisz kb. 150 sírkővel az egyik legnagyobb stećak‑csoport. A kövek jó állapotúak, látványosak, viszonylag érintetlenek és gazdagon díszítettek. Amióta felfedeztem magamnak a stećakokat, ha tehetem, útbaejtek egy-egy ilyen nekropoliszt, ezek is a megunhatatlan és jellegzetes balkáni látványok közé tartoznak.</rdf:li>
@@ -225,8 +241,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:e31e2795-a3d8-2b43-a879-6632005b93b4"
-      stEvt:when="2026-06-02T20:30:57+02:00"
+      stEvt:instanceID="xmp.iid:b78d4ef6-6d3c-2d4a-b855-ab4ed519a7e9"
+      stEvt:when="2026-06-02T20:48:36+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -297,6 +313,27 @@
     </crs:Parameters>
     </rdf:Description>
    </crs:Look>
+   <lr:weightedFlatSubject>
+    <rdf:Bag>
+     <rdf:li>Bosznia-Hercegovina</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>stecak</rdf:li>
+     <rdf:li>épített</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>Dugo polje</rdf:li>
+     <rdf:li>település</rdf:li>
+     <rdf:li>temető</rdf:li>
+    </rdf:Bag>
+   </lr:weightedFlatSubject>
+   <lr:hierarchicalSubject>
+    <rdf:Bag>
+     <rdf:li>hely|ország|Bosznia-Hercegovina</rdf:li>
+     <rdf:li>hely|település|Dugo polje</rdf:li>
+     <rdf:li>téma|épített|stecak</rdf:li>
+     <rdf:li>téma|épített|temető</rdf:li>
+    </rdf:Bag>
+   </lr:hierarchicalSubject>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

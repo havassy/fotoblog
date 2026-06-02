@@ -15,4 +15,4 @@ tags:
 description: "A Dugo polje-i nekropolisz kb."
 ---
 
-A Dugo polje-i nekropolisz kb. 150 sírkővel az egyik legnagyobb stećak‑csoport. A kövek jó állapotúak, látványosak, viszonylag érintetlenek és gazdagon díszítettek. Amióta felfedeztem magamnak a stećakokat, ha tehetem, útbaejtek egy-egy ilyen nekropoliszt, ezek is a megunhatatlan és jellegzetes balkáni látványok közé tartoznak.
+A Dugo polje-i nekropolisz kb. 150 sírkővel az egyik legnagyobb stećak‑csoport. A kövek jó állapotúak, látványosak, viszonylag érintetlenek és gazdagon díszítettek. Amióta felfedeztem magamnak a stećakokat, ha tehetem, útba ejtek egy-egy ilyen nekropoliszt, ezek is a megunhatatlan és jellegzetes balkáni látványok közé tartoznak.

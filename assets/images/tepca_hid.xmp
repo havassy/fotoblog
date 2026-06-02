@@ -16,7 +16,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2024-07-26T13:33:32.74"
    xmp:CreateDate="2024-07-26T13:33:32.74"
-   xmp:MetadataDate="2026-05-09T22:21:28+02:00"
+   xmp:MetadataDate="2026-06-02T18:25:03+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +64,7 @@
    xmpMM:DocumentID="69D6BFE0C11DDC390108FE4ED930A457"
    xmpMM:PreservedFileName="img_0017.cr2"
    xmpMM:OriginalDocumentID="69D6BFE0C11DDC390108FE4ED930A457"
-   xmpMM:InstanceID="xmp.iid:41702e3a-e276-474d-ad6a-e340b5385dff"
+   xmpMM:InstanceID="xmp.iid:12b7ec1c-a691-dd4e-bcc0-cd5d9fabf39b"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -215,7 +215,7 @@
    <dc:subject>
     <rdf:Bag>
      <rdf:li>Montenegró</rdf:li>
-     <rdf:li>Tara</rdf:li>
+     <rdf:li>Tara(folyó)</rdf:li>
      <rdf:li>folyó</rdf:li>
      <rdf:li>hely</rdf:li>
      <rdf:li>híd</rdf:li>
@@ -235,8 +235,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:41702e3a-e276-474d-ad6a-e340b5385dff"
-      stEvt:when="2026-05-09T22:21:28+02:00"
+      stEvt:instanceID="xmp.iid:12b7ec1c-a691-dd4e-bcc0-cd5d9fabf39b"
+      stEvt:when="2026-06-02T18:25:03+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -312,7 +312,7 @@
      <rdf:li>Montenegró</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>Tara</rdf:li>
+     <rdf:li>Tara(folyó)</rdf:li>
      <rdf:li>tájnév</rdf:li>
      <rdf:li>híd</rdf:li>
      <rdf:li>épített</rdf:li>
@@ -324,7 +324,7 @@
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Montenegró</rdf:li>
-     <rdf:li>hely|tájnév|Tara</rdf:li>
+     <rdf:li>hely|tájnév|Tara(folyó)</rdf:li>
      <rdf:li>téma|táj|folyó</rdf:li>
      <rdf:li>téma|épített|híd</rdf:li>
     </rdf:Bag>

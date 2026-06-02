@@ -7,6 +7,11 @@ image_width: 800
 image_height: 533
 lat: 43.663211
 lon: 17.543118
+tags:
+  - "Bosznia-Hercegovina"
+  - "Dugo polje"
+  - "stecak"
+  - "temető"
 description: "A Dugo polje-i nekropolisz kb."
 ---
 

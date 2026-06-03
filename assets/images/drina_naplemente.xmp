@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2022-04-17T19:30:24.00"
    xmp:CreateDate="2022-04-17T19:30:24.00"
-   xmp:MetadataDate="2026-05-10T20:09:14+02:00"
+   xmp:MetadataDate="2026-06-03T19:09:02+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -64,7 +64,7 @@
    xmpMM:DocumentID="8A7C59BDE524822E467E69C709C998CA"
    xmpMM:PreservedFileName="IMG_0309.CR2"
    xmpMM:OriginalDocumentID="8A7C59BDE524822E467E69C709C998CA"
-   xmpMM:InstanceID="xmp.iid:4656bce3-8a0f-864c-923f-fcf13c34445f"
+   xmpMM:InstanceID="xmp.iid:506aef76-7137-844c-9a87-e2138acc7ecf"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -231,7 +231,7 @@
      <rdf:li>folyó</rdf:li>
      <rdf:li>hangulat</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>napnyugta/kelte</rdf:li>
+     <rdf:li>napnyugta-kelte</rdf:li>
      <rdf:li>napszak</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>táj</rdf:li>
@@ -248,8 +248,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4656bce3-8a0f-864c-923f-fcf13c34445f"
-      stEvt:when="2026-05-10T20:09:14+02:00"
+      stEvt:instanceID="xmp.iid:506aef76-7137-844c-9a87-e2138acc7ecf"
+      stEvt:when="2026-06-03T19:09:02+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -347,14 +347,14 @@
      <rdf:li>folyó</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>napnyugta/kelte</rdf:li>
+     <rdf:li>napnyugta-kelte</rdf:li>
      <rdf:li>napszak</rdf:li>
      <rdf:li>hangulat</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
-     <rdf:li>hangulat|napszak|napnyugta/kelte</rdf:li>
+     <rdf:li>hangulat|napszak|napnyugta-kelte</rdf:li>
      <rdf:li>hely|ország|Szerbia</rdf:li>
      <rdf:li>hely|tájnév|Drina</rdf:li>
      <rdf:li>téma|táj|folyó</rdf:li>

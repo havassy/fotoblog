@@ -8,7 +8,7 @@ image_height: 533
 lat: 43.956099
 lon: 19.47791
 tags:
-  - "napnyugta/kelte"
+  - "napnyugta-kelte"
   - "Szerbia"
   - "Drina"
   - "folyó"

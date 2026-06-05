@@ -11,7 +11,7 @@ tags:
   - "este"
   - "Albánia"
   - "Berat"
-  - "utca"
+  - "utca-út"
 description: "Mivel az Osumtól délre, Piskovë felé vezető utat már korábban bejártuk (személykocsival), ezért most visszamentünk Beratba, hogy a kerülőutat is megnézzük."
 ---
 

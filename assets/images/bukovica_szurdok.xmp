@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-27T14:43:12.00"
    xmp:CreateDate="2018-07-27T14:43:12.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-05T17:27:20+02:00"
+   xmp:MetadataDate="2026-06-05T17:32:25+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="E2448B3DF8D2987F97442801DCA13A4C"
    xmpMM:OriginalDocumentID="E2448B3DF8D2987F97442801DCA13A4C"
-   xmpMM:InstanceID="xmp.iid:e8a651e4-ace0-3f48-99a7-9192b1670809"
+   xmpMM:InstanceID="xmp.iid:050b96a9-ee22-a247-a4d0-5e9645230c33"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -196,7 +196,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Bukovica suordoka Šavnik közelében</rdf:li>
+     <rdf:li xml:lang="x-default">A Bukovica szurdoka</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -226,8 +226,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:e8a651e4-ace0-3f48-99a7-9192b1670809"
-      stEvt:when="2026-06-05T17:27:20+02:00"
+      stEvt:instanceID="xmp.iid:050b96a9-ee22-a247-a4d0-5e9645230c33"
+      stEvt:when="2026-06-05T17:32:25+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

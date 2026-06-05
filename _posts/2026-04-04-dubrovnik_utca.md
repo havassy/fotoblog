@@ -10,7 +10,7 @@ lon: 18.107168
 tags:
   - "Horvátország"
   - "Dubrovnik"
-  - "utca"
+  - "utca-út"
 description: "A várfalról csodálatos kilátás nyílik az óvárosra és a tengerre egyaránt."
 ---
 

@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-04T11:23:04.73+01:00"
    xmp:CreateDate="2026-04-04T11:23:04.73+01:00"
-   xmp:MetadataDate="2026-04-22T22:11:56+02:00"
+   xmp:MetadataDate="2026-06-05T18:03:20+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -70,7 +70,7 @@
    xmpMM:DocumentID="8006D8D82B8A03F9400C47D27370EBC9"
    xmpMM:PreservedFileName="b78a0038.cr3"
    xmpMM:OriginalDocumentID="8006D8D82B8A03F9400C47D27370EBC9"
-   xmpMM:InstanceID="xmp.iid:d39e28c5-2c83-8c42-ba6e-f960c5ef6cfe"
+   xmpMM:InstanceID="xmp.iid:c6bb376b-edd2-4743-8a0d-c13f173e912a"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -117,7 +117,7 @@
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>utca</rdf:li>
+     <rdf:li>utca-út</rdf:li>
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
    </dc:subject>
@@ -130,8 +130,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:d39e28c5-2c83-8c42-ba6e-f960c5ef6cfe"
-      stEvt:when="2026-04-22T22:11:56+02:00"
+      stEvt:instanceID="xmp.iid:c6bb376b-edd2-4743-8a0d-c13f173e912a"
+      stEvt:when="2026-06-05T18:03:20+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -141,7 +141,7 @@
      <rdf:li>Dubrovnik</rdf:li>
      <rdf:li>település</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>utca</rdf:li>
+     <rdf:li>utca-út</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
      <rdf:li>Horvátország</rdf:li>
@@ -152,7 +152,7 @@
     <rdf:Bag>
      <rdf:li>hely|ország|Horvátország</rdf:li>
      <rdf:li>hely|település|Dubrovnik</rdf:li>
-     <rdf:li>téma|épített|utca</rdf:li>
+     <rdf:li>téma|épített|utca-út</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

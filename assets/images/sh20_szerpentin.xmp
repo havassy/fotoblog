@@ -18,7 +18,7 @@
    xmp:ModifyDate="2021-07-26T15:50:31.58"
    xmp:CreateDate="2021-07-26T15:50:31.58"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-16T19:11:47+02:00"
+   xmp:MetadataDate="2026-06-05T19:46:50+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="59F223D734D76F156B789905E95EF17C"
    xmpMM:PreservedFileName="img_0304.cr2"
    xmpMM:OriginalDocumentID="59F223D734D76F156B789905E95EF17C"
-   xmpMM:InstanceID="xmp.iid:4ffc8b25-ae06-c241-92c3-4a201f75913d"
+   xmpMM:InstanceID="xmp.iid:09b2bd41-c867-e249-b1ea-42e028328eef"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -231,7 +231,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>utca</rdf:li>
+     <rdf:li>utca-út</rdf:li>
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
    </dc:subject>
@@ -244,8 +244,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4ffc8b25-ae06-c241-92c3-4a201f75913d"
-      stEvt:when="2026-05-16T19:11:47+02:00"
+      stEvt:instanceID="xmp.iid:09b2bd41-c867-e249-b1ea-42e028328eef"
+      stEvt:when="2026-06-05T19:46:50+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -321,7 +321,7 @@
      <rdf:li>Albánia</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>utca</rdf:li>
+     <rdf:li>utca-út</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
@@ -329,7 +329,7 @@
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Albánia</rdf:li>
-     <rdf:li>téma|épített|utca</rdf:li>
+     <rdf:li>téma|épített|utca-út</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

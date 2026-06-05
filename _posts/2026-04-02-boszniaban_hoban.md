@@ -8,10 +8,10 @@ image_height: 1816
 lat: 43.714677
 lon: 18.874192
 tags:
+  - "Bosznia-Hercegovina"
   - "hó"
   - "tél"
-  - "Bosznia-Hercegovina"
-  - "utca"
+  - "utca-út"
 description: "Egy lezárt útszakasz miatt kellett kerülnünk."
 ---
 

@@ -10,7 +10,7 @@ lon: 17.814917
 tags:
   - "Bosznia-Hercegovina"
   - "Mostar"
-  - "utca"
+  - "utca-út"
 description: "A Tara torony részlete a híd nyugati oldalán."
 ---
 

@@ -9,7 +9,7 @@ lat: 42.415278
 lon: 19.503389
 tags:
   - "Albánia"
-  - "utca"
+  - "utca-út"
 description: "Úton Theth-be."
 ---
 

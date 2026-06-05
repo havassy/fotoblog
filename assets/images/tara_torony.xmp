@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-03T12:55:18.33+01:00"
    xmp:CreateDate="2026-04-03T12:55:18.33+01:00"
-   xmp:MetadataDate="2026-04-24T22:46:30+02:00"
+   xmp:MetadataDate="2026-06-05T19:30:17+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="C8CA1267BC923B58701439C15C9F5FDA"
    xmpMM:PreservedFileName="b78a0014.cr3"
    xmpMM:OriginalDocumentID="C8CA1267BC923B58701439C15C9F5FDA"
-   xmpMM:InstanceID="xmp.iid:71488f4c-ecfe-bc48-bb67-6bc0a2d61eaf"
+   xmpMM:InstanceID="xmp.iid:9217736c-74af-ce4d-a9df-1a6d88d21a92"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -112,7 +112,7 @@
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>utca</rdf:li>
+     <rdf:li>utca-út</rdf:li>
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
    </dc:subject>
@@ -125,8 +125,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:71488f4c-ecfe-bc48-bb67-6bc0a2d61eaf"
-      stEvt:when="2026-04-24T22:46:30+02:00"
+      stEvt:instanceID="xmp.iid:9217736c-74af-ce4d-a9df-1a6d88d21a92"
+      stEvt:when="2026-06-05T19:30:17+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -138,7 +138,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>Mostar</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>utca</rdf:li>
+     <rdf:li>utca-út</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
@@ -147,7 +147,7 @@
     <rdf:Bag>
      <rdf:li>hely|ország|Bosznia-Hercegovina</rdf:li>
      <rdf:li>hely|település|Mostar</rdf:li>
-     <rdf:li>téma|épített|utca</rdf:li>
+     <rdf:li>téma|épített|utca-út</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

@@ -16,7 +16,7 @@
    xmp:ModifyDate="2017-08-01T17:54:16.68"
    xmp:CreateDate="2017-08-01T17:54:16.68"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-06-19T22:34:37+02:00"
+   xmp:MetadataDate="2026-06-20T18:02:46+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="FE8AF2EAB0A0BA5A784C3DCD63664180"
    xmpMM:OriginalDocumentID="FE8AF2EAB0A0BA5A784C3DCD63664180"
-   xmpMM:InstanceID="xmp.iid:b1fc4794-8f6a-c044-84dc-b2dc77f185e2"
+   xmpMM:InstanceID="xmp.iid:161efef7-4520-4442-b301-e9191b2e93eb"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
@@ -218,15 +218,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ezen a napon áttettük székhelyünket a Rodopéba. Víztározós napot tartottunk, út közben megnéztük a Doszpati- és a Golyam Beglik-víztározót. A nap végén a Bataki víztározó partján sátraztunk.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezen a napon áttettük székhelyünket a Rodopéba. Víztározós napot tartottunk, út közben megnéztük a Doszpati- és a Golyam Beglik-víztározót. A nap végén a Bataki-víztározó partján sátraztunk.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:b1fc4794-8f6a-c044-84dc-b2dc77f185e2"
-      stEvt:when="2026-06-19T22:34:37+02:00"
+      stEvt:instanceID="xmp.iid:161efef7-4520-4442-b301-e9191b2e93eb"
+      stEvt:when="2026-06-20T18:02:46+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

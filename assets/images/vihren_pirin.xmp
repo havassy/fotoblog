@@ -17,7 +17,7 @@
    xmp:ModifyDate="2017-07-28T10:19:42.40"
    xmp:CreateDate="2017-07-28T10:19:42.40"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-19T22:30:54+02:00"
+   xmp:MetadataDate="2026-06-20T18:04:43+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="FED1F0F156AF6F2C1934A74140A483B1"
    xmpMM:OriginalDocumentID="FED1F0F156AF6F2C1934A74140A483B1"
-   xmpMM:InstanceID="xmp.iid:a5e29f80-01eb-af42-a481-fced3adfc707"
+   xmpMM:InstanceID="xmp.iid:11c1f43d-df38-f440-9d67-063d692febd0"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -235,15 +235,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ködben a Vihren a Pirin legmagasabb csúcsa, 2914 méter magas. Kiváló hegyi időnk volt! Jobban szeretem a jövő-menő felhőket, mint a csupa kék eget.</rdf:li>
+     <rdf:li xml:lang="x-default">Ködben a Vihren a Pirin 2914 méter magas, legmagasabb csúcsa, . Kiváló hegyi időnk volt! Jobban szeretem a jövő-menő felhőket, mint a csupa kék eget.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:a5e29f80-01eb-af42-a481-fced3adfc707"
-      stEvt:when="2026-06-19T22:30:54+02:00"
+      stEvt:instanceID="xmp.iid:11c1f43d-df38-f440-9d67-063d692febd0"
+      stEvt:when="2026-06-20T18:04:43+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

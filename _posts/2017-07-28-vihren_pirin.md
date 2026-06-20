@@ -11,7 +11,7 @@ tags:
   - "Bulgária"
   - "Pirin"
   - "hegység"
-description: "Ködben a Vihren a Pirin legmagasabb csúcsa, 2914 méter magas."
+description: "Ködben a Vihren a Pirin 2914 méter magas, legmagasabb csúcsa, ."
 ---
 
-Ködben a Vihren a Pirin legmagasabb csúcsa, 2914 méter magas. Kiváló hegyi időnk volt! Jobban szeretem a jövő-menő felhőket, mint a csupa kék eget.
+Ködben a Vihren a Pirin 2914 méter magas, legmagasabb csúcsa, . Kiváló hegyi időnk volt! Jobban szeretem a jövő-menő felhőket, mint a csupa kék eget.

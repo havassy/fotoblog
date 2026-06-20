@@ -14,4 +14,4 @@ tags:
 description: "Ezen a napon áttettük székhelyünket a Rodopéba."
 ---
 
-Ezen a napon áttettük székhelyünket a Rodopéba. Víztározós napot tartottunk, út közben megnéztük a Doszpati- és a Golyam Beglik-víztározót. A nap végén a Bataki víztározó partján sátraztunk.
+Ezen a napon áttettük székhelyünket a Rodopéba. Víztározós napot tartottunk, út közben megnéztük a Doszpati- és a Golyam Beglik-víztározót. A nap végén a Bataki-víztározó partján sátraztunk.

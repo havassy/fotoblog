@@ -7,6 +7,11 @@ image_width: 800
 image_height: 533
 lat: 41.532319
 lon: 23.427968
+tags:
+  - "Bulgária"
+  - "Rozsen"
+  - "szőlő"
+  - "templom-kolostor"
 description: "A képen az idős, legendás szőlőtőke látható, amelynek gyümölcséhez a helyiek termékenységgel kapcsolatos hiedelmeket fűznek."
 ---
 

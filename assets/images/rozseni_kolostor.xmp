@@ -12,11 +12,12 @@
     xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:Rating="1"
    xmp:ModifyDate="2017-07-29T17:45:54.96"
    xmp:CreateDate="2017-07-29T17:45:54.96"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-06-19T22:32+02:00"
+   xmp:MetadataDate="2026-06-22T16:27:56+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="6280BEA3B73AF5244477299084FC6DBA"
    xmpMM:OriginalDocumentID="6280BEA3B73AF5244477299084FC6DBA"
-   xmpMM:InstanceID="xmp.iid:6192b59a-aadc-5c4d-bbb1-cd340ee28dbb"
+   xmpMM:InstanceID="xmp.iid:3a9ccaf9-bc83-1041-9035-16feb6da1bcb"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -220,6 +221,20 @@
      <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
     </rdf:Alt>
    </dc:rights>
+   <dc:subject>
+    <rdf:Bag>
+     <rdf:li>Bulgária</rdf:li>
+     <rdf:li>Rozsen</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>növény</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>szőlő</rdf:li>
+     <rdf:li>település</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>épített</rdf:li>
+    </rdf:Bag>
+   </dc:subject>
    <dc:description>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">A képen az idős, legendás szőlőtőke látható, amelynek gyümölcséhez a helyiek termékenységgel kapcsolatos hiedelmeket fűznek.</rdf:li>
@@ -229,8 +244,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:6192b59a-aadc-5c4d-bbb1-cd340ee28dbb"
-      stEvt:when="2026-06-19T22:32+02:00"
+      stEvt:instanceID="xmp.iid:3a9ccaf9-bc83-1041-9035-16feb6da1bcb"
+      stEvt:when="2026-06-22T16:27:56+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -301,6 +316,28 @@
     </crs:Parameters>
     </rdf:Description>
    </crs:Look>
+   <lr:weightedFlatSubject>
+    <rdf:Bag>
+     <rdf:li>Bulgária</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>Rozsen</rdf:li>
+     <rdf:li>település</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
+     <rdf:li>épített</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>szőlő</rdf:li>
+     <rdf:li>növény</rdf:li>
+    </rdf:Bag>
+   </lr:weightedFlatSubject>
+   <lr:hierarchicalSubject>
+    <rdf:Bag>
+     <rdf:li>hely|ország|Bulgária</rdf:li>
+     <rdf:li>hely|település|Rozsen</rdf:li>
+     <rdf:li>téma|növény|szőlő</rdf:li>
+     <rdf:li>téma|épített|templom-kolostor</rdf:li>
+    </rdf:Bag>
+   </lr:hierarchicalSubject>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

@@ -14,4 +14,4 @@ tags:
 description: "Ez a nap már a hazaúrtól szólt, de azért megálltunk pár helyen, például Konjicban, hogy megnézzük a Neretván átívelő Régi hidat (Stara Ćuprija)."
 ---
 
-Ez a nap már a hazaúrtól szólt, de azért megálltunk pár helyen, például Konjicban, hogy megnézzük a Neretván átívelő Régi hidat (Stara Ćuprija). Hogy az utazás el ne veszítse körút jellegét, Szarajevó, Zenica, Doboj felé jöttünk.
+Ez a nap már a hazaúrtól szólt, de azért megálltunk pár helyen, például Konjicban, hogy megnézzük a Neretván átívelő Régi hidat (Stara Ćuprija). Hogy az utazás el ne veszítse körút jellegét, Szarajevó, Zenica, Doboj felé jöttünk haza.

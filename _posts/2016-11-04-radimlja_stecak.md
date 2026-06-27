@@ -15,4 +15,4 @@ tags:
 description: "Bizonyára minden látnivalót a kedvencek között említek, de a kedvencek között is kiemelkedők a stećak nekropoliszok."
 ---
 
-Bizonyára minden látnivalót a kedvencek között említek, de a kedvencek között is kiemelkedők a stećak nekropoliszok. Ezek középkori temetők, amelyekben nagy méretű, faragott kő sírkövek csoportjai állnak. A Nyugat-Balkán jellegzetes világörökségi helyszínei. A nap során még voltunk a kevésbé ismert Boljuni nekropolisznál, Blagajban a Buna-forrásnál és a Kravica-vízesésnél is. Este egy különleges, párnás-baldachinos étteremben vacsoráztunk Počiteljben.
+Bizonyára minden látnivalót a kedvencek között említek, de a kedvencek között is kiemelkedők a stećak nekropoliszok. Ezek középkori temetők, amelyekben nagy méretű, faragott sírkövek csoportjai állnak. A Nyugat-Balkán jellegzetes világörökségi helyszínei. A nap során még voltunk a kevésbé ismert Boljuni nekropolisznál, Blagajban a Buna-forrásnál és a Kravica-vízesésnél is. Este egy különleges, párnás-baldachinos étteremben vacsoráztunk Počiteljben.

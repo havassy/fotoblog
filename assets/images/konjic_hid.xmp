@@ -16,7 +16,7 @@
    xmp:ModifyDate="2016-11-05T09:02:05.35"
    xmp:CreateDate="2016-11-05T09:02:05.35"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-27T21:48:35+02:00"
+   xmp:MetadataDate="2026-06-27T22:00:28+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="588D762DB056C9802466164CC6CC4DCB"
    xmpMM:OriginalDocumentID="588D762DB056C9802466164CC6CC4DCB"
-   xmpMM:InstanceID="xmp.iid:ff933cb9-4f28-7a48-b2a2-c88b9e6de37c"
+   xmpMM:InstanceID="xmp.iid:e6b9dab2-1250-a646-b341-8adafdb82f8e"
    xmpRights:Marked="True"
    xmpDM:pick="0"
    crs:Version="17.2"
@@ -248,15 +248,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ez a nap már a hazaúrtól szólt, de azért megálltunk pár helyen, például Konjicban, hogy megnézzük a Neretván átívelő Régi hidat (Stara Ćuprija). Hogy az utazás el ne veszítse körút jellegét, Szarajevó, Zenica, Doboj felé jöttünk.</rdf:li>
+     <rdf:li xml:lang="x-default">Ez a nap már a hazaúrtól szólt, de azért megálltunk pár helyen, például Konjicban, hogy megnézzük a Neretván átívelő Régi hidat (Stara Ćuprija). Hogy az utazás el ne veszítse körút jellegét, Szarajevó, Zenica, Doboj felé jöttünk haza.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:ff933cb9-4f28-7a48-b2a2-c88b9e6de37c"
-      stEvt:when="2026-06-27T21:48:35+02:00"
+      stEvt:instanceID="xmp.iid:e6b9dab2-1250-a646-b341-8adafdb82f8e"
+      stEvt:when="2026-06-27T22:00:28+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

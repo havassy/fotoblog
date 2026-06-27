@@ -16,7 +16,7 @@
    xmp:ModifyDate="2016-11-02T16:23:43.00"
    xmp:CreateDate="2016-11-02T16:23:43.00"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-06-27T21:46:20+02:00"
+   xmp:MetadataDate="2026-06-27T21:57:02+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="484C63CE40E94290AFA9D25BA6BE3BCA"
    xmpMM:OriginalDocumentID="484C63CE40E94290AFA9D25BA6BE3BCA"
-   xmpMM:InstanceID="xmp.iid:4c7eebcf-0087-1843-9e01-1a559519dd25"
+   xmpMM:InstanceID="xmp.iid:a282e5d8-1e55-8e46-afe3-5767b52a2644"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -236,15 +236,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Őszi hosszú hétvége. Fél öt körül érkeztünk Jajcába, de novemberben korán sötétedik és felhős is volt az ég, így mire elfoglalzuk a szállást, már sötétben, esti sétára volt idő.</rdf:li>
+     <rdf:li xml:lang="x-default">Őszi hosszú hétvége. Fél öt körül érkeztünk Jajcába, de novemberben korán sötétedik és felhős is volt az ég, így mire elfoglaltuk a szállást, már sötétben, esti sétára volt idő.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4c7eebcf-0087-1843-9e01-1a559519dd25"
-      stEvt:when="2026-06-27T21:46:20+02:00"
+      stEvt:instanceID="xmp.iid:a282e5d8-1e55-8e46-afe3-5767b52a2644"
+      stEvt:when="2026-06-27T21:57:02+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

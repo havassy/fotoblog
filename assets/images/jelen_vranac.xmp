@@ -196,7 +196,7 @@
   </dc:subject>
   <dc:title>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Szerb sör, Crnagorai bor</rdf:li>
+    <rdf:li xml:lang='x-default'>Szerb sör, crnagorai bor</rdf:li>
    </rdf:Alt>
   </dc:title>
  </rdf:Description>
@@ -316,8 +316,8 @@
   <xmp:CreateDate>2018-04-28T20:03:09</xmp:CreateDate>
   <xmp:CreatorTool>Adobe Photoshop Lightroom Classic 14.2 (Windows)</xmp:CreatorTool>
   <xmp:Label>Blue</xmp:Label>
-  <xmp:MetadataDate>2026-06-28T20:30:43+02:00</xmp:MetadataDate>
-  <xmp:ModifyDate>2026-06-28T20:30:43</xmp:ModifyDate>
+  <xmp:MetadataDate>2026-06-28T20:34:07+02:00</xmp:MetadataDate>
+  <xmp:ModifyDate>2026-06-28T20:34:07</xmp:ModifyDate>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
@@ -334,7 +334,7 @@
    <stRef:documentID>EF7898ECBB1BC17FBF977B1B2D3D4A05</stRef:documentID>
    <stRef:originalDocumentID>EF7898ECBB1BC17FBF977B1B2D3D4A05</stRef:originalDocumentID>
   </xmpMM:DerivedFrom>
-  <xmpMM:DocumentID>xmp.did:ae1c57eb-c14c-8b46-8313-28a848f13766</xmpMM:DocumentID>
+  <xmpMM:DocumentID>xmp.did:91c7c052-4056-1044-b948-ad67aceff5b7</xmpMM:DocumentID>
   <xmpMM:History>
    <rdf:Seq>
     <rdf:li rdf:parseType='Resource'>
@@ -344,13 +344,13 @@
     <rdf:li rdf:parseType='Resource'>
      <stEvt:action>saved</stEvt:action>
      <stEvt:changed>/</stEvt:changed>
-     <stEvt:instanceID>xmp.iid:ae1c57eb-c14c-8b46-8313-28a848f13766</stEvt:instanceID>
+     <stEvt:instanceID>xmp.iid:91c7c052-4056-1044-b948-ad67aceff5b7</stEvt:instanceID>
      <stEvt:softwareAgent>Adobe Photoshop Lightroom Classic 14.2 (Windows)</stEvt:softwareAgent>
-     <stEvt:when>2026-06-28T20:30:43+02:00</stEvt:when>
+     <stEvt:when>2026-06-28T20:34:07+02:00</stEvt:when>
     </rdf:li>
    </rdf:Seq>
   </xmpMM:History>
-  <xmpMM:InstanceID>xmp.iid:ae1c57eb-c14c-8b46-8313-28a848f13766</xmpMM:InstanceID>
+  <xmpMM:InstanceID>xmp.iid:91c7c052-4056-1044-b948-ad67aceff5b7</xmpMM:InstanceID>
   <xmpMM:OriginalDocumentID>EF7898ECBB1BC17FBF977B1B2D3D4A05</xmpMM:OriginalDocumentID>
   <xmpMM:PreservedFileName>img_20180428_200308.jpg</xmpMM:PreservedFileName>
  </rdf:Description>

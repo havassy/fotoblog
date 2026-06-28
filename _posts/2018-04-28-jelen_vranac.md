@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Szerb sör, Crnagorai bor"
+title: "Szerb sör, crnagorai bor"
 date: 2018-04-28T20:03:09
 image: "/assets/images/jelen_vranac.jpg"
 image_width: 1920

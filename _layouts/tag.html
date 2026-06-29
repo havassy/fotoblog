@@ -164,7 +164,8 @@ layout: default
 
           <div class="card-body">
             <h2 class="card-title">{{ post.title }}</h2>
-            <p class="card-meta">{{ post.date | date: "%Y. %m. %d." }}</p>
+            {% assign display_date = post.trip_date | default: post.date %}
+            <p class="card-meta">{{ display_date | date: "%Y. %m. %d." }}</p>
           </div>
         </a>
       {% endfor %}

@@ -31,7 +31,7 @@
       {% assign social_image_width = featured.image_width %}
       {% assign social_image_height = featured.image_height %}
     {% else %}
-      {% assign latest_posts_with_images = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
+      {% assign latest_posts_with_images = site.posts | where_exp: "p", "p.image" | sort: "trip_date" | reverse %}
       {% assign latest_post = latest_posts_with_images | first %}
       {% if latest_post and latest_post.image %}
         {% assign social_image = latest_post.image | absolute_url %}

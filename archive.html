@@ -122,14 +122,15 @@ permalink: /archive/
     </div>
   </header>
 
-  {% assign posts = site.posts | where_exp: "p", "p.image" | sort: "date" | reverse %}
+  {% assign posts = site.posts | where_exp: "p", "p.image" | sort: "trip_date" | reverse %}
 
   {% if posts.size > 0 %}
     <section class="archive" aria-label="Év szerinti archívum">
       {% assign current_year = "" %}
 
       {% for post in posts %}
-        {% assign year = post.date | date: "%Y" %}
+        {% assign archive_date = post.trip_date | default: post.date %}
+        {% assign year = archive_date | date: "%Y" %}
 
         {% if year != current_year %}
           {% unless forloop.first %}
@@ -144,7 +145,7 @@ permalink: /archive/
         {% endif %}
 
         <li>
-          <span class="archive-date">{{ post.date | date: "%Y. %m. %d." }}</span>
+          <span class="archive-date">{{ archive_date | date: "%Y. %m. %d." }}</span>
           –
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </li>

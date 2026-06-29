@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign tagged_posts = site.tags[page.tag] | where_exp: "post", "post.image" %}
+{% assign tagged_posts = site.tags[page.tag] | where_exp: "post", "post.image" | sort: "trip_date_sort" | reverse %}
 
 <style>
   .tag-wrap{

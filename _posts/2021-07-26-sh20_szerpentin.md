@@ -2,6 +2,8 @@
 layout: post
 title: "Az SH20-as út szerpentinjei"
 date: 2021-07-26T15:50:31.58
+trip_date: 2021-07-26T15:50:31.58
+trip_date_sort: 2021-07-26
 image: "/assets/images/sh20_szerpentin.jpg"
 image_width: 800
 image_height: 533

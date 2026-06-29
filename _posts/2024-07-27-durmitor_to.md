@@ -2,6 +2,8 @@
 layout: post
 title: "Barno-tó"
 date: 2024-07-27T13:49:24.26
+trip_date: 2024-07-27T13:49:24.26
+trip_date_sort: 2024-07-27
 image: "/assets/images/durmitor_to.jpg"
 image_width: 800
 image_height: 449

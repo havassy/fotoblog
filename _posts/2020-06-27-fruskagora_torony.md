@@ -2,6 +2,8 @@
 layout: post
 title: "Iriški Venac-torony"
 date: 2020-06-27T15:35:48.40
+trip_date: 2020-06-27T15:35:48.40
+trip_date_sort: 2020-06-27
 image: "/assets/images/fruskagora_torony.jpg"
 image_width: 800
 image_height: 533

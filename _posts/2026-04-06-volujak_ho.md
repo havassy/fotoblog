@@ -2,6 +2,8 @@
 layout: post
 title: "Volujak"
 date: 2026-04-06T06:25:06.41+01:00
+trip_date: 2026-04-06T06:25:06.41+01:00
+trip_date_sort: 2026-04-06
 image: "/assets/images/volujak_ho.jpg"
 image_width: 800
 image_height: 450

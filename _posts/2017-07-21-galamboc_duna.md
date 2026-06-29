@@ -2,6 +2,8 @@
 layout: post
 title: "Galambóci vár"
 date: 2017-07-21T18:45:25.80
+trip_date: 2017-07-21T18:45:25.80
+trip_date_sort: 2017-07-21
 image: "/assets/images/galamboc_duna.jpg"
 image_width: 800
 image_height: 533

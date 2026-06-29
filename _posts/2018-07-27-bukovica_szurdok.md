@@ -2,6 +2,8 @@
 layout: post
 title: "A Bukovica szurdoka"
 date: 2018-07-27T14:43:12.00
+trip_date: 2018-07-27T14:43:12.00
+trip_date_sort: 2018-07-27
 image: "/assets/images/bukovica_szurdok.jpg"
 image_width: 800
 image_height: 533

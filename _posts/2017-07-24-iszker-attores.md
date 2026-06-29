@@ -2,6 +2,8 @@
 layout: post
 title: "Az Iszker-áttörés"
 date: 2017-07-24T12:16:03.00
+trip_date: 2017-07-24T12:16:03.00
+trip_date_sort: 2017-07-24
 image: "/assets/images/iszker-attores.jpg"
 image_width: 800
 image_height: 533

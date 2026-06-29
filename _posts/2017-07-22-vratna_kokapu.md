@@ -2,6 +2,8 @@
 layout: post
 title: "Vratnai nagy Kőkapu"
 date: 2017-07-22T11:33:31.00
+trip_date: 2017-07-22T11:33:31.00
+trip_date_sort: 2017-07-22
 image: "/assets/images/vratna_kokapu.jpg"
 image_width: 800
 image_height: 533

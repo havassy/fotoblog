@@ -2,6 +2,8 @@
 layout: post
 title: "Rilai kolostor"
 date: 2017-07-27T10:27:20.74
+trip_date: 2017-07-27T10:27:20.74
+trip_date_sort: 2017-07-27
 image: "/assets/images/rilai_kolostorudvar.jpg"
 image_width: 800
 image_height: 450

@@ -2,6 +2,8 @@
 layout: post
 title: "Belogradcsiki sziklák"
 date: 2017-07-23T10:56:34.00
+trip_date: 2017-07-23T10:56:34.00
+trip_date_sort: 2017-07-23
 image: "/assets/images/belogradcsik_sziklak.jpg"
 image_width: 800
 image_height: 533

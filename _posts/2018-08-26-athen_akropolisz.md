@@ -2,6 +2,8 @@
 layout: post
 title: "Az athéni Akropolisz"
 date: 2018-08-26T16:27:24.00
+trip_date: 2018-08-26T16:27:24.00
+trip_date_sort: 2018-08-26
 image: "/assets/images/athen_akropolisz.jpg"
 image_width: 800
 image_height: 450

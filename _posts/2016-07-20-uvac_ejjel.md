@@ -2,6 +2,8 @@
 layout: post
 title: "Uvac meanderek éjjel"
 date: 2016-07-20T22:27:41.00
+trip_date: 2016-07-20T22:27:41.00
+trip_date_sort: 2016-07-20
 image: "/assets/images/uvac_ejjel.jpg"
 image_width: 800
 image_height: 533

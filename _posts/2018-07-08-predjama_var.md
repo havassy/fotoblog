@@ -2,6 +2,8 @@
 layout: post
 title: "Predjama várkastély"
 date: 2018-07-08T16:56:51.49
+trip_date: 2018-07-08T16:56:51.49
+trip_date_sort: 2018-07-08
 image: "/assets/images/predjama_var.jpg"
 image_width: 800
 image_height: 533

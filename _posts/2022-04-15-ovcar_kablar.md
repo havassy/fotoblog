@@ -2,6 +2,8 @@
 layout: post
 title: "Szerb Szent Hegy"
 date: 2022-04-15T12:50:32.70
+trip_date: 2022-04-15T12:50:32.70
+trip_date_sort: 2022-04-15
 image: "/assets/images/ovcar_kablar.jpg"
 image_width: 800
 image_height: 533

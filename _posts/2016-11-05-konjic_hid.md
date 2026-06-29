@@ -2,6 +2,8 @@
 layout: post
 title: "Konjici Régi híd"
 date: 2016-11-05T09:02:05.35
+trip_date: 2016-11-05T09:02:05.35
+trip_date_sort: 2016-11-05
 image: "/assets/images/konjic_hid.jpg"
 image_width: 800
 image_height: 450

@@ -2,6 +2,8 @@
 layout: post
 title: "Melniki földpiramisok"
 date: 2017-07-31T13:43:44.28
+trip_date: 2017-07-31T13:43:44.28
+trip_date_sort: 2017-07-31
 image: "/assets/images/melnik_foldpiramisok2.jpg"
 image_width: 800
 image_height: 450

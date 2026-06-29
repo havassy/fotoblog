@@ -2,6 +2,8 @@
 layout: post
 title: "Kadiut-híd"
 date: 2021-08-04T18:06:33.00
+trip_date: 2021-08-04T18:06:33.00
+trip_date_sort: 2021-08-04
 image: "/assets/images/kadiut_langarica.jpg"
 image_width: 800
 image_height: 533

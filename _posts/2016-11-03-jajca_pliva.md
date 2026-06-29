@@ -2,6 +2,8 @@
 layout: post
 title: "A Pliva vízesés"
 date: 2016-11-03T10:13:01.00
+trip_date: 2016-11-03T10:13:01.00
+trip_date_sort: 2016-11-03
 image: "/assets/images/jajca_pliva.jpg"
 image_width: 800
 image_height: 533

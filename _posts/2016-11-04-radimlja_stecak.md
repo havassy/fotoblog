@@ -2,6 +2,8 @@
 layout: post
 title: "Radimlja stećak nekropolisz"
 date: 2016-11-04T10:45:11.00
+trip_date: 2016-11-04T10:45:11.00
+trip_date_sort: 2016-11-04
 image: "/assets/images/radimlja_stecak.jpg"
 image_width: 800
 image_height: 533

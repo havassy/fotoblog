@@ -2,6 +2,8 @@
 layout: post
 title: "Dombok a Durmitor előterében"
 date: 2024-07-28T11:08:08.17
+trip_date: 2024-07-28T11:08:08.17
+trip_date_sort: 2024-07-28
 image: "/assets/images/durmitor_domb.jpg"
 image_width: 800
 image_height: 450

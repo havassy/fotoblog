@@ -2,6 +2,8 @@
 layout: post
 title: "Berat jellegzetes házai"
 date: 2021-07-31T18:15:53.00
+trip_date: 2021-07-31T18:15:53.00
+trip_date_sort: 2021-07-31
 image: "/assets/images/berat_vilagorokseg.jpg"
 image_width: 800
 image_height: 450

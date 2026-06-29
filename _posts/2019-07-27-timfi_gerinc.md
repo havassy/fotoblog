@@ -2,6 +2,8 @@
 layout: post
 title: "Kilátás a Timfi-hegységben"
 date: 2019-07-27T12:42:56.25
+trip_date: 2019-07-27T12:42:56.25
+trip_date_sort: 2019-07-27
 image: "/assets/images/timfi_gerinc.jpg"
 image_width: 800
 image_height: 533

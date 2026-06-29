@@ -2,6 +2,8 @@
 layout: post
 title: "Út közben Boszniában elkapott a tél"
 date: 2026-04-02T18:02:59
+trip_date: 2026-04-02T18:02:59
+trip_date_sort: 2026-04-02
 image: "/assets/images/boszniaban_hoban.jpg"
 image_width: 4032
 image_height: 1816

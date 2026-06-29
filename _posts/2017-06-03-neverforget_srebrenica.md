@@ -2,6 +2,8 @@
 layout: post
 title: "Never forget Srebrenica"
 date: 2017-06-03T15:02:05.00
+trip_date: 2017-06-03T15:02:05.00
+trip_date_sort: 2017-06-03
 image: "/assets/images/neverforget_srebrenica.jpg"
 image_width: 800
 image_height: 533

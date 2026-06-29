@@ -2,6 +2,8 @@
 layout: post
 title: "Rilai kolostor a Rilában"
 date: 2017-07-26T16:00:41.04
+trip_date: 2017-07-26T16:00:41.04
+trip_date_sort: 2017-07-26
 image: "/assets/images/rilai_kolostor.jpg"
 image_width: 800
 image_height: 533

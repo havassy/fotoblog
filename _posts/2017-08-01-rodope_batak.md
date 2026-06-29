@@ -2,6 +2,8 @@
 layout: post
 title: "Bataki-víztározó"
 date: 2017-08-01T17:54:16.68
+trip_date: 2017-08-01T17:54:16.68
+trip_date_sort: 2017-08-01
 image: "/assets/images/rodope_batak.jpg"
 image_width: 800
 image_height: 533

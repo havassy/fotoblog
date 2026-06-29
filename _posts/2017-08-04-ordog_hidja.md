@@ -2,6 +2,8 @@
 layout: post
 title: "Ördög hídja"
 date: 2017-08-04T17:53:25.93
+trip_date: 2017-08-04T17:53:25.93
+trip_date_sort: 2017-08-04
 image: "/assets/images/ordog_hidja.jpg"
 image_width: 800
 image_height: 533

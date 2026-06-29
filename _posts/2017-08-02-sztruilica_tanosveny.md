@@ -2,6 +2,8 @@
 layout: post
 title: "Sztruilica–Kaleto–Lakáta tanösvény"
 date: 2017-08-02T17:05:06.00
+trip_date: 2017-08-02T17:05:06.00
+trip_date_sort: 2017-08-02
 image: "/assets/images/sztruilica_tanosveny.jpg"
 image_width: 800
 image_height: 533

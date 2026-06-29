@@ -2,6 +2,8 @@
 layout: post
 title: "Naplemente a Drina mellett"
 date: 2022-04-17T19:30:24.00
+trip_date: 2022-04-17T19:30:24.00
+trip_date_sort: 2022-04-17
 image: "/assets/images/drina_naplemente.jpg"
 image_width: 800
 image_height: 533

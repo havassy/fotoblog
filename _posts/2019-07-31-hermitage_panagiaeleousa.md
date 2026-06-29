@@ -2,6 +2,8 @@
 layout: post
 title: "Hermitage of Panagia Eleousa"
 date: 2019-07-31T15:04:06.51
+trip_date: 2019-07-31T15:04:06.51
+trip_date_sort: 2019-07-31
 image: "/assets/images/hermitage_panagiaeleousa.jpg"
 image_width: 800
 image_height: 640

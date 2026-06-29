@@ -2,6 +2,8 @@
 layout: post
 title: "Naplemente útközben"
 date: 2025-10-22T17:49:53
+trip_date: 2025-10-22T17:49:53
+trip_date_sort: 2025-10-22
 image: "/assets/images/uton_horvatorszagban.jpg"
 image_width: 1920
 image_height: 865

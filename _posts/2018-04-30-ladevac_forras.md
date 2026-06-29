@@ -2,6 +2,8 @@
 layout: post
 title: "Lađevac-forrás"
 date: 2018-04-30T12:05:04.91
+trip_date: 2018-04-30T12:05:04.91
+trip_date_sort: 2018-04-30
 image: "/assets/images/ladevac_forras.jpg"
 image_width: 800
 image_height: 533

@@ -2,6 +2,8 @@
 layout: post
 title: "Dubrovniki utca és háztetők"
 date: 2026-04-04T11:23:04.73+01:00
+trip_date: 2026-04-04T11:23:04.73+01:00
+trip_date_sort: 2026-04-04
 image: "/assets/images/dubrovnik_utca.jpg"
 image_width: 800
 image_height: 533

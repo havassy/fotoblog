@@ -2,6 +2,8 @@
 layout: post
 title: "Matka-kanyon"
 date: 2019-07-20T12:54:59.94
+trip_date: 2019-07-20T12:54:59.94
+trip_date_sort: 2019-07-20
 image: "/assets/images/matka_kanyon.jpg"
 image_width: 800
 image_height: 533

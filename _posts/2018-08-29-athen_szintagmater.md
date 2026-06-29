@@ -2,6 +2,8 @@
 layout: post
 title: "Az athéni Szintagma tér"
 date: 2018-08-29T20:31:33.09
+trip_date: 2018-08-29T20:31:33.09
+trip_date_sort: 2018-08-29
 image: "/assets/images/athen_szintagmater.jpg"
 image_width: 800
 image_height: 450

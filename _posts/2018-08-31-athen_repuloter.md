@@ -2,6 +2,8 @@
 layout: post
 title: "Az athéni Elefthériosz Venizélosz nemzetközi repülőtér"
 date: 2018-08-31T13:26:37
+trip_date: 2018-08-31T13:26:37
+trip_date_sort: 2018-08-31
 image: "/assets/images/athen_repuloter.jpg"
 image_width: 800
 image_height: 571

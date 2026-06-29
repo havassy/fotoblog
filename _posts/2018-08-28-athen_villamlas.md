@@ -2,6 +2,8 @@
 layout: post
 title: "Távoli zivatar Athén felett"
 date: 2018-08-28T20:40:20.26
+trip_date: 2018-08-28T20:40:20.26
+trip_date_sort: 2018-08-28
 image: "/assets/images/athen_villamlas.jpg"
 image_width: 800
 image_height: 450

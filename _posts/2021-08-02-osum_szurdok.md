@@ -2,6 +2,8 @@
 layout: post
 title: "Az Osum-szurdok"
 date: 2021-08-02T18:25:11.00
+trip_date: 2021-08-02T18:25:11.00
+trip_date_sort: 2021-08-02
 image: "/assets/images/osum_szurdok.jpg"
 image_width: 800
 image_height: 533

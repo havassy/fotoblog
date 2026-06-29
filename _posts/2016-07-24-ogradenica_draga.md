@@ -2,6 +2,8 @@
 layout: post
 title: "Az Ograđenica környéki plató"
 date: 2016-07-24T08:12:34.00
+trip_date: 2016-07-24T08:12:34.00
+trip_date_sort: 2016-07-24
 image: "/assets/images/ogradenica_draga.jpg"
 image_width: 800
 image_height: 533

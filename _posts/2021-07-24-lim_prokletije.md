@@ -2,6 +2,8 @@
 layout: post
 title: "Útközben Montenegróban, a Lim mentén"
 date: 2021-07-24T12:46:20.92
+trip_date: 2021-07-24T12:46:20.92
+trip_date_sort: 2021-07-24
 image: "/assets/images/lim_prokletije.jpg"
 image_width: 800
 image_height: 450

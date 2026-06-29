@@ -2,6 +2,8 @@
 layout: post
 title: "Rodostói Rákóczi Múzeum"
 date: 2023-11-09T08:48:12.44
+trip_date: 2023-11-09T08:48:12.44
+trip_date_sort: 2023-11-09
 image: "/assets/images/rodosto_rakoczi.jpg"
 image_width: 800
 image_height: 450

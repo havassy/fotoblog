@@ -2,6 +2,8 @@
 layout: post
 title: "Ziakas-híd"
 date: 2019-07-21T14:26:50.26
+trip_date: 2019-07-21T14:26:50.26
+trip_date_sort: 2019-07-21
 image: "/assets/images/ziakas_hid.jpg"
 image_width: 800
 image_height: 533

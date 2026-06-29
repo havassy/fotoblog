@@ -2,6 +2,8 @@
 layout: post
 title: "Pirani világítótorony"
 date: 2018-07-10T20:41:44.24
+trip_date: 2018-07-10T20:41:44.24
+trip_date_sort: 2018-07-10
 image: "/assets/images/piran_vilagitotorony.jpg"
 image_width: 800
 image_height: 533

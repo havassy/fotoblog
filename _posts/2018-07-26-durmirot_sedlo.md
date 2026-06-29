@@ -2,6 +2,8 @@
 layout: post
 title: "Durmitor a Sedlo közelében"
 date: 2018-07-26T17:20:31.18
+trip_date: 2018-07-26T17:20:31.18
+trip_date_sort: 2018-07-26
 image: "/assets/images/durmirot_sedlo.jpg"
 image_width: 800
 image_height: 533

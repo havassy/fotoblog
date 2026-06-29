@@ -2,6 +2,8 @@
 layout: post
 title: "Csodás hidak"
 date: 2017-08-03T18:24:05.00
+trip_date: 2017-08-03T18:24:05.00
+trip_date_sort: 2017-08-03
 image: "/assets/images/csodas_hidak.jpg"
 image_width: 800
 image_height: 533

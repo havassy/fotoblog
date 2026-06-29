@@ -2,6 +2,8 @@
 layout: post
 title: "Timfi-hegység"
 date: 2019-07-29T18:59:14.00
+trip_date: 2019-07-29T18:59:14.00
+trip_date_sort: 2019-07-29
 image: "/assets/images/timfi_felhoben.jpg"
 image_width: 800
 image_height: 533

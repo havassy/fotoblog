@@ -2,6 +2,8 @@
 layout: post
 title: "Ivo Andrić szobra Višegradon"
 date: 2018-07-21T21:21:39.17
+trip_date: 2018-07-21T21:21:39.17
+trip_date_sort: 2018-07-21
 image: "/assets/images/ivo_andric.jpg"
 image_width: 800
 image_height: 571

@@ -2,6 +2,8 @@
 layout: post
 title: "Žiča kolostor"
 date: 2018-05-01T10:04:32.45
+trip_date: 2018-05-01T10:04:32.45
+trip_date_sort: 2018-05-01
 image: "/assets/images/zica_kolostor.jpg"
 image_width: 800
 image_height: 533

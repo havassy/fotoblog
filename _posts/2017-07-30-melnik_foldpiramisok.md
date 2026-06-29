@@ -2,6 +2,8 @@
 layout: post
 title: "Melnik és a földpiramisok"
 date: 2017-07-30T19:58:59.69
+trip_date: 2017-07-30T19:58:59.69
+trip_date_sort: 2017-07-30
 image: "/assets/images/melnik_foldpiramisok.jpg"
 image_width: 800
 image_height: 533

@@ -2,6 +2,8 @@
 layout: post
 title: "Szent Iván rilai barlangja"
 date: 2017-07-25T16:56:59.30
+trip_date: 2017-07-25T16:56:59.30
+trip_date_sort: 2017-07-25
 image: "/assets/images/rilai_szentivan.jpg"
 image_width: 800
 image_height: 533

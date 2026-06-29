@@ -2,6 +2,8 @@
 layout: post
 title: "Ohridi-tó"
 date: 2021-08-05T14:33:13.00
+trip_date: 2021-08-05T14:33:13.00
+trip_date_sort: 2021-08-05
 image: "/assets/images/galicica_ohridito.jpg"
 image_width: 800
 image_height: 533

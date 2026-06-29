@@ -2,6 +2,8 @@
 layout: post
 title: "Kilátás útközben"
 date: 2022-04-18T10:13:59.00
+trip_date: 2022-04-18T10:13:59.00
+trip_date_sort: 2022-04-18
 image: "/assets/images/kilatas_utkozben.jpg"
 image_width: 800
 image_height: 533

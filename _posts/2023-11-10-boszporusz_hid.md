@@ -2,6 +2,8 @@
 layout: post
 title: "Július 15. vértanúinak hídja"
 date: 2023-11-10T14:21:06.48
+trip_date: 2023-11-10T14:21:06.48
+trip_date_sort: 2023-11-10
 image: "/assets/images/boszporusz_hid.jpg"
 image_width: 800
 image_height: 450

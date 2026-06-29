@@ -2,6 +2,8 @@
 layout: post
 title: "A Tara folyó szurdoka a Draga torkolatnál"
 date: 2016-07-22T19:49:51.51
+trip_date: 2016-07-22T19:49:51.51
+trip_date_sort: 2016-07-22
 image: "/assets/images/tara_draga.jpg"
 image_width: 800
 image_height: 533

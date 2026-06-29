@@ -2,6 +2,8 @@
 layout: post
 title: "Kilátás a Kotori-öbölre"
 date: 2016-07-26T16:36:21.00
+trip_date: 2016-07-26T16:36:21.00
+trip_date_sort: 2016-07-26
 image: "/assets/images/kotoriobol_kilatas.jpg"
 image_width: 800
 image_height: 533

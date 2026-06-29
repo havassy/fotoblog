@@ -2,6 +2,8 @@
 layout: post
 title: "Gazi Husrev bég dzsámija"
 date: 2018-11-01T12:13:27.88
+trip_date: 2018-11-01T12:13:27.88
+trip_date_sort: 2018-11-01
 image: "/assets/images/szarajevo_gazihusrevdzsami.jpg"
 image_width: 800
 image_height: 499

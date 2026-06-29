@@ -2,6 +2,8 @@
 layout: post
 title: "Kilátás Piran várfaláról"
 date: 2018-07-09T15:24:21.48
+trip_date: 2018-07-09T15:24:21.48
+trip_date_sort: 2018-07-09
 image: "/assets/images/piran_panorama.jpg"
 image_width: 800
 image_height: 533

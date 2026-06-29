@@ -2,6 +2,8 @@
 layout: post
 title: "Határkő a Prokletijében"
 date: 2021-07-25T15:30:51.02
+trip_date: 2021-07-25T15:30:51.02
+trip_date_sort: 2021-07-25
 image: "/assets/images/prokletije_hatarko.jpg"
 image_width: 800
 image_height: 533

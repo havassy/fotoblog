@@ -2,6 +2,8 @@
 layout: post
 title: "Érkezés a Blini parkba"
 date: 2021-07-29T18:37:31.32
+trip_date: 2021-07-29T18:37:31.32
+trip_date_sort: 2021-07-29
 image: "/assets/images/blini_shala.jpg"
 image_width: 800
 image_height: 533

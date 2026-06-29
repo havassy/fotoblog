@@ -2,6 +2,8 @@
 layout: post
 title: "A Subra csúcs az Orjen-hegységben"
 date: 2016-07-27T13:18:13.00
+trip_date: 2016-07-27T13:18:13.00
+trip_date_sort: 2016-07-27
 image: "/assets/images/orjen_subra.jpg"
 image_width: 800
 image_height: 533

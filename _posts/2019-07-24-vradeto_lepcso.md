@@ -2,6 +2,8 @@
 layout: post
 title: "A Vradeto lépcső"
 date: 2019-07-24T16:52:51.12
+trip_date: 2019-07-24T16:52:51.12
+trip_date_sort: 2019-07-24
 image: "/assets/images/vradeto_lepcso.jpg"
 image_width: 800
 image_height: 533

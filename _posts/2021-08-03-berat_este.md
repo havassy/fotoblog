@@ -2,6 +2,8 @@
 layout: post
 title: "Este Beratban"
 date: 2021-08-03T19:57:12.00
+trip_date: 2021-08-03T19:57:12.00
+trip_date_sort: 2021-08-03
 image: "/assets/images/berat_este.jpg"
 image_width: 800
 image_height: 450

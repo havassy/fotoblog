@@ -2,6 +2,8 @@
 layout: post
 title: "Kőerdő"
 date: 2019-07-23T14:22:11.00
+trip_date: 2019-07-23T14:22:11.00
+trip_date_sort: 2019-07-23
 image: "/assets/images/vikos_koerdo.jpg"
 image_width: 800
 image_height: 533

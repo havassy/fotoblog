@@ -2,6 +2,8 @@
 layout: post
 title: "Feketefenyő a Perućica őserdőben."
 date: 2025-08-08T10:19:41.92
+trip_date: 2025-08-08T10:19:41.92
+trip_date_sort: 2025-08-08
 image: "/assets/images/feketefenyo_perucica.jpg"
 image_width: 800
 image_height: 449

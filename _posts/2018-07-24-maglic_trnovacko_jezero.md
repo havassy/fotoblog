@@ -2,6 +2,8 @@
 layout: post
 title: "Trnovačko-tó"
 date: 2018-07-24T15:22:36.85
+trip_date: 2018-07-24T15:22:36.85
+trip_date_sort: 2018-07-24
 image: "/assets/images/maglic_trnovacko_jezero.jpg"
 image_width: 800
 image_height: 533

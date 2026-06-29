@@ -2,6 +2,8 @@
 layout: post
 title: "Buna-forrás"
 date: 2018-10-31T08:56:22.00
+trip_date: 2018-10-31T08:56:22.00
+trip_date_sort: 2018-10-31
 image: "/assets/images/blagaj_buna.jpg"
 image_width: 800
 image_height: 533

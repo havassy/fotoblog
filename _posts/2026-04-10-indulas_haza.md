@@ -2,6 +2,8 @@
 layout: post
 title: "Indulás haza"
 date: 2026-04-10T08:04:09
+trip_date: 2026-04-10T08:04:09
+trip_date_sort: 2026-04-10
 image: "/assets/images/indulas_haza.jpg"
 image_width: 1920
 image_height: 1080

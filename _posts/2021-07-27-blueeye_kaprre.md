@@ -2,6 +2,8 @@
 layout: post
 title: "Blue Eye Kaprre - Kék szem forrás"
 date: 2021-07-27T15:13:33
+trip_date: 2021-07-27T15:13:33
+trip_date_sort: 2021-07-27
 image: "/assets/images/blueeye_kaprre.jpg"
 image_width: 1920
 image_height: 1080

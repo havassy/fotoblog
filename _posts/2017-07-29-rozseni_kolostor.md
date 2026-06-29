@@ -2,6 +2,8 @@
 layout: post
 title: "Rozseni kolostor"
 date: 2017-07-29T17:45:54.96
+trip_date: 2017-07-29T17:45:54.96
+trip_date_sort: 2017-07-29
 image: "/assets/images/rozseni_kolostor.jpg"
 image_width: 800
 image_height: 533

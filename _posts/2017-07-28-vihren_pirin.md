@@ -2,6 +2,8 @@
 layout: post
 title: "Útban a Vihren felé"
 date: 2017-07-28T10:19:42.40
+trip_date: 2017-07-28T10:19:42.40
+trip_date_sort: 2017-07-28
 image: "/assets/images/vihren_pirin.jpg"
 image_width: 800
 image_height: 533

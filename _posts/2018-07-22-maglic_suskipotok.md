@@ -2,6 +2,8 @@
 layout: post
 title: "Kilátás a Maglić-ra a Suški-potok völgyében"
 date: 2018-07-22T18:52:39.81
+trip_date: 2018-07-22T18:52:39.81
+trip_date_sort: 2018-07-22
 image: "/assets/images/maglic_suskipotok.jpg"
 image_width: 800
 image_height: 533

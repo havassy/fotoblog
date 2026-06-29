@@ -2,6 +2,8 @@
 layout: post
 title: "Kilátás a Subra csúcsra"
 date: 2016-07-28T09:24:23.40
+trip_date: 2016-07-28T09:24:23.40
+trip_date_sort: 2016-07-28
 image: "/assets/images/orjen_subra_2.jpg"
 image_width: 800
 image_height: 533

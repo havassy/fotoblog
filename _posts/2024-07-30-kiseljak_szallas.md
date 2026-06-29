@@ -2,6 +2,8 @@
 layout: post
 title: "Szállásunk hazafelé"
 date: 2024-07-30T07:56:22
+trip_date: 2024-07-30T07:56:22
+trip_date_sort: 2024-07-30
 image: "/assets/images/kiseljak_szallas.jpg"
 image_width: 1920
 image_height: 865

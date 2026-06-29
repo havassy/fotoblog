@@ -2,6 +2,8 @@
 layout: post
 title: "Hegyikecske a hegyen"
 date: 2024-07-25T16:08:59.29
+trip_date: 2024-07-25T16:08:59.29
+trip_date_sort: 2024-07-25
 image: "/assets/images/durmitor_kecske.jpg"
 image_width: 800
 image_height: 449

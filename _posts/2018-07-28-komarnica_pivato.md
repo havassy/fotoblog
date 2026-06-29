@@ -2,6 +2,8 @@
 layout: post
 title: "Csónakázás a Piva-tavon"
 date: 2018-07-28T13:36:15.00
+trip_date: 2018-07-28T13:36:15.00
+trip_date_sort: 2018-07-28
 image: "/assets/images/komarnica_pivato.jpg"
 image_width: 800
 image_height: 533

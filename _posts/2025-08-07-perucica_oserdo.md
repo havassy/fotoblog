@@ -2,6 +2,8 @@
 layout: post
 title: "Kidőlt fa a Perućica őserdőben"
 date: 2025-08-07T13:09:40.49
+trip_date: 2025-08-07T13:09:40.49
+trip_date_sort: 2025-08-07
 image: "/assets/images/perucica_oserdo.jpg"
 image_width: 800
 image_height: 533

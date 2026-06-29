@@ -2,6 +2,8 @@
 layout: post
 title: "Naplemente Zlatiborban"
 date: 2021-07-23T19:41:03.64
+trip_date: 2021-07-23T19:41:03.64
+trip_date_sort: 2021-07-23
 image: "/assets/images/zlatibor_naplemente.jpg"
 image_width: 800
 image_height: 533

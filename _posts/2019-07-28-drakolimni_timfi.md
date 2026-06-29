@@ -2,6 +2,8 @@
 layout: post
 title: "Drakolimni-tó"
 date: 2019-07-28T10:27:31.00
+trip_date: 2019-07-28T10:27:31.00
+trip_date_sort: 2019-07-28
 image: "/assets/images/drakolimni_timfi.jpg"
 image_width: 800
 image_height: 533

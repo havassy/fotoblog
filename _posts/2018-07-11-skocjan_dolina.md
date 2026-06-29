@@ -2,6 +2,8 @@
 layout: post
 title: "Škocjani Nagy-dolina"
 date: 2018-07-11T14:15:00.00
+trip_date: 2018-07-11T14:15:00.00
+trip_date_sort: 2018-07-11
 image: "/assets/images/skocjan_dolina.jpg"
 image_width: 800
 image_height: 571

@@ -2,6 +2,8 @@
 layout: post
 title: "Portitsa-szurdok"
 date: 2019-07-22T10:35:39.38
+trip_date: 2019-07-22T10:35:39.38
+trip_date_sort: 2019-07-22
 image: "/assets/images/portitsa_szurdok.jpg"
 image_width: 800
 image_height: 533

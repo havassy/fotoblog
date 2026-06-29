@@ -317,8 +317,10 @@ layout: default
     <div class="content">
       <h1>{{ page.title }}</h1>
 
+      {% assign display_date = page.trip_date | default: page.date %}
+      
       <ul class="meta">
-        <li>{{ page.date | date: "%Y. %m. %d." }}</li>
+        <li>{{ display_date | date: "%Y. %m. %d." }}</li>
       </ul>
 
       {% if page.lat and page.lon %}
@@ -413,7 +415,8 @@ layout: default
 
                 <div class="related-card-body">
                   <h3 class="related-card-title">{{ related.title }}</h3>
-                  <p class="related-card-meta">{{ related.date | date: "%Y. %m. %d." }}</p>
+                  {% assign related_display_date = related.trip_date | default: related.date %}
+                  <p class="related-card-meta">{{ related_display_date | date: "%Y. %m. %d." }}</p>
 
                   {% if common_tags.size > 0 %}
                     <p class="related-card-tags">

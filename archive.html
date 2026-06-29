@@ -122,7 +122,7 @@ permalink: /archive/
     </div>
   </header>
 
-  {% assign posts = site.posts | where_exp: "p", "p.image" | sort: "trip_date" | reverse %}
+  {% assign posts = site.posts | where_exp: "p", "p.image" | sort: "trip_date_sort" | reverse %}
 
   {% if posts.size > 0 %}
     <section class="archive" aria-label="Év szerinti archívum">

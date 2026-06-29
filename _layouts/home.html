@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign posts_with_images = site.posts | where_exp: "post", "post.image" | sort: "trip_date" | reverse %}
+{% assign posts_with_images = site.posts | where_exp: "post", "post.image" | sort: "trip_date_sort" | reverse %}
 
 <header class="page-header">
   <h1>{{ page.title | default: site.title }}</h1>

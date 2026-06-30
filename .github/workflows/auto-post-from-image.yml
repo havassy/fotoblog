@@ -293,6 +293,9 @@ jobs:
               if not date_value:
                   date_value = "2026-01-01T12:00:00+00:00"
 
+              trip_date = date_value
+              trip_date_sort = trip_date[:10]
+
               if full_caption:
                   body = full_caption + "\n"
                   first_sentence = re.split(r'(?<=[.!?])\s+', full_caption, maxsplit=1)[0]
@@ -310,6 +313,8 @@ jobs:
                   "layout: post",
                   f'title: "{yaml_quote(title)}"',
                   f"date: {date_value}",
+                  f"trip_date: {trip_date}",
+                  f"trip_date_sort: {trip_date_sort}",
                   f'image: "/{file}"',
               ]
 

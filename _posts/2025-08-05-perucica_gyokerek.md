@@ -13,7 +13,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Perućica"
   - "erdő"
-description: "Ez a gyökrerkkel átszőtt talajfelszín a Perućica őserdő egy jellegzetes része."
+description: "Eső utáni felhős nap volt, a kék égre várva túráztunk a Maglić felé."
 ---
 
-Ez a gyökrerkkel átszőtt talajfelszín a Perućica őserdő egy jellegzetes része.
+Eső utáni felhős nap volt, a kék égre várva túráztunk a Maglić felé. A kemping felé bekukkantottunk a Perućica egyik kilátóhelyére, ahova ez a gyökerekkel átszőtt felszín vezet.

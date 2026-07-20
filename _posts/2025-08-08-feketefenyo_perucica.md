@@ -14,7 +14,7 @@ tags:
   - "Perućica"
   - "fa"
   - "erdő"
-description: "Talán szokásos, de megunhatatlan balkáni látkép."
+description: "A nap első felében egy kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel."
 ---
 
-Talán szokásos, de megunhatatlan balkáni látkép. Háttérben a 75 méteres Skakavac-vízesés.
+A nap első felében egy kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel. Háttérben a 75 méteres Skakavac-vízesés. A nap második felében egy helybéli javaslatára felkerestük Tito egyik kedvelt pihenőhelyét a Donje Bare (Alsó-tó) mellett. Az egyik legrosszabb minőségű út volt, amin valaha autóztunk.

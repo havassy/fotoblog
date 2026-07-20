@@ -13,7 +13,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Maglić"
   - "hegység"
-description: "Prijevor a környékbeli túrák kiinduló helye."
+description: "Ezen a napon szikrázó napsütésben túráztunk a Maglić felé."
 ---
 
-Prijevor a környékbeli túrák kiinduló helye. Innét lehet menni a Maglićra vagy a Trnovačko-tóhoz is. Háttérben a Sutjeska folyó völgye.
+Ezen a napon szikrázó napsütésben túráztunk a Maglić felé. A képen a Prijevor, a környékbeli túrák kedvelt kiinduló helye látható. Háttérben a Sutjeska folyó völgye.

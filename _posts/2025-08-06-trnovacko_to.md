@@ -12,7 +12,7 @@ lon: 18.724222
 tags:
   - "Montenegró"
   - "tó"
-description: "Évekkel korábban esőben sátraztunk és túráztunk a környéken."
+description: "Prijevorból indulva túráztunk a Trnovačko-tóhoz."
 ---
 
-Évekkel korábban esőben sátraztunk és túráztunk a környéken. Most sem volt sokkal jobb idő.
+Prijevorból indulva túráztunk a Trnovačko-tóhoz. Évekkel korábban esőben sátraztunk és túráztunk a környéken. Most sem volt sokkal jobb idő, viszont út közben gyönyörű derécésre bukkantunk.

@@ -13,7 +13,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Perućica"
   - "fa"
-description: "Kedvenc kiskertünk a sok közül."
+description: "Ezt a napot a Perućica őserdő felfedezésének szenteltük."
 ---
 
-Kedvenc kiskertünk a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek.
+Ezt a napot a Perućica őserdő felfedezésének szenteltük. Elmentünk a Skakavac vízesésig, majd tovább bóklásztunk az erdőben. A képen egyik kedvenc kiskertünk látható a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek.

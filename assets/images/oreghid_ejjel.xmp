@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-09T19:15:33.74+01:00"
    xmp:CreateDate="2026-04-09T19:15:33.74+01:00"
-   xmp:MetadataDate="2026-04-25T20:01:35+02:00"
+   xmp:MetadataDate="2026-07-20T19:17:11+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +66,7 @@
    xmpMM:DocumentID="8D509E77475B5C026FDD9446ABF0704F"
    xmpMM:PreservedFileName="b78a0635.cr3"
    xmpMM:OriginalDocumentID="8D509E77475B5C026FDD9446ABF0704F"
-   xmpMM:InstanceID="xmp.iid:b9904e7b-1969-ca46-bbc5-3205e71da3e4"
+   xmpMM:InstanceID="xmp.iid:bda2cd85-40d1-ae4a-93e3-e405fcb1ce7f"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -245,15 +246,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A legjobb helyen lévő vendéglátóipari egységek asztalaitól pont rálátni a Neretvára és a hídra.</rdf:li>
+     <rdf:li xml:lang="x-default">Ha Mostar, akkor nem lehet kihagyni Blagajt, a Buna forrással és a Tekijával, ez volt a nappali programunk. Erről a napról mégis az esti Öreg-hidat választottam. A legjobb helyen lévő vendéglátóipari egységek asztalaitól pont rálátni a Neretvára és a hídra.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:b9904e7b-1969-ca46-bbc5-3205e71da3e4"
-      stEvt:when="2026-04-25T20:01:35+02:00"
+      stEvt:instanceID="xmp.iid:bda2cd85-40d1-ae4a-93e3-e405fcb1ce7f"
+      stEvt:when="2026-07-20T19:17:11+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

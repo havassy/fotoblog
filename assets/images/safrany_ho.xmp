@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-05T14:57:24.54+01:00"
    xmp:CreateDate="2026-04-05T14:57:24.54+01:00"
-   xmp:MetadataDate="2026-04-24T23:10:08+02:00"
+   xmp:MetadataDate="2026-07-20T19:17:51+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +66,7 @@
    xmpMM:DocumentID="997342B8350494F2B6124D847E3B9B33"
    xmpMM:PreservedFileName="b78a0192.cr3"
    xmpMM:OriginalDocumentID="997342B8350494F2B6124D847E3B9B33"
-   xmpMM:InstanceID="xmp.iid:2440b18f-0ed6-df45-b1e0-ab3750975508"
+   xmpMM:InstanceID="xmp.iid:49f30e72-7464-5f44-8b77-75c402912bba"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -245,15 +246,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését.</rdf:li>
+     <rdf:li xml:lang="x-default">Napról-napra látványosan olvadt a hó. Ezen a napon már a hegyi úton tudtunk úgy túrázni, hogy nem kellett a hóban gázolni. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágokat. A képen valószínűleg egy Crocus vernus látható.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:2440b18f-0ed6-df45-b1e0-ab3750975508"
-      stEvt:when="2026-04-24T23:10:08+02:00"
+      stEvt:instanceID="xmp.iid:49f30e72-7464-5f44-8b77-75c402912bba"
+      stEvt:when="2026-07-20T19:17:51+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

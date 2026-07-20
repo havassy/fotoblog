@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-08T15:25:03.83+01:00"
    xmp:CreateDate="2026-04-08T15:25:03.83+01:00"
-   xmp:MetadataDate="2026-05-15T19:38:26+02:00"
+   xmp:MetadataDate="2026-07-20T19:17:20+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +66,7 @@
    xmpMM:DocumentID="DBFC8016AB840DACFF940AFB4BF07E9F"
    xmpMM:PreservedFileName="b78a0549.cr3"
    xmpMM:OriginalDocumentID="DBFC8016AB840DACFF940AFB4BF07E9F"
-   xmpMM:InstanceID="xmp.iid:0ab3f8b5-cf77-ad45-85eb-5112ccc33df0"
+   xmpMM:InstanceID="xmp.iid:403b6ad5-c15e-6746-94c6-329fc1c1a74f"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -249,15 +250,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A szűk utcákon sétálva egész a vízpartig el lehet jutni.</rdf:li>
+     <rdf:li xml:lang="x-default">Áttettük székhelyünket Mostarba és folytattuk a város nappali megismerését. A szűk utcákon sétálva egész a folyópartig el lehet jutni, itt készült a kép. Virágokat is láttunk, épp pompázott a császárfa és a liliomfa!</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:0ab3f8b5-cf77-ad45-85eb-5112ccc33df0"
-      stEvt:when="2026-05-15T19:38:26+02:00"
+      stEvt:instanceID="xmp.iid:403b6ad5-c15e-6746-94c6-329fc1c1a74f"
+      stEvt:when="2026-07-20T19:17:20+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

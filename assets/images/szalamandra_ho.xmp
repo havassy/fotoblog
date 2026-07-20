@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-07T14:50:22.86+01:00"
    xmp:CreateDate="2026-04-07T14:50:22.86+01:00"
-   xmp:MetadataDate="2026-04-25T19:49:01+02:00"
+   xmp:MetadataDate="2026-07-20T19:17:30+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +66,7 @@
    xmpMM:DocumentID="A9192E0461C4D5EAAEA4403308D6405C"
    xmpMM:PreservedFileName="b78a0472.cr3"
    xmpMM:OriginalDocumentID="A9192E0461C4D5EAAEA4403308D6405C"
-   xmpMM:InstanceID="xmp.iid:df0ab5af-fa32-4144-8595-d5debe3c6f1b"
+   xmpMM:InstanceID="xmp.iid:d925b219-c51a-d241-a3a6-ca6b52c7c409"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpDM:pick="1"
@@ -237,15 +238,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett a mély lábnyomba, majd kimászott belőle.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezen a napon is túráztunk hóban és szárazon. Megtapasztaltuk, hogy az igazi terepjárók is tudnak kipörgő kerekekkel visszacsúszni a havon. Nem csak virágokat, hanem szalamandrát is láttunk. Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett egy mély lábnyomba, majd kimászott belőle.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:df0ab5af-fa32-4144-8595-d5debe3c6f1b"
-      stEvt:when="2026-04-25T19:49:01+02:00"
+      stEvt:instanceID="xmp.iid:d925b219-c51a-d241-a3a6-ca6b52c7c409"
+      stEvt:when="2026-07-20T19:17:30+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

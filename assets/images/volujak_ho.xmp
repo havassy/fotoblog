@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-06T06:25:06.41+01:00"
    xmp:CreateDate="2026-04-06T06:25:06.41+01:00"
-   xmp:MetadataDate="2026-04-25T19:55:41+02:00"
+   xmp:MetadataDate="2026-07-20T19:17:39+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -65,7 +66,7 @@
    xmpMM:DocumentID="63120FC4E0620391C8D2B3FEFAC9F330"
    xmpMM:PreservedFileName="b78a0239.cr3"
    xmpMM:OriginalDocumentID="63120FC4E0620391C8D2B3FEFAC9F330"
-   xmpMM:InstanceID="xmp.iid:56118146-5015-964d-b933-d83f7d85f4f7"
+   xmpMM:InstanceID="xmp.iid:a2f6f1ff-01fa-9e4d-8961-bd06f356abdf"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -246,15 +247,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Volujak-hegység neve talán nem cseng ismerősen, pedig legalább olyan látványos, mint a kis házunk falán lévő képen a Banff Nemzeti Park híres látképe.</rdf:li>
+     <rdf:li xml:lang="x-default">Erre a napra a mi magasságunkon már alig maradt hó. A képen látható Volujak-hegység neve talán nem cseng ismerősen, pedig legalább olyan látványos, mint a kis házunk falán lévő képen a Banff Nemzeti Park híres látképe. Felkerestük a nyári úton megismert Perućica őserdőt. Addig gyalogoltunk, amíg már hóban és olvadékvízben kellet gázolni. Még többféle tavaszi virágot láttunk, mint tegnap.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:56118146-5015-964d-b933-d83f7d85f4f7"
-      stEvt:when="2026-04-25T19:55:41+02:00"
+      stEvt:instanceID="xmp.iid:a2f6f1ff-01fa-9e4d-8961-bd06f356abdf"
+      stEvt:when="2026-07-20T19:17:39+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

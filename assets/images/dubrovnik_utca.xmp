@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2026-04-04T11:23:04.73+01:00"
    xmp:CreateDate="2026-04-04T11:23:04.73+01:00"
-   xmp:MetadataDate="2026-06-05T18:03:20+02:00"
+   xmp:MetadataDate="2026-07-20T19:18:05+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="1"
@@ -70,7 +71,7 @@
    xmpMM:DocumentID="8006D8D82B8A03F9400C47D27370EBC9"
    xmpMM:PreservedFileName="b78a0038.cr3"
    xmpMM:OriginalDocumentID="8006D8D82B8A03F9400C47D27370EBC9"
-   xmpMM:InstanceID="xmp.iid:c6bb376b-edd2-4743-8a0d-c13f173e912a"
+   xmpMM:InstanceID="xmp.iid:b6a09f34-8ad1-b942-8a46-a4e8b4657dc4"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -123,15 +124,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A várfalról csodálatos kilátás nyílik az óvárosra és a tengerre egyaránt.</rdf:li>
+     <rdf:li xml:lang="x-default">Télből a nyárba (tavasszal). Szállásunktól 2 órányira van Dubrovnik, így a tavaszra várva egy napot a nyárias tengerparton töltöttünk. A várfalról csodálatos kilátás nyílik az óvárosra és a tengerre egyaránt.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:c6bb376b-edd2-4743-8a0d-c13f173e912a"
-      stEvt:when="2026-06-05T18:03:20+02:00"
+      stEvt:instanceID="xmp.iid:b6a09f34-8ad1-b942-8a46-a4e8b4657dc4"
+      stEvt:when="2026-07-20T19:18:05+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -12,7 +12,7 @@ lon: 17.519596
 tags:
   - "Bosznia-Hercegovina"
   - "tó"
-description: "A tavat 1968-ban hozták létre vízenergia termelés céljából."
+description: "Jajcai városnézés után ejtettük útba a Ramsko-tavat és mentünk tovább Mostarba."
 ---
 
-A tavat 1968-ban hozták létre vízenergia termelés céljából. Alacsony vízszintnél látványosak a tó hullámzása által kialakított, természetes szintvonalként megjelenő sávok, a színlők.
+Jajcai városnézés után ejtettük útba a Ramsko-tavat és mentünk tovább Mostarba. A víztározót 1968-ban hozták létre vízenergia termelés céljából. Alacsony vízszintnél látványosak a tó hullámzása által kialakított, természetes szintvonalként megjelenő sávok, a színlők.

@@ -14,7 +14,7 @@ tags:
   - "Trebinje"
   - "folyó"
   - "híd"
-description: "A hányattatott sorsú - elárasztott, szétszedett, átszállított, összerakott - Arslanagića-híd ma Trebinje leghangulatosabb látnivalója."
+description: "Másik kedvenc utunk Mostarból Trebinjébe vezet."
 ---
 
-A hányattatott sorsú - elárasztott, szétszedett, átszállított, összerakott - Arslanagića-híd ma Trebinje leghangulatosabb látnivalója.
+Másik kedvenc utunk Mostarból Trebinjébe vezet. A szép őszi idő kitartott, így tehettünk egy hosszabb sétát. A hányattatott sorsú - elárasztott, szétszedett, átszállított, összerakott - Arslanagića-híd ma Trebinje leghangulatosabb látnivalója.

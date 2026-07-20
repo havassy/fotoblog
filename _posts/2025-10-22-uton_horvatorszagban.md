@@ -17,4 +17,4 @@ tags:
 description: "Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével."
 ---
 
-Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével.
+Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével. Sötétedéskor megérkeztünk Jajcába és kis keresgélés után a szállás is meglett.

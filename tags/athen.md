@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Athen
-tag: Athén
+title: Athén
+tag: Athen
 permalink: /tags/athen/
 ---

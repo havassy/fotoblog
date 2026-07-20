@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-10-23T14:26:38.86"
    xmp:CreateDate="2025-10-23T14:26:38.86"
-   xmp:MetadataDate="2026-05-08T10:24:54+02:00"
+   xmp:MetadataDate="2026-07-20T21:04:22+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="69240B462DDB3D2E747696F97E6BA631"
    xmpMM:PreservedFileName="img_0240.cr2"
    xmpMM:OriginalDocumentID="69240B462DDB3D2E747696F97E6BA631"
-   xmpMM:InstanceID="xmp.iid:1bb67240-dd65-6741-ab1e-f062aaaa87e1"
+   xmpMM:InstanceID="xmp.iid:c0efe463-9a49-d24f-b62b-56b94846cce8"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -238,15 +239,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A tavat 1968-ban hozták létre vízenergia termelés céljából. Alacsony vízszintnél látványosak a tó hullámzása által kialakított, természetes szintvonalként megjelenő sávok, a színlők.</rdf:li>
+     <rdf:li xml:lang="x-default">Jajcai városnézés után ejtettük útba a Ramsko-tavat és mentünk tovább Mostarba. A víztározót 1968-ban hozták létre vízenergia termelés céljából. Alacsony vízszintnél látványosak a tó hullámzása által kialakított, természetes szintvonalként megjelenő sávok, a színlők.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:1bb67240-dd65-6741-ab1e-f062aaaa87e1"
-      stEvt:when="2026-05-08T10:24:54+02:00"
+      stEvt:instanceID="xmp.iid:c0efe463-9a49-d24f-b62b-56b94846cce8"
+      stEvt:when="2026-07-20T21:04:22+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

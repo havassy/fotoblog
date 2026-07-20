@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-10-24T14:20:31.03"
    xmp:CreateDate="2025-10-24T14:20:31.03"
-   xmp:MetadataDate="2026-05-08T15:00:08+02:00"
+   xmp:MetadataDate="2026-07-20T21:04:28+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,11 +65,12 @@
    xmpMM:DocumentID="DD35D291E1A2AE0340B3E21FE68A239E"
    xmpMM:PreservedFileName="img_0279.cr2"
    xmpMM:OriginalDocumentID="DD35D291E1A2AE0340B3E21FE68A239E"
-   xmpMM:InstanceID="xmp.iid:3e5d0612-2e99-7545-8fcd-ee975e82b5d5"
+   xmpMM:InstanceID="xmp.iid:daa8c199-0d21-b647-a5e6-211fc64cf85e"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Auto"
@@ -230,15 +232,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Testudo hermanni. A Blagaji vár felé vezető út melleti árokban akadtunk rá. Kis segítséggel kikecmergett szorult helyzetéből és elspurizott a domboldalon.</rdf:li>
+     <rdf:li xml:lang="x-default">Vannak bevett, többször bejárt útvonalaink, de próbálunk mindig valami újat is hozzátenni. Blagajban most nem csak a Buna-forrást és a Tekiját néztük meg, hanem túráztunk egyet a várba és tovább. A Blagaji vár felé vezető út melleti árokban akadtunk rá tekire (Testudo hermanni). Kis segítséggel kikecmergett szorult helyzetéből és elspurizott a domboldalon. A nap végén Mostartban, gyönyőrű őszi időben mentünk fel a lentről már sokszor látott, Hum-hegyen álló Milleniumi kerszethez, ahonnét fantasztikus a kilátás a városra és még gyönyörű kumuluszokat is kaptunk háttérnek.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:3e5d0612-2e99-7545-8fcd-ee975e82b5d5"
-      stEvt:when="2026-05-08T15:00:08+02:00"
+      stEvt:instanceID="xmp.iid:daa8c199-0d21-b647-a5e6-211fc64cf85e"
+      stEvt:when="2026-07-20T21:04:28+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

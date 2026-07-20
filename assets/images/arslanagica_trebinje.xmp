@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-10-25T15:04:04.34"
    xmp:CreateDate="2025-10-25T15:04:04.34"
-   xmp:MetadataDate="2026-05-08T20:40:47+02:00"
+   xmp:MetadataDate="2026-07-20T21:04:34+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="D85D5F92320ADF19A43614A97A6AAD22"
    xmpMM:PreservedFileName="img_0323.cr2"
    xmpMM:OriginalDocumentID="D85D5F92320ADF19A43614A97A6AAD22"
-   xmpMM:InstanceID="xmp.iid:05a1bd7d-951d-4442-9c2f-225e80cdf8b6"
+   xmpMM:InstanceID="xmp.iid:778d250c-ac6d-df4b-9d69-ac5525754769"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -221,15 +222,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A hányattatott sorsú - elárasztott, szétszedett, átszállított, összerakott - Arslanagića-híd ma Trebinje leghangulatosabb látnivalója.</rdf:li>
+     <rdf:li xml:lang="x-default">Másik kedvenc utunk Mostarból Trebinjébe vezet. A szép őszi idő kitartott, így tehettünk egy hosszabb sétát. A hányattatott sorsú - elárasztott, szétszedett, átszállított, összerakott - Arslanagića-híd ma Trebinje leghangulatosabb látnivalója.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:05a1bd7d-951d-4442-9c2f-225e80cdf8b6"
-      stEvt:when="2026-05-08T20:40:47+02:00"
+      stEvt:instanceID="xmp.iid:778d250c-ac6d-df4b-9d69-ac5525754769"
+      stEvt:when="2026-07-20T21:04:34+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -167,7 +167,7 @@
   xmlns:dc='http://purl.org/dc/elements/1.1/'>
   <dc:description>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével.</rdf:li>
+    <rdf:li xml:lang='x-default'>Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével. Sötétedéskor megérkeztünk Jajcába és kis keresgélés után a szállás is meglett.</rdf:li>
    </rdf:Alt>
   </dc:description>
   <dc:format>image/jpeg</dc:format>
@@ -283,7 +283,7 @@
   </tiff:Copyright>
   <tiff:ImageDescription>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével.</rdf:li>
+    <rdf:li xml:lang='x-default'>Az őszi és délutáni indulás velejárója az esti autózás, szerencsés esetben szép naplementével. Sötétedéskor megérkeztünk Jajcába és kis keresgélés után a szállás is meglett.</rdf:li>
    </rdf:Alt>
   </tiff:ImageDescription>
   <tiff:ImageLength>865</tiff:ImageLength>
@@ -306,8 +306,9 @@
   xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
   <xmp:CreateDate>2025-10-22T17:49:53</xmp:CreateDate>
   <xmp:CreatorTool>Adobe Photoshop Lightroom Classic 14.2 (Windows)</xmp:CreatorTool>
-  <xmp:MetadataDate>2026-06-05T19:43:49+02:00</xmp:MetadataDate>
-  <xmp:ModifyDate>2026-06-05T19:43:49</xmp:ModifyDate>
+  <xmp:Label>Blue</xmp:Label>
+  <xmp:MetadataDate>2026-07-20T21:21:05+02:00</xmp:MetadataDate>
+  <xmp:ModifyDate>2026-07-20T21:21:05</xmp:ModifyDate>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
@@ -324,7 +325,7 @@
    <stRef:documentID>39C502B1DE0F4EE9C9ECBD9A7C020DDC</stRef:documentID>
    <stRef:originalDocumentID>39C502B1DE0F4EE9C9ECBD9A7C020DDC</stRef:originalDocumentID>
   </xmpMM:DerivedFrom>
-  <xmpMM:DocumentID>xmp.did:c72b34c8-2661-544a-9f54-977cad77cbf1</xmpMM:DocumentID>
+  <xmpMM:DocumentID>xmp.did:4089bad4-9743-5148-a05a-1e7665651406</xmpMM:DocumentID>
   <xmpMM:History>
    <rdf:Seq>
     <rdf:li rdf:parseType='Resource'>
@@ -334,13 +335,13 @@
     <rdf:li rdf:parseType='Resource'>
      <stEvt:action>saved</stEvt:action>
      <stEvt:changed>/</stEvt:changed>
-     <stEvt:instanceID>xmp.iid:c72b34c8-2661-544a-9f54-977cad77cbf1</stEvt:instanceID>
+     <stEvt:instanceID>xmp.iid:4089bad4-9743-5148-a05a-1e7665651406</stEvt:instanceID>
      <stEvt:softwareAgent>Adobe Photoshop Lightroom Classic 14.2 (Windows)</stEvt:softwareAgent>
-     <stEvt:when>2026-06-05T19:43:49+02:00</stEvt:when>
+     <stEvt:when>2026-07-20T21:21:05+02:00</stEvt:when>
     </rdf:li>
    </rdf:Seq>
   </xmpMM:History>
-  <xmpMM:InstanceID>xmp.iid:c72b34c8-2661-544a-9f54-977cad77cbf1</xmpMM:InstanceID>
+  <xmpMM:InstanceID>xmp.iid:4089bad4-9743-5148-a05a-1e7665651406</xmpMM:InstanceID>
   <xmpMM:OriginalDocumentID>39C502B1DE0F4EE9C9ECBD9A7C020DDC</xmpMM:OriginalDocumentID>
   <xmpMM:PreservedFileName>20251022_174953.jpg</xmpMM:PreservedFileName>
  </rdf:Description>

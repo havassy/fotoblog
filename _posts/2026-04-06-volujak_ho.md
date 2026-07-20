@@ -13,7 +13,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Volujak"
   - "hegység"
-description: "A Volujak-hegység neve talán nem cseng ismerősen, pedig legalább olyan látványos, mint a kis házunk falán lévő képen a Banff Nemzeti Park híres látképe."
+description: "Erre a napra a mi magasságunkon már alig maradt hó."
 ---
 
-A Volujak-hegység neve talán nem cseng ismerősen, pedig legalább olyan látványos, mint a kis házunk falán lévő képen a Banff Nemzeti Park híres látképe.
+Erre a napra a mi magasságunkon már alig maradt hó. A képen látható Volujak-hegység neve talán nem cseng ismerősen, pedig legalább olyan látványos, mint a kis házunk falán lévő képen a Banff Nemzeti Park híres látképe. Felkerestük a nyári úton megismert Perućica őserdőt. Addig gyalogoltunk, amíg már hóban és olvadékvízben kellet gázolni. Még többféle tavaszi virágot láttunk, mint tegnap.

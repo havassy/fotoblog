@@ -13,7 +13,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Mostar"
   - "utca-út"
-description: "A Tara torony részlete a híd nyugati oldalán."
+description: "Reggel behavazott tájra ébredtünk, ami az előző napi érkezés után nem is volt meglepetés."
 ---
 
-A Tara torony részlete a híd nyugati oldalán.
+Reggel behavazott tájra ébredtünk, ami az előző napi érkezés után nem is volt meglepetés. Az utat végigkísérte az autó szervizelése, így Mostarba a szállás tulajdonosával mentünk. Úgy sem jártunk még nappal Mostraban! A képen Tara torony részlete látható az Öreg-híd nyugati oldalán.

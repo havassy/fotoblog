@@ -15,7 +15,7 @@ tags:
   - "Neretva"
   - "ember"
   - "folyó"
-description: "A szűk utcákon sétálva egész a vízpartig el lehet jutni."
+description: "Áttettük székhelyünket Mostarba és folytattuk a város nappali megismerését."
 ---
 
-A szűk utcákon sétálva egész a vízpartig el lehet jutni.
+Áttettük székhelyünket Mostarba és folytattuk a város nappali megismerését. A szűk utcákon sétálva egész a folyópartig el lehet jutni, itt készült a kép. Virágokat is láttunk, épp pompázott a császárfa és a liliomfa!

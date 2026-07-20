@@ -13,7 +13,7 @@ tags:
   - "Horvátország"
   - "Dubrovnik"
   - "utca-út"
-description: "A várfalról csodálatos kilátás nyílik az óvárosra és a tengerre egyaránt."
+description: "Télből a nyárba (tavasszal)."
 ---
 
-A várfalról csodálatos kilátás nyílik az óvárosra és a tengerre egyaránt.
+Télből a nyárba (tavasszal). Szállásunktól 2 órányira van Dubrovnik, így a tavaszra várva egy napot a nyárias tengerparton töltöttünk. A várfalról csodálatos kilátás nyílik az óvárosra és a tengerre egyaránt.

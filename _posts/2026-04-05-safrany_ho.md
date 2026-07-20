@@ -12,7 +12,7 @@ lon: 18.594736
 tags:
   - "Bosznia-Hercegovina"
   - "virág"
-description: "Talán Crocus vernus."
+description: "Napról-napra látványosan olvadt a hó."
 ---
 
-Talán Crocus vernus. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágok megjelenését.
+Napról-napra látványosan olvadt a hó. Ezen a napon már a hegyi úton tudtunk úgy túrázni, hogy nem kellett a hóban gázolni. A tavasz legszebb időszakában láttuk az olvadó hó alól kibújó virágokat. A képen valószínűleg egy Crocus vernus látható.

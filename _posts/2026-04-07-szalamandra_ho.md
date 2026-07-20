@@ -12,7 +12,7 @@ lon: 18.642528
 tags:
   - "Bosznia-Hercegovina"
   - "állat"
-description: "Végig figyelemmel kísértük, amíg kb."
+description: "Ezen a napon is túráztunk hóban és szárazon."
 ---
 
-Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett a mély lábnyomba, majd kimászott belőle.
+Ezen a napon is túráztunk hóban és szárazon. Megtapasztaltuk, hogy az igazi terepjárók is tudnak kipörgő kerekekkel visszacsúszni a havon. Nem csak virágokat, hanem szalamandrát is láttunk. Végig figyelemmel kísértük, amíg kb. fél óra alatt átkelt a havas úton, beleesett egy mély lábnyomba, majd kimászott belőle.

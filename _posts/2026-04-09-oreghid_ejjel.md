@@ -13,7 +13,7 @@ tags:
   - "Bosznia-Hercegovina"
   - "Mostar"
   - "híd"
-description: "A legjobb helyen lévő vendéglátóipari egységek asztalaitól pont rálátni a Neretvára és a hídra."
+description: "Ha Mostar, akkor nem lehet kihagyni Blagajt, a Buna forrással és a Tekijával, ez volt a nappali programunk."
 ---
 
-A legjobb helyen lévő vendéglátóipari egységek asztalaitól pont rálátni a Neretvára és a hídra.
+Ha Mostar, akkor nem lehet kihagyni Blagajt, a Buna forrással és a Tekijával, ez volt a nappali programunk. Erről a napról mégis az esti Öreg-hidat választottam. A legjobb helyen lévő vendéglátóipari egységek asztalaitól pont rálátni a Neretvára és a hídra.

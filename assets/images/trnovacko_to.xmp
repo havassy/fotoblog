@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-06T12:50:33.08"
    xmp:CreateDate="2025-08-06T12:50:33.08"
-   xmp:MetadataDate="2026-04-25T22:00:08+02:00"
+   xmp:MetadataDate="2026-07-20T21:48:27+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="ED695F5C5455E200A288863297F34A02"
    xmpMM:PreservedFileName="img_0053.cr2"
    xmpMM:OriginalDocumentID="ED695F5C5455E200A288863297F34A02"
-   xmpMM:InstanceID="xmp.iid:4e45de80-fc7a-5943-b43e-1c0574f2a51d"
+   xmpMM:InstanceID="xmp.iid:d28d82f7-7fb5-a440-b651-49b88e0a3ece"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -236,15 +237,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Évekkel korábban esőben sátraztunk és túráztunk a környéken. Most sem volt sokkal jobb idő.</rdf:li>
+     <rdf:li xml:lang="x-default">Prijevorból indulva túráztunk a Trnovačko-tóhoz. Évekkel korábban esőben sátraztunk és túráztunk a környéken. Most sem volt sokkal jobb idő, viszont út közben gyönyörű derécésre bukkantunk.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4e45de80-fc7a-5943-b43e-1c0574f2a51d"
-      stEvt:when="2026-04-25T22:00:08+02:00"
+      stEvt:instanceID="xmp.iid:d28d82f7-7fb5-a440-b651-49b88e0a3ece"
+      stEvt:when="2026-07-20T21:48:27+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

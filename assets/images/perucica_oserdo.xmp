@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-07T13:09:40.49"
    xmp:CreateDate="2025-08-07T13:09:40.49"
-   xmp:MetadataDate="2026-05-05T19:21:44+02:00"
+   xmp:MetadataDate="2026-07-20T21:52:07+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="BFCC26123C0B3DCAD6631D393D35F787"
    xmpMM:PreservedFileName="img_0092.cr2"
    xmpMM:OriginalDocumentID="BFCC26123C0B3DCAD6631D393D35F787"
-   xmpMM:InstanceID="xmp.iid:803e5690-445d-0a48-8ce0-d4dc934cca82"
+   xmpMM:InstanceID="xmp.iid:49b53601-c975-1244-aa43-8b5d82e97ce1"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -233,15 +234,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Kedvenc kiskertünk a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezt a napot a Perućica őserdő felfedezésének szenteltük. Elmentünk a Skakavac vízesésig, majd tovább bóklásztunk az erdőben. A képen egyik kedvenc kiskertünk látható a sok közül. Fantasztikus a hangulatuk ezeknek a kidőlt és korhadó fákból kialakult élőhelyeknek.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:803e5690-445d-0a48-8ce0-d4dc934cca82"
-      stEvt:when="2026-05-05T19:21:44+02:00"
+      stEvt:instanceID="xmp.iid:49b53601-c975-1244-aa43-8b5d82e97ce1"
+      stEvt:when="2026-07-20T21:52:07+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

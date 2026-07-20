@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-09T13:47:18.16"
    xmp:CreateDate="2025-08-09T13:47:18.16"
-   xmp:MetadataDate="2026-05-08T08:52:49+02:00"
+   xmp:MetadataDate="2026-07-20T22:00:46+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="B889A48F2133AED1415EF016F8E92808"
    xmpMM:PreservedFileName="img_0151.cr2"
    xmpMM:OriginalDocumentID="B889A48F2133AED1415EF016F8E92808"
-   xmpMM:InstanceID="xmp.iid:9c9cdc28-abad-9341-a028-8bc03b06c266"
+   xmpMM:InstanceID="xmp.iid:c264bece-acde-b24a-93ca-a08535e127f0"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -219,15 +220,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Prijevor a környékbeli túrák kiinduló helye. Innét lehet menni a Maglićra vagy a Trnovačko-tóhoz is. Háttérben a Sutjeska folyó völgye.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezen a napon szikrázó napsütésben túráztunk a Maglić felé. A képen a Prijevor, a környékbeli túrák kedvelt kiinduló helye látható. Háttérben a Sutjeska folyó völgye.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:9c9cdc28-abad-9341-a028-8bc03b06c266"
-      stEvt:when="2026-05-08T08:52:49+02:00"
+      stEvt:instanceID="xmp.iid:c264bece-acde-b24a-93ca-a08535e127f0"
+      stEvt:when="2026-07-20T22:00:46+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

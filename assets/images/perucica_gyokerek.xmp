@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-05T16:25:28.71"
    xmp:CreateDate="2025-08-05T16:25:28.71"
-   xmp:MetadataDate="2026-05-08T09:32:08+02:00"
+   xmp:MetadataDate="2026-07-20T21:45:58+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="A9966D758A0AD7A23BCD2B9144D9EEAD"
    xmpMM:PreservedFileName="img_0021.cr2"
    xmpMM:OriginalDocumentID="A9966D758A0AD7A23BCD2B9144D9EEAD"
-   xmpMM:InstanceID="xmp.iid:76cac706-a819-3f4f-8aac-e35607b66a54"
+   xmpMM:InstanceID="xmp.iid:d6f1e64c-84b3-aa45-bd8d-25e7bff10b54"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpDM:good="true"
@@ -212,15 +213,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ez a gyökrerkkel átszőtt talajfelszín a Perućica őserdő egy jellegzetes része.</rdf:li>
+     <rdf:li xml:lang="x-default">Eső utáni felhős nap volt, a kék égre várva túráztunk a Maglić felé. A kemping felé bekukkantottunk a Perućica egyik kilátóhelyére, ahova ez a gyökerekkel átszőtt felszín vezet.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:76cac706-a819-3f4f-8aac-e35607b66a54"
-      stEvt:when="2026-05-08T09:32:08+02:00"
+      stEvt:instanceID="xmp.iid:d6f1e64c-84b3-aa45-bd8d-25e7bff10b54"
+      stEvt:when="2026-07-20T21:45:58+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

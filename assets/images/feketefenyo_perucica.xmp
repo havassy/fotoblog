@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2025-08-08T10:19:41.92"
    xmp:CreateDate="2025-08-08T10:19:41.92"
-   xmp:MetadataDate="2026-05-08T09:29:55+02:00"
+   xmp:MetadataDate="2026-07-20T21:57:36+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="990FA124202F0A3D7ACBDF22446108F8"
    xmpMM:PreservedFileName="img_0133.cr2"
    xmpMM:OriginalDocumentID="990FA124202F0A3D7ACBDF22446108F8"
-   xmpMM:InstanceID="xmp.iid:3b85bda1-244b-0045-81db-efd6df948576"
+   xmpMM:InstanceID="xmp.iid:eb3359d7-5985-9040-84a1-3c87fbe86ff9"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -237,15 +238,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Talán szokásos, de megunhatatlan balkáni látkép. Háttérben a 75 méteres Skakavac-vízesés.</rdf:li>
+     <rdf:li xml:lang="x-default">A nap első felében egy kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel. Háttérben a 75 méteres Skakavac-vízesés. A nap második felében egy helybéli javaslatára felkerestük Tito egyik kedvelt pihenőhelyét a Donje Bare (Alsó-tó) mellett. Az egyik legrosszabb minőségű út volt, amin valaha autóztunk.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:3b85bda1-244b-0045-81db-efd6df948576"
-      stEvt:when="2026-05-08T09:29:55+02:00"
+      stEvt:instanceID="xmp.iid:eb3359d7-5985-9040-84a1-3c87fbe86ff9"
+      stEvt:when="2026-07-20T21:57:36+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

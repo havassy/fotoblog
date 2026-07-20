@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feketefenyő a Perućica őserdőben."
+title: "Feketefenyő a Perućica őserdőben"
 date: 2025-08-08T10:19:41.92
 trip_date: 2025-08-08T10:19:41.92
 trip_date_sort: 2025-08-08
@@ -14,7 +14,7 @@ tags:
   - "Perućica"
   - "fa"
   - "erdő"
-description: "A nap első felében egy kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel."
+description: "A nap első felében kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel."
 ---
 
-A nap első felében egy kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel. Háttérben a 75 méteres Skakavac-vízesés. A nap második felében egy helybéli javaslatára felkerestük Tito egyik kedvelt pihenőhelyét a Donje Bare (Alsó-tó) mellett. Az egyik legrosszabb minőségű út volt, amin valaha autóztunk.
+A nap első felében kisebb sétát tettünk egy kilátóhelyhez: talán szokásos, de megunhatatlan balkáni látkép a feketefenyővel. Háttérben a 75 méteres Skakavac-vízesés. A nap második felében egy helybéli javaslatára felkerestük Tito egyik kedvelt pihenőhelyét a Donje Bare (Alsó-tó) mellett. Az egyik legrosszabb minőségű út vezetett oda, amin valaha autóztunk.

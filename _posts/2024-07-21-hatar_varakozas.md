@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Határátkelésre várva"
-date: 2024-07-01
-trip_date: 2024-07-01
-trip_date_sort: 2024-07-01
+date: 2024-07-21
+trip_date: 2024-07-21
+trip_date_sort: 2024-07-21
 image: "/assets/images/hatar_varakozas.jpg"
 image_width: 800
 image_height: 600

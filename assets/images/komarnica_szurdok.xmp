@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2024-07-24T17:00:56.02"
    xmp:CreateDate="2024-07-24T17:00:56.02"
-   xmp:MetadataDate="2026-05-09T21:45:33+02:00"
+   xmp:MetadataDate="2026-07-21T21:27:46+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="BFAA117B22E250B4C59CC5FCF667AC57"
    xmpMM:PreservedFileName="img_0023.cr2"
    xmpMM:OriginalDocumentID="BFAA117B22E250B4C59CC5FCF667AC57"
-   xmpMM:InstanceID="xmp.iid:caa7a2c3-c21e-fb4c-80a5-695858a66ff4"
+   xmpMM:InstanceID="xmp.iid:b3646ffb-6c1d-154a-a9a9-573f1237bfc1"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -226,15 +227,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Régi tervem teljesült, amikor végigjártuk a Komarnica Duzsi és Etno Village Izlazak közötti szakaszát és benézegettünk a folyó szurdokába. Ez a rész már épp hogy csak fel van duzzasztva a pluzsinei Piva-gát által. Korábban hajókáztunk is a szurdokban.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezen a napon autós turizmust tartottunk. Megnéztünk egy stećak lelőhelyet, majd a Piva-tó felé vettük az irányt. Régi tervem teljesült, amikor végigjártuk a Komarnica Etno Village Izlazak és Duzsi közötti szakaszát és benézegettünk a folyó szurdokába. Ez a rész már épp hogy csak fel van duzzasztva a pluzinei Piva-gát által.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:caa7a2c3-c21e-fb4c-80a5-695858a66ff4"
-      stEvt:when="2026-05-09T21:45:33+02:00"
+      stEvt:instanceID="xmp.iid:b3646ffb-6c1d-154a-a9a9-573f1237bfc1"
+      stEvt:when="2026-07-21T21:27:46+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

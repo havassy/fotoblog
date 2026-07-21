@@ -10,13 +10,16 @@
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
     xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
-    xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    xmlns:mwg-rs="http://www.metadataworkinggroup.com/schemas/regions/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+    xmlns:stArea="http://ns.adobe.com/xmp/sType/Area#"
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
-   xmp:ModifyDate="2024-07-25T16:08:59.29"
-   xmp:CreateDate="2024-07-25T16:08:59.29"
-   xmp:MetadataDate="2026-05-09T22:10:41+02:00"
+   xmp:ModifyDate="2024-07-25T16:09:09.45"
+   xmp:CreateDate="2024-07-25T16:09:09.45"
+   xmp:Label="Blue"
+   xmp:MetadataDate="2026-07-21T21:35:23+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -44,12 +47,9 @@
    exif:FocalPlaneXResolution="135838255/32768"
    exif:FocalPlaneYResolution="135838255/32768"
    exif:FocalPlaneResolutionUnit="3"
-   exif:DateTimeOriginal="2024-07-25T16:08:59.29"
+   exif:DateTimeOriginal="2024-07-25T16:09:09.45"
    exif:PixelXDimension="5472"
    exif:PixelYDimension="3648"
-   exif:GPSLatitude="43,6.352866N"
-   exif:GPSLongitude="19,3.018186E"
-   exif:GPSVersionID="2.2.0.0"
    dc:format="image/x-canon-cr2"
    aux:SerialNumber="873056001511"
    aux:LensInfo="8800/1000 36800/1000 0/0 0/0"
@@ -58,16 +58,15 @@
    aux:ApproximateFocusDistance="4294967295/1"
    aux:FlashCompensation="0/1"
    aux:Firmware="1.01"
-   photoshop:DateCreated="2024-07-25T16:08:59.29"
+   photoshop:DateCreated="2024-07-25T16:09:09.45"
    photoshop:SidecarForExtension="CR2"
    photoshop:EmbeddedXMPDigest="EB127DA8AB7093AF20433136B4F6595B"
-   xmpMM:DocumentID="69EE61BFBD9DB94C86DFE68E0E9D754C"
-   xmpMM:PreservedFileName="img_0087.cr2"
-   xmpMM:OriginalDocumentID="69EE61BFBD9DB94C86DFE68E0E9D754C"
-   xmpMM:InstanceID="xmp.iid:1532e898-3c25-694e-bfc8-72268bede82d"
+   xmpMM:DocumentID="D3DF797D433213F6114FD17A9859860C"
+   xmpMM:PreservedFileName="img_0089.cr2"
+   xmpMM:OriginalDocumentID="D3DF797D433213F6114FD17A9859860C"
+   xmpMM:InstanceID="xmp.iid:60e1040b-c6bd-1c47-b458-93c685a82321"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
-   xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
@@ -75,17 +74,17 @@
    crs:WhiteBalance="Daylight"
    crs:Temperature="5500"
    crs:Tint="+10"
-   crs:Exposure2012="+0.78"
-   crs:Contrast2012="+20"
-   crs:Highlights2012="-50"
-   crs:Shadows2012="+59"
+   crs:Exposure2012="+0.45"
+   crs:Contrast2012="+5"
+   crs:Highlights2012="-56"
+   crs:Shadows2012="+48"
    crs:Whites2012="+50"
-   crs:Blacks2012="-22"
+   crs:Blacks2012="-19"
    crs:Texture="0"
    crs:Clarity2012="0"
    crs:Dehaze="0"
    crs:Vibrance="+15"
-   crs:Saturation="0"
+   crs:Saturation="+1"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -171,33 +170,18 @@
    crs:ToneCurveName2012="Linear"
    crs:CameraProfile="Adobe Standard"
    crs:CameraProfileDigest="1E4F81470A6232BAF5C2806953239317"
-   crs:UprightVersion="151388160"
-   crs:UprightCenterMode="0"
-   crs:UprightCenterNormX="0.5"
-   crs:UprightCenterNormY="0.5"
-   crs:UprightFocalMode="0"
-   crs:UprightFocalLength35mm="99.8248"
-   crs:UprightPreview="False"
-   crs:UprightDependentDigest="F7173540FD9FB419BD947A976070F4D2"
-   crs:UprightTransformCount="6"
-   crs:UprightTransform_0="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_1="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_2="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_3="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_4="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_5="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:AutoToneDigest="65A8B98D21433B203C606E0789B77567"
-   crs:AutoToneDigestNoSat="BC4745A796DDD157B88381D523F9AF96"
+   crs:AutoToneDigest="4531AB8AAA12E5CC010E677D86AB604A"
+   crs:AutoToneDigestNoSat="7CD32DA8D4E259F7DBB3BD87D354C930"
    crs:HasSettings="True"
-   crs:CropTop="0"
+   crs:CropTop="0.012746"
    crs:CropLeft="0"
-   crs:CropBottom="0.842106"
+   crs:CropBottom="0.856496"
    crs:CropRight="1"
    crs:CropAngle="0"
    crs:CropConstrainToWarp="0"
    crs:HasCrop="True"
    crs:AlreadyApplied="False"
-   crs:RawFileName="img_0087.cr2">
+   crs:RawFileName="img_0089.cr2">
    <exif:ISOSpeedRatings>
     <rdf:Seq>
      <rdf:li>250</rdf:li>
@@ -216,31 +200,29 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Hegyikecske a hegyen</rdf:li>
+     <rdf:li xml:lang="x-default">Kecske a hegyen</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:subject>
     <rdf:Bag>
-     <rdf:li>Durmitor</rdf:li>
      <rdf:li>Montenegró</rdf:li>
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
-     <rdf:li>tájnév</rdf:li>
      <rdf:li>téma</rdf:li>
      <rdf:li>állat</rdf:li>
     </rdf:Bag>
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Rupicapra rupicapra balcanica. A Bobotov Kukról lefelé jövet hosszasan kísértek minket és egész közel engedtek magukhoz. (Valójában mi kísértük őket...)</rdf:li>
+     <rdf:li xml:lang="x-default">Ha ezen a környéken járunk, szinte kötelező felmenni a Bobotov Kukra, így is tettünk. Gyönyörű időnk volt, rengeteg kumulusszal. Nem volt könnyű egy képet kiválasztani, de a kecske mégis csak kecske! (Rupicapra rupicapra balcanica.) A Bobotov Kukról lefelé jövet hosszasan kísértek minket és egész közel engedtek magukhoz. (Valójában mi kísértük őket…)</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:1532e898-3c25-694e-bfc8-72268bede82d"
-      stEvt:when="2026-05-09T22:10:41+02:00"
+      stEvt:instanceID="xmp.iid:60e1040b-c6bd-1c47-b458-93c685a82321"
+      stEvt:when="2026-07-21T21:35:23+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -311,6 +293,27 @@
     </crs:Parameters>
     </rdf:Description>
    </crs:Look>
+   <mwg-rs:Regions rdf:parseType="Resource">
+    <mwg-rs:AppliedToDimensions
+     stDim:w="5472"
+     stDim:h="3078"
+     stDim:unit="pixel"/>
+    <mwg-rs:RegionList>
+     <rdf:Bag>
+      <rdf:li>
+       <rdf:Description
+        mwg-rs:Rotation="0.00000"
+        mwg-rs:Type="Face">
+       <mwg-rs:Area
+        stArea:h="0.05912"
+        stArea:w="0.03284"
+        stArea:x="0.22742"
+        stArea:y="0.33793"/>
+       </rdf:Description>
+      </rdf:li>
+     </rdf:Bag>
+    </mwg-rs:RegionList>
+   </mwg-rs:Regions>
    <lr:weightedFlatSubject>
     <rdf:Bag>
      <rdf:li>Montenegró</rdf:li>
@@ -318,14 +321,11 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>állat</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>Durmitor</rdf:li>
-     <rdf:li>tájnév</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Montenegró</rdf:li>
-     <rdf:li>hely|tájnév|Durmitor</rdf:li>
      <rdf:li>téma|állat</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>

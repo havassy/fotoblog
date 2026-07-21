@@ -13,7 +13,7 @@ tags:
   - "Montenegró"
   - "Komarnica"
   - "folyó"
-description: "Régi tervem teljesült, amikor végigjártuk a Komarnica Duzsi és Etno Village Izlazak közötti szakaszát és benézegettünk a folyó szurdokába."
+description: "Ezen a napon autós turizmust tartottunk."
 ---
 
-Régi tervem teljesült, amikor végigjártuk a Komarnica Duzsi és Etno Village Izlazak közötti szakaszát és benézegettünk a folyó szurdokába. Ez a rész már épp hogy csak fel van duzzasztva a pluzsinei Piva-gát által. Korábban hajókáztunk is a szurdokban.
+Ezen a napon autós turizmust tartottunk. Megnéztünk egy stećak lelőhelyet, majd a Piva-tó felé vettük az irányt. Régi tervem teljesült, amikor végigjártuk a Komarnica Etno Village Izlazak és Duzsi közötti szakaszát és benézegettünk a folyó szurdokába. Ez a rész már épp hogy csak fel van duzzasztva a pluzinei Piva-gát által.

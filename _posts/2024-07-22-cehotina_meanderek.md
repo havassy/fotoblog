@@ -12,7 +12,7 @@ lon: 19.425316
 tags:
   - "Montenegró"
   - "folyó"
-description: "Nem, ez nem Szerbia és nem az Uvac folyó!"
+description: "Čačak közelében volt a szállásunk."
 ---
 
-Nem, ez nem Szerbia és nem az Uvac folyó! :)
+Čačak közelében volt a szállásunk. Reggel megnéztünk egy kolostort és irány ... nem, ez nem Szerbia és nem az Uvac folyó! Montenegróban is van ilyen! Utána irány a Durmitor, ahová jégeső + szivárvány kombó fogadtatással érkeztünk meg.

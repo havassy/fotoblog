@@ -15,7 +15,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2024-07-27T13:49:24.26"
    xmp:CreateDate="2024-07-27T13:49:24.26"
-   xmp:MetadataDate="2026-05-09T22:33:51+02:00"
+   xmp:MetadataDate="2026-07-21T21:47:40+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -63,10 +64,11 @@
    xmpMM:DocumentID="22C3B21FE695FC3A4EA04F2C7DAF9BA3"
    xmpMM:PreservedFileName="img_0066.cr2"
    xmpMM:OriginalDocumentID="22C3B21FE695FC3A4EA04F2C7DAF9BA3"
-   xmpMM:InstanceID="xmp.iid:b5455494-ee42-884f-aa4a-7ad9e37c3205"
+   xmpMM:InstanceID="xmp.iid:f79d3446-509b-2240-bb7d-6526f551c759"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
-   xmpDM:pick="0"
+   xmpDM:pick="1"
+   xmpDM:good="true"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Daylight"
@@ -228,15 +230,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Kinéztünk két szomszédos kis tavat. A Barno jezero volt a kevésbé turisztos. Már inkább mocsár, kevés benne a nyíl víz. És itt nem volt tehén támadás, mint a másiknál.</rdf:li>
+     <rdf:li xml:lang="x-default">Kinéztünk két, számunkra ismeretlen kis tavat. A Barno jezero volt a kevésbé turisztos. Már inkább mocsár, mint tó, kevés benne a nyíl víz. És sokkal nyugodtabb a környék, például itt nem volt tehén támadás, mint a másiknál.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:b5455494-ee42-884f-aa4a-7ad9e37c3205"
-      stEvt:when="2026-05-09T22:33:51+02:00"
+      stEvt:instanceID="xmp.iid:f79d3446-509b-2240-bb7d-6526f551c759"
+      stEvt:when="2026-07-21T21:47:40+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

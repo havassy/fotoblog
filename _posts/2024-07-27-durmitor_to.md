@@ -15,4 +15,4 @@ tags:
 description: "Kinéztünk két, számunkra ismeretlen kis tavat."
 ---
 
-Kinéztünk két, számunkra ismeretlen kis tavat. A Barno jezero volt a kevésbé turisztos. Már inkább mocsár, mint tó, kevés benne a nyíl víz. És sokkal nyugodtabb a környék, például itt nem volt tehén támadás, mint a másiknál.
+Kinéztünk két, számunkra ismeretlen kis tavat. A Barno jezero volt a kevésbé turisztos. Már inkább mocsár, mint tó, kevés benne a nyíl víz. És sokkal nyugodtabb a környék, például itt nem volt tehéntámadás, mint a másiknál.

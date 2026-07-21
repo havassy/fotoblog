@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2024-07-22T16:28:28.38"
    xmp:CreateDate="2024-07-22T16:28:28.38"
-   xmp:MetadataDate="2026-05-08T21:54:05+02:00"
+   xmp:MetadataDate="2026-07-21T21:17:43+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="610A0F1A50805DA445F0C1F7CFD2F773"
    xmpMM:PreservedFileName="img_0041.cr2"
    xmpMM:OriginalDocumentID="610A0F1A50805DA445F0C1F7CFD2F773"
-   xmpMM:InstanceID="xmp.iid:fff68fac-c721-ca4b-b827-332fa17154cd"
+   xmpMM:InstanceID="xmp.iid:13ea7b0d-563a-5645-9d61-c77efe9ccd2c"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -216,15 +217,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Nem, ez nem Szerbia és nem az Uvac folyó! :)</rdf:li>
+     <rdf:li xml:lang="x-default">Čačak közelében volt a szállásunk. Reggel megnéztünk egy kolostort és irány ... nem, ez nem Szerbia és nem az Uvac folyó! Montenegróban is van ilyen! Utána irány a Durmitor, ahová jégeső + szivárvány kombó fogadtatással érkeztünk meg.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:fff68fac-c721-ca4b-b827-332fa17154cd"
-      stEvt:when="2026-05-08T21:54:05+02:00"
+      stEvt:instanceID="xmp.iid:13ea7b0d-563a-5645-9d61-c77efe9ccd2c"
+      stEvt:when="2026-07-21T21:17:43+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

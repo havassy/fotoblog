@@ -16,7 +16,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2024-07-23T18:33:45.08"
    xmp:CreateDate="2024-07-23T18:33:45.08"
-   xmp:MetadataDate="2026-05-09T21:30:07+02:00"
+   xmp:MetadataDate="2026-07-21T21:23:11+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="044BFCE8C2806461DB559BCAFB13EF11"
    xmpMM:PreservedFileName="img_0051.cr2"
    xmpMM:OriginalDocumentID="044BFCE8C2806461DB559BCAFB13EF11"
-   xmpMM:InstanceID="xmp.iid:81c35d57-24aa-c845-a71d-eebe6ac5756c"
+   xmpMM:InstanceID="xmp.iid:7952d8ca-acc5-b540-93cb-4fb204e42274"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -215,15 +216,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A hegységek mindig készek különleges időjárási jelenségek kialakítására.</rdf:li>
+     <rdf:li xml:lang="x-default">Reggel felvonóztunk a Savin Kuk-ra, majd sétáltunk a Fekete-tónál. A szállás felé tartva a készülődő naplementében gyönyörködtünk. A hegységek mindig készek különleges időjárási jelenségek kialakítására.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:81c35d57-24aa-c845-a71d-eebe6ac5756c"
-      stEvt:when="2026-05-09T21:30:07+02:00"
+      stEvt:instanceID="xmp.iid:7952d8ca-acc5-b540-93cb-4fb204e42274"
+      stEvt:when="2026-07-21T21:23:11+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

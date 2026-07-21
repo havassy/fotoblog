@@ -15,7 +15,7 @@ tags:
   - "Montenegró"
   - "Durmitor"
   - "hegység"
-description: "A hegységek mindig készek különleges időjárási jelenségek kialakítására."
+description: "Reggel felvonóztunk a Savin Kuk-ra, majd sétáltunk a Fekete-tónál."
 ---
 
-A hegységek mindig készek különleges időjárási jelenségek kialakítására.
+Reggel felvonóztunk a Savin Kuk-ra, majd sétáltunk a Fekete-tónál. A szállás felé tartva a készülődő naplementében gyönyörködtünk. A hegységek mindig készek különleges időjárási jelenségek kialakítására.

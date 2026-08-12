@@ -18,7 +18,7 @@
    xmp:ModifyDate="2026-08-02T12:36:59.23+01:00"
    xmp:CreateDate="2026-08-02T12:36:59.23+01:00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-12T19:00:59+02:00"
+   xmp:MetadataDate="2026-08-12T20:38:58+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS R7"
    tiff:Orientation="8"
@@ -66,7 +66,7 @@
    xmpMM:DocumentID="8DE98BFAD35B5F443FBA14237D55BDD7"
    xmpMM:PreservedFileName="b78a0402.cr3"
    xmpMM:OriginalDocumentID="8DE98BFAD35B5F443FBA14237D55BDD7"
-   xmpMM:InstanceID="xmp.iid:ce74e51f-55a3-3b44-802b-2a7cda5ae5ef"
+   xmpMM:InstanceID="xmp.iid:9eb32045-31a5-414f-aa45-c86f1000e26d"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -230,15 +230,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Sutjeska Nemzeti Parkban első nap a Perućica őserdőben felkerestük kedvenc kilátóhelyeinket, lepkéket és növényeket bogarásztunk. A képen valószínűleg Széleslevelű ujjaskosbor (Dactylorhiza majalis) látható.</rdf:li>
+     <rdf:li xml:lang="x-default">A Sutjeska Nemzeti Parkban, a Perućica őserdőben kerestük fel kedvenc kilátóhelyeinket, lepkéket és növényeket bogarásztunk. A képen valószínűleg Széleslevelű ujjaskosbor (Dactylorhiza majalis) látható.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:ce74e51f-55a3-3b44-802b-2a7cda5ae5ef"
-      stEvt:when="2026-08-12T19:00:59+02:00"
+      stEvt:instanceID="xmp.iid:9eb32045-31a5-414f-aa45-c86f1000e26d"
+      stEvt:when="2026-08-12T20:38:58+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -11,7 +11,7 @@ lat: 43.617551
 lon: 19.854141
 tags:
   - "Ljubis"
-  - "Montenegró"
+  - "Szerbia"
   - "buli"
   - "étel"
 description: "A nyári út első napján, megálltunk egy korábbi cépontunk helyszínén, az Ovčar-Kablar szurdokban, hogy nyáron is lássuk a helyet és persze hogy szusszanjunk…"

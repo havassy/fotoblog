@@ -17,4 +17,4 @@ tags:
 description: "A Durmitor felé megálltunk az útbaeső kisebb tavaknál és stećakoknál."
 ---
 
-A Durmitor felé megálltunk az útbaeső kisebb tavaknál és stećakoknál. Sajnos/szerencsére a Savin Kukra vezető felvonónak csak az alsó része üzemelt, így túrázni is kellett, hogy feljussunk a csúcsra. A képen Európa egyik legdélebbi gleccsere, a Debeli Namet látható, körülütte a végmoréna, amit részben már friss omladék fed. Rengeteg hegyikecskét láttunk. Az éjszakát ismét Njegovuđaban töltöttük.
+A Durmitor felé megálltunk az útbaeső kisebb tavaknál és stećakoknál. Sajnos/szerencsére a Savin Kukra vezető felvonónak csak az alsó része üzemelt, így túrázni is kellett, hogy feljussunk a csúcsra. A képen Európa egyik legdélebbi gleccsere, a Debeli Namet látható, körülötte a végmoréna, amit részben már friss omladék fed. Rengeteg hegyikecskét láttunk. Az éjszakát ismét Njegovuđaban töltöttük.

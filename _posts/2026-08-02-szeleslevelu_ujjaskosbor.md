@@ -12,7 +12,7 @@ lon: 18.74454
 tags:
   - "Bosznia-Hercegovina"
   - "virág"
-description: "A Sutjeska Nemzeti Parkban első nap a Perućica őserdőben felkerestük kedvenc kilátóhelyeinket, lepkéket és növényeket bogarásztunk."
+description: "A Sutjeska Nemzeti Parkban, a Perućica őserdőben kerestük fel kedvenc kilátóhelyeinket, lepkéket és növényeket bogarásztunk."
 ---
 
-A Sutjeska Nemzeti Parkban első nap a Perućica őserdőben felkerestük kedvenc kilátóhelyeinket, lepkéket és növényeket bogarásztunk. A képen valószínűleg Széleslevelű ujjaskosbor (Dactylorhiza majalis) látható.
+A Sutjeska Nemzeti Parkban, a Perućica őserdőben kerestük fel kedvenc kilátóhelyeinket, lepkéket és növényeket bogarásztunk. A képen valószínűleg Széleslevelű ujjaskosbor (Dactylorhiza majalis) látható.

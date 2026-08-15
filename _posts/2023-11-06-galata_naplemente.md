@@ -13,7 +13,7 @@ tags:
   - "napnyugta-kelte"
   - "Törökország"
   - "Isztambul"
-  - "templom"
+  - "templom-kolostor"
 description: "Ez az isztambuli út valójában munka volt, de soha rosszabb munkát!"
 ---
 

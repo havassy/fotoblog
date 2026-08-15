@@ -16,4 +16,4 @@ tags:
 description: "Egyik kedvenc, Mostar közeli kiránduló helyem a Buna-forrás."
 ---
 
-Egyik kedvenc, Mostar közeli kiránduló helyem a Buna-forrás. (Minden hely kedvenc?) Szerencsére már sokszor voltam itt, de ekkora vizet még nem láttam! Azoknál a piros asztaloknál máskor emberek szoktak ülni! Most bezzeg nem volt senki! Ritka alkalom ezen a helyen!
+Egyik kedvenc, Mostar közeli kiránduló helyem a Buna-forrás. Szerencsére már sokszor voltam itt, de ekkora vizet még nem láttam! Azoknál a piros asztaloknál máskor emberek szoktak ülni! Most bezzeg nem volt senki! Ritka alkalom ezen a helyen! Blagaj után megnéztük a - talán leghíresebb - Stolac melletti Radimlja stećak nekropoliszt. Ezután Daorszón illír település következett, majd a Tvrdoš ortodox kolostorba mentünk. A nap végén még arra is volt időnk, hogy tegyünk egy kitérőt Počitelj felé.

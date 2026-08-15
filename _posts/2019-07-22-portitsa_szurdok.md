@@ -17,4 +17,4 @@ tags:
 description: "A Portitsa-szurdok bejáratánál van egy 'szokásos' kőhíd (Portitsa-híd), amelyeket nem lehet megunni."
 ---
 
-A Portitsa-szurdok bejáratánál van egy "szokásos" kőhíd (Portitsa-híd), amelyeket nem lehet megunni. Besétáltunk a szurdokba, amíg tudtunk. Kellemes hűsölés a melegben.
+A Portitsa-szurdok bejáratánál van egy "szokásos" kőhíd (Portitsa-híd), amelyeket nem lehet megunni. Besétáltunk a szurdokba, amíg tudtunk. Kellemes hűsölés a melegben. A nap második felében áttettük székhelyünket Monodendribe, a következő túrák kiindulópontjára.

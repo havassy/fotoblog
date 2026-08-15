@@ -11,7 +11,7 @@ lat: 43.961778
 lon: 20.604833
 tags:
   - "Szerbia"
-  - "templom"
+  - "templom-kolostor"
 description: "Avagy egyházi nevén Crkva Svetog Arhanđela Gavrila."
 ---
 

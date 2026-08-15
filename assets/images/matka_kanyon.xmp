@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-20T12:54:59.94"
    xmp:CreateDate="2019-07-20T12:54:59.94"
-   xmp:MetadataDate="2026-05-25T20:46:17+02:00"
+   xmp:MetadataDate="2026-08-15T21:58:54+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="94D9ACED8BB669ABBA65F720BBC9BA14"
    xmpMM:OriginalDocumentID="94D9ACED8BB669ABBA65F720BBC9BA14"
-   xmpMM:InstanceID="xmp.iid:ab9e501f-94d2-0b40-8bd1-3a5abd7e64a3"
+   xmpMM:InstanceID="xmp.iid:49c59efe-b3d8-714c-b5b2-caed4155ad46"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Matka-kanyon Szkopje kedvelt kirándulóhelye. Egész napos túrát tettünk: koppanásig mentünk a Treska folyóból kialakított tó sziklafalába vágott ösvényen. Egy ponton, az utazás első napján a fényképezőgépem felmondta a szolgálatot. Azt hittem sokkot kapok! Aztán valahogy megjavítottam.</rdf:li>
+     <rdf:li xml:lang="x-default">A Matka-kanyon Szkopje kedvelt kirándulóhelye. Egész napos túrát tettünk: koppanásig mentünk a Treska folyóból kialakított tó sziklafalába vágott ösvényen. Egy ponton, az utazás első napján a fényképezőgépem felmondta a szolgálatot. Azt hittem sokkot kapok! Aztán valahogy megjavítottam. Este Szkopje belvárosában sétáltunk. A látvány ... meglehetősen speciális.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:ab9e501f-94d2-0b40-8bd1-3a5abd7e64a3"
-      stEvt:when="2026-05-25T20:46:17+02:00"
+      stEvt:instanceID="xmp.iid:49c59efe-b3d8-714c-b5b2-caed4155ad46"
+      stEvt:when="2026-08-15T21:58:54+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

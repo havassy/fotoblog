@@ -16,7 +16,7 @@ tags:
   - "fa"
   - "folyó"
   - "hegység"
-description: "Gyönyörű kilátóhely a megunhatatlan Drinára a megunhatatlan feketefenyőkkel."
+description: "Reggel megnéztük a Perućac tavat kialakító gátat, majd a szerpentinen felfelé kerestük a kilátóhelyeket."
 ---
 
-Gyönyörű kilátóhely a megunhatatlan Drinára a megunhatatlan feketefenyőkkel. Az odajutást mi alapértelmezetten gyalog terveztük és tettük is meg. Nem így a helyi erők, akik végig autóval mennek, csak az utolsó métereken gyalogolnak. Mi meg szívtuk a port.
+Reggel megnéztük a Perućac tavat kialakító gátat, majd a szerpentinen felfelé kerestük a kilátóhelyeket. Illatoztak a virágos kőrisek! Ezután mentük a Banjska Stenа kilátóhoz. Az odajutást mi alapértelmezetten gyalog terveztük és tettük is meg. Nem így a helyi erők, akik végig autóval mennek, csak az utolsó métereken gyalogolnak. Mi meg szívtuk a port. A nap végét a Rača kolostroban töltöttük, ahol egy szerzetessel beszélgettünk.

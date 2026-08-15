@@ -14,7 +14,7 @@ tags:
   - "Škocjan"
   - "dolina"
   - "hegység"
-description: "A Škocjani-barlangrendszerben nemcsak a hatalmas méretek lenyűgözők: egy túra során a felszíni és a felszín alatti karszt jellegzetességeit is láthatjuk."
+description: "Hazafelé barlangtúrát tettünk."
 ---
 
-A Škocjani-barlangrendszerben nemcsak a hatalmas méretek lenyűgözők: egy túra során a felszíni és a felszín alatti karszt jellegzetességeit is láthatjuk. A barlangrendszert kialakító Reka folyó a Nagy-dolinában tűnik el a föld alatt, majd kb. 35 kilométerrel később Olaszországban, a Timavo-forrásoknál bukkan ismét a felszínre.
+Hazafelé barlangtúrát tettünk. A Škocjani-barlangrendszerben nemcsak a hatalmas méretek lenyűgözők: egy túra során a felszíni és a felszín alatti karszt jellegzetességeit is láthatjuk. A barlangrendszert kialakító Reka folyó a Nagy-dolinában tűnik el a föld alatt, majd kb. 35 kilométerrel később Olaszországban, a Timavo-forrásoknál bukkan ismét a felszínre.

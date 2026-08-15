@@ -17,7 +17,7 @@
    xmp:ModifyDate="2017-07-23T10:56:34.00"
    xmp:CreateDate="2017-07-23T10:56:34.00"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-06-19T22:25:25+02:00"
+   xmp:MetadataDate="2026-08-15T18:06:54+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="8B1C6440678082990719EE1C44C8847C"
    xmpMM:OriginalDocumentID="8B1C6440678082990719EE1C44C8847C"
-   xmpMM:InstanceID="xmp.iid:79648ada-128e-1e43-8b8c-a5e02d9ac194"
+   xmpMM:InstanceID="xmp.iid:805b36e5-bba9-9649-8106-240643103c9c"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -230,25 +230,27 @@
    </dc:rights>
    <dc:subject>
     <rdf:Bag>
+     <rdf:li>Belogradchik</rdf:li>
      <rdf:li>Bulgária</rdf:li>
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>szikla</rdf:li>
+     <rdf:li>település</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Kilátás a Belogradcsiki erődből a Belogradcsiki sziklákra. A képen van egy emberi alak is! Nem csak az erődbe mentünk fel, hanem túráztunk a sziklák közötti ösvényeken.</rdf:li>
+     <rdf:li xml:lang="x-default">Kilátás a Belogradcsiki erődből a Belogradcsiki sziklákra. A képen van egy emberi alak is! Nem csak az erődbe mentünk fel, a nap nagy részét a sziklák közötti ösvényeken való túrázással töltöttük.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:79648ada-128e-1e43-8b8c-a5e02d9ac194"
-      stEvt:when="2026-06-19T22:25:25+02:00"
+      stEvt:instanceID="xmp.iid:805b36e5-bba9-9649-8106-240643103c9c"
+      stEvt:when="2026-08-15T18:06:54+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -327,11 +329,14 @@
      <rdf:li>szikla</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>téma</rdf:li>
+     <rdf:li>Belogradchik</rdf:li>
+     <rdf:li>település</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Bulgária</rdf:li>
+     <rdf:li>hely|település|Belogradchik</rdf:li>
      <rdf:li>téma|táj|szikla</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>

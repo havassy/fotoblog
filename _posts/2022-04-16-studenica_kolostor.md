@@ -11,7 +11,7 @@ lat: 43.486361
 lon: 20.531694
 tags:
   - "Szerbia"
-  - "templom"
+  - "templom-kolostor"
 description: "Ez a kedvenc kolostorom Szerbiában."
 ---
 

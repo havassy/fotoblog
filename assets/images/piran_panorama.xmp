@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-09T15:24:21.48"
    xmp:CreateDate="2018-07-09T15:24:21.48"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-31T21:29:50+02:00"
+   xmp:MetadataDate="2026-08-15T16:29:43+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="2E27B510A2AC7553CFEE6FDFECEB5B74"
    xmpMM:OriginalDocumentID="2E27B510A2AC7553CFEE6FDFECEB5B74"
-   xmpMM:InstanceID="xmp.iid:d0afe792-0924-2641-ae69-db8b91954a7f"
+   xmpMM:InstanceID="xmp.iid:b8a21cc7-5f0e-d94c-aabd-2bd1620d154d"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -236,7 +236,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>tenger</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>tájnév</rdf:li>
@@ -254,8 +254,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:d0afe792-0924-2641-ae69-db8b91954a7f"
-      stEvt:when="2026-05-31T21:29:50+02:00"
+      stEvt:instanceID="xmp.iid:b8a21cc7-5f0e-d94c-aabd-2bd1620d154d"
+      stEvt:when="2026-08-15T16:29:43+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -389,7 +389,7 @@
      <rdf:li>település</rdf:li>
      <rdf:li>Adria</rdf:li>
      <rdf:li>tájnév</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>város</rdf:li>
     </rdf:Bag>
@@ -400,7 +400,7 @@
      <rdf:li>hely|település|Piran</rdf:li>
      <rdf:li>hely|tájnév|Adria</rdf:li>
      <rdf:li>téma|táj|tenger</rdf:li>
-     <rdf:li>téma|épített|templom</rdf:li>
+     <rdf:li>téma|épített|templom-kolostor</rdf:li>
      <rdf:li>téma|épített|város</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>

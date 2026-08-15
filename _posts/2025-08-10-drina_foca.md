@@ -11,8 +11,10 @@ lat: 43.507226
 lon: 18.770697
 tags:
   - "Bosznia-Hercegovina"
+  - "Drina"
   - "Foča"
   - "folyó"
+  - "tájnév"
 description: "Nem is tudom 'leg'milyenebb folyó a Drina."
 ---
 

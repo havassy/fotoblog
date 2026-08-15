@@ -12,7 +12,7 @@ lon: 28.978363
 tags:
   - "Törökország"
   - "Isztambul"
-  - "templom"
+  - "templom-kolostor"
 description: "Ahhoz képest, hogy nevemberben voltunk, fantasztikus időjárásunk volt!"
 ---
 

@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-21T14:26:50.26"
    xmp:CreateDate="2019-07-21T14:26:50.26"
-   xmp:MetadataDate="2026-05-25T20:45:40+02:00"
+   xmp:MetadataDate="2026-08-15T22:02:06+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="5D6B0685B9B27053F69E093DBFDEF68C"
    xmpMM:OriginalDocumentID="5D6B0685B9B27053F69E093DBFDEF68C"
-   xmpMM:InstanceID="xmp.iid:4165af52-2cce-c44a-80a4-dbf665b631ce"
+   xmpMM:InstanceID="xmp.iid:a9ef7e7f-f37c-7a46-bf7f-303882c9b53b"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A nevet kis kutatómunka után "én adtam", lehet, hogy nem ez az igazi név, vagy nincs is neve. Ziakas falun keresztül tartottunk Spilaioba (Spileo), amikor ráakadtunk erre a hangulatos kis hídra.</rdf:li>
+     <rdf:li xml:lang="x-default">A nevet kis kutatómunka után "én adtam", lehet, hogy nem ez az igazi név, vagy nincs is neve. Ziakas falun keresztül tartottunk Spilaioba (Spileo), amikor ráakadtunk erre a hangulatos kis hídra. A Spilaioba vezető, sziklafal oldalába vágott út a montenegrói Duzi útra emlékeztet.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4165af52-2cce-c44a-80a4-dbf665b631ce"
-      stEvt:when="2026-05-25T20:45:40+02:00"
+      stEvt:instanceID="xmp.iid:a9ef7e7f-f37c-7a46-bf7f-303882c9b53b"
+      stEvt:when="2026-08-15T22:02:06+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

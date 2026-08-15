@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-22T10:35:39.38"
    xmp:CreateDate="2019-07-22T10:35:39.38"
-   xmp:MetadataDate="2026-05-25T20:45:02+02:00"
+   xmp:MetadataDate="2026-08-15T22:12:37+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="E5C7AB9DBC0B80EE72CE7147E01E4E65"
    xmpMM:OriginalDocumentID="E5C7AB9DBC0B80EE72CE7147E01E4E65"
-   xmpMM:InstanceID="xmp.iid:456d8359-f1db-d848-b215-422aaea47ea9"
+   xmpMM:InstanceID="xmp.iid:778419b4-6aab-2a43-9a8a-adb0b0a2d601"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -245,15 +245,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Portitsa-szurdok bejáratánál van egy "szokásos" kőhíd (Portitsa-híd), amelyeket nem lehet megunni. Besétáltunk a szurdokba, amíg tudtunk. Kellemes hűsölés a melegben.</rdf:li>
+     <rdf:li xml:lang="x-default">A Portitsa-szurdok bejáratánál van egy "szokásos" kőhíd (Portitsa-híd), amelyeket nem lehet megunni. Besétáltunk a szurdokba, amíg tudtunk. Kellemes hűsölés a melegben. A nap második felében áttettük székhelyünket Monodendribe, a következő túrák kiindulópontjára.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:456d8359-f1db-d848-b215-422aaea47ea9"
-      stEvt:when="2026-05-25T20:45:02+02:00"
+      stEvt:instanceID="xmp.iid:778419b4-6aab-2a43-9a8a-adb0b0a2d601"
+      stEvt:when="2026-08-15T22:12:37+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

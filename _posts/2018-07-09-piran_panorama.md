@@ -14,7 +14,7 @@ tags:
   - "Piran"
   - "Adria"
   - "tenger"
-  - "templom"
+  - "templom-kolostor"
   - "város"
 description: "A fal tetejéről az egész óváros látható: a Tartini tér, a háztetők, a Szent György-templom dombja és a félsziget végén álló világítótorony."
 ---

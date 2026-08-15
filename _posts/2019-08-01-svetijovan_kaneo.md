@@ -14,7 +14,7 @@ tags:
   - "Ohrid"
   - "Preszpa"
   - "tó"
-  - "templom"
+  - "templom-kolostor"
 description: "Vagy rövidebben a Sveti Jovan Kaneo templom egyik kedvenc filmem, az 'Eső előtt' egyik forgatási helyszíne."
 ---
 

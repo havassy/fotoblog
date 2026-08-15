@@ -16,4 +16,4 @@ tags:
 description: "A nevet kis kutatómunka után 'én adtam', lehet, hogy nem ez az igazi név, vagy nincs is neve."
 ---
 
-A nevet kis kutatómunka után "én adtam", lehet, hogy nem ez az igazi név, vagy nincs is neve. Ziakas falun keresztül tartottunk Spilaioba (Spileo), amikor ráakadtunk erre a hangulatos kis hídra. A Spilaioba vezető, sziklafal oldalába vágott út a montenegrói Duzi útra emlékeztet.
+A nevet kis kutatómunka után "én adtam", lehet, hogy nem ez az igazi név, vagy nincs is neve. Ziakas falun keresztül tartottunk Spilaioba (Spileo), amikor ráakadtunk erre a hangulatos kis hídra. A Spilaioba vezető, sziklafal oldalába vágott út a montenegrói Duzi útra emlékeztet. Az éjszakát egy dióligetben vadkempingezve töltöttük.

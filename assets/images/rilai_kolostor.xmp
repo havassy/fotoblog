@@ -17,7 +17,7 @@
    xmp:ModifyDate="2017-07-26T16:00:41.04"
    xmp:CreateDate="2017-07-26T16:00:41.04"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-19T22:28:53+02:00"
+   xmp:MetadataDate="2026-08-15T18:10:44+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="C25535BDB520029EE119EA0C77409F09"
    xmpMM:OriginalDocumentID="C25535BDB520029EE119EA0C77409F09"
-   xmpMM:InstanceID="xmp.iid:87c92f3c-cb28-df40-84f0-5d5bf763f889"
+   xmpMM:InstanceID="xmp.iid:5efc26a2-7dfb-a64f-b70e-a39d0503c698"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -238,15 +238,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Egész napos túrát tettünk a hegységben, felmentünk egy gerincre. Út közben sokszor kilátásunk volt a völgyben lévő kolostorra. Lefelé elvétettük az ösvényt és kellemetlen csúszkálásunk volt a meredek oldalban a magas fűben.</rdf:li>
+     <rdf:li xml:lang="x-default">Egész napos túrát tettünk a hegységben, felmentünk egy gerincre. Út közben sokszor kilátásunk volt a völgyben lévő kolostorra. Lefelé elvétettük az ösvényt és kellemetlen csúszkálásban volt részünk a meredek hegyoldalban, a magas fűben.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:87c92f3c-cb28-df40-84f0-5d5bf763f889"
-      stEvt:when="2026-06-19T22:28:53+02:00"
+      stEvt:instanceID="xmp.iid:5efc26a2-7dfb-a64f-b70e-a39d0503c698"
+      stEvt:when="2026-08-15T18:10:44+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

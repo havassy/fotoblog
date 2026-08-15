@@ -17,7 +17,7 @@
    xmp:ModifyDate="2023-11-08T12:22:10.10"
    xmp:CreateDate="2023-11-08T12:22:10.10"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-05-11T20:58:56+02:00"
+   xmp:MetadataDate="2026-08-15T16:14:09+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -70,7 +70,7 @@
    xmpMM:DocumentID="05908E6A8C562C3C798297CA3A26C15C"
    xmpMM:PreservedFileName="img_0067.cr2"
    xmpMM:OriginalDocumentID="05908E6A8C562C3C798297CA3A26C15C"
-   xmpMM:InstanceID="xmp.iid:8c1e9a82-8ea7-474b-8ed8-a5dc6580a580"
+   xmpMM:InstanceID="xmp.iid:51569665-0008-9b43-b40a-66f392f2fb36"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -243,7 +243,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>téma</rdf:li>
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
@@ -257,8 +257,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:8c1e9a82-8ea7-474b-8ed8-a5dc6580a580"
-      stEvt:when="2026-05-11T20:58:56+02:00"
+      stEvt:instanceID="xmp.iid:51569665-0008-9b43-b40a-66f392f2fb36"
+      stEvt:when="2026-08-15T16:14:09+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -336,7 +336,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>Isztambul</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
@@ -345,7 +345,7 @@
     <rdf:Bag>
      <rdf:li>hely|ország|Törökország</rdf:li>
      <rdf:li>hely|település|Isztambul</rdf:li>
-     <rdf:li>téma|épített|templom</rdf:li>
+     <rdf:li>téma|épített|templom-kolostor</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: templom kolostor
-tag: templom kolostor
+title: templom-kolostor
+tag: templom-kolostor
 permalink: /tags/templom-kolostor/
 ---

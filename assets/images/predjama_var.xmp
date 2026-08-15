@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-08T16:56:51.49"
    xmp:CreateDate="2018-07-08T16:56:51.49"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-31T21:29:24+02:00"
+   xmp:MetadataDate="2026-08-15T21:07:35+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="8D0816634EA0CD84340CBD95FCB67F0F"
    xmpMM:OriginalDocumentID="8D0816634EA0CD84340CBD95FCB67F0F"
-   xmpMM:InstanceID="xmp.iid:316b5197-304e-d846-887e-01f9e57f884f"
+   xmpMM:InstanceID="xmp.iid:e8469aae-5482-1845-9745-1dc3345f0c8b"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Predjama várkastélyt a világ legnagyobb barlangváraként hirdetik. Igaz, barlangvárból nincs túl sok a világon, de ha az ember ott áll alatta, nem nagyon vitatkozik a címmel.</rdf:li>
+     <rdf:li xml:lang="x-default">Útban a szlovén tengerpartra ejtettük útba a Predjama várkastélyt, amit a világ legnagyobb barlangváraként hirdetnek. Igaz, barlangvárból nincs túl sok a világon, de ha az ember ott áll alatta, nem nagyon vitatkozik a címmel. Este érkeztünk Piranba és a viharos időnek köszönhetően gyönyörű felhőtüneményekben volt részünk.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:316b5197-304e-d846-887e-01f9e57f884f"
-      stEvt:when="2026-05-31T21:29:24+02:00"
+      stEvt:instanceID="xmp.iid:e8469aae-5482-1845-9745-1dc3345f0c8b"
+      stEvt:when="2026-08-15T21:07:35+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

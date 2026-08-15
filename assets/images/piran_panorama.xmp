@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-09T15:24:21.48"
    xmp:CreateDate="2018-07-09T15:24:21.48"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-15T16:29:43+02:00"
+   xmp:MetadataDate="2026-08-15T21:09:42+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="2E27B510A2AC7553CFEE6FDFECEB5B74"
    xmpMM:OriginalDocumentID="2E27B510A2AC7553CFEE6FDFECEB5B74"
-   xmpMM:InstanceID="xmp.iid:b8a21cc7-5f0e-d94c-aabd-2bd1620d154d"
+   xmpMM:InstanceID="xmp.iid:475e2a79-bd9b-6143-bd09-ef06ec93faff"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -247,15 +247,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A fal tetejéről az egész óváros látható: a Tartini tér, a háztetők, a Szent György-templom dombja és a félsziget végén álló világítótorony. Tiszta időben nemcsak a Trieszti-öböl és a szlovén part, hanem a horvát partvonal, illetve szemben az olasz part – a Grado környéki turzás – is kirajzolódhat a horizonton.</rdf:li>
+     <rdf:li xml:lang="x-default">Alaposan bejártuk Pirant. A várfal tetejéről az egész óváros látható: a Tartini tér, a háztetők, a Szent György-templom dombja és a félsziget végén álló világítótorony. Tiszta időben nemcsak a Trieszti-öböl és a szlovén part, hanem a horvát partvonal, illetve szemben az olasz part – a Grado környéki turzás – is kirajzolódhat a horizonton.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:b8a21cc7-5f0e-d94c-aabd-2bd1620d154d"
-      stEvt:when="2026-08-15T16:29:43+02:00"
+      stEvt:instanceID="xmp.iid:475e2a79-bd9b-6143-bd09-ef06ec93faff"
+      stEvt:when="2026-08-15T21:09:42+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

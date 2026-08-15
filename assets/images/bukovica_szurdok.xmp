@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-27T14:43:12.00"
    xmp:CreateDate="2018-07-27T14:43:12.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-05T17:32:25+02:00"
+   xmp:MetadataDate="2026-08-15T21:19:09+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="E2448B3DF8D2987F97442801DCA13A4C"
    xmpMM:OriginalDocumentID="E2448B3DF8D2987F97442801DCA13A4C"
-   xmpMM:InstanceID="xmp.iid:050b96a9-ee22-a247-a4d0-5e9645230c33"
+   xmpMM:InstanceID="xmp.iid:cdd3d553-5318-9548-8585-4a5dbd3fd95a"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -219,15 +219,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Mi a közeli falu miatt Pridvoricaként emlegetjük, de valójában a Bukovica folyó szurdoka. A folyó mentén először a partján, majd a sekély vizében haladtunk, később egyre vadabbá válik a terep, végül a Komarnicába torkollik ott, ahol a Nevidio alsó vége van. A folyóban kialakultak természetes medencék, ezért meg is mártóztunk a hideg vízben.</rdf:li>
+     <rdf:li xml:lang="x-default">Mi a közeli falu miatt Pridvoricaként emlegetjük, de valójában a Bukovica folyó szurdoka. A folyó mentén először a partján, majd a sekély vizében haladtunk, később egyre vadabbá válik a terep, végül a Komarnicába torkollik ott, ahol a Nevidio alsó vége van. A folyóban kialakultak természetes medencék, ezért meg is mártóztunk a hideg vízben. Az éjszakát megint Breznában töltöttük. Ez a vadkempingezés a sok szép emlék közül is kiemelkedik, mert a bográcsozást egy teljes holdofgyatkozás színesítette.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:050b96a9-ee22-a247-a4d0-5e9645230c33"
-      stEvt:when="2026-06-05T17:32:25+02:00"
+      stEvt:instanceID="xmp.iid:cdd3d553-5318-9548-8585-4a5dbd3fd95a"
+      stEvt:when="2026-08-15T21:19:09+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

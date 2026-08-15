@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-10-31T08:56:22.00"
    xmp:CreateDate="2018-10-31T08:56:22.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-02T20:30:04+02:00"
+   xmp:MetadataDate="2026-08-15T21:43:56+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -58,7 +58,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="FD6A92F6C31FF36D1D68BD632A9580AD"
    xmpMM:OriginalDocumentID="FD6A92F6C31FF36D1D68BD632A9580AD"
-   xmpMM:InstanceID="xmp.iid:4c571217-204e-ac42-a381-8ac316bafb7d"
+   xmpMM:InstanceID="xmp.iid:bb66f204-0dee-0645-88bd-3370b8b70756"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -233,15 +233,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Egyik kedvenc, Mostar közeli kiránduló helyem a Buna-forrás. (Minden hely kedvenc?) Szerencsére már sokszor voltam itt, de ekkora vizet még nem láttam! Azoknál a piros asztaloknál máskor emberek szoktak ülni! Most bezzeg nem volt senki! Ritka alkalom ezen a helyen!</rdf:li>
+     <rdf:li xml:lang="x-default">Egyik kedvenc, Mostar közeli kiránduló helyem a Buna-forrás. Szerencsére már sokszor voltam itt, de ekkora vizet még nem láttam! Azoknál a piros asztaloknál máskor emberek szoktak ülni! Most bezzeg nem volt senki! Ritka alkalom ezen a helyen! Blagaj után megnéztük a - talán leghíresebb - Stolac melletti Radimlja stećak nekropoliszt. Ezután Daorszón illír település következett, majd a Tvrdoš ortodox kolostorba mentünk. A nap végén még arra is volt időnk, hogy tegyünk egy kitérőt Počitelj felé.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:4c571217-204e-ac42-a381-8ac316bafb7d"
-      stEvt:when="2026-06-02T20:30:04+02:00"
+      stEvt:instanceID="xmp.iid:bb66f204-0dee-0645-88bd-3370b8b70756"
+      stEvt:when="2026-08-15T21:43:56+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

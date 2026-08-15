@@ -12,7 +12,7 @@ lon: 19.661076
 tags:
   - "Szerbia"
   - "Szabadka"
-  - "templom"
+  - "templom-kolostor"
 description: "A Covid tilalmak feloldásakor néhány napra át tudtunk ruccanni Szerbiába."
 ---
 

@@ -16,4 +16,4 @@ tags:
 description: "Erdei deréce (Epilobium angustifolium)."
 ---
 
-Erdei deréce (Epilobium angustifolium). Gyakori növény, nem ritkasága, hanem hangulata miatt szeretem. Helyenként hatalmas mezőkban terem, üde színfoltja a hegységi tájnak. Ezen a napon egy nagy körtúrát tettünk, megkerültük a hegység nagy tömbjeit, a 'kom'-okat. Láttunk páncélfenyőt is!
+Erdei deréce (Epilobium angustifolium). Gyakori növény, nem ritkasága, hanem hangulata miatt szeretem. Helyenként hatalmas mezőkben terem, üde színfoltja a hegységi tájnak. Ezen a napon egy nagy körtúrát tettünk, megkerültük a hegység nagy tömbjeit, a 'kom'-okat. Láttunk páncélfenyőt is!

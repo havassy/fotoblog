@@ -12,7 +12,7 @@ lon: 19.944326
 tags:
   - "Albánia"
   - "Berat"
-  - "templom"
+  - "templom-kolostor"
 description: "A berati Szentháromság-templom a vár oldalában."
 ---
 

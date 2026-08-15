@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: volgy
-tag: volgy
+title: völgy
+tag: völgy
 permalink: /tags/volgy/
 ---

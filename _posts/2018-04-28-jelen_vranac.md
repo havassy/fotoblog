@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Szerb sör, crnagorai bor"
-date: 2026-06-29T12:00:00+02:00
+date: 2018-04-28T20:03:09
 trip_date: 2018-04-28T20:03:09
 trip_date_sort: 2018-04-28
 image: "/assets/images/jelen_vranac.jpg"

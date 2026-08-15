@@ -12,7 +12,7 @@ lon: 20.646091
 tags:
   - "Szerbia"
   - "Žiča"
-  - "templom"
+  - "templom-kolostor"
 description: "A Žiča kolostor a középkori szerb királykoronázások egyik legfontosabb helyszíne, több uralkodót is itt koronáztak meg."
 ---
 

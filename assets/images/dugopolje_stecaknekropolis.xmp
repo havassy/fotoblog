@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-10-30T14:55:50.00"
    xmp:CreateDate="2018-10-30T14:55:50.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-15T15:27:50+02:00"
+   xmp:MetadataDate="2026-08-15T15:43:04+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="478A04FEE3C8739C17EE8942D1C9FD2D"
    xmpMM:OriginalDocumentID="478A04FEE3C8739C17EE8942D1C9FD2D"
-   xmpMM:InstanceID="xmp.iid:027de432-a855-3740-9000-ef74b08e4db3"
+   xmpMM:InstanceID="xmp.iid:1d32e302-67a2-4849-814e-7024ee3cd6df"
    xmpDM:good="true"
    xmpDM:pick="1"
    xmpRights:Marked="True"
@@ -211,7 +211,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Dugo polje-i stećak‑nekropolis</rdf:li>
+     <rdf:li xml:lang="x-default">Dugo polje-i stećak nekropolis</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -241,8 +241,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:027de432-a855-3740-9000-ef74b08e4db3"
-      stEvt:when="2026-08-15T15:27:50+02:00"
+      stEvt:instanceID="xmp.iid:1d32e302-67a2-4849-814e-7024ee3cd6df"
+      stEvt:when="2026-08-15T15:43:04+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

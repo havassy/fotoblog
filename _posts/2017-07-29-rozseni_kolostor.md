@@ -14,7 +14,7 @@ tags:
   - "Rozsen"
   - "szőlő"
   - "templom-kolostor"
-description: "A képen az idős, legendás szőlőtőke látható, amelynek gyümölcséhez a helyiek termékenységgel kapcsolatos hiedelmeket fűznek."
+description: "Bansko érintésével mentünk Melnikbe."
 ---
 
-A képen az idős, legendás szőlőtőke látható, amelynek gyümölcséhez a helyiek termékenységgel kapcsolatos hiedelmeket fűznek.
+Bansko érintésével mentünk Melnikbe. Délután felkerestük a Rozseni kolostort. A képen az idős, legendás szőlőtőke látható, amelynek gyümölcséhez a helyiek termékenységgel kapcsolatos hiedelmeket fűznek.

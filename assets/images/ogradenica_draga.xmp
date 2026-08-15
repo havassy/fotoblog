@@ -16,7 +16,7 @@
    xmp:ModifyDate="2016-07-24T08:12:34.00"
    xmp:CreateDate="2016-07-24T08:12:34.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-22T21:35:59+02:00"
+   xmp:MetadataDate="2026-08-15T16:44:51+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="744BD5A8954C4EAD0E6E8A8F03DA7876"
    xmpMM:OriginalDocumentID="744BD5A8954C4EAD0E6E8A8F03DA7876"
-   xmpMM:InstanceID="xmp.iid:9c726a62-a6fb-6547-9bc6-de425f2cdadc"
+   xmpMM:InstanceID="xmp.iid:bc54a53c-1d6e-d84e-9bef-08e6eb8b540f"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -236,15 +236,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A túra hosszabb lett, mint terveztük, mert nem értünk vissza második nap végére Jelov panjba. Mire kimásztunk a Tara szurdoból, ránk sötétedett, ezért a plató peremén bivakoltunk. Egyik legszebb, legkülönlegesebb éjszakánk volt a spontán kintalvás. Igaz, az utolsó morzsa kaját és korty vizeket kellett beosztanunk és másnap a nagy meleg beállta előtt vizet kellett szereznünk, de sikerült. A háttérben nem a Tara, az még nagyobb, ez "csak" a Draga szurdok.</rdf:li>
+     <rdf:li xml:lang="x-default">A túra hosszabb lett, mint terveztük, mert nem értünk vissza második nap végére Jelov Panjba. Mire kimásztunk a Tara szurdoból, ránk sötétedett, ezért a plató peremén bivakoltunk. Egyik legszebb, legkülönlegesebb éjszakánk volt a spontán kintalvás. Igaz, az utolsó morzsa kaját és korty vizeket kellett beosztanunk és másnap a nagy meleg beállta előtt vizet kellett szereznünk, de sikerült. A háttérben nem a Tara, az még nagyobb, ez "csak" a Draga szurdok. Szerencsére sikerült fognunk egy fuvart Jelov Panjba, mert aznap még át kellett érnünk Donja Breznába.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:9c726a62-a6fb-6547-9bc6-de425f2cdadc"
-      stEvt:when="2026-06-22T21:35:59+02:00"
+      stEvt:instanceID="xmp.iid:bc54a53c-1d6e-d84e-9bef-08e6eb8b540f"
+      stEvt:when="2026-08-15T16:44:51+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

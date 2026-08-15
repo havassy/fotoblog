@@ -12,7 +12,7 @@ lon: 17.923126
 tags:
   - "Bosznia-Hercegovina"
   - "Stolac"
-  - "stecak"
+  - "stećak"
   - "temető"
 description: "Bizonyára minden látnivalót a kedvencek között említek, de a kedvencek között is kiemelkedők a stećak nekropoliszok."
 ---

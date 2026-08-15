@@ -12,7 +12,7 @@ lon: 17.543118
 tags:
   - "Bosznia-Hercegovina"
   - "Dugo polje"
-  - "stecak"
+  - "stećak"
   - "temető"
 description: "A Dugo polje-i nekropolisz kb."
 ---

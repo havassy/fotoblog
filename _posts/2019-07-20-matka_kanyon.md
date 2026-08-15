@@ -16,4 +16,4 @@ tags:
 description: "A Matka-kanyon Szkopje kedvelt kirándulóhelye."
 ---
 
-A Matka-kanyon Szkopje kedvelt kirándulóhelye. Egész napos túrát tettünk: koppanásig mentünk a Treska folyóból kialakított tó sziklafalába vágott ösvényen. Egy ponton, az utazás első napján a fényképezőgépem felmondta a szolgálatot. Azt hittem sokkot kapok! Aztán valahogy megjavítottam.
+A Matka-kanyon Szkopje kedvelt kirándulóhelye. Egész napos túrát tettünk: koppanásig mentünk a Treska folyóból kialakított tó sziklafalába vágott ösvényen. Egy ponton, az utazás első napján a fényképezőgépem felmondta a szolgálatot. Azt hittem sokkot kapok! Aztán valahogy megjavítottam. Este Szkopje belvárosában sétáltunk. A látvány ... meglehetősen speciális.

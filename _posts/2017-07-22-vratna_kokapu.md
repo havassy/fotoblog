@@ -16,4 +16,4 @@ tags:
 description: "Helyi nevén Prerast Velika Kapija."
 ---
 
-Helyi nevén Prerast Velika Kapija. A Vratnai kőhidak egykori barlangjárat részben beomlott mennyezetének maradványai, karsztos eredetű természetes kőhidak a Vratna‑folyó szurdokában. Nem az egyetlen nagy kőhíd, amit az út során láttunk!
+Helyi nevén Prerast Velika Kapija. A Vratnai kőhidak egykori barlangjárat részben beomlott mennyezetének maradványai, karsztos eredetű természetes kőhidak a Vratna‑folyó szurdokában. Nem az egyetlen nagy kőhíd, amit az út során láttunk! A közeli kolostornál az erdőből dámvadak jöttek ki legelészni. Még ezen a napon átmentünk Bulgáriába és egy belogradcsiki kempingben tanyáztunk le.

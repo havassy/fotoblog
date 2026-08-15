@@ -17,4 +17,4 @@ tags:
 description: "Mi a közeli falu miatt Pridvoricaként emlegetjük, de valójában a Bukovica folyó szurdoka."
 ---
 
-Mi a közeli falu miatt Pridvoricaként emlegetjük, de valójában a Bukovica folyó szurdoka. A folyó mentén először a partján, majd a sekély vizében haladtunk, később egyre vadabbá válik a terep, végül a Komarnicába torkollik ott, ahol a Nevidio alsó vége van. A folyóban kialakultak természetes medencék, ezért meg is mártóztunk a hideg vízben.
+Mi a közeli falu miatt Pridvoricaként emlegetjük, de valójában a Bukovica folyó szurdoka. A folyó mentén először a partján, majd a sekély vizében haladtunk, később egyre vadabbá válik a terep, végül a Komarnicába torkollik ott, ahol a Nevidio alsó vége van. A folyóban kialakultak természetes medencék, ezért meg is mártóztunk a hideg vízben. Az éjszakát megint Breznában töltöttük. Ez a vadkempingezés a sok szép emlék közül is kiemelkedik, mert a bográcsozást egy teljes holdofgyatkozás színesítette.

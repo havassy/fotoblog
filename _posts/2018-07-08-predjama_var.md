@@ -14,7 +14,7 @@ tags:
   - "Szlovénia"
   - "Predjama"
   - "vár"
-description: "A Predjama várkastélyt a világ legnagyobb barlangváraként hirdetik."
+description: "Útban a szlovén tengerpartra ejtettük útba a Predjama várkastélyt, amit a világ legnagyobb barlangváraként hirdetnek."
 ---
 
-A Predjama várkastélyt a világ legnagyobb barlangváraként hirdetik. Igaz, barlangvárból nincs túl sok a világon, de ha az ember ott áll alatta, nem nagyon vitatkozik a címmel.
+Útban a szlovén tengerpartra ejtettük útba a Predjama várkastélyt, amit a világ legnagyobb barlangváraként hirdetnek. Igaz, barlangvárból nincs túl sok a világon, de ha az ember ott áll alatta, nem nagyon vitatkozik a címmel. Este érkeztünk Piranba és a viharos időnek köszönhetően gyönyörű felhőtüneményekben volt részünk.

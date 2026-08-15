@@ -16,7 +16,7 @@ tags:
   - "tenger"
   - "templom-kolostor"
   - "város"
-description: "A fal tetejéről az egész óváros látható: a Tartini tér, a háztetők, a Szent György-templom dombja és a félsziget végén álló világítótorony."
+description: "Alaposan bejártuk Pirant."
 ---
 
-A fal tetejéről az egész óváros látható: a Tartini tér, a háztetők, a Szent György-templom dombja és a félsziget végén álló világítótorony. Tiszta időben nemcsak a Trieszti-öböl és a szlovén part, hanem a horvát partvonal, illetve szemben az olasz part – a Grado környéki turzás – is kirajzolódhat a horizonton.
+Alaposan bejártuk Pirant. A várfal tetejéről az egész óváros látható: a Tartini tér, a háztetők, a Szent György-templom dombja és a félsziget végén álló világítótorony. Tiszta időben nemcsak a Trieszti-öböl és a szlovén part, hanem a horvát partvonal, illetve szemben az olasz part – a Grado környéki turzás – is kirajzolódhat a horizonton.

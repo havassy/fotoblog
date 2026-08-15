@@ -15,7 +15,7 @@ tags:
   - "Duna"
   - "folyó"
   - "vár"
-description: "Úton Bulgáriába álltunk meg estefelé a Galambóci várnál."
+description: "Egy újabb nagy nyári út első napja."
 ---
 
-Úton Bulgáriába álltunk meg estefelé a Galambóci várnál. Az éjszakát egy közeli kempingben töltöttük a Dunaparton, így strandolni is lehetett.
+Egy újabb nagy nyári út első napja. Úton Bulgáriába álltunk meg estefelé a Galambóci várnál. Az éjszakát egy közeli kempingben töltöttük a Dunaparton, így strandolni is lehetett.

@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-08-01T17:45:49.00"
    xmp:CreateDate="2019-08-01T17:45:49.00"
-   xmp:MetadataDate="2026-05-25T20:13:47+02:00"
+   xmp:MetadataDate="2026-08-15T16:25:58+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="203F1E5737B80ECCA744AEF4F185950D"
    xmpMM:OriginalDocumentID="203F1E5737B80ECCA744AEF4F185950D"
-   xmpMM:InstanceID="xmp.iid:8a1ee552-60d0-0643-9b36-1eb19dc3ce8f"
+   xmpMM:InstanceID="xmp.iid:d281acd9-6beb-084c-bfd4-15b85357f48f"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -237,7 +237,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>tájnév</rdf:li>
      <rdf:li>téma</rdf:li>
@@ -255,8 +255,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:8a1ee552-60d0-0643-9b36-1eb19dc3ce8f"
-      stEvt:when="2026-05-25T20:13:47+02:00"
+      stEvt:instanceID="xmp.iid:d281acd9-6beb-084c-bfd4-15b85357f48f"
+      stEvt:when="2026-08-15T16:25:58+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -600,7 +600,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>Ohrid</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
      <rdf:li>Preszpa</rdf:li>
@@ -615,7 +615,7 @@
      <rdf:li>hely|település|Ohrid</rdf:li>
      <rdf:li>hely|tájnév|Preszpa</rdf:li>
      <rdf:li>téma|táj|tó</rdf:li>
-     <rdf:li>téma|épített|templom</rdf:li>
+     <rdf:li>téma|épített|templom-kolostor</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

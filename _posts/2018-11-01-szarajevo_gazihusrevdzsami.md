@@ -16,4 +16,4 @@ tags:
 description: "Gazi Husrev bég dzsámija a Baščaršija negyed ikonikus épülete."
 ---
 
-Gazi Husrev bég dzsámija a Baščaršija negyed ikonikus épülete. Bosznia‑Hercegovina egyik legjelentősebb és legnagyobb történelmi mecsete, a legfontosabb oszmán kori emlékek egyike. A képen az épület előtt álló ablúciós szökőkút (šadrvan) látható, amit a hívők az ima előtti rituális mosakodásra használnak.
+Gazi Husrev bég dzsámija a Baščaršija negyed ikonikus épülete. Bosznia‑Hercegovina egyik legjelentősebb és legnagyobb történelmi mecsete, a legfontosabb oszmán kori emlékek egyike. A képen az épület előtt álló ablúciós szökőkút (šadrvan) látható, amit a hívők az ima előtti rituális mosakodásra használnak. Ebből ki is derült, hogy hazafelé Szarajevó érintésével jöttünk. Útközben egy étteremnél nyárson sülő birkákat láttunk, amelyeknek nem csak a fejük, de még a nyelvük is megvolt, meglehetősen bizarr látványt nyújtva.

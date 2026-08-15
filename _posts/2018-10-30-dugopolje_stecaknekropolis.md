@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dugo polje-i stećak‑nekropolis"
+title: "Dugo polje-i stećak nekropolis"
 date: 2018-10-30T14:55:50.00
 trip_date: 2018-10-30T14:55:50.00
 trip_date_sort: 2018-10-30

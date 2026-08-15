@@ -16,4 +16,4 @@ tags:
 description: "Az Orbász folyó menti utazást ez a hely ihlette."
 ---
 
-Az Orbász folyó menti utazást ez a hely ihlette. Azért akartam erre (is) jönni Boszniába, hogy az Orbász kanyont is végignézzük és megálljunk ezen a helyen (is). Nem okozott csalódást, többször is útbaejtettük.
+Az Orbász folyó menti utazást ez a hely ihlette. Azért akartam erre jönni Boszniába, hogy az Orbász kanyont is végignézzük és megálljunk ezen a helyen. Nem okozott csalódást, más utak során újra útbaejtettük.

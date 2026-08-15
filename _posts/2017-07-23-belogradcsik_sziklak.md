@@ -11,8 +11,9 @@ lat: 43.624003
 lon: 22.676566
 tags:
   - "Bulgária"
+  - "Belogradchik"
   - "szikla"
 description: "Kilátás a Belogradcsiki erődből a Belogradcsiki sziklákra."
 ---
 
-Kilátás a Belogradcsiki erődből a Belogradcsiki sziklákra. A képen van egy emberi alak is! Nem csak az erődbe mentünk fel, hanem túráztunk a sziklák közötti ösvényeken.
+Kilátás a Belogradcsiki erődből a Belogradcsiki sziklákra. A képen van egy emberi alak is! Nem csak az erődbe mentünk fel, a nap nagy részét a sziklák közötti ösvényeken való túrázással töltöttük.

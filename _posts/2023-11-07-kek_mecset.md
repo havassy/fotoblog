@@ -12,7 +12,7 @@ lon: 28.976839
 tags:
   - "Törökország"
   - "Isztambul"
-  - "templom"
+  - "templom-kolostor"
 description: "Ahmed szultán mecsetje."
 ---
 

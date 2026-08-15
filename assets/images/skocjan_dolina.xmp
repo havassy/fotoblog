@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-11T14:15:00.00"
    xmp:CreateDate="2018-07-11T14:15:00.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-31T21:30:31+02:00"
+   xmp:MetadataDate="2026-08-15T21:11:20+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="12B5716FE6CAD52C3A7A3B23EED41630"
    xmpMM:OriginalDocumentID="12B5716FE6CAD52C3A7A3B23EED41630"
-   xmpMM:InstanceID="xmp.iid:743037b0-c8ff-1440-a35b-be321d586448"
+   xmpMM:InstanceID="xmp.iid:10c397a1-2092-5148-99b7-a29d8d2f4952"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -241,15 +241,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Škocjani-barlangrendszerben nemcsak a hatalmas méretek lenyűgözők: egy túra során a felszíni és a felszín alatti karszt jellegzetességeit is láthatjuk. A barlangrendszert kialakító Reka folyó a Nagy-dolinában tűnik el a föld alatt, majd kb. 35 kilométerrel később Olaszországban, a Timavo-forrásoknál bukkan ismét a felszínre.</rdf:li>
+     <rdf:li xml:lang="x-default">Hazafelé barlangtúrát tettünk. A Škocjani-barlangrendszerben nemcsak a hatalmas méretek lenyűgözők: egy túra során a felszíni és a felszín alatti karszt jellegzetességeit is láthatjuk. A barlangrendszert kialakító Reka folyó a Nagy-dolinában tűnik el a föld alatt, majd kb. 35 kilométerrel később Olaszországban, a Timavo-forrásoknál bukkan ismét a felszínre.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:743037b0-c8ff-1440-a35b-be321d586448"
-      stEvt:when="2026-05-31T21:30:31+02:00"
+      stEvt:instanceID="xmp.iid:10c397a1-2092-5148-99b7-a29d8d2f4952"
+      stEvt:when="2026-08-15T21:11:20+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

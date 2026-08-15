@@ -2,7 +2,10 @@
 layout: default
 ---
 
-{% assign tagged_posts = site.tags[page.tag] | where_exp: "post", "post.image" | sort: "trip_date_sort" | reverse %}
+{% assign raw_tagged_posts = site.tags[page.tag] %}
+{% if raw_tagged_posts %}
+  {% assign tagged_posts = raw_tagged_posts | where_exp: "post", "post.image" | sort: "trip_date_sort" | reverse %}
+{% endif %}
 
 <style>
   .tag-wrap{

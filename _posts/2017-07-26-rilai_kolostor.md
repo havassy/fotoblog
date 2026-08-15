@@ -17,4 +17,4 @@ tags:
 description: "Egész napos túrát tettünk a hegységben, felmentünk egy gerincre."
 ---
 
-Egész napos túrát tettünk a hegységben, felmentünk egy gerincre. Út közben sokszor kilátásunk volt a völgyben lévő kolostorra. Lefelé elvétettük az ösvényt és kellemetlen csúszkálásunk volt a meredek oldalban a magas fűben.
+Egész napos túrát tettünk a hegységben, felmentünk egy gerincre. Út közben sokszor kilátásunk volt a völgyben lévő kolostorra. Lefelé elvétettük az ösvényt és kellemetlen csúszkálásban volt részünk a meredek hegyoldalban, a magas fűben.

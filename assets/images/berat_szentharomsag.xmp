@@ -18,7 +18,7 @@
    xmp:ModifyDate="2021-08-01T10:14:28.41"
    xmp:CreateDate="2021-08-01T10:14:28.41"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-16T20:54:39+02:00"
+   xmp:MetadataDate="2026-08-15T16:23:51+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="DA807ADBF33D456FD974AC1D5950F867"
    xmpMM:PreservedFileName="img_0636.cr2"
    xmpMM:OriginalDocumentID="DA807ADBF33D456FD974AC1D5950F867"
-   xmpMM:InstanceID="xmp.iid:8884258b-add2-5f45-b3c7-09866c5913fc"
+   xmpMM:InstanceID="xmp.iid:d9615fa0-57aa-0b48-a464-abeb6e38ace3"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -224,7 +224,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>téma</rdf:li>
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
@@ -238,8 +238,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:8884258b-add2-5f45-b3c7-09866c5913fc"
-      stEvt:when="2026-05-16T20:54:39+02:00"
+      stEvt:instanceID="xmp.iid:d9615fa0-57aa-0b48-a464-abeb6e38ace3"
+      stEvt:when="2026-08-15T16:23:51+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -317,7 +317,7 @@
      <rdf:li>hely</rdf:li>
      <rdf:li>Berat</rdf:li>
      <rdf:li>település</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
@@ -326,7 +326,7 @@
     <rdf:Bag>
      <rdf:li>hely|ország|Albánia</rdf:li>
      <rdf:li>hely|település|Berat</rdf:li>
-     <rdf:li>téma|épített|templom</rdf:li>
+     <rdf:li>téma|épített|templom-kolostor</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

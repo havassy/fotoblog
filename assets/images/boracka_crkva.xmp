@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2022-04-14T16:40:13.00"
    xmp:CreateDate="2022-04-14T16:40:13.00"
-   xmp:MetadataDate="2026-05-10T20:07:20+02:00"
+   xmp:MetadataDate="2026-08-15T16:22:27+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="35A1E6969FF719150A1C9A40EAB2ED34"
    xmpMM:PreservedFileName="IMG_0028.CR2"
    xmpMM:OriginalDocumentID="35A1E6969FF719150A1C9A40EAB2ED34"
-   xmpMM:InstanceID="xmp.iid:de6f8e75-b64f-ce41-8e9e-2400e1b9e0fc"
+   xmpMM:InstanceID="xmp.iid:7a48893a-3b8f-1546-9dcd-605c8dc0e40e"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -230,7 +231,7 @@
      <rdf:li>Szerbia</rdf:li>
      <rdf:li>hely</rdf:li>
      <rdf:li>ország</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>téma</rdf:li>
      <rdf:li>épített</rdf:li>
     </rdf:Bag>
@@ -244,8 +245,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:de6f8e75-b64f-ce41-8e9e-2400e1b9e0fc"
-      stEvt:when="2026-05-10T20:07:20+02:00"
+      stEvt:instanceID="xmp.iid:7a48893a-3b8f-1546-9dcd-605c8dc0e40e"
+      stEvt:when="2026-08-15T16:22:27+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -317,7 +318,7 @@
      <rdf:li>Szerbia</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>templom</rdf:li>
+     <rdf:li>templom-kolostor</rdf:li>
      <rdf:li>épített</rdf:li>
      <rdf:li>téma</rdf:li>
     </rdf:Bag>
@@ -325,7 +326,7 @@
    <lr:hierarchicalSubject>
     <rdf:Bag>
      <rdf:li>hely|ország|Szerbia</rdf:li>
-     <rdf:li>téma|épített|templom</rdf:li>
+     <rdf:li>téma|épített|templom-kolostor</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

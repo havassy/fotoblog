@@ -16,7 +16,7 @@
    xmp:ModifyDate="2017-07-21T18:45:25.80"
    xmp:CreateDate="2017-07-21T18:45:25.80"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-19T22:21:49+02:00"
+   xmp:MetadataDate="2026-08-15T16:53:10+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="46C428394AE6726CA88F37FD1CFEC9B4"
    xmpMM:OriginalDocumentID="46C428394AE6726CA88F37FD1CFEC9B4"
-   xmpMM:InstanceID="xmp.iid:fb8da227-469d-fe4f-8f59-df6732cb4929"
+   xmpMM:InstanceID="xmp.iid:32db3cf4-7758-1149-876e-a3af32bad20f"
    xmpRights:Marked="True"
    xmpDM:pick="0"
    crs:Version="17.2"
@@ -237,15 +237,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Úton Bulgáriába álltunk meg estefelé a Galambóci várnál. Az éjszakát egy közeli kempingben töltöttük a Dunaparton, így strandolni is lehetett.</rdf:li>
+     <rdf:li xml:lang="x-default">Egy újabb nagy nyári út első napja. Úton Bulgáriába álltunk meg estefelé a Galambóci várnál. Az éjszakát egy közeli kempingben töltöttük a Dunaparton, így strandolni is lehetett.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:fb8da227-469d-fe4f-8f59-df6732cb4929"
-      stEvt:when="2026-06-19T22:21:49+02:00"
+      stEvt:instanceID="xmp.iid:32db3cf4-7758-1149-876e-a3af32bad20f"
+      stEvt:when="2026-08-15T16:53:10+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -14,7 +14,7 @@ tags:
   - "Draga"
   - "fennsík"
   - "völgy"
-description: "A túra hosszabb lett, mint terveztük, mert nem értünk vissza második nap végére Jelov panjba."
+description: "A túra hosszabb lett, mint terveztük, mert nem értünk vissza második nap végére Jelov Panjba."
 ---
 
-A túra hosszabb lett, mint terveztük, mert nem értünk vissza második nap végére Jelov panjba. Mire kimásztunk a Tara szurdoból, ránk sötétedett, ezért a plató peremén bivakoltunk. Egyik legszebb, legkülönlegesebb éjszakánk volt a spontán kintalvás. Igaz, az utolsó morzsa kaját és korty vizeket kellett beosztanunk és másnap a nagy meleg beállta előtt vizet kellett szereznünk, de sikerült. A háttérben nem a Tara, az még nagyobb, ez "csak" a Draga szurdok.
+A túra hosszabb lett, mint terveztük, mert nem értünk vissza második nap végére Jelov Panjba. Mire kimásztunk a Tara szurdoból, ránk sötétedett, ezért a plató peremén bivakoltunk. Egyik legszebb, legkülönlegesebb éjszakánk volt a spontán kintalvás. Igaz, az utolsó morzsa kaját és korty vizeket kellett beosztanunk és másnap a nagy meleg beállta előtt vizet kellett szereznünk, de sikerült. A háttérben nem a Tara, az még nagyobb, ez "csak" a Draga szurdok. Szerencsére sikerült fognunk egy fuvart Jelov Panjba, mert aznap még át kellett érnünk Donja Breznába.

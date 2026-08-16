@@ -18,7 +18,7 @@
    xmp:ModifyDate="2021-07-25T15:30:51.02"
    xmp:CreateDate="2021-07-25T15:30:51.02"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-16T19:09:52+02:00"
+   xmp:MetadataDate="2026-08-16T18:02:48+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="E6D1BEACA6F881699CD07163BACF5DC4"
    xmpMM:PreservedFileName="img_0249.cr2"
    xmpMM:OriginalDocumentID="E6D1BEACA6F881699CD07163BACF5DC4"
-   xmpMM:InstanceID="xmp.iid:26342675-d656-6f43-b2ce-6c7087dfd38c"
+   xmpMM:InstanceID="xmp.iid:e31f1743-1c58-6946-aabb-07033bedccff"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Montenegró és Albánia határán az RPSH felirat az Albán Népköztársaság (1946-1976) rövidítése. Háttérben a Karanfili-vonulat, a Balkán Dolomitjai.</rdf:li>
+     <rdf:li xml:lang="x-default">Túra a Volušnica-ban, ami a Prokletije (Albán-Alpok) montenegrói részén, a két ország határán van. Az RPSH felirat a határkövön az Albán Népköztársaság (1946-1976) rövidítése. Háttérben a Karanfili-vonulat, a Balkán Dolomitjai.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:26342675-d656-6f43-b2ce-6c7087dfd38c"
-      stEvt:when="2026-05-16T19:09:52+02:00"
+      stEvt:instanceID="xmp.iid:e31f1743-1c58-6946-aabb-07033bedccff"
+      stEvt:when="2026-08-16T18:02:48+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

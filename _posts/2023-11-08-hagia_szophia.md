@@ -13,7 +13,7 @@ tags:
   - "Törökország"
   - "Isztambul"
   - "templom-kolostor"
-description: "Ahhoz képest, hogy nevemberben voltunk, fantasztikus időjárásunk volt!"
+description: "Reggel kinyitották számunkra a Saint Benoît-templom kriptáját, ahol II."
 ---
 
-Ahhoz képest, hogy nevemberben voltunk, fantasztikus időjárásunk volt!
+Reggel kinyitották számunkra a Saint Benoît-templom kriptáját, ahol II. Rákóczi Ferenc első, isztambuli sírhelye volt. Ezután emlékfát ültettünk a gimnáziumban. Délelőtt a Topkapi palotába mentünk, kora délután pedig a Hagia Szophiaba. Az óriási sor ellenére könnyen bejutottunk, volt helyi segítségünk. A nap megint a szokásos esti sétával és éttermi vacsorával zárult.

@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-24T16:52:51.12"
    xmp:CreateDate="2019-07-24T16:52:51.12"
-   xmp:MetadataDate="2026-05-25T20:40:56+02:00"
+   xmp:MetadataDate="2026-08-16T16:15:18+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="93216EE1316D12B66F78EE598F0065B1"
    xmpMM:OriginalDocumentID="93216EE1316D12B66F78EE598F0065B1"
-   xmpMM:InstanceID="xmp.iid:094b6cc0-a01b-f647-83d7-0d90c3fc7819"
+   xmpMM:InstanceID="xmp.iid:b9f4de0b-4375-094b-9344-f8e576988fd3"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A 70-es évek közepén megépült a faluba vezető út, addig ez a lépcső volt Vradeto megközelítésének módja. Ma is érdemes felmenni Vradetoba (egy órás séta, de inkább több), kellemes vendéglátóipari egységek találhatók. És persze élmény végigsétálni az évszázados köveken.</rdf:li>
+     <rdf:li xml:lang="x-default">Délelőtt a Vikos-szurdokra néző egyik legjobb kilátóhelyet kerestük fel. Délután átmentünk Vradetoba. A 70-es évek közepén épült meg a faluba vezető út, addig ez a lépcső volt Vradeto megközelítésének módja. Ma is érdemes felmenni (egy órás séta, de inkább több), kellemes vendéglátóipari egységek találhatók a faluban. És persze élmény végigsétálni az évszázados köveken.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:094b6cc0-a01b-f647-83d7-0d90c3fc7819"
-      stEvt:when="2026-05-25T20:40:56+02:00"
+      stEvt:instanceID="xmp.iid:b9f4de0b-4375-094b-9344-f8e576988fd3"
+      stEvt:when="2026-08-16T16:15:18+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

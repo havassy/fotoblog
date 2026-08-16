@@ -13,7 +13,7 @@ tags:
   - "Albánia"
   - "forrás"
   - "vízesés"
-description: "Van másik Kék szem forrás is Albániában, ez itt a The Blue Eye of Theth!"
+description: "Gyalogtúrát tettünk a Kék szem forrásig."
 ---
 
-Van másik Kék szem forrás is Albániában, ez itt a The Blue Eye of Theth! Mi a 'végig gyalog' megközelítést választottuk, így egész napos túra lett. Szerencsére a forrásnál tudtunk hűsölni és út közben és a helyszínen is volt víznyerési lehetőség. A vendéglátóipari egység teraszai a fákra települtek.
+Gyalogtúrát tettünk a Kék szem forrásig. Itt ered a Shala-folyó, amit az út során később érintünk. Itt még inkább patak és helyenként természetes medencéket alkot, amelyekben meg kellett mártóznunk. Van másik Kék szem forrás is Albániában, ez itt a The Blue Eye of Theth! Mi a 'végig gyalog' megközelítést választottuk, bár van terepjáró bérléses verzió is. Szerencsére a forrásnál tudtunk hűsölni és út közben és a helyszínen is volt víznyerési lehetőség. A vendéglátóipari egység teraszai a fákra települtek.

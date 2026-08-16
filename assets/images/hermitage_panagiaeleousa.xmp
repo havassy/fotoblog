@@ -13,7 +13,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    xmp:ModifyDate="2019-07-31T15:04:06.51"
    xmp:CreateDate="2019-07-31T15:04:06.51"
-   xmp:MetadataDate="2026-08-16T16:39:12+02:00"
+   xmp:MetadataDate="2026-08-16T17:03:56+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -60,7 +60,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="DEDC23593EB53B02034F6498DCD630A7"
    xmpMM:OriginalDocumentID="DEDC23593EB53B02034F6498DCD630A7"
-   xmpMM:InstanceID="xmp.iid:f47f043b-9a9b-e64d-ae93-151622f9bf81"
+   xmpMM:InstanceID="xmp.iid:37051d16-98bb-c847-a43e-e215b54b602f"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
@@ -235,15 +235,15 @@
    </dc:rights>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Elindultunk hazafelé, el is jutottunk a Preszpa-tó melletti Psaradesig. A képen láthetó hely neve kb. Könyörületes Szűz Mária remetelak. Bár nem szigeten van, a meredek sziklás part miatt vízen érdemes felkeresni. Mint korábban, most is Germanosz vezetésével, Psaradesből, motorcsónakkal közelítettük meg. És csobbantunk is a Preszpa-tóban.</rdf:li>
+     <rdf:li xml:lang="x-default">Elindultunk hazafelé, el is jutottunk a Preszpa-tó melletti Psaradesig. A képen látható hely neve kb. Könyörületes Szűz Mária remetelak. Bár nem szigeten van, a meredek sziklás part miatt vízen érdemes felkeresni. Mint korábban, most is Germanosz vezetésével, Psaradesből, motorcsónakkal közelítettük meg. És csobbantunk is a Preszpa-tóban.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:f47f043b-9a9b-e64d-ae93-151622f9bf81"
-      stEvt:when="2026-08-16T16:39:12+02:00"
+      stEvt:instanceID="xmp.iid:37051d16-98bb-c847-a43e-e215b54b602f"
+      stEvt:when="2026-08-16T17:03:56+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

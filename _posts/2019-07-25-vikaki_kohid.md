@@ -13,7 +13,7 @@ tags:
   - "Görögország"
   - "Vikaki"
   - "híd"
-description: "Ennek a hídnak sem találtam meg a nevét, ez nem az a híd, ami közvetlenül a szurdok sziklafalánál van!"
+description: "Reggel megnéztük a Rogovói Keresztelő Szent János-kolostort."
 ---
 
-Ennek a hídnak sem találtam meg a nevét, ez nem az a híd, ami közvetlenül a szurdok sziklafalánál van! Jót hűsöltünk a szurdok árnyékában a hideg víz mellett.
+Reggel megnéztük a Rogovói Keresztelő Szent János-kolostort. Laza, sétálós napot tartottunk. Leballagtunk a Vikaki-szurdokhoz. Ennek a hídnak sem találtam meg a nevét, ez nem az a híd, ami közvetlenül a szurdok sziklafalánál van! Jót hűsöltünk a szurdok árnyékában a hideg víz mellett. Az országúton találtunk egy pontot, ahonnét messziről rá lehet látni a Vradetoi lépcsőre. Érdekes látvány, ahogy kanyarog a hegyoldalban.

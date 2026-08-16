@@ -14,7 +14,7 @@ tags:
   - "Görögország"
   - "Timfi"
   - "hegység"
-description: "Mikró Papingoból nagyzsákos túrával nyomultunk fel az Astraka menedékházhoz."
+description: "Három napra készültünk a Vikosba, ezért Mikró Papingoból nagy zsákokkal nyomultunk fel az Astraka menedékházhoz, ahol volt előre foglalt szállásunk."
 ---
 
-Mikró Papingoból nagyzsákos túrával nyomultunk fel az Astraka menedékházhoz. Több napos tartózkodásra készültünk az Astrakában és így is lett, szerencsére volt foglalt helyünk. A nap legszebb látványa a sok felhő és a naplemente volt.
+Három napra készültünk a Vikosba, ezért Mikró Papingoból nagy zsákokkal nyomultunk fel az Astraka menedékházhoz, ahol volt előre foglalt szállásunk. A nap legszebb látványa a sok felhő és a naplemente volt.

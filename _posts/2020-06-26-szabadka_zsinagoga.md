@@ -16,4 +16,4 @@ tags:
 description: "A Covid tilalmak feloldásakor néhány napra át tudtunk ruccanni Szerbiába."
 ---
 
-A Covid tilalmak feloldásakor néhány napra át tudtunk ruccanni Szerbiába.
+A Covid tilalmak feloldásakor néhány napra át tudtunk ruccanni Szerbiába. Az első nap nagy részét szabadkai városnézéssel töltöttük, majd mentünk a szállásunkra, a Tarcal-hegységbe. A képen a frissen felújított Szabadkai zsinagóga látható.

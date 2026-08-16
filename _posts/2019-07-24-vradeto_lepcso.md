@@ -13,7 +13,7 @@ tags:
   - "Görögország"
   - "Vradeto"
   - "lépcső"
-description: "A 70-es évek közepén megépült a faluba vezető út, addig ez a lépcső volt Vradeto megközelítésének módja."
+description: "Délelőtt a Vikos-szurdokra néző egyik legjobb kilátóhelyet kerestük fel."
 ---
 
-A 70-es évek közepén megépült a faluba vezető út, addig ez a lépcső volt Vradeto megközelítésének módja. Ma is érdemes felmenni Vradetoba (egy órás séta, de inkább több), kellemes vendéglátóipari egységek találhatók. És persze élmény végigsétálni az évszázados köveken.
+Délelőtt a Vikos-szurdokra néző egyik legjobb kilátóhelyet kerestük fel. Délután átmentünk Vradetoba. A 70-es évek közepén épült meg a faluba vezető út, addig ez a lépcső volt Vradeto megközelítésének módja. Ma is érdemes felmenni (egy órás séta, de inkább több), kellemes vendéglátóipari egységek találhatók a faluban. És persze élmény végigsétálni az évszázados köveken.

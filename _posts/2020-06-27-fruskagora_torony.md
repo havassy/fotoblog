@@ -13,7 +13,7 @@ tags:
   - "Szerbia"
   - "Fruska gora"
   - "torony"
-description: "A Tarcal-hegység jellegzetes látképi eleme."
+description: "A túrát az Ürögi-hágóban kezdtük."
 ---
 
-A Tarcal-hegység jellegzetes látképi eleme. 1999-ben a NATO Jugoszlávia elleni légicsapásai során találat érte.
+A túrát az Ürögi-hágóban kezdtük. A Tarcal-hegység jellegzetes látképi eleme a hágóban lévő torony, amit 1999-ben a NATO Jugoszlávia elleni légicsapásai során találat ért. Út közben felkerestük a Görgeteg- és a Staro Hopovo kolostort is. A harmadik napról nincs kép :(

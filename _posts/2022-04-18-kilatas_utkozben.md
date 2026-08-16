@@ -13,7 +13,7 @@ tags:
   - "felhő"
   - "Szerbia"
   - "hegység"
-description: "Az a jó, ha van idő menet közben megállni, nézelődni."
+description: "Ez a nap a hazaútról szólt."
 ---
 
-Az a jó, ha van idő menet közben megállni, nézelődni. Ha nem kell sietni és autópályázni. Olvasd el a Zen meg a motorkerékpár-ápolás művészete könyvet.
+Ez a nap a hazaútról szólt. Az a jó, ha van idő menet közben megállni, nézelődni. Ha nem kell sietni és mindig autópályázni. Olvasd el a Zen meg a motorkerékpár-ápolás művészete könyvet.

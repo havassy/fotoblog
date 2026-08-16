@@ -13,10 +13,11 @@
     xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+    xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2022-04-17T11:31:50.45"
    xmp:CreateDate="2022-04-17T11:31:50.45"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-16T20:24:43+02:00"
+   xmp:MetadataDate="2026-08-16T20:30:18+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="94BA04AFB60315FB574C06358834484B"
    xmpMM:PreservedFileName="IMG_0224.CR2"
    xmpMM:OriginalDocumentID="94BA04AFB60315FB574C06358834484B"
-   xmpMM:InstanceID="xmp.iid:0c6328aa-d4da-0d44-af95-12f224d73d6e"
+   xmpMM:InstanceID="xmp.iid:3d134875-5b91-8a40-9a7f-39872edfd511"
    crd:CameraProfile="Camera Landscape"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -231,6 +232,19 @@
      <rdf:li xml:lang="x-default">Havassy András</rdf:li>
     </rdf:Alt>
    </dc:rights>
+   <dc:subject>
+    <rdf:Bag>
+     <rdf:li>Bosznia-Hercegovina</rdf:li>
+     <rdf:li>Drina</rdf:li>
+     <rdf:li>Szerbia</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>táj</rdf:li>
+     <rdf:li>tájnév</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>vízesés</rdf:li>
+    </rdf:Bag>
+   </dc:subject>
    <dc:description>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">Ezt a vízesést mindig felülről, sőt, szinte rajta ülve láttuk, mert fölé építették az étterem teraszát. Egy kanyarral átjöttünk Boszniába, hogy megnézzük szemből is. A határőrök kicsit furcsállották, hogy csak úgy megyünk oda-vissza és nem csempészünk semmit. Délután a Rača kolostorban voltunk, majd kirándultunk a Lađevac-forrás környékén. Este gyönyörű naplementénk volt a Drina mellett.</rdf:li>
@@ -240,8 +254,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:0c6328aa-d4da-0d44-af95-12f224d73d6e"
-      stEvt:when="2026-08-16T20:24:43+02:00"
+      stEvt:instanceID="xmp.iid:3d134875-5b91-8a40-9a7f-39872edfd511"
+      stEvt:when="2026-08-16T20:30:18+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -312,6 +326,27 @@
     </crs:Parameters>
     </rdf:Description>
    </crs:Look>
+   <lr:weightedFlatSubject>
+    <rdf:Bag>
+     <rdf:li>Bosznia-Hercegovina</rdf:li>
+     <rdf:li>ország</rdf:li>
+     <rdf:li>hely</rdf:li>
+     <rdf:li>Szerbia</rdf:li>
+     <rdf:li>Drina</rdf:li>
+     <rdf:li>tájnév</rdf:li>
+     <rdf:li>vízesés</rdf:li>
+     <rdf:li>táj</rdf:li>
+     <rdf:li>téma</rdf:li>
+    </rdf:Bag>
+   </lr:weightedFlatSubject>
+   <lr:hierarchicalSubject>
+    <rdf:Bag>
+     <rdf:li>hely|ország|Bosznia-Hercegovina</rdf:li>
+     <rdf:li>hely|ország|Szerbia</rdf:li>
+     <rdf:li>hely|tájnév|Drina</rdf:li>
+     <rdf:li>téma|táj|vízesés</rdf:li>
+    </rdf:Bag>
+   </lr:hierarchicalSubject>
   </rdf:Description>
  </rdf:RDF>
 </x:xmpmeta>

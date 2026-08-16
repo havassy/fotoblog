@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Konitsa-híd árnyéka az Aooos felett"
+title: "A Konitsa-híd árnyéka az Aoos felett"
 date: 2019-07-30T16:22:21.60
 trip_date: 2019-07-30T16:22:21.60
 trip_date_sort: 2019-07-30

@@ -17,7 +17,7 @@
    xmp:ModifyDate="2023-11-06T15:24:53.59"
    xmp:CreateDate="2023-11-06T15:24:53.59"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-08-15T16:18:42+02:00"
+   xmp:MetadataDate="2026-08-16T21:00:15+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -70,7 +70,7 @@
    xmpMM:DocumentID="2A7FB666ABB1E884DCC812E81C3AEA78"
    xmpMM:PreservedFileName="img_0026.cr2"
    xmpMM:OriginalDocumentID="2A7FB666ABB1E884DCC812E81C3AEA78"
-   xmpMM:InstanceID="xmp.iid:bf41d167-e2b4-274b-813f-356f3ecff00f"
+   xmpMM:InstanceID="xmp.iid:b3df3390-a3b4-6f4c-ab6e-15b432c39fa0"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -253,15 +253,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ez az isztambuli út valójában munka volt, de soha rosszabb munkát!</rdf:li>
+     <rdf:li xml:lang="x-default">Ez az isztambuli út valójában munka volt, de soha rosszabb munkát! Hajnalban indultunk a Liszt Ferenc Repülőtérről és kora délután érkeztünk az isztambuli repülőtérre. A korai érkezésnek köszönhetően a szállás elfoglalása után volt időnk sétálni. Mivel a Galata városrészben volt a szállásunk, csak átsétáltunk a Galata-hídon és máris a legizgalmasabb városrészben voltunk.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:bf41d167-e2b4-274b-813f-356f3ecff00f"
-      stEvt:when="2026-08-15T16:18:42+02:00"
+      stEvt:instanceID="xmp.iid:b3df3390-a3b4-6f4c-ab6e-15b432c39fa0"
+      stEvt:when="2026-08-16T21:00:15+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

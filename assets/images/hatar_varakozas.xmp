@@ -151,7 +151,7 @@
   xmlns:dc='http://purl.org/dc/elements/1.1/'>
   <dc:description>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Végtelenül utálom a röszkei határt. Az autópályásat és régi útnál lévőt is. A legrosszabb utazási élményeim ide kötődnek. Ennyit várakozni! Nem tuodm, hogy ilyen pózban várakoztam, vagy épp lépem át a korlátot, mert valamit találtam a borokban...</rdf:li>
+    <rdf:li xml:lang='x-default'>Végtelenül utálom a röszkei határt. Az autópályásat és régi útnál lévőt is. A legrosszabb utazási élményeim ide kötődnek. Ennyit várakozni! Nem tudom, hogy ilyen pózban várakoztam, vagy épp lépem át a korlátot, mert valamit találtam a borokban...</rdf:li>
    </rdf:Alt>
   </dc:description>
   <dc:format>image/jpeg</dc:format>
@@ -181,7 +181,7 @@
 
  <rdf:Description rdf:about=''
   xmlns:photoshop='http://ns.adobe.com/photoshop/1.0/'>
-  <photoshop:DateCreated>2024-07-21</photoshop:DateCreated>
+  <photoshop:DateCreated>2024-07-01</photoshop:DateCreated>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
@@ -199,11 +199,11 @@
   </tiff:Copyright>
   <tiff:ImageDescription>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Végtelenül utálom a röszkei határt. Az autópályásat és régi útnál lévőt is. A legrosszabb utazási élményeim ide kötődnek. Ennyit várakozni! Nem tuodm, hogy ilyen pózban várakoztam, vagy épp lépem át a korlátot, mert valamit találtam a borokban...</rdf:li>
+    <rdf:li xml:lang='x-default'>Végtelenül utálom a röszkei határt. Az autópályásat és régi útnál lévőt is. A legrosszabb utazási élményeim ide kötődnek. Ennyit várakozni! Nem tudom, hogy ilyen pózban várakoztam, vagy épp lépem át a korlátot, mert valamit találtam a borokban...</rdf:li>
    </rdf:Alt>
   </tiff:ImageDescription>
-  <tiff:ImageLength>600</tiff:ImageLength>
-  <tiff:ImageWidth>800</tiff:ImageWidth>
+  <tiff:ImageLength>960</tiff:ImageLength>
+  <tiff:ImageWidth>1280</tiff:ImageWidth>
   <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
   <tiff:Software>Adobe Photoshop Lightroom Classic 14.2 (Windows)</tiff:Software>
   <tiff:XResolution>240/1</tiff:XResolution>
@@ -219,8 +219,9 @@
  <rdf:Description rdf:about=''
   xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
   <xmp:CreatorTool>Adobe Photoshop Lightroom Classic 14.2 (Windows)</xmp:CreatorTool>
-  <xmp:MetadataDate>2026-06-28T18:23:21+02:00</xmp:MetadataDate>
-  <xmp:ModifyDate>2026-06-28T18:23:21</xmp:ModifyDate>
+  <xmp:Label>Blue</xmp:Label>
+  <xmp:MetadataDate>2026-08-16T21:43:07+02:00</xmp:MetadataDate>
+  <xmp:ModifyDate>2026-08-16T21:43:07</xmp:ModifyDate>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
@@ -236,7 +237,7 @@
    <stRef:documentID>88E95697B571CEF9E77AA06AE5BA6EC6</stRef:documentID>
    <stRef:originalDocumentID>88E95697B571CEF9E77AA06AE5BA6EC6</stRef:originalDocumentID>
   </xmpMM:DerivedFrom>
-  <xmpMM:DocumentID>xmp.did:6bdc86d3-145e-b34a-bc1f-22c064c04bf2</xmpMM:DocumentID>
+  <xmpMM:DocumentID>xmp.did:b08f23dc-157d-7f48-9f38-b1ef3d7e6575</xmpMM:DocumentID>
   <xmpMM:History>
    <rdf:Seq>
     <rdf:li rdf:parseType='Resource'>
@@ -246,13 +247,13 @@
     <rdf:li rdf:parseType='Resource'>
      <stEvt:action>saved</stEvt:action>
      <stEvt:changed>/</stEvt:changed>
-     <stEvt:instanceID>xmp.iid:6bdc86d3-145e-b34a-bc1f-22c064c04bf2</stEvt:instanceID>
+     <stEvt:instanceID>xmp.iid:b08f23dc-157d-7f48-9f38-b1ef3d7e6575</stEvt:instanceID>
      <stEvt:softwareAgent>Adobe Photoshop Lightroom Classic 14.2 (Windows)</stEvt:softwareAgent>
-     <stEvt:when>2026-06-28T18:23:21+02:00</stEvt:when>
+     <stEvt:when>2026-08-16T21:43:07+02:00</stEvt:when>
     </rdf:li>
    </rdf:Seq>
   </xmpMM:History>
-  <xmpMM:InstanceID>xmp.iid:6bdc86d3-145e-b34a-bc1f-22c064c04bf2</xmpMM:InstanceID>
+  <xmpMM:InstanceID>xmp.iid:b08f23dc-157d-7f48-9f38-b1ef3d7e6575</xmpMM:InstanceID>
   <xmpMM:OriginalDocumentID>88E95697B571CEF9E77AA06AE5BA6EC6</xmpMM:OriginalDocumentID>
   <xmpMM:PreservedFileName>photo_2026-06-28_17-02-55.jpg</xmpMM:PreservedFileName>
  </rdf:Description>

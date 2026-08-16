@@ -17,7 +17,7 @@
    xmp:ModifyDate="2023-11-11T14:10:27.98"
    xmp:CreateDate="2023-11-11T14:10:27.98"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-05-11T21:32:52+02:00"
+   xmp:MetadataDate="2026-08-16T21:37:46+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    xmpMM:DocumentID="C77EA6994A228B801982CC5D9F43506E"
    xmpMM:PreservedFileName="img_0015.cr2"
    xmpMM:OriginalDocumentID="C77EA6994A228B801982CC5D9F43506E"
-   xmpMM:InstanceID="xmp.iid:013d1c57-19a4-d643-b4c0-fef93c6aa5bd"
+   xmpMM:InstanceID="xmp.iid:94c6a9e3-2d63-7b4d-8e6e-6546270397e4"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -238,15 +238,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Egy újabb - ezúttal viharos hajóutat tettünk a Boszporuszon, sőt, szigorúan véve ez már a Márvány-tenger.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezen a napon nem volt iskolai program, egyik vendéglátónkkal reggeliztünk, aki utána elvitt minket egy nagyobb városnézésre, a város ázsiai részrée. Hazafelé egy újabb - ezúttal viharos hajóutat tettünk a Boszporuszon, sőt, szigorúan véve ez már a Márvány-tenger.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:013d1c57-19a4-d643-b4c0-fef93c6aa5bd"
-      stEvt:when="2026-05-11T21:32:52+02:00"
+      stEvt:instanceID="xmp.iid:94c6a9e3-2d63-7b4d-8e6e-6546270397e4"
+      stEvt:when="2026-08-16T21:37:46+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -16,7 +16,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2020-06-26T11:26:48.54"
    xmp:CreateDate="2020-06-26T11:26:48.54"
-   xmp:MetadataDate="2026-08-15T16:24:59+02:00"
+   xmp:MetadataDate="2026-08-16T17:26:07+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -64,7 +64,7 @@
    xmpMM:DocumentID="DB5841F54AC89BDDE1BC5999B36C1E7D"
    xmpMM:PreservedFileName="img_0056.cr2"
    xmpMM:OriginalDocumentID="DB5841F54AC89BDDE1BC5999B36C1E7D"
-   xmpMM:InstanceID="xmp.iid:9fa0e4d0-0fe6-6a4f-864b-795be2490756"
+   xmpMM:InstanceID="xmp.iid:a5f54508-5fa4-9744-9242-32969d7a0cc2"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Covid tilalmak feloldásakor néhány napra át tudtunk ruccanni Szerbiába.</rdf:li>
+     <rdf:li xml:lang="x-default">A Covid tilalmak feloldásakor néhány napra át tudtunk ruccanni Szerbiába. Az első nap nagy részét szabadkai városnézéssel töltöttük, majd mentünk a szállásunkra, a Tarcal-hegységbe. A képen a frissen felújított Szabadkai zsinagóga látható.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:9fa0e4d0-0fe6-6a4f-864b-795be2490756"
-      stEvt:when="2026-08-15T16:24:59+02:00"
+      stEvt:instanceID="xmp.iid:a5f54508-5fa4-9744-9242-32969d7a0cc2"
+      stEvt:when="2026-08-16T17:26:07+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

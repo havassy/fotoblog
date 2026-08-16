@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2022-04-18T10:13:59.00"
    xmp:CreateDate="2022-04-18T10:13:59.00"
-   xmp:MetadataDate="2026-05-10T20:12:02+02:00"
+   xmp:MetadataDate="2026-08-16T20:34:17+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="21C60AE9EA8F130EFAC8771BDE43CA06"
    xmpMM:PreservedFileName="IMG_0331.CR2"
    xmpMM:OriginalDocumentID="21C60AE9EA8F130EFAC8771BDE43CA06"
-   xmpMM:InstanceID="xmp.iid:9a3c5d6d-8ae3-9e4c-9cdb-f5a2ceee62c4"
+   xmpMM:InstanceID="xmp.iid:2d19daeb-9ce6-c04c-bf71-22e1cd931c14"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -76,8 +77,8 @@
    crs:WhiteBalance="Cloudy"
    crs:Temperature="6500"
    crs:Tint="+10"
-   crs:Exposure2012="+0.20"
-   crs:Contrast2012="+35"
+   crs:Exposure2012="+0.30"
+   crs:Contrast2012="+15"
    crs:Highlights2012="-100"
    crs:Shadows2012="+28"
    crs:Whites2012="+50"
@@ -240,15 +241,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Az a jó, ha van idő menet közben megállni, nézelődni. Ha nem kell sietni és autópályázni. Olvasd el a Zen meg a motorkerékpár-ápolás művészete könyvet.</rdf:li>
+     <rdf:li xml:lang="x-default">Ez a nap a hazaútról szólt. Az a jó, ha van idő menet közben megállni, nézelődni. Ha nem kell sietni és mindig autópályázni. Olvasd el a Zen meg a motorkerékpár-ápolás művészete könyvet.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:9a3c5d6d-8ae3-9e4c-9cdb-f5a2ceee62c4"
-      stEvt:when="2026-05-10T20:12:02+02:00"
+      stEvt:instanceID="xmp.iid:2d19daeb-9ce6-c04c-bf71-22e1cd931c14"
+      stEvt:when="2026-08-16T20:34:17+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

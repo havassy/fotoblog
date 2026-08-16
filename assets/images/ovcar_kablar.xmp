@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2022-04-15T12:50:32.70"
    xmp:CreateDate="2022-04-15T12:50:32.70"
-   xmp:MetadataDate="2026-05-10T20:08:01+02:00"
+   xmp:MetadataDate="2026-08-16T19:44:43+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="7F671B820DDB6C6E066BA54785FD53CF"
    xmpMM:PreservedFileName="IMG_0102.CR2"
    xmpMM:OriginalDocumentID="7F671B820DDB6C6E066BA54785FD53CF"
-   xmpMM:InstanceID="xmp.iid:cca4ebbb-9f59-9c4e-892c-c226da551147"
+   xmpMM:InstanceID="xmp.iid:24f9f96c-a874-b44b-a8a4-8075757c3923"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -217,7 +218,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Szerb Szent Hegy</rdf:li>
+     <rdf:li xml:lang="x-default">Kilátás a Kablar-hegyről</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -238,15 +239,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Srpska Sveta Gora az Ovčar–Kablar‑szorosban. Ezek a balkáni meanderek csuda hangulatosak!</rdf:li>
+     <rdf:li xml:lang="x-default">Gyönyörű tavaszi időt fogtunk ki, kék éggel és virágzó fákkal! Ezen a napon túrát tettünk a Kablar-hegyre. Útba ejtettük Szent Száva remetelakját, utána mentünk fel a csúcsra, a képen látható kilátásért. Ezek a balkáni meanderek csuda hangulatosak!</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:cca4ebbb-9f59-9c4e-892c-c226da551147"
-      stEvt:when="2026-05-10T20:08:01+02:00"
+      stEvt:instanceID="xmp.iid:24f9f96c-a874-b44b-a8a4-8075757c3923"
+      stEvt:when="2026-08-16T19:44:43+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

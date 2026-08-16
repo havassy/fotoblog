@@ -17,7 +17,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2022-04-16T11:16:55.81"
    xmp:CreateDate="2022-04-16T11:16:55.81"
-   xmp:MetadataDate="2026-08-15T16:19:38+02:00"
+   xmp:MetadataDate="2026-08-16T20:07:09+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="A08384D9CE330379C9F8E8DC85D57401"
    xmpMM:PreservedFileName="IMG_0165.CR2"
    xmpMM:OriginalDocumentID="A08384D9CE330379C9F8E8DC85D57401"
-   xmpMM:InstanceID="xmp.iid:8918f67f-d3ab-9644-bc5c-1a2804a873c6"
+   xmpMM:InstanceID="xmp.iid:fda8a73e-1f81-1b4f-8907-6b49c5fbd2b5"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -237,15 +237,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ez a kedvenc kolostorom Szerbiában. Valószínűleg azért is, mert először úgy jártunk itt, hogy csak ráböktem a tréképre, hogy ezt még nem láttuk, úgy jöttünk ide. Tavasz volt és alig voltak turisztok.</rdf:li>
+     <rdf:li xml:lang="x-default">Ez a kedvenc kolostorom Szerbiában. Valószínűleg azért is, mert először úgy jártunk itt, hogy csak ráböktem a térképre, hogy ezt még nem láttuk. Tavasz volt és alig voltak turisztok. Épp virágozni készültek a liliomfák (Magnolia). Ezután Užicébe mentünk és megnéztük a várat, amit már annyiszor láttunk az országútról, de még sosem álltunk meg. A nap végén megérkeztünk a Tara Nemzeti Parkba, a Drina mellett lévő szállásunkra. A ház annyira a folyóparton van, hogy az útról nem is látszik és alig találtuk meg. Már megint életünk egyik legjobb szállása...</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:8918f67f-d3ab-9644-bc5c-1a2804a873c6"
-      stEvt:when="2026-08-15T16:19:38+02:00"
+      stEvt:instanceID="xmp.iid:fda8a73e-1f81-1b4f-8907-6b49c5fbd2b5"
+      stEvt:when="2026-08-16T20:07:09+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

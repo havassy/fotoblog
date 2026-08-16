@@ -9,6 +9,11 @@ image_width: 800
 image_height: 533
 lat: 43.959056
 lon: 19.426833
+tags:
+  - "Bosznia-Hercegovina"
+  - "Szerbia"
+  - "Drina"
+  - "vízesés"
 description: "Ezt a vízesést mindig felülről, sőt, szinte rajta ülve láttuk, mert fölé építették az étterem teraszát."
 ---
 

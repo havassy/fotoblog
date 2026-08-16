@@ -14,4 +14,4 @@ tags:
 description: "A kevés utak egyike, amikor amikor repülővel utaztunk a Balkánra."
 ---
 
-A kevés utak egyike, amikor amikor repülővel utaztunk a Balkánra.
+A kevés utak egyike, amikor amikor repülővel utaztunk a Balkánra. Ez persze már a hazaút.

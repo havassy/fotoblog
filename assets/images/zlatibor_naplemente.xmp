@@ -17,7 +17,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2021-07-23T19:41:03.64"
    xmp:CreateDate="2021-07-23T19:41:03.64"
-   xmp:MetadataDate="2026-05-16T18:55:29+02:00"
+   xmp:MetadataDate="2026-08-16T17:33:08+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -64,7 +65,7 @@
    xmpMM:DocumentID="17882E65BFC56B91808A434778E15D7F"
    xmpMM:PreservedFileName="img_0006.cr2"
    xmpMM:OriginalDocumentID="17882E65BFC56B91808A434778E15D7F"
-   xmpMM:InstanceID="xmp.iid:29210400-c7a0-af43-a609-467ae804eec7"
+   xmpMM:InstanceID="xmp.iid:a008f868-11c1-2945-818a-e0ac48cc557b"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -233,15 +234,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Erről a napról nem volt nehéz képet választanom, mert - legalább is a fényképezőgéppel - csak ez az egy készült. Egész napos vezetés után érkeztünk meg Zlatiborba, ahol az út egyik oldalán volt a táborhelyünk, másik oldalán pedig a szuper vendéglő.</rdf:li>
+     <rdf:li xml:lang="x-default">Erről a napról nem volt nehéz képet választanom, mert - legalább is a fényképezőgéppel - csak ez az egy készült. Egész napos vezetés után érkeztünk meg Zlatiborba, ahol az út egyik oldalán volt a táborhelyünk, másik oldalán pedig a vendéglő, ahol végre elsüthettem alaposan előkészített poénomat, a "Ki kér sört" kérdésre "Jelen" volt a válasz. Bocs...</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:29210400-c7a0-af43-a609-467ae804eec7"
-      stEvt:when="2026-05-16T18:55:29+02:00"
+      stEvt:instanceID="xmp.iid:a008f868-11c1-2945-818a-e0ac48cc557b"
+      stEvt:when="2026-08-16T17:33:08+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

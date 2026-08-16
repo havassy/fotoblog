@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-25T10:47:19.26"
    xmp:CreateDate="2019-07-25T10:47:19.26"
-   xmp:MetadataDate="2026-08-16T16:26:04+02:00"
+   xmp:MetadataDate="2026-08-16T16:56:56+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="D37278D1CAE6DA33F115807FD448AC9B"
    xmpMM:OriginalDocumentID="D37278D1CAE6DA33F115807FD448AC9B"
-   xmpMM:InstanceID="xmp.iid:0abcc9e9-353e-3a4b-ad08-9e5df9872a2f"
+   xmpMM:InstanceID="xmp.iid:381d7add-31ec-8545-af62-0550bb51c0ed"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -243,15 +243,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Reggel megnéztük a Rogovói Keresztelő Szent János-kolostort. Laza, sétálós napot tartottunk. Leballagtunk a Vikaki-szurdokhoz. Ennek a hídnak sem találtam meg a nevét, ez nem az a híd, ami közvetlenül a szurdok sziklafalánál van! Jót hűsöltünk a szurdok árnyékában a hideg víz mellett. Az országúton találtunk egy pontot, ahonnét messziről rá lehet látni a Vradetoi lépcsőre. Érdekes látvány, ahogy kanyarog a hegyoldalban.</rdf:li>
+     <rdf:li xml:lang="x-default">Laza, sétálós napot tartottunk. Reggel megnéztük a Rogovói Keresztelő Szent János-kolostort, majd leballagtunk a Vikaki-szurdokhoz. Ennek a hídnak sem találtam meg a nevét, ez nem az a híd, ami közvetlenül a szurdok sziklafalánál van! Jót hűsöltünk a szurdok árnyékában a hideg víz mellett. Az országúton találtunk egy pontot, ahonnét messziről rá lehet látni a Vradetoi lépcsőre. Érdekes látvány, ahogy kanyarog a hegyoldalban.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:0abcc9e9-353e-3a4b-ad08-9e5df9872a2f"
-      stEvt:when="2026-08-16T16:26:04+02:00"
+      stEvt:instanceID="xmp.iid:381d7add-31ec-8545-af62-0550bb51c0ed"
+      stEvt:when="2026-08-16T16:56:56+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

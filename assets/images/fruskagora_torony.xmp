@@ -15,7 +15,8 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
    xmp:ModifyDate="2020-06-27T15:35:48.40"
    xmp:CreateDate="2020-06-27T15:35:48.40"
-   xmp:MetadataDate="2026-05-17T17:44:01+02:00"
+   xmp:MetadataDate="2026-08-16T17:27:57+02:00"
+   xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -63,7 +64,7 @@
    xmpMM:DocumentID="F71D3B4E78CD865F94D6B1587DE87B94"
    xmpMM:PreservedFileName="img_0156.cr2"
    xmpMM:OriginalDocumentID="F71D3B4E78CD865F94D6B1587DE87B94"
-   xmpMM:InstanceID="xmp.iid:82e9c3de-a255-1f4d-96d1-5dd965778eb4"
+   xmpMM:InstanceID="xmp.iid:3f38dc24-a5bd-e94f-b40a-dbb4154bbfd2"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
@@ -234,15 +235,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Tarcal-hegység jellegzetes látképi eleme. 1999-ben a NATO Jugoszlávia elleni légicsapásai során találat érte.</rdf:li>
+     <rdf:li xml:lang="x-default">A túrát az Ürögi-hágóban kezdtük. A Tarcal-hegység jellegzetes látképi eleme a hágóban lévő torony, amit 1999-ben a NATO Jugoszlávia elleni légicsapásai során találat ért. Út közben felkerestük a Görgeteg- és a Staro Hopovo kolostort is. A harmadik napról nincs kép :(</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:82e9c3de-a255-1f4d-96d1-5dd965778eb4"
-      stEvt:when="2026-05-17T17:44:01+02:00"
+      stEvt:instanceID="xmp.iid:3f38dc24-a5bd-e94f-b40a-dbb4154bbfd2"
+      stEvt:when="2026-08-16T17:27:57+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

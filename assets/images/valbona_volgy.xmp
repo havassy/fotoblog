@@ -18,7 +18,7 @@
    xmp:ModifyDate="2021-07-28T13:37:40.00"
    xmp:CreateDate="2021-07-28T13:37:40.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-16T19:38:26+02:00"
+   xmp:MetadataDate="2026-08-16T18:26:35+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="4093C8D794B5E99DE5E6196D4D69B117"
    xmpMM:PreservedFileName="img_0455.cr2"
    xmpMM:OriginalDocumentID="4093C8D794B5E99DE5E6196D4D69B117"
-   xmpMM:InstanceID="xmp.iid:65ec9140-3b50-8045-b90e-5187db492271"
+   xmpMM:InstanceID="xmp.iid:765ebfc9-ec89-1847-a3de-3b4d0acc25af"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -203,7 +203,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Kilátás a Valbona hágóból</rdf:li>
+     <rdf:li xml:lang="x-default">Kilátás a Valbona-hágóból</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -225,15 +225,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Prokletije két turisztikai központja, Theth és Valbona közötti átjáró. A képen Valbona település látható a Valbona-völgyben. Akik átmennek egyik településről a másikra és nem akarnak cipekedni, teherhordókat bérelnek.</rdf:li>
+     <rdf:li xml:lang="x-default">Thethből túráztunk a hágóba, ami nem nagy, kb. 6,5 km-es távolság, de van benne 1000 m szint, szóval nem unatkoztunk. A hágó a Prokletije két turisztikai központja, Theth és Valbona közötti átjáró. A képen Valbona település látható a Valbona-völgyben. Akik átmennek egyik településről a másikra és nem akarnak cipekedni, teherhordókat bérelnek.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:65ec9140-3b50-8045-b90e-5187db492271"
-      stEvt:when="2026-05-16T19:38:26+02:00"
+      stEvt:instanceID="xmp.iid:765ebfc9-ec89-1847-a3de-3b4d0acc25af"
+      stEvt:when="2026-08-16T18:26:35+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

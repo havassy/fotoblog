@@ -12,7 +12,7 @@ lon: 20.432548
 tags:
   - "Albánia"
   - "híd"
-description: "A 18."
+description: "Elindultunk hazafelé, bár ezt elég szokatlan módon úgy tettük, hogy még tovább mentünk dél felé."
 ---
 
-A 18. század elején épült híd a Langarica-szurdok bejáratánál található.
+Elindultunk hazafelé, bár ezt elég szokatlan módon úgy tettük, hogy még tovább mentünk dél felé. A Langarica-szurdok közelében, egy kempingben éjszakáztunk. A 18. század elején épült híd a Langarica-szurdok bejáratánál található.

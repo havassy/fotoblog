@@ -17,4 +17,4 @@ tags:
 description: "Ez az isztambuli út valójában munka volt, de soha rosszabb munkát!"
 ---
 
-Ez az isztambuli út valójában munka volt, de soha rosszabb munkát! Hajnalban indultunk a Liszt Ferenc Repülőtérről és kora délután érkeztünk az isztambuli repülőtérre. A korai érkezésnek köszönhetően a szállás elfoglalása után volt időnk sétálni. Mivel a Galata városrészben volt a szállásunk, csak átsétáltunk a Galata-hídon és máris a legizgalmasabb városrészben voltunk.
+Ez az isztambuli út valójában munka volt, de soha rosszabb munkát! Az isztambuli Saint Benoît Gimnázium vendégei voltunk. Hajnalban indultunk a Liszt Ferenc Repülőtérről és kora délután érkeztünk az isztambuli repülőtérre. A korai érkezésnek köszönhetően a szállás elfoglalása után volt időnk sétálni. Mivel a Galata városrészben volt a szállásunk, csak átsétáltunk a Galata-hídon és máris a legizgalmasabb városrészben voltunk.

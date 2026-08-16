@@ -13,7 +13,7 @@ tags:
   - "Albánia"
   - "Berat"
   - "ház"
-description: "Berat (egész pontosan Historic Centres of Berat and Gjirokastra) Albánia néhány világörökségi helyszínének egyike."
+description: "Ezen a napon mentünk tovább Beratba."
 ---
 
-Berat (egész pontosan Historic Centres of Berat and Gjirokastra) Albánia néhány világörökségi helyszínének egyike. És néha nagyon meleg.
+Ezen a napon mentünk tovább Beratba. Berat (egész pontosan Historic Centres of Berat and Gjirokastra) Albánia néhány világörökségi helyszínének egyike. És néha nagyon meleg. A képen a világörökségi helyszín egy részlete látható.

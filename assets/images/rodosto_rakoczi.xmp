@@ -17,7 +17,7 @@
    xmp:ModifyDate="2023-11-09T08:48:12.44"
    xmp:CreateDate="2023-11-09T08:48:12.44"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-05-11T21:06:53+02:00"
+   xmp:MetadataDate="2026-08-16T21:31:39+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -70,7 +70,7 @@
    xmpMM:DocumentID="5BD61F68C667A5AACE06181C7C4678E2"
    xmpMM:PreservedFileName="img_0001.cr2"
    xmpMM:OriginalDocumentID="5BD61F68C667A5AACE06181C7C4678E2"
-   xmpMM:InstanceID="xmp.iid:cb599651-1d5f-aa42-a2cb-04918e289e59"
+   xmpMM:InstanceID="xmp.iid:b628ecaa-7623-eb4c-9d77-4e56c9b676c1"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -250,15 +250,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Rákóczisokként ellátogattunk Rodostóba (ma Tekirdağ).</rdf:li>
+     <rdf:li xml:lang="x-default">A nap fő programja Rodostó (ma Tekirdağ) és azon belül természetesen a Rákóczi emlékház felkeresése volt.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:cb599651-1d5f-aa42-a2cb-04918e289e59"
-      stEvt:when="2026-05-11T21:06:53+02:00"
+      stEvt:instanceID="xmp.iid:b628ecaa-7623-eb4c-9d77-4e56c9b676c1"
+      stEvt:when="2026-08-16T21:31:39+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -12,7 +12,7 @@ lon: 20.604833
 tags:
   - "Szerbia"
   - "templom-kolostor"
-description: "Avagy egyházi nevén Crkva Svetog Arhanđela Gavrila."
+description: "Rövid, öt napos kiruccanásra jöttünk Szerbiába."
 ---
 
-Avagy egyházi nevén Crkva Svetog Arhanđela Gavrila. Gabi mindig nagyon ügyel a megfelelő öltözködésre, ha szent helyen járunk.
+Rövid, öt napos kiruccanásra jöttünk Szerbiába. Az első nap a célterület eléréséről szólt, de azért felkerestünk egy eldugott helyen lévő, érdekesnek tűnő, régi templomot, melynek egyházi neve Crkva Svetog Arhanđela Gavrila. Gabi mindig nagyon ügyel a megfelelő öltözködésre, ha szent helyen járunk.

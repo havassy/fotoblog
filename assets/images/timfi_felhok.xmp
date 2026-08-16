@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-26T16:44:22.18"
    xmp:CreateDate="2019-07-26T16:44:22.18"
-   xmp:MetadataDate="2026-08-16T16:28:44+02:00"
+   xmp:MetadataDate="2026-08-16T16:32:09+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="90CE08D21E635245F8CE916FA8D8A1CE"
    xmpMM:OriginalDocumentID="90CE08D21E635245F8CE916FA8D8A1CE"
-   xmpMM:InstanceID="xmp.iid:d6737fe5-4073-a64b-9777-577948da5ad0"
+   xmpMM:InstanceID="xmp.iid:7ab4bf6a-082a-5b41-8754-337fc5788f5b"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -246,15 +246,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Három napra készültünk a Vikosba, ezért Mikró Papingoból nagy zsákokkal nyomultunk fel az Astraka menedékházhoz, ahol volt előre foglalt szállásunk. A nap legszebb látványa a sok felhő és a naplemente volt.</rdf:li>
+     <rdf:li xml:lang="x-default">Négy nap, három éjszakára készültünk a Vikosba, ezért Mikró Papingoból nagy zsákokkal nyomultunk fel az Astraka menedékházhoz, ahol volt előre foglalt szállásunk. A nap legszebb látványa a sok felhő és a naplemente volt.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:d6737fe5-4073-a64b-9777-577948da5ad0"
-      stEvt:when="2026-08-16T16:28:44+02:00"
+      stEvt:instanceID="xmp.iid:7ab4bf6a-082a-5b41-8754-337fc5788f5b"
+      stEvt:when="2026-08-16T16:32:09+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

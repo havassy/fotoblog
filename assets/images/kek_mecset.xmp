@@ -17,7 +17,7 @@
    xmp:ModifyDate="2023-11-07T08:02:40.07"
    xmp:CreateDate="2023-11-07T08:02:40.07"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-08-15T16:17:39+02:00"
+   xmp:MetadataDate="2026-08-16T21:08:36+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -70,7 +70,7 @@
    xmpMM:DocumentID="7627BD1A90171E09B96F43F85D93D359"
    xmpMM:PreservedFileName="img_0036.cr2"
    xmpMM:OriginalDocumentID="7627BD1A90171E09B96F43F85D93D359"
-   xmpMM:InstanceID="xmp.iid:d2ba0608-fe48-aa4d-96d7-27360e079891"
+   xmpMM:InstanceID="xmp.iid:9ee6751e-6432-8e4e-bc33-c8190ee4edf9"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -251,15 +251,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ahmed szultán mecsetje.</rdf:li>
+     <rdf:li xml:lang="x-default">A nap fő programja a Kék mecset (Ahmed szultán mecsetje) meglátogatása volt. Utána közösen ebédeltünk, majd együtt mentünk a bazárba. Az este megint szabad programmal telt, így a séta végén találtunk egy kiváló éttermet.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:d2ba0608-fe48-aa4d-96d7-27360e079891"
-      stEvt:when="2026-08-15T16:17:39+02:00"
+      stEvt:instanceID="xmp.iid:9ee6751e-6432-8e4e-bc33-c8190ee4edf9"
+      stEvt:when="2026-08-16T21:08:36+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

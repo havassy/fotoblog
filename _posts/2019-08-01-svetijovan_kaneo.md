@@ -15,7 +15,7 @@ tags:
   - "Preszpa"
   - "tó"
   - "templom-kolostor"
-description: "Vagy rövidebben a Sveti Jovan Kaneo templom egyik kedvenc filmem, az 'Eső előtt' egyik forgatási helyszíne."
+description: "Indulás előtt körülnéztünk Mikrolimniben."
 ---
 
-Vagy rövidebben a Sveti Jovan Kaneo templom egyik kedvenc filmem, az "Eső előtt" egyik forgatási helyszíne. Régóta kerülgettük, halogattuk, aztán ezen a hazaúton csak sikerül erre jönni.
+Indulás előtt körülnéztünk Mikrolimniben. Ohrid felé jöttünk haza, így meg tudtuk nézni egyik kedvenc filmem, az "Eső előtt" egyik forgatási helyszínét, a Sveti Jovan Kaneo templomot. Régóta kerülgettük, halogattuk, aztán ezen a hazaúton csak sikerült erre jönni. Az éjszakát Szkopjéban töltöttük. Másnap végig autózás volt hazáig, nincs is képem arról a napról.

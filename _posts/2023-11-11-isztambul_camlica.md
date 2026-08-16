@@ -12,7 +12,7 @@ tags:
   - "Isztambul"
   - "Boszporusz"
   - "tenger"
-description: "Egy újabb - ezúttal viharos hajóutat tettünk a Boszporuszon, sőt, szigorúan véve ez már a Márvány-tenger."
+description: "Ezen a napon nem volt iskolai program, egyik vendéglátónkkal reggeliztünk, aki utána elvitt minket egy nagyobb városnézésre, a város ázsiai részrée."
 ---
 
-Egy újabb - ezúttal viharos hajóutat tettünk a Boszporuszon, sőt, szigorúan véve ez már a Márvány-tenger.
+Ezen a napon nem volt iskolai program, egyik vendéglátónkkal reggeliztünk, aki utána elvitt minket egy nagyobb városnézésre, a város ázsiai részrée. Hazafelé egy újabb - ezúttal viharos hajóutat tettünk a Boszporuszon, sőt, szigorúan véve ez már a Márvány-tenger.

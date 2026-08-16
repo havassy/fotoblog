@@ -13,7 +13,7 @@ tags:
   - "Törökország"
   - "Rodostó"
   - "ház"
-description: "Rákóczisokként ellátogattunk Rodostóba (ma Tekirdağ)."
+description: "A nap fő programja Rodostó (ma Tekirdağ) és azon belül természetesen a Rákóczi emlékház felkeresése volt."
 ---
 
-Rákóczisokként ellátogattunk Rodostóba (ma Tekirdağ).
+A nap fő programja Rodostó (ma Tekirdağ) és azon belül természetesen a Rákóczi emlékház felkeresése volt.

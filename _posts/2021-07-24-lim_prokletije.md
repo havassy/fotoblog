@@ -18,4 +18,4 @@ tags:
 description: "Montenegrót most csak érintettük, úticélunk a háttérben látható Prokletije, az Albán-Alpok."
 ---
 
-Montenegrót most csak érintettük, úticélunk a háttérben látható Prokletije, az Albán-Alpok.
+Montenegrót most csak érintettük, úticélunk a háttérben látható Prokletije, az Albán-Alpok. Útközben megálltunk Plavban és megnéztük a Redžepagić-tornyot, Gusinjeben pedig az Ali Pasa-forrást. A közelben egy réten vadkempingeztünk.

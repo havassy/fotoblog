@@ -16,7 +16,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-08-01T17:45:49.00"
    xmp:CreateDate="2019-08-01T17:45:49.00"
-   xmp:MetadataDate="2026-08-15T16:25:58+02:00"
+   xmp:MetadataDate="2026-08-16T16:52:21+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -63,7 +63,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="203F1E5737B80ECCA744AEF4F185950D"
    xmpMM:OriginalDocumentID="203F1E5737B80ECCA744AEF4F185950D"
-   xmpMM:InstanceID="xmp.iid:d281acd9-6beb-084c-bfd4-15b85357f48f"
+   xmpMM:InstanceID="xmp.iid:45ca8168-ae89-e149-91b3-744c2c881b17"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -248,15 +248,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Vagy rövidebben a Sveti Jovan Kaneo templom egyik kedvenc filmem, az "Eső előtt" egyik forgatási helyszíne. Régóta kerülgettük, halogattuk, aztán ezen a hazaúton csak sikerül erre jönni.</rdf:li>
+     <rdf:li xml:lang="x-default">Indulás előtt körülnéztünk Mikrolimniben. Ohrid felé jöttünk haza, így meg tudtuk nézni egyik kedvenc filmem, az "Eső előtt" egyik forgatási helyszínét, a Sveti Jovan Kaneo templomot. Régóta kerülgettük, halogattuk, aztán ezen a hazaúton csak sikerült erre jönni. Az éjszakát Szkopjéban töltöttük. Másnap végig autózás volt hazáig, nincs is képem arról a napról.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:d281acd9-6beb-084c-bfd4-15b85357f48f"
-      stEvt:when="2026-08-15T16:25:58+02:00"
+      stEvt:instanceID="xmp.iid:45ca8168-ae89-e149-91b3-744c2c881b17"
+      stEvt:when="2026-08-16T16:52:21+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

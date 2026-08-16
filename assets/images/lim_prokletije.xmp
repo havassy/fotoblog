@@ -18,7 +18,7 @@
    xmp:ModifyDate="2021-07-24T12:46:20.92"
    xmp:CreateDate="2021-07-24T12:46:20.92"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-05-16T19:07:36+02:00"
+   xmp:MetadataDate="2026-08-16T17:57:36+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -65,7 +65,7 @@
    xmpMM:DocumentID="1D7F00B7AC3EA6AF10FE82265AEBC421"
    xmpMM:PreservedFileName="img_0053.cr2"
    xmpMM:OriginalDocumentID="1D7F00B7AC3EA6AF10FE82265AEBC421"
-   xmpMM:InstanceID="xmp.iid:bd881006-f08e-7c42-93d5-fa6e14b8483d"
+   xmpMM:InstanceID="xmp.iid:18eb5346-0b33-1b48-a90d-86e7a70038be"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -234,15 +234,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Montenegrót most csak érintettük, úticélunk a háttérben látható Prokletije, az Albán-Alpok.</rdf:li>
+     <rdf:li xml:lang="x-default">Montenegrót most csak érintettük, úticélunk a háttérben látható Prokletije, az Albán-Alpok. Útközben megálltunk Plavban és megnéztük a Redžepagić-tornyot, Gusinjeben pedig az Ali Pasa-forrást. A közelben egy réten vadkempingeztünk.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:bd881006-f08e-7c42-93d5-fa6e14b8483d"
-      stEvt:when="2026-05-16T19:07:36+02:00"
+      stEvt:instanceID="xmp.iid:18eb5346-0b33-1b48-a90d-86e7a70038be"
+      stEvt:when="2026-08-16T17:57:36+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

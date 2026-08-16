@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kilátás a Valbona hágóból"
+title: "Kilátás a Valbona-hágóból"
 date: 2021-07-28T13:37:40.00
 trip_date: 2021-07-28T13:37:40.00
 trip_date_sort: 2021-07-28
@@ -13,7 +13,7 @@ tags:
   - "Albánia"
   - "Prokletije"
   - "völgy"
-description: "A Prokletije két turisztikai központja, Theth és Valbona közötti átjáró."
+description: "Thethből túráztunk a hágóba, ami nem nagy, kb."
 ---
 
-A Prokletije két turisztikai központja, Theth és Valbona közötti átjáró. A képen Valbona település látható a Valbona-völgyben. Akik átmennek egyik településről a másikra és nem akarnak cipekedni, teherhordókat bérelnek.
+Thethből túráztunk a hágóba, ami nem nagy, kb. 6,5 km-es távolság, de van benne 1000 m szint, szóval nem unatkoztunk. A hágó a Prokletije két turisztikai központja, Theth és Valbona közötti átjáró. A képen Valbona település látható a Valbona-völgyben. Akik átmennek egyik településről a másikra és nem akarnak cipekedni, teherhordókat bérelnek.

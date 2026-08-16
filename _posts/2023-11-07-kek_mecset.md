@@ -13,7 +13,7 @@ tags:
   - "Törökország"
   - "Isztambul"
   - "templom-kolostor"
-description: "Ahmed szultán mecsetje."
+description: "A nap fő programja a Kék mecset (Ahmed szultán mecsetje) meglátogatása volt."
 ---
 
-Ahmed szultán mecsetje.
+A nap fő programja a Kék mecset (Ahmed szultán mecsetje) meglátogatása volt. Utána közösen ebédeltünk, majd együtt mentünk a bazárba. Az este megint szabad programmal telt, így a séta végén találtunk egy kiváló éttermet.

@@ -17,7 +17,7 @@
    xmp:ModifyDate="2023-11-08T12:22:10.10"
    xmp:CreateDate="2023-11-08T12:22:10.10"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-08-15T16:14:09+02:00"
+   xmp:MetadataDate="2026-08-16T21:27:43+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon PowerShot G7 X Mark II"
    tiff:Orientation="1"
@@ -70,7 +70,7 @@
    xmpMM:DocumentID="05908E6A8C562C3C798297CA3A26C15C"
    xmpMM:PreservedFileName="img_0067.cr2"
    xmpMM:OriginalDocumentID="05908E6A8C562C3C798297CA3A26C15C"
-   xmpMM:InstanceID="xmp.iid:51569665-0008-9b43-b40a-66f392f2fb36"
+   xmpMM:InstanceID="xmp.iid:a429181d-f166-604b-8245-47beb78382c8"
    crd:CameraProfile="Camera Auto"
    crd:LookName=""
    xmpRights:Marked="True"
@@ -250,15 +250,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ahhoz képest, hogy nevemberben voltunk, fantasztikus időjárásunk volt!</rdf:li>
+     <rdf:li xml:lang="x-default">Reggel kinyitották számunkra a Saint Benoît-templom kriptáját, ahol II. Rákóczi Ferenc első, isztambuli sírhelye volt. Ezután emlékfát ültettünk a gimnáziumban. Délelőtt a Topkapi palotába mentünk, kora délután pedig a Hagia Szophiaba. Az óriási sor ellenére könnyen bejutottunk, volt helyi segítségünk. A nap megint a szokásos esti sétával és éttermi vacsorával zárult.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:51569665-0008-9b43-b40a-66f392f2fb36"
-      stEvt:when="2026-08-15T16:14:09+02:00"
+      stEvt:instanceID="xmp.iid:a429181d-f166-604b-8245-47beb78382c8"
+      stEvt:when="2026-08-16T21:27:43+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

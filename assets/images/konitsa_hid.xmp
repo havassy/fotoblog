@@ -15,7 +15,7 @@
    xmp:Rating="1"
    xmp:ModifyDate="2019-07-30T16:22:21.60"
    xmp:CreateDate="2019-07-30T16:22:21.60"
-   xmp:MetadataDate="2026-05-25T20:35:43+02:00"
+   xmp:MetadataDate="2026-08-16T17:02:39+02:00"
    xmp:Label="Blue"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="C4F69972E9310E0ED0C433DCA9CD436D"
    xmpMM:OriginalDocumentID="C4F69972E9310E0ED0C433DCA9CD436D"
-   xmpMM:InstanceID="xmp.iid:65dc8e49-afee-4642-828d-b0b61f7d90dd"
+   xmpMM:InstanceID="xmp.iid:1def267d-dfc2-2841-9749-93d91404b40e"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
@@ -226,7 +226,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Konitsa-híd árnyéka az Aooos felett</rdf:li>
+     <rdf:li xml:lang="x-default">A Konitsa-híd árnyéka az Aoos felett</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -258,8 +258,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:65dc8e49-afee-4642-828d-b0b61f7d90dd"
-      stEvt:when="2026-05-25T20:35:43+02:00"
+      stEvt:instanceID="xmp.iid:1def267d-dfc2-2841-9749-93d91404b40e"
+      stEvt:when="2026-08-16T17:02:39+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

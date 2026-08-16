@@ -13,7 +13,7 @@ tags:
   - "Albánia"
   - "Berat"
   - "templom-kolostor"
-description: "A berati Szentháromság-templom a vár oldalában."
+description: "Délelőtt városnézést tartottunk Beratban."
 ---
 
-A berati Szentháromság-templom a vár oldalában.
+Délelőtt városnézést tartottunk Beratban. Felmentünk a várba és sétáltunk a folyó partján. A képen a vár oldalában lévő Szentháromság-templom látható. Délután tovább indultunk következő túra helyszínünkre, az Osumi-kanyonhoz. Çorovodaban a biztonság kedvéért leteszteltük a vendéglátóipari egységet, hogy alkalmas lesz-e a másnapi túra utáni lazításra. Alkalmasnak találtuk. Az Osuminál a korábbról már ismert kempingben szálltunk meg. Itt is nagyon meleg volt.

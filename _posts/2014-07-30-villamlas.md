@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Villamlas"
+title: "Villámlás Uvac felől nézve"
 date: 2014-07-30T21:24:02.46
 trip_date: 2014-07-30T21:24:02.46
 trip_date_sort: 2014-07-30

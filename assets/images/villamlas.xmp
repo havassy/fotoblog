@@ -16,7 +16,7 @@
    xmp:ModifyDate="2014-07-30T21:24:02.46"
    xmp:CreateDate="2014-07-30T21:24:02.46"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-18T14:36:39+02:00"
+   xmp:MetadataDate="2026-08-18T14:46:12+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -62,7 +62,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="0C0BC5C10DA3AEB3E060D49F1520D430"
    xmpMM:OriginalDocumentID="0C0BC5C10DA3AEB3E060D49F1520D430"
-   xmpMM:InstanceID="xmp.iid:7ffaf32a-48e6-1849-b033-d775410fac2d"
+   xmpMM:InstanceID="xmp.iid:8d37dbbb-3670-d741-894e-d74a96f30319"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -203,6 +203,11 @@
      <rdf:li>Havassy Andras</rdf:li>
     </rdf:Seq>
    </dc:creator>
+   <dc:title>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Villámlás Uvac felől nézve</rdf:li>
+    </rdf:Alt>
+   </dc:title>
    <dc:rights>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
@@ -230,8 +235,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:7ffaf32a-48e6-1849-b033-d775410fac2d"
-      stEvt:when="2026-08-18T14:36:39+02:00"
+      stEvt:instanceID="xmp.iid:8d37dbbb-3670-d741-894e-d74a96f30319"
+      stEvt:when="2026-08-18T14:46:12+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

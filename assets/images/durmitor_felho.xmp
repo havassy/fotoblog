@@ -9,31 +9,31 @@
     xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
-    xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
-   xmp:ModifyDate="2014-07-23T19:00:14.63"
-   xmp:CreateDate="2014-07-23T19:00:14.63"
+   xmp:ModifyDate="2014-07-26T09:23:20.66"
+   xmp:CreateDate="2014-07-26T09:23:20.66"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-18T13:53:56+02:00"
+   xmp:MetadataDate="2026-08-18T14:16:08+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
    tiff:ImageWidth="5184"
    tiff:ImageLength="3456"
    exif:ExifVersion="0230"
-   exif:ExposureTime="1/200"
-   exif:ShutterSpeedValue="7643856/1000000"
-   exif:FNumber="56/10"
-   exif:ApertureValue="4970854/1000000"
+   exif:ExposureTime="1/400"
+   exif:ShutterSpeedValue="8643856/1000000"
+   exif:FNumber="8/1"
+   exif:ApertureValue="6/1"
    exif:ExposureProgram="3"
    exif:SensitivityType="2"
-   exif:RecommendedExposureIndex="200"
+   exif:RecommendedExposureIndex="100"
    exif:ExposureBiasValue="-1/3"
-   exif:MaxApertureValue="5/1"
+   exif:MaxApertureValue="4/1"
    exif:MeteringMode="5"
-   exif:FocalLength="55/1"
+   exif:FocalLength="70/1"
    exif:CustomRendered="0"
    exif:ExposureMode="0"
    exif:WhiteBalance="0"
@@ -41,47 +41,48 @@
    exif:FocalPlaneXResolution="5184000/907"
    exif:FocalPlaneYResolution="3456000/595"
    exif:FocalPlaneResolutionUnit="2"
-   exif:DateTimeOriginal="2014-07-23T19:00:14.63"
+   exif:DateTimeOriginal="2014-07-26T09:23:20.66"
    exif:PixelXDimension="5184"
    exif:PixelYDimension="3456"
-   exif:GPSLatitude="43,59.1309212904N"
-   exif:GPSLongitude="19,34.1004329037E"
+   exif:GPSLatitude="43,8.437885N"
+   exif:GPSLongitude="18,54.807515E"
    exif:GPSVersionID="2.2.0.0"
-   exif:GPSAltitude="2537750/10000"
+   exif:GPSAltitude="15150499/10000"
    dc:format="image/x-canon-cr2"
    aux:SerialNumber="1680803178"
-   aux:LensInfo="18/1 55/1 0/0 0/0"
-   aux:Lens="EF-S18-55mm f/3.5-5.6 IS II"
-   aux:LensID="52"
+   aux:LensInfo="70/1 200/1 0/0 0/0"
+   aux:Lens="EF70-200mm f/4L USM"
+   aux:LensID="186"
    aux:ImageNumber="0"
    aux:ApproximateFocusDistance="4294967295/1"
    aux:FlashCompensation="0/1"
    aux:Firmware="2.0.0"
-   photoshop:DateCreated="2014-07-23T19:00:14.63"
+   photoshop:DateCreated="2014-07-26T09:23:20.66"
    photoshop:SidecarForExtension="CR2"
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
-   xmpMM:DocumentID="48812DA582D69138F261EA4C1E3BDB85"
-   xmpMM:OriginalDocumentID="48812DA582D69138F261EA4C1E3BDB85"
-   xmpMM:InstanceID="xmp.iid:572096d1-9321-e647-a8e4-31aa3b8c168b"
-   xmpRights:Marked="True"
+   xmpMM:DocumentID="BD755646594C7AA47B7C36C543C083F2"
+   xmpMM:OriginalDocumentID="BD755646594C7AA47B7C36C543C083F2"
+   xmpMM:InstanceID="xmp.iid:4dea4ae9-6f2b-ef47-b625-6272c6a2000c"
    xmpDM:good="true"
    xmpDM:pick="1"
+   xmpRights:Marked="True"
    crs:Version="17.2"
+   crs:CompatibleVersion="234881024"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Cloudy"
    crs:Temperature="6500"
    crs:Tint="+10"
-   crs:Exposure2012="+0.69"
-   crs:Contrast2012="+15"
-   crs:Highlights2012="-90"
-   crs:Shadows2012="+41"
-   crs:Whites2012="+49"
-   crs:Blacks2012="-46"
+   crs:Exposure2012="-0.25"
+   crs:Contrast2012="+5"
+   crs:Highlights2012="-100"
+   crs:Shadows2012="+39"
+   crs:Whites2012="+50"
+   crs:Blacks2012="-29"
    crs:Texture="0"
    crs:Clarity2012="0"
    crs:Dehaze="0"
    crs:Vibrance="+15"
-   crs:Saturation="+2"
+   crs:Saturation="+1"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -168,9 +169,9 @@
    crs:CameraProfile="Adobe Standard"
    crs:CameraProfileDigest="41F68367DA3B31B07AB631D81D0E942D"
    crs:LensProfileSetup="LensDefaults"
-   crs:LensProfileName="Adobe (Canon EF-S 18-55mm f/3.5-5.6 IS II)"
-   crs:LensProfileFilename="Canon EOS 50D (Canon EF-S 18-55mm f3.5-5.6 IS II) - RAW.lcp"
-   crs:LensProfileDigest="DCD0C67967F80F728640FFA2A31FA08A"
+   crs:LensProfileName="Adobe (Canon EF 70-200mm f/4 L USM)"
+   crs:LensProfileFilename="Canon EOS 5D Mark II (Canon EF 70-200mm f4L USM) - RAW.lcp"
+   crs:LensProfileDigest="A3C220023EA857B38180FE02E95E2E8D"
    crs:LensProfileIsEmbedded="False"
    crs:LensProfileDistortionScale="100"
    crs:LensProfileVignettingScale="100"
@@ -179,9 +180,9 @@
    crs:UprightCenterNormX="0.5"
    crs:UprightCenterNormY="0.5"
    crs:UprightFocalMode="0"
-   crs:UprightFocalLength35mm="86.0917"
+   crs:UprightFocalLength35mm="109.571"
    crs:UprightPreview="False"
-   crs:UprightDependentDigest="F7173540FD9FB419BD947A976070F4D2"
+   crs:UprightDependentDigest="88679676E032BD38FC84C8CD1012AD91"
    crs:UprightTransformCount="6"
    crs:UprightTransform_0="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
    crs:UprightTransform_1="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
@@ -189,21 +190,14 @@
    crs:UprightTransform_3="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
    crs:UprightTransform_4="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
    crs:UprightTransform_5="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:AutoToneDigest="5937BAA1E31A043DC5E5077CB3DBB8EA"
-   crs:AutoToneDigestNoSat="BAE5C33581538D948B5FC45185BFF7C9"
+   crs:AutoToneDigest="96CDBE33B941B3C6C76E01525E662035"
+   crs:AutoToneDigestNoSat="EDA89D7BA79E02B42367F58D568A333E"
    crs:HasSettings="True"
-   crs:CropTop="0"
-   crs:CropLeft="0"
-   crs:CropBottom="0.84375"
-   crs:CropRight="1"
-   crs:CropAngle="0"
-   crs:CropConstrainToWarp="0"
-   crs:HasCrop="True"
    crs:AlreadyApplied="False"
-   crs:RawFileName="img_1210.cr2">
+   crs:RawFileName="img_1640.cr2">
    <exif:ISOSpeedRatings>
     <rdf:Seq>
-     <rdf:li>200</rdf:li>
+     <rdf:li>100</rdf:li>
     </rdf:Seq>
    </exif:ISOSpeedRatings>
    <exif:Flash
@@ -219,7 +213,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ház a Drinán</rdf:li>
+     <rdf:li xml:lang="x-default">Felhő a Piva-völgyben</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -229,31 +223,31 @@
    </dc:rights>
    <dc:subject>
     <rdf:Bag>
-     <rdf:li>Bajina Bašta</rdf:li>
-     <rdf:li>Drina</rdf:li>
-     <rdf:li>Szerbia</rdf:li>
-     <rdf:li>folyó</rdf:li>
+     <rdf:li>Durmitor</rdf:li>
+     <rdf:li>Montenegró</rdf:li>
+     <rdf:li>felhő</rdf:li>
+     <rdf:li>fennsík</rdf:li>
+     <rdf:li>hangulat</rdf:li>
+     <rdf:li>hegység</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>ház</rdf:li>
+     <rdf:li>időjárás</rdf:li>
      <rdf:li>ország</rdf:li>
-     <rdf:li>település</rdf:li>
      <rdf:li>táj</rdf:li>
      <rdf:li>tájnév</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>épített</rdf:li>
     </rdf:Bag>
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Egy újabb esős, nyári utazás első napja. Út közben elhaladtunk amellett az újvidéki, félbehagyott építkezés mellett, amely időközben Európa egyik legnagyobb gólyakolóniájává fejlődött. Este érkeztünk Bajina Bašta-ba, ahol a folyó közepén lévő sziklára épített ház található. A Drina itt határfolyó, a ház még épp a szerb oldalon van. Története szerint rendszeresen elvitte az áradó folyó, hol darabokban, hol egészben, így vagy újra kellett építeni, vagy elkapni és visszahozni.</rdf:li>
+     <rdf:li xml:lang="x-default">Folytatódott a hol gomolyos, hol csapadékos idő. Reggel megint a felhőket hajkurásztuk, volt köd ív (fehér szivárvány) is! Amikor felszállt a köd, felmásztunk a Prutaš melletti gerincre és benéztünk a Škrčko tavakhoz. Délután a Piva-völgyben autóztunk és a záporos, zivataros időben sátorhelyet kerestünk. Fantasztikus felhőképződményeket láttunk!</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:572096d1-9321-e647-a8e4-31aa3b8c168b"
-      stEvt:when="2026-08-18T13:53:56+02:00"
+      stEvt:instanceID="xmp.iid:4dea4ae9-6f2b-ef47-b625-6272c6a2000c"
+      stEvt:when="2026-08-18T14:16:08+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -287,6 +281,60 @@
      <rdf:li>-1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000</rdf:li>
     </rdf:Seq>
    </crs:PointColors>
+   <crs:MaskGroupBasedCorrections>
+    <rdf:Seq>
+     <rdf:li>
+      <rdf:Description
+       crs:What="Correction"
+       crs:CorrectionAmount="1"
+       crs:CorrectionActive="true"
+       crs:CorrectionName="Mask 1"
+       crs:CorrectionSyncID="D58E6E542E029740B81DF0D32237D6E0"
+       crs:LocalExposure="0"
+       crs:LocalHue="0"
+       crs:LocalSaturation="0"
+       crs:LocalContrast="0"
+       crs:LocalClarity="0"
+       crs:LocalSharpness="0"
+       crs:LocalBrightness="0"
+       crs:LocalToningHue="0"
+       crs:LocalToningSaturation="0"
+       crs:LocalExposure2012="-0.097"
+       crs:LocalContrast2012="0.1"
+       crs:LocalHighlights2012="0"
+       crs:LocalShadows2012="0"
+       crs:LocalWhites2012="0"
+       crs:LocalBlacks2012="0"
+       crs:LocalClarity2012="0"
+       crs:LocalDehaze="0"
+       crs:LocalLuminanceNoise="0"
+       crs:LocalMoire="0"
+       crs:LocalDefringe="0"
+       crs:LocalTemperature="0"
+       crs:LocalTint="0"
+       crs:LocalTexture="0"
+       crs:LocalGrain="0"
+       crs:LocalCurveRefineSaturation="100">
+      <crs:CorrectionMasks>
+       <rdf:Seq>
+        <rdf:li
+         crs:What="Mask/Gradient"
+         crs:MaskActive="true"
+         crs:MaskName="Linear Gradient 1"
+         crs:MaskBlendMode="0"
+         crs:MaskInverted="false"
+         crs:MaskSyncID="BD949311F0EB9545B18274B575B3CB5B"
+         crs:MaskValue="1"
+         crs:ZeroX="0.430298"
+         crs:ZeroY="0.970979"
+         crs:FullX="0.473811"
+         crs:FullY="-0.01451"/>
+       </rdf:Seq>
+      </crs:CorrectionMasks>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Seq>
+   </crs:MaskGroupBasedCorrections>
    <crs:Look>
     <rdf:Description
      crs:Name="Adobe Landscape"
@@ -326,27 +374,27 @@
    </crs:Look>
    <lr:weightedFlatSubject>
     <rdf:Bag>
-     <rdf:li>Szerbia</rdf:li>
+     <rdf:li>Montenegró</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>Bajina Bašta</rdf:li>
-     <rdf:li>település</rdf:li>
-     <rdf:li>ház</rdf:li>
-     <rdf:li>épített</rdf:li>
-     <rdf:li>téma</rdf:li>
-     <rdf:li>folyó</rdf:li>
-     <rdf:li>táj</rdf:li>
-     <rdf:li>Drina</rdf:li>
+     <rdf:li>Durmitor</rdf:li>
      <rdf:li>tájnév</rdf:li>
+     <rdf:li>fennsík</rdf:li>
+     <rdf:li>táj</rdf:li>
+     <rdf:li>téma</rdf:li>
+     <rdf:li>hegység</rdf:li>
+     <rdf:li>felhő</rdf:li>
+     <rdf:li>időjárás</rdf:li>
+     <rdf:li>hangulat</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
-     <rdf:li>hely|ország|Szerbia</rdf:li>
-     <rdf:li>hely|település|Bajina Bašta</rdf:li>
-     <rdf:li>hely|tájnév|Drina</rdf:li>
-     <rdf:li>téma|táj|folyó</rdf:li>
-     <rdf:li>téma|épített|ház</rdf:li>
+     <rdf:li>hangulat|időjárás|felhő</rdf:li>
+     <rdf:li>hely|ország|Montenegró</rdf:li>
+     <rdf:li>hely|tájnév|Durmitor</rdf:li>
+     <rdf:li>téma|táj|fennsík</rdf:li>
+     <rdf:li>téma|táj|hegység</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

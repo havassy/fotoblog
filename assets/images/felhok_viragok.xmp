@@ -13,27 +13,27 @@
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
-   xmp:ModifyDate="2014-07-23T19:00:14.63"
-   xmp:CreateDate="2014-07-23T19:00:14.63"
+   xmp:ModifyDate="2014-07-27T05:43:44.00"
+   xmp:CreateDate="2014-07-27T05:43:44.00"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-18T13:53:56+02:00"
+   xmp:MetadataDate="2026-08-18T14:15:46+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
    tiff:ImageWidth="5184"
    tiff:ImageLength="3456"
    exif:ExifVersion="0230"
-   exif:ExposureTime="1/200"
-   exif:ShutterSpeedValue="7643856/1000000"
-   exif:FNumber="56/10"
-   exif:ApertureValue="4970854/1000000"
+   exif:ExposureTime="1/125"
+   exif:ShutterSpeedValue="6965784/1000000"
+   exif:FNumber="35/10"
+   exif:ApertureValue="361471/100000"
    exif:ExposureProgram="3"
    exif:SensitivityType="2"
-   exif:RecommendedExposureIndex="200"
+   exif:RecommendedExposureIndex="100"
    exif:ExposureBiasValue="-1/3"
-   exif:MaxApertureValue="5/1"
+   exif:MaxApertureValue="3625/1000"
    exif:MeteringMode="5"
-   exif:FocalLength="55/1"
+   exif:FocalLength="23/1"
    exif:CustomRendered="0"
    exif:ExposureMode="0"
    exif:WhiteBalance="0"
@@ -41,47 +41,48 @@
    exif:FocalPlaneXResolution="5184000/907"
    exif:FocalPlaneYResolution="3456000/595"
    exif:FocalPlaneResolutionUnit="2"
-   exif:DateTimeOriginal="2014-07-23T19:00:14.63"
+   exif:DateTimeOriginal="2014-07-27T05:43:44.00"
    exif:PixelXDimension="5184"
    exif:PixelYDimension="3456"
-   exif:GPSLatitude="43,59.1309212904N"
-   exif:GPSLongitude="19,34.1004329037E"
+   exif:GPSLatitude="43,8.5131483779N"
+   exif:GPSLongitude="18,54.6274969347E"
    exif:GPSVersionID="2.2.0.0"
-   exif:GPSAltitude="2537750/10000"
+   exif:GPSAltitude="14842249/10000"
    dc:format="image/x-canon-cr2"
    aux:SerialNumber="1680803178"
    aux:LensInfo="18/1 55/1 0/0 0/0"
    aux:Lens="EF-S18-55mm f/3.5-5.6 IS II"
    aux:LensID="52"
    aux:ImageNumber="0"
-   aux:ApproximateFocusDistance="4294967295/1"
+   aux:ApproximateFocusDistance="93/100"
    aux:FlashCompensation="0/1"
    aux:Firmware="2.0.0"
-   photoshop:DateCreated="2014-07-23T19:00:14.63"
+   photoshop:DateCreated="2014-07-27T05:43:44.00"
    photoshop:SidecarForExtension="CR2"
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
-   xmpMM:DocumentID="48812DA582D69138F261EA4C1E3BDB85"
-   xmpMM:OriginalDocumentID="48812DA582D69138F261EA4C1E3BDB85"
-   xmpMM:InstanceID="xmp.iid:572096d1-9321-e647-a8e4-31aa3b8c168b"
+   xmpMM:DocumentID="225E65891802B27C12C5EF1B5B602591"
+   xmpMM:OriginalDocumentID="225E65891802B27C12C5EF1B5B602591"
+   xmpMM:InstanceID="xmp.iid:e2458166-be9d-1349-b3e2-7e79379ef661"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
+   crs:CompatibleVersion="234881024"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Cloudy"
    crs:Temperature="6500"
    crs:Tint="+10"
-   crs:Exposure2012="+0.69"
-   crs:Contrast2012="+15"
-   crs:Highlights2012="-90"
-   crs:Shadows2012="+41"
-   crs:Whites2012="+49"
-   crs:Blacks2012="-46"
+   crs:Exposure2012="+1.61"
+   crs:Contrast2012="+3"
+   crs:Highlights2012="-100"
+   crs:Shadows2012="+72"
+   crs:Whites2012="+34"
+   crs:Blacks2012="-23"
    crs:Texture="0"
    crs:Clarity2012="0"
    crs:Dehaze="0"
-   crs:Vibrance="+15"
-   crs:Saturation="+2"
+   crs:Vibrance="+12"
+   crs:Saturation="0"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -89,7 +90,7 @@
    crs:ParametricShadowSplit="25"
    crs:ParametricMidtoneSplit="50"
    crs:ParametricHighlightSplit="75"
-   crs:Sharpness="40"
+   crs:Sharpness="25"
    crs:SharpenRadius="+1.0"
    crs:SharpenDetail="25"
    crs:SharpenEdgeMasking="0"
@@ -97,6 +98,14 @@
    crs:ColorNoiseReduction="25"
    crs:ColorNoiseReductionDetail="50"
    crs:ColorNoiseReductionSmoothness="50"
+   crs:GrayMixerRed="-13"
+   crs:GrayMixerOrange="-23"
+   crs:GrayMixerYellow="-27"
+   crs:GrayMixerGreen="-29"
+   crs:GrayMixerAqua="-15"
+   crs:GrayMixerBlue="+19"
+   crs:GrayMixerPurple="+22"
+   crs:GrayMixerMagenta="+5"
    crs:HueAdjustmentRed="0"
    crs:HueAdjustmentOrange="0"
    crs:HueAdjustmentYellow="0"
@@ -163,47 +172,41 @@
    crs:BlueHue="0"
    crs:BlueSaturation="0"
    crs:HDREditMode="0"
+   crs:CurveRefineSaturation="100"
    crs:OverrideLookVignette="False"
-   crs:ToneCurveName2012="Linear"
+   crs:ToneCurveName2012="Medium Contrast"
    crs:CameraProfile="Adobe Standard"
    crs:CameraProfileDigest="41F68367DA3B31B07AB631D81D0E942D"
-   crs:LensProfileSetup="LensDefaults"
-   crs:LensProfileName="Adobe (Canon EF-S 18-55mm f/3.5-5.6 IS II)"
-   crs:LensProfileFilename="Canon EOS 50D (Canon EF-S 18-55mm f3.5-5.6 IS II) - RAW.lcp"
-   crs:LensProfileDigest="DCD0C67967F80F728640FFA2A31FA08A"
+   crs:LensProfileSetup="Custom"
+   crs:LensProfileName="Adobe (Canon EF-S 18-55mm f/3.5-5.6 IS)"
+   crs:LensProfileFilename="Canon EOS 50D (Canon EF-S 18-55mm f3.5-5.6 IS) - RAW.lcp"
+   crs:LensProfileDigest="3A30E0E970863F14235199F79FC4112A"
    crs:LensProfileIsEmbedded="False"
    crs:LensProfileDistortionScale="100"
    crs:LensProfileVignettingScale="100"
    crs:UprightVersion="151388160"
    crs:UprightCenterMode="0"
-   crs:UprightCenterNormX="0.5"
-   crs:UprightCenterNormY="0.5"
+   crs:UprightCenterNormX="0.505166"
+   crs:UprightCenterNormY="0.502565"
    crs:UprightFocalMode="0"
-   crs:UprightFocalLength35mm="86.0917"
+   crs:UprightFocalLength35mm="36.002"
    crs:UprightPreview="False"
-   crs:UprightDependentDigest="F7173540FD9FB419BD947A976070F4D2"
+   crs:UprightDependentDigest="31EF4FADA995DBF54E932D15571EA769"
    crs:UprightTransformCount="6"
    crs:UprightTransform_0="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_1="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_2="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_3="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_4="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
+   crs:UprightTransform_1="0.960776091,0.039223909,0.000000000,-0.088253795,0.960776091,0.063738852,0.000000000,0.000000000,1.000000000"
+   crs:UprightTransform_2="0.960776091,0.039223909,0.000000000,-0.088253795,0.960776091,0.063738852,0.000000000,0.000000000,1.000000000"
+   crs:UprightTransform_3="1.087781614,0.044408939,-0.066095277,-0.099920113,1.087781614,0.006069249,0.000000000,0.000000000,1.000000000"
+   crs:UprightTransform_4="0.960776091,0.039223909,0.000000000,-0.088253795,0.960776091,0.063738852,0.000000000,0.000000000,1.000000000"
    crs:UprightTransform_5="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:AutoToneDigest="5937BAA1E31A043DC5E5077CB3DBB8EA"
-   crs:AutoToneDigestNoSat="BAE5C33581538D948B5FC45185BFF7C9"
+   crs:AutoToneDigest="70DBA04F3BF666F274DA836E0559AC4A"
+   crs:AutoToneDigestNoSat="9BFEF58ABA71090B82AD0B371BE2A58E"
    crs:HasSettings="True"
-   crs:CropTop="0"
-   crs:CropLeft="0"
-   crs:CropBottom="0.84375"
-   crs:CropRight="1"
-   crs:CropAngle="0"
-   crs:CropConstrainToWarp="0"
-   crs:HasCrop="True"
    crs:AlreadyApplied="False"
-   crs:RawFileName="img_1210.cr2">
+   crs:RawFileName="img_1967.cr2">
    <exif:ISOSpeedRatings>
     <rdf:Seq>
-     <rdf:li>200</rdf:li>
+     <rdf:li>100</rdf:li>
     </rdf:Seq>
    </exif:ISOSpeedRatings>
    <exif:Flash
@@ -219,7 +222,7 @@
    </dc:creator>
    <dc:title>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ház a Drinán</rdf:li>
+     <rdf:li xml:lang="x-default">Felhők és virágok</rdf:li>
     </rdf:Alt>
    </dc:title>
    <dc:rights>
@@ -229,31 +232,28 @@
    </dc:rights>
    <dc:subject>
     <rdf:Bag>
-     <rdf:li>Bajina Bašta</rdf:li>
-     <rdf:li>Drina</rdf:li>
-     <rdf:li>Szerbia</rdf:li>
-     <rdf:li>folyó</rdf:li>
+     <rdf:li>Montenegró</rdf:li>
+     <rdf:li>eső</rdf:li>
+     <rdf:li>hangulat</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>ház</rdf:li>
+     <rdf:li>időjárás</rdf:li>
+     <rdf:li>növény</rdf:li>
      <rdf:li>ország</rdf:li>
-     <rdf:li>település</rdf:li>
-     <rdf:li>táj</rdf:li>
-     <rdf:li>tájnév</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>épített</rdf:li>
+     <rdf:li>virág</rdf:li>
     </rdf:Bag>
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Egy újabb esős, nyári utazás első napja. Út közben elhaladtunk amellett az újvidéki, félbehagyott építkezés mellett, amely időközben Európa egyik legnagyobb gólyakolóniájává fejlődött. Este érkeztünk Bajina Bašta-ba, ahol a folyó közepén lévő sziklára épített ház található. A Drina itt határfolyó, a ház még épp a szerb oldalon van. Története szerint rendszeresen elvitte az áradó folyó, hol darabokban, hol egészben, így vagy újra kellett építeni, vagy elkapni és visszahozni.</rdf:li>
+     <rdf:li xml:lang="x-default">Ezen a napon is reggel a felhőké volt a főszerep, folytatódott a különleges időjárási látványok sora. Délután a Međed és a Savin Kuk közötti völgyben túráztunk. A képet nagynehezen választottam ki erre a napra - talán az egész út jelképe is lehetne a sok felhővel és a sok virággal. Éjszakára a kedvenc Njegovuđa melletti táborhelyen ütöttünk tanyát.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:572096d1-9321-e647-a8e4-31aa3b8c168b"
-      stEvt:when="2026-08-18T13:53:56+02:00"
+      stEvt:instanceID="xmp.iid:e2458166-be9d-1349-b3e2-7e79379ef661"
+      stEvt:when="2026-08-18T14:15:46+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -261,6 +261,10 @@
    <crs:ToneCurvePV2012>
     <rdf:Seq>
      <rdf:li>0, 0</rdf:li>
+     <rdf:li>32, 22</rdf:li>
+     <rdf:li>64, 56</rdf:li>
+     <rdf:li>128, 128</rdf:li>
+     <rdf:li>192, 196</rdf:li>
      <rdf:li>255, 255</rdf:li>
     </rdf:Seq>
    </crs:ToneCurvePV2012>
@@ -287,6 +291,60 @@
      <rdf:li>-1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000, -1.000000</rdf:li>
     </rdf:Seq>
    </crs:PointColors>
+   <crs:MaskGroupBasedCorrections>
+    <rdf:Seq>
+     <rdf:li>
+      <rdf:Description
+       crs:What="Correction"
+       crs:CorrectionAmount="1"
+       crs:CorrectionActive="true"
+       crs:CorrectionName="Mask 1"
+       crs:CorrectionSyncID="2DD95A042B1C374DB1CE0C2EE846F4FF"
+       crs:LocalExposure="0"
+       crs:LocalHue="0"
+       crs:LocalSaturation="0"
+       crs:LocalContrast="0"
+       crs:LocalClarity="0"
+       crs:LocalSharpness="0"
+       crs:LocalBrightness="0"
+       crs:LocalToningHue="0"
+       crs:LocalToningSaturation="0"
+       crs:LocalExposure2012="-0.198"
+       crs:LocalContrast2012="0"
+       crs:LocalHighlights2012="0"
+       crs:LocalShadows2012="0"
+       crs:LocalWhites2012="0"
+       crs:LocalBlacks2012="0"
+       crs:LocalClarity2012="0"
+       crs:LocalDehaze="0"
+       crs:LocalLuminanceNoise="0"
+       crs:LocalMoire="0"
+       crs:LocalDefringe="0"
+       crs:LocalTemperature="0"
+       crs:LocalTint="0"
+       crs:LocalTexture="0"
+       crs:LocalGrain="0"
+       crs:LocalCurveRefineSaturation="100">
+      <crs:CorrectionMasks>
+       <rdf:Seq>
+        <rdf:li
+         crs:What="Mask/Gradient"
+         crs:MaskActive="true"
+         crs:MaskName="Linear Gradient 1"
+         crs:MaskBlendMode="0"
+         crs:MaskInverted="false"
+         crs:MaskSyncID="9AC90CF21F49DE439A1CF29972163365"
+         crs:MaskValue="1"
+         crs:ZeroX="0.463102"
+         crs:ZeroY="0.747101"
+         crs:FullX="0.477856"
+         crs:FullY="-0.016112"/>
+       </rdf:Seq>
+      </crs:CorrectionMasks>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Seq>
+   </crs:MaskGroupBasedCorrections>
    <crs:Look>
     <rdf:Description
      crs:Name="Adobe Landscape"
@@ -326,27 +384,22 @@
    </crs:Look>
    <lr:weightedFlatSubject>
     <rdf:Bag>
-     <rdf:li>Szerbia</rdf:li>
+     <rdf:li>eső</rdf:li>
+     <rdf:li>időjárás</rdf:li>
+     <rdf:li>hangulat</rdf:li>
+     <rdf:li>Montenegró</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>Bajina Bašta</rdf:li>
-     <rdf:li>település</rdf:li>
-     <rdf:li>ház</rdf:li>
-     <rdf:li>épített</rdf:li>
+     <rdf:li>virág</rdf:li>
+     <rdf:li>növény</rdf:li>
      <rdf:li>téma</rdf:li>
-     <rdf:li>folyó</rdf:li>
-     <rdf:li>táj</rdf:li>
-     <rdf:li>Drina</rdf:li>
-     <rdf:li>tájnév</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
-     <rdf:li>hely|ország|Szerbia</rdf:li>
-     <rdf:li>hely|település|Bajina Bašta</rdf:li>
-     <rdf:li>hely|tájnév|Drina</rdf:li>
-     <rdf:li>téma|táj|folyó</rdf:li>
-     <rdf:li>téma|épített|ház</rdf:li>
+     <rdf:li>hangulat|időjárás|eső</rdf:li>
+     <rdf:li>hely|ország|Montenegró</rdf:li>
+     <rdf:li>téma|növény|virág</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

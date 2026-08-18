@@ -13,41 +13,41 @@
     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
-   xmp:ModifyDate="2014-07-23T19:00:14.63"
-   xmp:CreateDate="2014-07-23T19:00:14.63"
+   xmp:ModifyDate="2014-07-30T21:24:02.46"
+   xmp:CreateDate="2014-07-30T21:24:02.46"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-08-18T13:53:56+02:00"
+   xmp:MetadataDate="2026-08-18T14:36:39+02:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
    tiff:ImageWidth="5184"
    tiff:ImageLength="3456"
    exif:ExifVersion="0230"
-   exif:ExposureTime="1/200"
-   exif:ShutterSpeedValue="7643856/1000000"
+   exif:ExposureTime="15/1"
+   exif:ShutterSpeedValue="-3906891/1000000"
    exif:FNumber="56/10"
    exif:ApertureValue="4970854/1000000"
-   exif:ExposureProgram="3"
+   exif:ExposureProgram="1"
    exif:SensitivityType="2"
-   exif:RecommendedExposureIndex="200"
-   exif:ExposureBiasValue="-1/3"
+   exif:RecommendedExposureIndex="1600"
+   exif:ExposureBiasValue="0/1"
    exif:MaxApertureValue="5/1"
    exif:MeteringMode="5"
    exif:FocalLength="55/1"
    exif:CustomRendered="0"
-   exif:ExposureMode="0"
+   exif:ExposureMode="1"
    exif:WhiteBalance="0"
    exif:SceneCaptureType="0"
    exif:FocalPlaneXResolution="5184000/907"
    exif:FocalPlaneYResolution="3456000/595"
    exif:FocalPlaneResolutionUnit="2"
-   exif:DateTimeOriginal="2014-07-23T19:00:14.63"
+   exif:DateTimeOriginal="2014-07-30T21:24:02.46"
    exif:PixelXDimension="5184"
    exif:PixelYDimension="3456"
-   exif:GPSLatitude="43,59.1309212904N"
-   exif:GPSLongitude="19,34.1004329037E"
+   exif:GPSLatitude="43,20.8021269597N"
+   exif:GPSLongitude="19,59.611053288E"
    exif:GPSVersionID="2.2.0.0"
-   exif:GPSAltitude="2537750/10000"
+   exif:GPSAltitude="11500499/10000"
    dc:format="image/x-canon-cr2"
    aux:SerialNumber="1680803178"
    aux:LensInfo="18/1 55/1 0/0 0/0"
@@ -57,31 +57,32 @@
    aux:ApproximateFocusDistance="4294967295/1"
    aux:FlashCompensation="0/1"
    aux:Firmware="2.0.0"
-   photoshop:DateCreated="2014-07-23T19:00:14.63"
+   photoshop:DateCreated="2014-07-30T21:24:02.46"
    photoshop:SidecarForExtension="CR2"
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
-   xmpMM:DocumentID="48812DA582D69138F261EA4C1E3BDB85"
-   xmpMM:OriginalDocumentID="48812DA582D69138F261EA4C1E3BDB85"
-   xmpMM:InstanceID="xmp.iid:572096d1-9321-e647-a8e4-31aa3b8c168b"
+   xmpMM:DocumentID="0C0BC5C10DA3AEB3E060D49F1520D430"
+   xmpMM:OriginalDocumentID="0C0BC5C10DA3AEB3E060D49F1520D430"
+   xmpMM:InstanceID="xmp.iid:7ffaf32a-48e6-1849-b033-d775410fac2d"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
    crs:Version="17.2"
    crs:ProcessVersion="15.4"
-   crs:WhiteBalance="Cloudy"
-   crs:Temperature="6500"
-   crs:Tint="+10"
-   crs:Exposure2012="+0.69"
-   crs:Contrast2012="+15"
-   crs:Highlights2012="-90"
-   crs:Shadows2012="+41"
-   crs:Whites2012="+49"
-   crs:Blacks2012="-46"
+   crs:WhiteBalance="Auto"
+   crs:AutoWhiteVersion="134348800"
+   crs:Temperature="3500"
+   crs:Tint="0"
+   crs:Exposure2012="+1.74"
+   crs:Contrast2012="+34"
+   crs:Highlights2012="-85"
+   crs:Shadows2012="+46"
+   crs:Whites2012="+9"
+   crs:Blacks2012="-16"
    crs:Texture="0"
    crs:Clarity2012="0"
    crs:Dehaze="0"
-   crs:Vibrance="+15"
-   crs:Saturation="+2"
+   crs:Vibrance="+14"
+   crs:Saturation="-4"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -174,36 +175,21 @@
    crs:LensProfileIsEmbedded="False"
    crs:LensProfileDistortionScale="100"
    crs:LensProfileVignettingScale="100"
-   crs:UprightVersion="151388160"
-   crs:UprightCenterMode="0"
-   crs:UprightCenterNormX="0.5"
-   crs:UprightCenterNormY="0.5"
-   crs:UprightFocalMode="0"
-   crs:UprightFocalLength35mm="86.0917"
-   crs:UprightPreview="False"
-   crs:UprightDependentDigest="F7173540FD9FB419BD947A976070F4D2"
-   crs:UprightTransformCount="6"
-   crs:UprightTransform_0="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_1="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_2="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_3="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_4="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:UprightTransform_5="1.000000000,0.000000000,0.000000000,0.000000000,1.000000000,0.000000000,0.000000000,0.000000000,1.000000000"
-   crs:AutoToneDigest="5937BAA1E31A043DC5E5077CB3DBB8EA"
-   crs:AutoToneDigestNoSat="BAE5C33581538D948B5FC45185BFF7C9"
+   crs:AutoToneDigest="65D900B206CEB1241157E3B4CFB81D9F"
+   crs:AutoToneDigestNoSat="D6ADBD59C637F1E808CC9EB131828DFF"
    crs:HasSettings="True"
-   crs:CropTop="0"
-   crs:CropLeft="0"
-   crs:CropBottom="0.84375"
-   crs:CropRight="1"
+   crs:CropTop="0.191411"
+   crs:CropLeft="0.028618"
+   crs:CropBottom="1"
+   crs:CropRight="0.837207"
    crs:CropAngle="0"
    crs:CropConstrainToWarp="0"
    crs:HasCrop="True"
    crs:AlreadyApplied="False"
-   crs:RawFileName="img_1210.cr2">
+   crs:RawFileName="img_2359.cr2">
    <exif:ISOSpeedRatings>
     <rdf:Seq>
-     <rdf:li>200</rdf:li>
+     <rdf:li>1600</rdf:li>
     </rdf:Seq>
    </exif:ISOSpeedRatings>
    <exif:Flash
@@ -217,11 +203,6 @@
      <rdf:li>Havassy Andras</rdf:li>
     </rdf:Seq>
    </dc:creator>
-   <dc:title>
-    <rdf:Alt>
-     <rdf:li xml:lang="x-default">Ház a Drinán</rdf:li>
-    </rdf:Alt>
-   </dc:title>
    <dc:rights>
     <rdf:Alt>
      <rdf:li xml:lang="x-default">Havassy Andras</rdf:li>
@@ -229,31 +210,28 @@
    </dc:rights>
    <dc:subject>
     <rdf:Bag>
-     <rdf:li>Bajina Bašta</rdf:li>
-     <rdf:li>Drina</rdf:li>
      <rdf:li>Szerbia</rdf:li>
-     <rdf:li>folyó</rdf:li>
+     <rdf:li>felhő</rdf:li>
+     <rdf:li>hangulat</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>ház</rdf:li>
+     <rdf:li>időjárás</rdf:li>
+     <rdf:li>napszak</rdf:li>
      <rdf:li>ország</rdf:li>
-     <rdf:li>település</rdf:li>
-     <rdf:li>táj</rdf:li>
-     <rdf:li>tájnév</rdf:li>
-     <rdf:li>téma</rdf:li>
-     <rdf:li>épített</rdf:li>
+     <rdf:li>villámlás</rdf:li>
+     <rdf:li>éjjel</rdf:li>
     </rdf:Bag>
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Egy újabb esős, nyári utazás első napja. Út közben elhaladtunk amellett az újvidéki, félbehagyott építkezés mellett, amely időközben Európa egyik legnagyobb gólyakolóniájává fejlődött. Este érkeztünk Bajina Bašta-ba, ahol a folyó közepén lévő sziklára épített ház található. A Drina itt határfolyó, a ház még épp a szerb oldalon van. Története szerint rendszeresen elvitte az áradó folyó, hol darabokban, hol egészben, így vagy újra kellett építeni, vagy elkapni és visszahozni.</rdf:li>
+     <rdf:li xml:lang="x-default">Elindultunk hazafelé és délután érkeztünk meg az Uvac folyóhoz. Még volt időnk sétálni, elmentünk a függőhídig. Este aztán az időjárás megint elkezdte a műsort, most a távolban láttuk a vihart, így villámfotózást tartottunk. Mivel az Uvac meanderek már többször szerepelnek a gyűjteményben, és az egész útra amúgy is jellemző volt a sok eső-vihar-felhő és mindenféle időjárási tünemény, a villámokat választottam. A hazaút még egy napot vett igénybe, de arról nincs kép.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:572096d1-9321-e647-a8e4-31aa3b8c168b"
-      stEvt:when="2026-08-18T13:53:56+02:00"
+      stEvt:instanceID="xmp.iid:7ffaf32a-48e6-1849-b033-d775410fac2d"
+      stEvt:when="2026-08-18T14:36:39+02:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -326,27 +304,23 @@
    </crs:Look>
    <lr:weightedFlatSubject>
     <rdf:Bag>
+     <rdf:li>villámlás</rdf:li>
+     <rdf:li>időjárás</rdf:li>
+     <rdf:li>hangulat</rdf:li>
+     <rdf:li>felhő</rdf:li>
+     <rdf:li>éjjel</rdf:li>
+     <rdf:li>napszak</rdf:li>
      <rdf:li>Szerbia</rdf:li>
      <rdf:li>ország</rdf:li>
      <rdf:li>hely</rdf:li>
-     <rdf:li>Bajina Bašta</rdf:li>
-     <rdf:li>település</rdf:li>
-     <rdf:li>ház</rdf:li>
-     <rdf:li>épített</rdf:li>
-     <rdf:li>téma</rdf:li>
-     <rdf:li>folyó</rdf:li>
-     <rdf:li>táj</rdf:li>
-     <rdf:li>Drina</rdf:li>
-     <rdf:li>tájnév</rdf:li>
     </rdf:Bag>
    </lr:weightedFlatSubject>
    <lr:hierarchicalSubject>
     <rdf:Bag>
+     <rdf:li>hangulat|időjárás|felhő</rdf:li>
+     <rdf:li>hangulat|időjárás|villámlás</rdf:li>
+     <rdf:li>hangulat|napszak|éjjel</rdf:li>
      <rdf:li>hely|ország|Szerbia</rdf:li>
-     <rdf:li>hely|település|Bajina Bašta</rdf:li>
-     <rdf:li>hely|tájnév|Drina</rdf:li>
-     <rdf:li>téma|táj|folyó</rdf:li>
-     <rdf:li>téma|épített|ház</rdf:li>
     </rdf:Bag>
    </lr:hierarchicalSubject>
   </rdf:Description>

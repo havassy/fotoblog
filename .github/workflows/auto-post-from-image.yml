@@ -365,6 +365,9 @@ jobs:
                   print(f"No changes needed for {target_path}")
           PY
 
+      - name: Update subscription feed for newly published photos
+        run: python3 scripts/generate_subscription_feed.py
+
       - name: Commit generated posts
         shell: bash
         run: |
@@ -373,7 +376,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add _posts
+          git add _posts .subscription-feed-state.json subscription-feed.xml
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Napjaim a Balkánon – új bejegyzések</title>
+  <id>https://havassy.github.io/fotoblog/subscription-feed.xml</id>
+  <link href="https://havassy.github.io/fotoblog/subscription-feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://havassy.github.io/fotoblog/" rel="alternate" type="text/html" />
+  <updated>2026-10-08T19:10:05Z</updated>
+</feed>

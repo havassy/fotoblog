@@ -1,5 +1,14 @@
 {
-  "entries": [],
+  "entries": [
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/fruskagora_villam",
+      "published": "2026-10-08T20:00:53Z",
+      "slug": "fruskagora_villam",
+      "summary": "A 2011-es út első estéjén Ürög közelében sátraztunk és reménykedtünk, hogy a Fruska Gora (Tarcal-hegység) feletti zivatar nem kúszik be fölénk.",
+      "title": "Vihar a Tarcal-hegység felett",
+      "url": "https://havassy.github.io/fotoblog/2011/07/22/fruskagora_villam.html"
+    }
+  ],
   "initialised_at": "2026-10-08T19:10:05Z",
   "known_slugs": [
     "MI_azonosit",
@@ -44,6 +53,7 @@
     "feketefenyo_perucica",
     "felhok_viragok",
     "fruskagora_torony",
+    "fruskagora_villam",
     "galamboc_duna",
     "galata_naplemente",
     "galicica_ohridito",
@@ -165,5 +175,6 @@
     "zica_kolostor",
     "zlatibor_naplemente"
   ],
+  "updated_at": "2026-10-08T20:00:53Z",
   "version": 1
 }

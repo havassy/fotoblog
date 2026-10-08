@@ -4,5 +4,13 @@
   <id>https://havassy.github.io/fotoblog/subscription-feed.xml</id>
   <link href="https://havassy.github.io/fotoblog/subscription-feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://havassy.github.io/fotoblog/" rel="alternate" type="text/html" />
-  <updated>2026-10-08T19:10:05Z</updated>
+  <updated>2026-10-08T20:00:53Z</updated>
+  <entry>
+    <title type="html">Vihar a Tarcal-hegység felett</title>
+    <id>https://havassy.github.io/fotoblog/subscription/fruskagora_villam</id>
+    <link href="https://havassy.github.io/fotoblog/2011/07/22/fruskagora_villam.html" rel="alternate" type="text/html" />
+    <published>2026-10-08T20:00:53Z</published>
+    <updated>2026-10-08T20:00:53Z</updated>
+    <summary type="html">A 2011-es út első estéjén Ürög közelében sátraztunk és reménykedtünk, hogy a Fruska Gora (Tarcal-hegység) feletti zivatar nem kúszik be fölénk.</summary>
+  </entry>
 </feed>

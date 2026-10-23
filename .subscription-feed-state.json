@@ -7,6 +7,14 @@
       "summary": "A 2011-es út első estéjén Ürög közelében sátraztunk és reménykedtünk, hogy a Fruska Gora (Tarcal-hegység) feletti zivatar nem kúszik be fölénk.",
       "title": "Vihar a Tarcal-hegység felett",
       "url": "https://havassy.github.io/fotoblog/2011/07/22/fruskagora_villam.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/urog_napkelte",
+      "published": "2026-10-23T19:09:23Z",
+      "slug": "urog_napkelte",
+      "summary": "Egész nap utaztunk.",
+      "title": "Napkelte az ürögi pusztában",
+      "url": "https://havassy.github.io/fotoblog/2011/07/23/urog_napkelte.html"
     }
   ],
   "initialised_at": "2026-10-08T19:10:05Z",
@@ -156,6 +164,7 @@
     "timfi_gerinc",
     "trebinje_latkep",
     "trnovacko_to",
+    "urog_napkelte",
     "uton_horvatorszagban",
     "uvac_ejjel",
     "uvac_kod",
@@ -175,6 +184,6 @@
     "zica_kolostor",
     "zlatibor_naplemente"
   ],
-  "updated_at": "2026-10-08T20:00:53Z",
+  "updated_at": "2026-10-23T19:09:23Z",
   "version": 1
 }

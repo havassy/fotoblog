@@ -4,7 +4,15 @@
   <id>https://havassy.github.io/fotoblog/subscription-feed.xml</id>
   <link href="https://havassy.github.io/fotoblog/subscription-feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://havassy.github.io/fotoblog/" rel="alternate" type="text/html" />
-  <updated>2026-10-08T20:00:53Z</updated>
+  <updated>2026-10-23T19:09:23Z</updated>
+  <entry>
+    <title type="html">Napkelte az ürögi pusztában</title>
+    <id>https://havassy.github.io/fotoblog/subscription/urog_napkelte</id>
+    <link href="https://havassy.github.io/fotoblog/2011/07/23/urog_napkelte.html" rel="alternate" type="text/html" />
+    <published>2026-10-23T19:09:23Z</published>
+    <updated>2026-10-23T19:09:23Z</updated>
+    <summary type="html">Egész nap utaztunk.</summary>
+  </entry>
   <entry>
     <title type="html">Vihar a Tarcal-hegység felett</title>
     <id>https://havassy.github.io/fotoblog/subscription/fruskagora_villam</id>

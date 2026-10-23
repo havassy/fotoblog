@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Visegrad
-tag: Visegrad
-permalink: /tags/višegrad/
+title: Višegrad
+tag: Višegrad
+permalink: /tags/visegrad/
 ---

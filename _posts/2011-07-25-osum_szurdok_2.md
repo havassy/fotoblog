@@ -15,7 +15,7 @@ tags:
   - "folyó"
   - "tájnév"
   - "völgy"
-description: "Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogasztottuk jól…"
+description: "Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogyasztottuk jól…"
 ---
 
-Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogasztottuk jól megérdemelt vacsoránkat a çorovodai étteremben. A későbbi évek tapasztalata alapján jó időpontban jöttünk. A szurdokban volt víz, de nem voltak turisták. Azóta ez megfordult.
+Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogyasztottuk jól megérdemelt vacsoránkat a çorovodai étteremben. A későbbi évek tapasztalata alapján jó időpontban jöttünk. A szurdokban volt víz, de nem voltak turisták. Azóta ez megfordult.

@@ -226,7 +226,7 @@
   xmlns:dc='http://purl.org/dc/elements/1.1/'>
   <dc:description>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogasztottuk jól megérdemelt vacsoránkat a çorovodai étteremben. A későbbi évek tapasztalata alapján jó időpontban jöttünk. A szurdokban volt víz, de nem voltak turisták. Azóta ez megfordult.</rdf:li>
+    <rdf:li xml:lang='x-default'>Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogyasztottuk jól megérdemelt vacsoránkat a çorovodai étteremben. A későbbi évek tapasztalata alapján jó időpontban jöttünk. A szurdokban volt víz, de nem voltak turisták. Azóta ez megfordult.</rdf:li>
    </rdf:Alt>
   </dc:description>
   <dc:format>image/jpeg</dc:format>
@@ -348,7 +348,7 @@
   </tiff:Copyright>
   <tiff:ImageDescription>
    <rdf:Alt>
-    <rdf:li xml:lang='x-default'>Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogasztottuk jól megérdemelt vacsoránkat a çorovodai étteremben. A későbbi évek tapasztalata alapján jó időpontban jöttünk. A szurdokban volt víz, de nem voltak turisták. Azóta ez megfordult.</rdf:li>
+    <rdf:li xml:lang='x-default'>Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogyasztottuk jól megérdemelt vacsoránkat a çorovodai étteremben. A későbbi évek tapasztalata alapján jó időpontban jöttünk. A szurdokban volt víz, de nem voltak turisták. Azóta ez megfordult.</rdf:li>
    </rdf:Alt>
   </tiff:ImageDescription>
   <tiff:ImageLength>533</tiff:ImageLength>
@@ -372,8 +372,8 @@
   <xmp:CreateDate>2011-07-25T12:04:21</xmp:CreateDate>
   <xmp:CreatorTool>Adobe Photoshop Lightroom Classic 14.2 (Windows)</xmp:CreatorTool>
   <xmp:Label>Blue</xmp:Label>
-  <xmp:MetadataDate>2026-10-24T22:29:43+02:00</xmp:MetadataDate>
-  <xmp:ModifyDate>2026-10-24T22:29:43</xmp:ModifyDate>
+  <xmp:MetadataDate>2026-10-24T22:47:51+02:00</xmp:MetadataDate>
+  <xmp:ModifyDate>2026-10-24T22:47:51</xmp:ModifyDate>
  </rdf:Description>
 
  <rdf:Description rdf:about=''
@@ -387,7 +387,7 @@
   xmlns:stRef='http://ns.adobe.com/xap/1.0/sType/ResourceRef#'
   xmlns:xmpMM='http://ns.adobe.com/xap/1.0/mm/'>
   <xmpMM:DerivedFrom rdf:parseType='Resource'/>
-  <xmpMM:DocumentID>xmp.did:7c9d530b-b10d-eb4e-a781-8dc87e98511e</xmpMM:DocumentID>
+  <xmpMM:DocumentID>xmp.did:012ab890-0643-0346-b76f-7c208efd2cd2</xmpMM:DocumentID>
   <xmpMM:History>
    <rdf:Seq>
     <rdf:li rdf:parseType='Resource'>
@@ -397,14 +397,14 @@
     <rdf:li rdf:parseType='Resource'>
      <stEvt:action>saved</stEvt:action>
      <stEvt:changed>/</stEvt:changed>
-     <stEvt:instanceID>xmp.iid:7c9d530b-b10d-eb4e-a781-8dc87e98511e</stEvt:instanceID>
+     <stEvt:instanceID>xmp.iid:012ab890-0643-0346-b76f-7c208efd2cd2</stEvt:instanceID>
      <stEvt:softwareAgent>Adobe Photoshop Lightroom Classic 14.2 (Windows)</stEvt:softwareAgent>
-     <stEvt:when>2026-10-24T22:29:43+02:00</stEvt:when>
+     <stEvt:when>2026-10-24T22:47:51+02:00</stEvt:when>
     </rdf:li>
    </rdf:Seq>
   </xmpMM:History>
-  <xmpMM:InstanceID>xmp.iid:7c9d530b-b10d-eb4e-a781-8dc87e98511e</xmpMM:InstanceID>
-  <xmpMM:OriginalDocumentID>xmp.did:7c9d530b-b10d-eb4e-a781-8dc87e98511e</xmpMM:OriginalDocumentID>
+  <xmpMM:InstanceID>xmp.iid:012ab890-0643-0346-b76f-7c208efd2cd2</xmpMM:InstanceID>
+  <xmpMM:OriginalDocumentID>xmp.did:012ab890-0643-0346-b76f-7c208efd2cd2</xmpMM:OriginalDocumentID>
  </rdf:Description>
 
  <rdf:Description rdf:about=''

@@ -15,11 +15,84 @@
       "summary": "Egész nap utaztunk.",
       "title": "Napkelte az ürögi pusztában",
       "url": "https://havassy.github.io/fotoblog/2011/07/23/urog_napkelte.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/aoos_timfi",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "aoos_timfi",
+      "summary": "Az egyik legrosszabb szálláshelyünk volt az Aoos hordalékán, ráadásul egy kőbánya mellett.",
+      "title": "Az Aoos völgye a Timfi-hegység alatt",
+      "url": "https://havassy.github.io/fotoblog/2011/07/28/aoos_timfi.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/berati_pecas",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "berati_pecas",
+      "summary": "A napot shkodrai városnézéssel kezdtük, majd Durrës római emlékei következtek.",
+      "title": "Berati pecás",
+      "url": "https://havassy.github.io/fotoblog/2011/07/24/berati_pecas.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/gostivar_mellett",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "gostivar_mellett",
+      "summary": "Minden idők legrosszabb éjszakája.",
+      "title": "Legrosszabb táborhely",
+      "url": "https://havassy.github.io/fotoblog/2011/08/01/gostivar_mellett.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/konitsa_naplemente",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "konitsa_naplemente",
+      "summary": "Az erre a napra kitűzött cél az Aoos szurdokában kijelölt táborhely elérése volt.",
+      "title": "Naplemente Kónitsa fölött",
+      "url": "https://havassy.github.io/fotoblog/2011/07/27/konitsa_naplemente.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/osum_szurdok_2",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "osum_szurdok_2",
+      "summary": "Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogasztottuk jól…",
+      "title": "Osum-szurdok",
+      "url": "https://havassy.github.io/fotoblog/2011/07/25/osum_szurdok_2.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/osum_szurdok_3",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "osum_szurdok_3",
+      "summary": "Ezt a napot az Osum környékének felfedezésével töltöttük.",
+      "title": "Osum-szurdok",
+      "url": "https://havassy.github.io/fotoblog/2011/07/26/osum_szurdok_3.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/plakida_hid",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "plakida_hid",
+      "summary": "Megint egy mindent is akarunk nap.",
+      "title": "Plakidas híd",
+      "url": "https://havassy.github.io/fotoblog/2011/07/30/plakida_hid.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/prespa_to",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "prespa_to",
+      "summary": "Azt hiszem nem volt nagyobb meglepetés az összes út során, mint amikor a Preszpa-tó partján látom kikötni az öreg halászt, odaszólok a társaimnak, hogy menjünk…",
+      "title": "Preszpa-tó",
+      "url": "https://havassy.github.io/fotoblog/2011/07/31/prespa_to.html"
+    },
+    {
+      "id": "https://havassy.github.io/fotoblog/subscription/vikos_naplemente",
+      "published": "2026-10-24T20:45:32Z",
+      "slug": "vikos_naplemente",
+      "summary": "Megkerültük a Timfit.",
+      "title": "Vikos-szurdok",
+      "url": "https://havassy.github.io/fotoblog/2011/07/29/vikos_naplemente.html"
     }
   ],
   "initialised_at": "2026-10-08T19:10:05Z",
   "known_slugs": [
     "MI_azonosit",
+    "aoos_timfi",
     "arslanagica_trebinje",
     "athen_akropolisz",
     "athen_repuloter",
@@ -31,6 +104,7 @@
     "berat_este",
     "berat_szentharomsag",
     "berat_vilagorokseg",
+    "berati_pecas",
     "biogradskagora_nemzetipark",
     "blagaj_buna",
     "blini_hid",
@@ -66,6 +140,7 @@
     "galata_naplemente",
     "galicica_ohridito",
     "gorog_teknos",
+    "gostivar_mellett",
     "hagia_szophia",
     "hatar_varakozas",
     "hermitage_panagiaeleousa",
@@ -92,6 +167,7 @@
     "komarnica_volgy",
     "komovi_prokletije",
     "konitsa_hid",
+    "konitsa_naplemente",
     "konjic_hid",
     "kotori_obol",
     "kotori_obol2",
@@ -122,15 +198,19 @@
     "orlovacko_zelengora",
     "ostrog_kolostor",
     "osum_szurdok",
+    "osum_szurdok_2",
+    "osum_szurdok_3",
     "ovcar_kablar",
     "ovciji_brod",
     "perucica_gyokerek",
     "perucica_oserdo",
     "piran_panorama",
     "piran_vilagitotorony",
+    "plakida_hid",
     "pljevlja_szentharomsag",
     "portitsa_szurdok",
     "predjama_var",
+    "prespa_to",
     "prijevor_maglic",
     "prokletije_hatarko",
     "radimlja_stecak",
@@ -174,6 +254,7 @@
     "vihren_pirin",
     "vikaki_kohid",
     "vikos_koerdo",
+    "vikos_naplemente",
     "villamlas",
     "visegrad_hidadrinan",
     "volujak_ho",
@@ -184,6 +265,6 @@
     "zica_kolostor",
     "zlatibor_naplemente"
   ],
-  "updated_at": "2026-10-23T19:09:23Z",
+  "updated_at": "2026-10-24T20:45:32Z",
   "version": 1
 }

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Napjaim a Balkánon – új bejegyzések</title>
-  <id>https://havassy.github.io/fotoblog/subscription-feed.xml</id>
-  <link href="https://havassy.github.io/fotoblog/subscription-feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://havassy.github.io/fotoblog/" rel="alternate" type="text/html" />
+  <id>https://balkaninaplo.hu/subscription-feed.xml</id>
+  <link href="https://balkaninaplo.hu/subscription-feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://balkaninaplo.hu/" rel="alternate" type="text/html" />
   <updated>2026-10-24T20:45:32Z</updated>
   <entry>
     <title type="html">Az Aoos völgye a Timfi-hegység alatt</title>
     <id>https://havassy.github.io/fotoblog/subscription/aoos_timfi</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/28/aoos_timfi.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/28/aoos_timfi.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Az egyik legrosszabb szálláshelyünk volt az Aoos hordalékán, ráadásul egy kőbánya mellett.</summary>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html">Berati pecás</title>
     <id>https://havassy.github.io/fotoblog/subscription/berati_pecas</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/24/berati_pecas.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/24/berati_pecas.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">A napot shkodrai városnézéssel kezdtük, majd Durrës római emlékei következtek.</summary>
@@ -24,7 +24,7 @@
   <entry>
     <title type="html">Legrosszabb táborhely</title>
     <id>https://havassy.github.io/fotoblog/subscription/gostivar_mellett</id>
-    <link href="https://havassy.github.io/fotoblog/2011/08/01/gostivar_mellett.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/08/01/gostivar_mellett.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Minden idők legrosszabb éjszakája.</summary>
@@ -32,7 +32,7 @@
   <entry>
     <title type="html">Naplemente Kónitsa fölött</title>
     <id>https://havassy.github.io/fotoblog/subscription/konitsa_naplemente</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/27/konitsa_naplemente.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/27/konitsa_naplemente.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Az erre a napra kitűzött cél az Aoos szurdokában kijelölt táborhely elérése volt.</summary>
@@ -40,7 +40,7 @@
   <entry>
     <title type="html">Osum-szurdok</title>
     <id>https://havassy.github.io/fotoblog/subscription/osum_szurdok_2</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/25/osum_szurdok_2.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/25/osum_szurdok_2.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Az előző nap rengeteg különböző élményével ellentétben ez a nap egy dolgoról szólt: végigjártuk az Osum szurdokát, a nap végén pedig elfogasztottuk jól…</summary>
@@ -48,7 +48,7 @@
   <entry>
     <title type="html">Osum-szurdok</title>
     <id>https://havassy.github.io/fotoblog/subscription/osum_szurdok_3</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/26/osum_szurdok_3.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/26/osum_szurdok_3.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Ezt a napot az Osum környékének felfedezésével töltöttük.</summary>
@@ -56,7 +56,7 @@
   <entry>
     <title type="html">Plakidas híd</title>
     <id>https://havassy.github.io/fotoblog/subscription/plakida_hid</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/30/plakida_hid.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/30/plakida_hid.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Megint egy mindent is akarunk nap.</summary>
@@ -64,7 +64,7 @@
   <entry>
     <title type="html">Preszpa-tó</title>
     <id>https://havassy.github.io/fotoblog/subscription/prespa_to</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/31/prespa_to.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/31/prespa_to.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Azt hiszem nem volt nagyobb meglepetés az összes út során, mint amikor a Preszpa-tó partján látom kikötni az öreg halászt, odaszólok a társaimnak, hogy menjünk…</summary>
@@ -72,7 +72,7 @@
   <entry>
     <title type="html">Vikos-szurdok</title>
     <id>https://havassy.github.io/fotoblog/subscription/vikos_naplemente</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/29/vikos_naplemente.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/29/vikos_naplemente.html" rel="alternate" type="text/html" />
     <published>2026-10-24T20:45:32Z</published>
     <updated>2026-10-24T20:45:32Z</updated>
     <summary type="html">Megkerültük a Timfit.</summary>
@@ -80,7 +80,7 @@
   <entry>
     <title type="html">Napkelte az ürögi pusztában</title>
     <id>https://havassy.github.io/fotoblog/subscription/urog_napkelte</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/23/urog_napkelte.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/23/urog_napkelte.html" rel="alternate" type="text/html" />
     <published>2026-10-23T19:09:23Z</published>
     <updated>2026-10-23T19:09:23Z</updated>
     <summary type="html">Egész nap utaztunk.</summary>
@@ -88,7 +88,7 @@
   <entry>
     <title type="html">Vihar a Tarcal-hegység felett</title>
     <id>https://havassy.github.io/fotoblog/subscription/fruskagora_villam</id>
-    <link href="https://havassy.github.io/fotoblog/2011/07/22/fruskagora_villam.html" rel="alternate" type="text/html" />
+    <link href="https://balkaninaplo.hu/2011/07/22/fruskagora_villam.html" rel="alternate" type="text/html" />
     <published>2026-10-08T20:00:53Z</published>
     <updated>2026-10-08T20:00:53Z</updated>
     <summary type="html">A 2011-es út első estéjén Ürög közelében sátraztunk és reménykedtünk, hogy a Fruska Gora (Tarcal-hegység) feletti zivatar nem kúszik be fölénk.</summary>

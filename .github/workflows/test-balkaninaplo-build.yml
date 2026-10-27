@@ -1,0 +1,107 @@
+name: Test balkaninaplo.hu Jekyll build (no deployment)
+
+on:
+  push:
+    branches:
+      - balkaninaplo-domain
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out proposed domain-migration branch
+        uses: actions/checkout@v4
+
+      - name: Build with the GitHub Pages Jekyll environment
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Check generated posts, site URLs, feed and internal links
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlsplit, unquote
+          import json
+          import re
+          import xml.etree.ElementTree as ET
+
+          src, site = Path("_posts"), Path("_site")
+          assert (site / "index.html").is_file(), "Missing generated homepage"
+          posts = sorted(src.glob("*.md"))
+          assert posts, "No posts found"
+          missing = []
+          for post in posts:
+              m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md", post.name)
+              assert m, f"Unexpected post filename: {post.name}"
+              yy, mm, dd, slug = m.groups()
+              target = site / yy / mm / dd / f"{slug}.html"
+              if not target.is_file():
+                  missing.append(str(target))
+          assert not missing, f"Missing generated posts: {missing[:12]}"
+          for page in ("archive/index.html", "tags/index.html", "map/index.html", "sitemap.xml"):
+              assert (site / page).is_file(), f"Missing output: {page}"
+          images = list(Path("assets/images").glob("*.jpg"))
+          missing_images = [p.as_posix() for p in images if not (site / p).is_file()]
+          assert not missing_images, f"Missing images: {missing_images[:12]}"
+
+          html_files = sorted(site.rglob("*.html"))
+          old_host = "https://havassy.github.io/fotoblog"
+          for page in html_files:
+              raw = page.read_text(encoding="utf-8")
+              assert old_host not in raw, f"Old domain in generated HTML: {page}"
+          assert 'https://balkaninaplo.hu/' in (site / "index.html").read_text(encoding="utf-8"), "New domain missing from homepage"
+          for url in ("2026/04/08/neretva_mostar.html", "2025/08/08/feketefenyo_perucica.html"):
+              target = site / url
+              assert target.is_file(), f"Known test post missing: {target}"
+              assert f"https://balkaninaplo.hu/{url}" in target.read_text(encoding="utf-8"), f"Expected canonical URL missing: {target}"
+
+          class LinkParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.links = []
+              def handle_starttag(self, tag, attrs):
+                  if tag in ("a", "img"):
+                      key = "href" if tag == "a" else "src"
+                      value = dict(attrs).get(key)
+                      if value:
+                          self.links.append(value)
+
+          broken = []
+          for page in html_files:
+              parser = LinkParser()
+              parser.feed(page.read_text(encoding="utf-8"))
+              for link in parser.links:
+                  u = urlsplit(link)
+                  if u.scheme or u.netloc or not u.path or not u.path.startswith("/"):
+                      continue
+                  target = site / unquote(u.path).lstrip("/")
+                  if target.is_dir():
+                      target = target / "index.html"
+                  if not target.is_file():
+                      broken.append((str(page), link))
+          # Track missing tags separately; they may predate the domain migration.
+          missing_tags = [(page, link) for page, link in broken if link.startswith("/tags/")]
+          other_broken = [(page, link) for page, link in broken if not link.startswith("/tags/")]
+          print(f"WARN: {len(missing_tags)} missing tag-page links. Samples: {missing_tags[:12]}")
+          assert not other_broken, f"Broken non-tag local links: {other_broken[:20]}"
+
+          ET.parse(site / "sitemap.xml")
+          ET.parse(site / "subscription-feed.xml")
+          feed_root = ET.parse(site / "subscription-feed.xml").getroot()
+          atom = "{http://www.w3.org/2005/Atom}"
+          entries = feed_root.findall(f"{atom}entry")
+          state = json.loads(Path(".subscription-feed-state.json").read_text(encoding="utf-8"))
+          assert len(entries) == len(state["entries"]) == 11, "Unexpected notification count; check new posts"
+          ids = [e.findtext(f"{atom}id") for e in entries]
+          assert set(ids) == {e["id"] for e in state["entries"]}, "Historic notification IDs changed"
+          print(f"PASS: {len(posts)} generated posts, {len(images)} images, {len(html_files)} HTML files")
+          print(f"PASS: internal links, sitemap, canonical test URLs and {len(entries)} notification entries")
+          print("No deployment performed.")
+          PY

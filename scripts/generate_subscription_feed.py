@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 POSTS_DIR = ROOT / "_posts"
 STATE_PATH = ROOT / ".subscription-feed-state.json"
 FEED_PATH = ROOT / "subscription-feed.xml"
-SITE_URL = "https://havassy.github.io/fotoblog"
+SITE_URL = "https://balkaninaplo.hu"
 FEED_URL = f"{SITE_URL}/subscription-feed.xml"
 
 
@@ -94,7 +94,7 @@ def render_feed(entries: list[dict], updated: str) -> str:
             [
                 "  <entry>",
                 f'    <title type="html">{escape(entry["title"])}</title>',
-                f'    <id>{escape(entry["id"])}</id>',
+                f'    <id>{escape(entry["id"])}</id>',  # Keep historical Atom IDs stable during domain migration.
                 f'    <link href="{escape(entry["url"], quote=True)}" rel="alternate" type="text/html" />',
                 f'    <published>{entry["published"]}</published>',
                 f'    <updated>{entry["published"]}</updated>',

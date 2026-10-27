@@ -17,4 +17,4 @@ tags:
 description: "Egész napos utazás után érkeztünk meg Bosznia-Hercegovinába."
 ---
 
-Egész napos utazás után érkeztünk meg Bosznia-Hercegovinába. Annyi időnk volt, hogy egy esti sétát tegyünk Višegradon, Andrićgradban. A szobor a Nobel díjas írót, Ivo Andrić-ot ábrázolja. Nobel díját Híd a Drinán című művéért kapta. A híd itt, Višegradon van.
+Egész napos utazás után érkeztünk meg Bosznia-Hercegovinába. Annyi időnk volt, hogy egy esti sétát tegyünk Višegradon, Andrićgradban. A szobor a Nobel díjas írót, Ivo Andrić-ot ábrázolja. Nobel díját Híd a Drinán című művéért kapta. A híd itt, Višegradon van. Az éjszakát a határ közelében, egy kepmingben töltöttük.

@@ -15,7 +15,7 @@ tags:
   - "Trnovačko"
   - "hegység"
   - "tó"
-description: "További napjaink is esőben teltek."
+description: "Továbbra is esett."
 ---
 
-További napjaink is esőben teltek. Az esőszünetekben kisebb túrákat tettünk a tó körül. Végül a Perućica őserdő tervezett felkeresése is későbbre maradt.
+Továbbra is esett. Az esőszünetekben kisebb túrákat tettünk a tó körül. Végül a Perućica őserdő tervezett felkeresése is későbbre maradt. Visszatúráztunk Boszniába, valahogy fogtunk egy fuvart a kocsikhoz és indultunk - most már a hivatalos határon - Montenegróba.

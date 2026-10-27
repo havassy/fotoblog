@@ -19,4 +19,4 @@ tags:
 description: "A Trnovačko-tó jellegzetes szív alakjáról lehet ismerős."
 ---
 
-A Trnovačko-tó jellegzetes szív alakjáról lehet ismerős. A Maglić csúcsa felé indultunk, de már út közben jól megáztunk. A magasabb régióban semmit nem lehetett látni a ködtől.
+A Trnovačko-tó jellegzetes szív alakjáról lehet ismerős. A Maglić csúcsa felé indultunk, de már út közben jól megáztunk. A magasabb régióban semmit nem lehetett látni a ködtől, így aztán az idő egy részét piknikezéssel töltöttük ... az esőbeálló házikóban.

@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-24T15:22:36.85"
    xmp:CreateDate="2018-07-24T15:22:36.85"
    xmp:Label="Blue"
-   xmp:MetadataDate="2026-06-05T17:14:38+02:00"
+   xmp:MetadataDate="2026-10-27T10:26:45+01:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="3FF8DA5D731EBF8ABE20D0DD066AEA5C"
    xmpMM:OriginalDocumentID="3FF8DA5D731EBF8ABE20D0DD066AEA5C"
-   xmpMM:InstanceID="xmp.iid:7e1d8c34-eab8-f847-aafa-939d2ab76133"
+   xmpMM:InstanceID="xmp.iid:7707823e-c93b-c441-a9fe-b250cc4cdc13"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -244,15 +244,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">További napjaink is esőben teltek. Az esőszünetekben kisebb túrákat tettünk a tó körül. Végül a Perućica őserdő tervezett felkeresése is későbbre maradt.</rdf:li>
+     <rdf:li xml:lang="x-default">Továbbra is esett. Az esőszünetekben kisebb túrákat tettünk a tó körül. Végül a Perućica őserdő tervezett felkeresése is későbbre maradt. Visszatúráztunk Boszniába, valahogy fogtunk egy fuvart a kocsikhoz és indultunk - most már a hivatalos határon - Montenegróba.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:7e1d8c34-eab8-f847-aafa-939d2ab76133"
-      stEvt:when="2026-06-05T17:14:38+02:00"
+      stEvt:instanceID="xmp.iid:7707823e-c93b-c441-a9fe-b250cc4cdc13"
+      stEvt:when="2026-10-27T10:26:45+01:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

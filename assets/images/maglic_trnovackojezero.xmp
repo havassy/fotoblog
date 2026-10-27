@@ -16,7 +16,7 @@
    xmp:ModifyDate="2018-07-23T14:09:52.92"
    xmp:CreateDate="2018-07-23T14:09:52.92"
    xmp:Label="Red"
-   xmp:MetadataDate="2026-06-05T17:10:35+02:00"
+   xmp:MetadataDate="2026-10-27T10:26:35+01:00"
    tiff:Make="Canon"
    tiff:Model="Canon EOS 7D"
    tiff:Orientation="1"
@@ -61,7 +61,7 @@
    photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
    xmpMM:DocumentID="C341D9E0A587D14FEB92FE829E534366"
    xmpMM:OriginalDocumentID="C341D9E0A587D14FEB92FE829E534366"
-   xmpMM:InstanceID="xmp.iid:1e037361-fdd1-2e4f-bc1d-5643d6da48c5"
+   xmpMM:InstanceID="xmp.iid:162a62a5-a1b2-434c-9f1f-ce5ca3aeabe6"
    xmpRights:Marked="True"
    xmpDM:good="true"
    xmpDM:pick="1"
@@ -241,15 +241,15 @@
    </dc:subject>
    <dc:description>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">A Trnovačko-tó jellegzetes szív alakjáról lehet ismerős. A Maglić csúcsa felé indultunk, de már út közben jól megáztunk. A magasabb régióban semmit nem lehetett látni a ködtől.</rdf:li>
+     <rdf:li xml:lang="x-default">A Trnovačko-tó jellegzetes szív alakjáról lehet ismerős. A Maglić csúcsa felé indultunk, de már út közben jól megáztunk. A magasabb régióban semmit nem lehetett látni a ködtől, így aztán az idő egy részét piknikezéssel töltöttük ... az esőbeálló házikóban.</rdf:li>
     </rdf:Alt>
    </dc:description>
    <xmpMM:History>
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:1e037361-fdd1-2e4f-bc1d-5643d6da48c5"
-      stEvt:when="2026-06-05T17:10:35+02:00"
+      stEvt:instanceID="xmp.iid:162a62a5-a1b2-434c-9f1f-ce5ca3aeabe6"
+      stEvt:when="2026-10-27T10:26:35+01:00"
       stEvt:softwareAgent="Adobe Photoshop Lightroom Classic 14.2 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>

@@ -17,4 +17,4 @@ tags:
 description: "Több napra készültünk, így nagyzsákos túrával, a zöldhatáron át közelítettük meg a Montenegró területén lévő Trnovačko-tavat."
 ---
 
-Több napra készültünk, így nagyzsákos túrával, a zöldhatáron át közelítettük meg a Montenegró területén lévő Trnovačko-tavat. Az autókat Tjentištében hagytuk és sikerült egy fuvart szereznünk Suhába. Az időjárásról itt még csak sejtettük, ami a következő napokban bizonyossá vált... Azt hittük senki nem lesz a tónál és még a víz beszerzése is gondot fog okozni. Ehhez képest egy kis büfé van a tóparton és az öreg kíváló serpenyős ragut rittyentett nekünk. A tóparton sátraztunk.
+Több napra készültünk, így nagyzsákos túrával, a zöldhatáron át közelítettük meg a Montenegró területén lévő Trnovačko-tavat. Az autókat Tjentištében hagytuk és sikerült egy fuvart szereznünk Suhába. Az időjárásról itt még csak sejtettük, ami a következő napokban bizonyossá vált... Azt hittük senki nem lesz a tónál és még a víz beszerzése is gondot fog okozni. Ehhez képest egy kis büfé van a tóparton és az öreg kiváló serpenyős ragut rittyentett nekünk. A tóparton sátraztunk.

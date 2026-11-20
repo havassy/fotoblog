@@ -35,7 +35,7 @@ jobs:
           assert len(images) == 173, f"Unexpected image count {len(images)}"
           assert len(pages) == 252, f"Unexpected HTML page count {len(pages)}"
           for post in posts:
-              m = re.fullmatch(r"(\\d{4})-(\\d{2})-(\\d{2})-(.+)\\.md",post.name)
+              m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md",post.name)
               assert m, post.name
               target = site / m.group(1) / m.group(2) / m.group(3) / (m.group(4)+".html")
               assert target.is_file(), f"Missing post {target}"

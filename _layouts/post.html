@@ -120,7 +120,7 @@ layout: default
     text-decoration:none;
   }
 
-  .tag:hover{
+  a.tag:hover{
     background:#d9ebeb;
   }
 
@@ -361,7 +361,13 @@ layout: default
         <div class="tags">
           {% for tag in ordered_tags %}
             {% assign tag_slug = tag | slugify: "latin" %}
-            <a class="tag" href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">#{{ tag }}</a>
+            {% assign tag_path = '/tags/' | append: tag_slug | append: '/' %}
+            {% assign tag_page = site.pages | where: 'url', tag_path | first %}
+            {% if tag_page %}
+              <a class="tag" href="{{ tag_path | relative_url }}">#{{ tag }}</a>
+            {% else %}
+              <span class="tag">#{{ tag }}</span>
+            {% endif %}
           {% endfor %}
         </div>
       {% endif %}

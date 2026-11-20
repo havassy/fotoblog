@@ -154,7 +154,7 @@ permalink: /tags/
       color:var(--muted);
     }
 
-    .tag-card:hover .tag-name{
+    a.tag-card:hover .tag-name{
       text-decoration:underline;
     }
 
@@ -224,10 +224,19 @@ permalink: /tags/
 
         {% unless tag_name == "hely" or tag_name == "ország" or tag_name == "település" or tag_name == "tájnév" %}
           {% assign tag_slug = tag_name | slugify: 'latin' %}
-          <a class="tag-card" href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">
-            <p class="tag-name">#{{ tag_name }}</p>
-            <p class="tag-count">{{ tag_posts | size }} bejegyzés</p>
-          </a>
+          {% assign tag_path = '/tags/' | append: tag_slug | append: '/' %}
+          {% assign tag_page = site.pages | where: 'url', tag_path | first %}
+          {% if tag_page %}
+            <a class="tag-card" href="{{ tag_path | relative_url }}">
+              <p class="tag-name">#{{ tag_name }}</p>
+              <p class="tag-count">{{ tag_posts | size }} bejegyzés</p>
+            </a>
+          {% else %}
+            <div class="tag-card">
+              <p class="tag-name">#{{ tag_name }}</p>
+              <p class="tag-count">{{ tag_posts | size }} bejegyzés</p>
+            </div>
+          {% endif %}
         {% endunless %}
       {% endfor %}
     </section>
